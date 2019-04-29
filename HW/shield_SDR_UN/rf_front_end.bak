@@ -1,0 +1,93 @@
+EESchema Schematic File Version 5
+LIBS:shield_SDR_UN-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L hack-packages:MAX5864 U?
+U 1 1 5CCB83DB
+P 3050 2900
+F 0 "U?" H 4294 2953 60  0000 L CNN
+F 1 "MAX5864" H 4294 2847 60  0000 L CNN
+F 2 "" H 3050 2900 60  0000 C CNN
+F 3 "" H 3050 2900 60  0000 C CNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CCBD0FF
+P 1750 2100
+F 0 "#PWR?" H 1750 1850 50  0001 C CNN
+F 1 "GND" H 1755 1927 50  0001 C CNN
+F 2 "" H 1750 2100 50  0001 C CNN
+F 3 "" H 1750 2100 50  0001 C CNN
+	1    1750 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2100 1850 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5CCD82B2
+P 3100 1600
+F 0 "#PWR?" H 3100 1350 50  0001 C CNN
+F 1 "GND" H 3105 1427 50  0001 C CNN
+F 2 "" H 3100 1600 50  0001 C CNN
+F 3 "" H 3100 1600 50  0001 C CNN
+	1    3100 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1600 3100 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5CCD8880
+P 3600 1600
+F 0 "#PWR?" H 3600 1350 50  0001 C CNN
+F 1 "GND" H 3605 1427 50  0001 C CNN
+F 2 "" H 3600 1600 50  0001 C CNN
+F 3 "" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 1600 3600 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5CCDED64
+P 1750 3450
+F 0 "#PWR?" H 1750 3200 50  0001 C CNN
+F 1 "GND" H 1755 3277 50  0001 C CNN
+F 2 "" H 1750 3450 50  0001 C CNN
+F 3 "" H 1750 3450 50  0001 C CNN
+	1    1750 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 3450 1850 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5CCDFC7A
+P 1750 3050
+F 0 "#PWR?" H 1750 2800 50  0001 C CNN
+F 1 "GND" H 1755 2877 50  0001 C CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 3050 1850 3050
+$EndSCHEMATC
