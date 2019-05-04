@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "shield_SDR_UN-rescue")(type "Legacy")(uri "${KIPRJMOD}/shield_SDR_UN-rescue.lib")(options "")(descr ""))
+)

@@ -27,7 +27,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2200 6200 2200
 $Comp
-L quacho-packages:MAX5864 U1
+L shield_SDR_UN-rescue:MAX5864-quacho-packages U1
 U 1 1 5CCB83DB
 P 4850 2550
 F 0 "U1" H 4769 2603 60  0000 L CNN
@@ -444,7 +444,7 @@ F 3 "" H 4700 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hackrf-one-packages:MOSFET_P Q1
+L shield_SDR_UN-rescue:MOSFET_P-hackrf-one-packages Q1
 U 1 1 5CCE48D1
 P 1350 1400
 F 0 "Q1" H 1150 1250 60  0000 L CNN
@@ -501,9 +501,11 @@ $EndComp
 Wire Wire Line
 	850  1750 850  1600
 $Comp
-L hackrf-one-packages:FILTER FB1
+L shield_SDR_UN-rescue:FILTER-hackrf-one-packages FB1
 U 1 1 5CCED73E
 P 1250 2200
+AR Path="/5CCED73E" Ref="FB1"  Part="1" 
+AR Path="/5CC081D2/5CCED73E" Ref="FB1"  Part="1" 
 F 0 "FB1" V 1204 2302 50  0000 L CNN
 F 1 "FILTER" V 1295 2302 50  0000 L CNN
 F 2 "" H 1250 2200 60  0000 C CNN
