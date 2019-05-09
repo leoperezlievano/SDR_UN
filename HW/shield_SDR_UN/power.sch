@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -282,8 +282,6 @@ F 3 "" H 1550 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 3800 1550 3650
-Text GLabel 3200 2900 1    50   Output ~ 0
-3v3 MCU
 Wire Wire Line
 	3200 2900 3200 3250
 Text GLabel 3150 4500 1    50   Output ~ 0
@@ -355,174 +353,6 @@ Text GLabel 1300 5800 1    50   Input ~ 0
 +5V
 Wire Wire Line
 	1300 5800 1300 5950
-$Comp
-L Connector:USB_A J?
-U 1 1 5D029612
-P 5400 3450
-F 0 "J?" H 5457 3917 50  0000 C CNN
-F 1 "USB_A" H 5457 3826 50  0000 C CNN
-F 2 "" H 5550 3400 50  0001 C CNN
-F 3 "" H 5550 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253" H 5400 3450 50  0001 C CNN "digikey"
-	1    5400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D?
-U 1 1 5D02DDAB
-P 6100 2800
-F 0 "D?" V 6054 2879 50  0000 L CNN
-F 1 "D_Zener--5.1V 1W" V 6300 2550 50  0000 L CNN
-F 2 "" H 6100 2800 50  0001 C CNN
-F 3 "~" H 6100 2800 50  0001 C CNN
-	1    6100 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D02F582
-P 6650 2800
-F 0 "C?" H 6765 2846 50  0000 L CNN
-F 1 "22uF" H 6765 2755 50  0000 L CNN
-F 2 "modules:C_0805_HandSoldering" H 6688 2650 50  0001 C CNN
-F 3 "~" H 6650 2800 50  0001 C CNN
-	1    6650 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D02FD2B
-P 7100 2800
-F 0 "C?" H 7215 2846 50  0000 L CNN
-F 1 "0.1uF" H 7215 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 2650 50  0001 C CNN
-F 3 "~" H 7100 2800 50  0001 C CNN
-	1    7100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L?
-U 1 1 5D031306
-P 7600 2450
-F 0 "L?" V 7790 2450 50  0000 C CNN
-F 1 "L" V 7699 2450 50  0000 C CNN
-F 2 "" H 7600 2450 50  0001 C CNN
-F 3 "~" H 7600 2450 50  0001 C CNN
-F 4 "732-1593-1-ND" V 7600 2450 50  0001 C CNN "digikey"
-	1    7600 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7450 2450 7100 2450
-Wire Wire Line
-	6100 2450 6100 2650
-Wire Wire Line
-	6650 2650 6650 2450
-Connection ~ 6650 2450
-Wire Wire Line
-	6650 2450 6100 2450
-Wire Wire Line
-	7100 2650 7100 2450
-Connection ~ 7100 2450
-Wire Wire Line
-	7100 2450 6650 2450
-$Comp
-L power:GND #PWR?
-U 1 1 5D033245
-P 6650 3150
-F 0 "#PWR?" H 6650 2900 50  0001 C CNN
-F 1 "GND" H 6655 2977 50  0000 C CNN
-F 2 "" H 6650 3150 50  0001 C CNN
-F 3 "" H 6650 3150 50  0001 C CNN
-	1    6650 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 3150 6100 3150
-Wire Wire Line
-	6100 2950 6100 3150
-Wire Wire Line
-	6650 3150 6650 2950
-Connection ~ 6650 3150
-Wire Wire Line
-	6650 3150 7100 3150
-Wire Wire Line
-	7100 3150 7100 2950
-Text GLabel 7950 2450 2    50   Input ~ 0
-+5V
-Wire Wire Line
-	7950 2450 7750 2450
-Wire Wire Line
-	5700 3250 5800 3250
-Wire Wire Line
-	5800 3250 5800 2450
-Wire Wire Line
-	5800 2450 6100 2450
-Connection ~ 6100 2450
-Wire Wire Line
-	5300 3850 5300 4050
-Wire Wire Line
-	5300 4050 5350 4050
-Wire Wire Line
-	5400 4050 5400 3850
-$Comp
-L power:GND #PWR?
-U 1 1 5D03CDB0
-P 5350 4100
-F 0 "#PWR?" H 5350 3850 50  0001 C CNN
-F 1 "GND" H 5355 3927 50  0000 C CNN
-F 2 "" H 5350 4100 50  0001 C CNN
-F 3 "" H 5350 4100 50  0001 C CNN
-	1    5350 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 4100 5350 4050
-Connection ~ 5350 4050
-Wire Wire Line
-	5350 4050 5400 4050
-$Comp
-L hackrf-one-packages:FILTER FB?
-U 1 1 5D03DEDD
-P 7050 3550
-F 0 "FB?" H 7050 3790 50  0000 C CNN
-F 1 "FILTER" H 7050 3699 50  0000 C CNN
-F 2 "" H 7050 3550 60  0000 C CNN
-F 3 "" H 7050 3550 60  0000 C CNN
-F 4 "SRF2012-900YACT-ND " H 7050 3550 50  0001 C CNN "DIGIKEY"
-	1    7050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L hackrf-one-packages:FILTER FB?
-U 1 1 5D03FEE7
-P 7050 3900
-F 0 "FB?" H 7050 4140 50  0000 C CNN
-F 1 "FILTER" H 7050 4049 50  0000 C CNN
-F 2 "" H 7050 3900 60  0000 C CNN
-F 3 "" H 7050 3900 60  0000 C CNN
-F 4 "SRF2012-900YACT-ND " H 7050 3900 50  0001 C CNN "DIGIKEY"
-	1    7050 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3550 6100 3550
-Wire Wire Line
-	6100 3550 6100 3450
-Wire Wire Line
-	6100 3450 5700 3450
-Wire Wire Line
-	6700 3900 6000 3900
-Wire Wire Line
-	6000 3900 6000 3550
-Wire Wire Line
-	6000 3550 5700 3550
-Wire Wire Line
-	7400 3550 7950 3550
-Wire Wire Line
-	7400 3900 7950 3900
-Text Label 7950 3550 2    50   ~ 0
-USB_D+
-Text Label 7950 3900 2    50   ~ 0
-USB_D-
+Text GLabel 3200 2900 1    50   Output ~ 0
+3v3 MCU
 $EndSCHEMATC

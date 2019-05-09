@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name "shield_SDR_UN-rescue")(type "Legacy")(uri "${KIPRJMOD}/shield_SDR_UN-rescue.lib")(options "")(descr ""))
+  (lib (name "quacho-packages")(type "Legacy")(uri "${KIPRJMOD}/lib/quacho-packages.lib")(options "")(descr ""))
+  (lib (name "hackrf-one-packages")(type "Legacy")(uri "${KIPRJMOD}/lib/hackrf-one-packages.lib")(options "")(descr ""))
+  (lib (name "ONION_OMEGA_2")(type "Legacy")(uri "${KIPRJMOD}/lib/ONION_OMEGA_2.lib")(options "")(descr ""))
+  (lib (name "FSM1LPTR")(type "Legacy")(uri "${KIPRJMOD}/lib/FSM1LPTR.lib")(options "")(descr ""))
 )

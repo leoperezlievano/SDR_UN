@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -37,5 +37,11 @@ S 3900 4500 1100 300
 U 5CC08321
 F0 "power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 3900 5050 1100 300 
+U 5CFB52DC
+F0 "omega_2" 50
+F1 "omega_2.sch" 50
 $EndSheet
 $EndSCHEMATC
