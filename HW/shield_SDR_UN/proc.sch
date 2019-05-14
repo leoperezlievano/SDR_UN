@@ -55,17 +55,6 @@ Text Notes 2300 2800 0    50   ~ 0
 pagina 100 y 157\n\n
 Text Notes 2500 1800 0    50   ~ 0
 para VREF+\n
-$Comp
-L shield_SDR_UN-rescue:STM32F722ZET U?
-U 1 1 5CD0EC26
-P 6950 4800
-F 0 "U?" H 6400 -1050 50  0000 C CNN
-F 1 "STM32F722ZET" H 6600 -1150 50  0000 C CNN
-F 2 "" H 6150 6750 50  0001 C CNN
-F 3 "" H 6150 6750 50  0001 C CNN
-	1    6950 4800
-	1    0    0    -1  
-$EndComp
 Text Notes 1050 3100 0    50   Italic 0
 para VDDSDMMC\n\n
 Text Notes 500  3500 0    50   ~ 0
@@ -1765,6 +1754,17 @@ Wire Wire Line
 Connection ~ 2550 9800
 Wire Wire Line
 	2550 9800 3050 9800
+$Comp
+L shield_SDR_UN-rescue:STM32F722ZET U?
+U 1 1 5CD0EC26
+P 6950 4800
+F 0 "U?" H 6400 -1050 50  0000 C CNN
+F 1 "STM32F722ZET" H 6600 -1150 50  0000 C CNN
+F 2 "" H 6150 6750 50  0001 C CNN
+F 3 "" H 6150 6750 50  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line

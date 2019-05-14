@@ -6,4 +6,6 @@
   (lib (name "FSM1LPTR")(type "Legacy")(uri "${KIPRJMOD}/lib/FSM1LPTR.lib")(options "")(descr ""))
   (lib (name "6slx9tqg144")(type "Legacy")(uri "${KIPRJMOD}/lib/6slx9tqg144.lib")(options "")(descr ""))
   (lib (name "hackrf-one-rescue")(type "Legacy")(uri "${KIPRJMOD}/lib/hackrf-one-rescue.lib")(options "")(descr ""))
+  (lib (name "Project")(type "Legacy")(uri "${KIPRJMOD}/lib/Project.lib")(options "")(descr ""))
+  (lib (name "ZLDO1117")(type "Legacy")(uri "${KIPRJMOD}/lib/ZLDO1117G33TA.lib")(options "")(descr ""))
 )
