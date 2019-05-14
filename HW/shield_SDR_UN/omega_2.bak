@@ -355,15 +355,9 @@ Wire Wire Line
 	7150 2650 7350 2650
 Wire Wire Line
 	7150 3550 7350 3550
-Wire Wire Line
-	7150 3700 7350 3700
-Wire Wire Line
-	7150 3850 7350 3850
-Wire Wire Line
-	7150 4000 7350 4000
-Text Label 7350 4000 0    50   ~ 0
+Text Label 7200 4000 0    50   ~ 0
 I2C_SDA
-Text Label 7350 3850 0    50   ~ 0
+Text Label 7200 3850 0    50   ~ 0
 I2C_SCL
 Text Label 7350 2350 0    50   ~ 0
 SER_RX0
@@ -555,4 +549,24 @@ Text GLabel 4950 2550 0    50   Input ~ 0
 JTAG_TRST
 Text GLabel 4950 2700 0    50   Input ~ 0
 JTAG_NRST
+Wire Wire Line
+	7150 3850 7600 3850
+Wire Wire Line
+	7150 4000 7600 4000
+Text GLabel 7600 3850 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 7600 4000 2    50   Input ~ 0
+I2C_SDA
+Text HLabel 7600 3700 2    50   Output ~ 0
+BOOT_0
+Wire Wire Line
+	7150 3700 7600 3700
+Text GLabel 4950 3000 0    50   Output ~ 0
+UART1_TX
+Text GLabel 4950 2850 0    50   Input ~ 0
+UART1_RX
+Wire Wire Line
+	5250 2850 4950 2850
+Wire Wire Line
+	5250 3000 4950 3000
 $EndSCHEMATC
