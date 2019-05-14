@@ -1765,6 +1765,14 @@ F 3 "" H 6150 6750 50  0001 C CNN
 	1    6950 4800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 5550 5600 5550
+Wire Wire Line
+	6050 5650 5600 5650
+Text Label 5600 5550 0    50   ~ 0
+LED1
+Text Label 5600 5650 0    50   ~ 0
+LED2
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line
