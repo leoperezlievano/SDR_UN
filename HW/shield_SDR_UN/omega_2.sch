@@ -512,7 +512,7 @@ RST_BTN
 Text Label 7350 2650 0    50   ~ 0
 RST_BTN
 Text Notes 1300 5050 0    50   ~ 0
-USB
+Reset_btn
 Wire Wire Line
 	5250 1950 4950 1950
 Wire Wire Line
@@ -569,4 +569,53 @@ Wire Wire Line
 	5250 2850 4950 2850
 Wire Wire Line
 	5250 3000 4950 3000
+$Comp
+L Device:LED D?
+U 1 1 5D35F1A3
+P 9650 1400
+AR Path="/5CC082AD/5D35F1A3" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5D35F1A3" Ref="D?"  Part="1" 
+F 0 "D?" V 9689 1283 50  0000 R CNN
+F 1 "LED" V 9598 1283 50  0000 R CNN
+F 2 "" H 9650 1400 50  0001 C CNN
+F 3 "~" H 9650 1400 50  0001 C CNN
+	1    9650 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35F1AD
+P 9650 1850
+AR Path="/5CC082AD/5D35F1AD" Ref="R?"  Part="1" 
+AR Path="/5CFB52DC/5D35F1AD" Ref="R?"  Part="1" 
+F 0 "R?" H 9720 1896 50  0000 L CNN
+F 1 "1.8k" V 9650 1750 50  0000 L CNN
+F 2 "" V 9580 1850 50  0001 C CNN
+F 3 "~" H 9650 1850 50  0001 C CNN
+	1    9650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D35F1B5
+P 9650 2150
+F 0 "#PWR?" H 9650 1900 50  0001 C CNN
+F 1 "GND" H 9655 1977 50  0000 C CNN
+F 2 "" H 9650 2150 50  0001 C CNN
+F 3 "" H 9650 2150 50  0001 C CNN
+	1    9650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1250 9200 1250
+Wire Wire Line
+	9650 1550 9650 1700
+Wire Wire Line
+	9650 2000 9650 2150
+Text Label 9200 1250 0    50   ~ 0
+LED
+Text Notes 9150 1050 0    50   ~ 0
+Debug LED
+Text Label 7350 3550 0    50   ~ 0
+LED
 $EndSCHEMATC
