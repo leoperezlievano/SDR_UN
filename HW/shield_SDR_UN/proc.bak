@@ -1682,17 +1682,6 @@ Wire Bus Line
 	12650 12200 12900 12200
 Text GLabel 12900 12200 2    50   BiDi ~ 0
 PROC-FPGA [0:14]
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J?
-U 1 1 5CDF8AB5
-P 17600 5950
-F 0 "J?" H 17650 6467 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 17650 6376 50  0000 C CNN
-F 2 "" H 17600 5950 50  0001 C CNN
-F 3 "~" H 17600 5950 50  0001 C CNN
-	1    17600 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 9800 1850 9800
 $Comp
@@ -1941,6 +1930,179 @@ Text Label 5600 8750 0    50   ~ 0
 ADD_DAT_30
 Text Label 5600 7350 0    50   ~ 0
 ADD_DAT_16
+Text Label 5550 8950 0    50   ~ 0
+GPIO_MCU_1
+Wire Wire Line
+	6050 8950 5550 8950
+Text Label 5550 9050 0    50   ~ 0
+GPIO_MCU_2
+Wire Wire Line
+	6050 9050 5550 9050
+Text Label 5550 9150 0    50   ~ 0
+GPIO_MCU_3
+Wire Wire Line
+	6050 9150 5550 9150
+Text Label 5550 9250 0    50   ~ 0
+GPIO_MCU_4
+Wire Wire Line
+	6050 9250 5550 9250
+Text Label 5550 9350 0    50   ~ 0
+GPIO_MCU_5
+Wire Wire Line
+	6050 9350 5550 9350
+Text Label 5550 9450 0    50   ~ 0
+GPIO_MCU_6
+Wire Wire Line
+	6050 9450 5550 9450
+Text Label 5550 9550 0    50   ~ 0
+GPIO_MCU_7
+Wire Wire Line
+	6050 9550 5550 9550
+Text Label 5550 9650 0    50   ~ 0
+GPIO_MCU_8
+Wire Wire Line
+	6050 9650 5550 9650
+Text Label 5550 9750 0    50   ~ 0
+GPIO_MCU_9
+Wire Wire Line
+	6050 9750 5550 9750
+Text Label 5550 9850 0    50   ~ 0
+GPIO_MCU_10
+Wire Wire Line
+	6050 9850 5550 9850
+Text Label 5550 9950 0    50   ~ 0
+GPIO_MCU_11
+Wire Wire Line
+	6050 9950 5550 9950
+Text Label 5550 10050 0    50   ~ 0
+GPIO_MCU_12
+Wire Wire Line
+	6050 10050 5550 10050
+Text Label 5550 10150 0    50   ~ 0
+GPIO_MCU_13
+Wire Wire Line
+	6050 10150 5550 10150
+Text Label 5550 10250 0    50   ~ 0
+GPIO_MCU_14
+Wire Wire Line
+	6050 10250 5550 10250
+Text Label 5550 10350 0    50   ~ 0
+GPIO_MCU_15
+Wire Wire Line
+	6050 10350 5550 10350
+Text Label 5550 10450 0    50   ~ 0
+GPIO_MCU_16
+Wire Wire Line
+	6050 10450 5550 10450
+Text Label 1750 12050 0    50   ~ 0
+GPIO_MCU_1
+Wire Wire Line
+	2250 12050 1750 12050
+Text Label 1750 12150 0    50   ~ 0
+GPIO_MCU_2
+Wire Wire Line
+	2250 12150 1750 12150
+Text Label 1750 12250 0    50   ~ 0
+GPIO_MCU_3
+Wire Wire Line
+	2250 12250 1750 12250
+Text Label 1750 12350 0    50   ~ 0
+GPIO_MCU_4
+Wire Wire Line
+	2250 12350 1750 12350
+Text Label 1750 12450 0    50   ~ 0
+GPIO_MCU_5
+Wire Wire Line
+	2250 12450 1750 12450
+Text Label 1750 12550 0    50   ~ 0
+GPIO_MCU_6
+Wire Wire Line
+	2250 12550 1750 12550
+Text Label 1750 12650 0    50   ~ 0
+GPIO_MCU_7
+Wire Wire Line
+	2250 12650 1750 12650
+Text Label 1750 12750 0    50   ~ 0
+GPIO_MCU_8
+Wire Wire Line
+	2250 12750 1750 12750
+Text Label 3250 12050 2    50   ~ 0
+GPIO_MCU_9
+Wire Wire Line
+	2750 12050 3250 12050
+Text Label 3250 12150 2    50   ~ 0
+GPIO_MCU_10
+Wire Wire Line
+	2750 12150 3250 12150
+Text Label 3250 12250 2    50   ~ 0
+GPIO_MCU_11
+Wire Wire Line
+	2750 12250 3250 12250
+Text Label 3250 12350 2    50   ~ 0
+GPIO_MCU_12
+Wire Wire Line
+	2750 12350 3250 12350
+Text Label 3250 12450 2    50   ~ 0
+GPIO_MCU_13
+Wire Wire Line
+	2750 12450 3250 12450
+Text Label 3250 12550 2    50   ~ 0
+GPIO_MCU_14
+Wire Wire Line
+	2750 12550 3250 12550
+Text Label 3250 12650 2    50   ~ 0
+GPIO_MCU_15
+Wire Wire Line
+	2750 12650 3250 12650
+Text Label 3250 12750 2    50   ~ 0
+GPIO_MCU_16
+Wire Wire Line
+	2750 12750 3250 12750
+$Comp
+L Connector_Generic:Conn_02x10_Top_Bottom J?
+U 1 1 5D1F8415
+P 2450 12450
+F 0 "J?" H 2500 13067 50  0000 C CNN
+F 1 "Conn_02x10_Top_Bottom" H 2500 12976 50  0000 C CNN
+F 2 "" H 2450 12450 50  0001 C CNN
+F 3 "~" H 2450 12450 50  0001 C CNN
+	1    2450 12450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 12850 1750 12850
+Wire Wire Line
+	2750 12850 3250 12850
+Wire Wire Line
+	2750 12950 3250 12950
+Wire Wire Line
+	2250 12950 1750 12950
+Text GLabel 1750 12850 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 3250 12850 2    50   Input ~ 0
++5V
+$Comp
+L power:GND #PWR?
+U 1 1 5D22E626
+P 1750 12950
+F 0 "#PWR?" H 1750 12700 50  0001 C CNN
+F 1 "GND" H 1755 12777 50  0000 C CNN
+F 2 "" H 1750 12950 50  0001 C CNN
+F 3 "" H 1750 12950 50  0001 C CNN
+	1    1750 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D237C41
+P 3250 12950
+F 0 "#PWR?" H 3250 12700 50  0001 C CNN
+F 1 "GND" H 3255 12777 50  0000 C CNN
+F 2 "" H 3250 12950 50  0001 C CNN
+F 3 "" H 3250 12950 50  0001 C CNN
+	1    3250 12950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line
