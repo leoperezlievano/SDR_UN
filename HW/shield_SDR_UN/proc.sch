@@ -1276,7 +1276,7 @@ Entry Wire Line
 Wire Bus Line
 	9150 12600 9100 12600
 Text GLabel 9100 12600 0    50   BiDi ~ 0
-PROC_JTAG [0:6]
+PROC_JTAG [0:5]
 Entry Wire Line
 	9150 13100 9250 13200
 Text Label 9800 13200 2    50   ~ 0
@@ -1595,35 +1595,33 @@ Wire Wire Line
 Wire Wire Line
 	10850 13900 11550 13900
 Text Label 12550 12500 2    50   ~ 0
-FPGA_B_2
+ADD_DAT_01
 Text Label 12550 13500 2    50   ~ 0
-FPGA_B_7
+ADD_DAT_06
 Text Label 12550 12700 2    50   ~ 0
-FPGA_B_3
+ADD_DAT_02
 Text Label 12550 12900 2    50   ~ 0
-FPGA_B_4
+ADD_DAT_03
 Text Label 12550 13100 2    50   ~ 0
-FPGA_B_5
+ADD_DAT_04
 Text Label 12550 13300 2    50   ~ 0
-FPGA_B_6
+ADD_DAT_05
 Text Label 12550 13700 2    50   ~ 0
-FPGA_B_8
+ADD_DAT_07
 Text Label 12550 13900 2    50   ~ 0
-FPGA_B_9
+ADD_DAT_08
 Text Label 12550 14700 2    50   ~ 0
-FPGA_B_13
+ADD_DAT_12
 Text Label 12550 14100 2    50   ~ 0
-FPGA_B_10
+ADD_DAT_09
 Text Label 12550 14300 2    50   ~ 0
-FPGA_B_11
+ADD_DAT_10
 Text Label 12550 14500 2    50   ~ 0
-FPGA_B_12
+ADD_DAT_11
 Text Label 12550 14900 2    50   ~ 0
-FPGA_B_15
-Text Label 12550 15100 2    50   ~ 0
-FPGA_B_15
+ADD_DAT_13
 Text Label 12550 12300 2    50   ~ 0
-FPGA_B_1
+ADD_DAT_00
 Wire Wire Line
 	12550 12300 11850 12300
 Wire Wire Line
@@ -1640,8 +1638,6 @@ Wire Wire Line
 	12550 13500 11850 13500
 Wire Wire Line
 	12550 13700 11850 13700
-Wire Wire Line
-	12550 15100 11850 15100
 Wire Wire Line
 	12550 14900 11850 14900
 Wire Wire Line
@@ -1682,23 +1678,10 @@ Entry Wire Line
 	12650 14600 12550 14700
 Entry Wire Line
 	12650 14800 12550 14900
-Entry Wire Line
-	12650 15000 12550 15100
 Wire Bus Line
 	12650 12200 12900 12200
 Text GLabel 12900 12200 2    50   BiDi ~ 0
-PROC-FPGA [0:16]
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J?
-U 1 1 5CDF8AB5
-P 17600 5950
-F 0 "J?" H 17650 6467 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 17650 6376 50  0000 C CNN
-F 2 "" H 17600 5950 50  0001 C CNN
-F 3 "~" H 17600 5950 50  0001 C CNN
-	1    17600 5950
-	1    0    0    -1  
-$EndComp
+PROC-FPGA [0:14]
 Wire Wire Line
 	1500 9800 1850 9800
 $Comp
@@ -1773,6 +1756,353 @@ Text Label 5600 5550 0    50   ~ 0
 LED1
 Text Label 5600 5650 0    50   ~ 0
 LED2
+Entry Wire Line
+	12650 15000 12550 15100
+Wire Wire Line
+	12550 15100 11850 15100
+Text Label 12550 15100 2    50   ~ 0
+ADD_DAT_14
+Entry Wire Line
+	15200 12800 15100 12900
+Entry Wire Line
+	15200 12900 15100 13000
+Entry Wire Line
+	15200 13000 15100 13100
+Entry Wire Line
+	15200 13100 15100 13200
+Entry Wire Line
+	15200 13200 15100 13300
+Entry Wire Line
+	15200 13300 15100 13400
+Entry Wire Line
+	15200 13400 15100 13500
+Entry Wire Line
+	15200 13500 15100 13600
+Entry Wire Line
+	15200 13600 15100 13700
+Entry Wire Line
+	15200 13700 15100 13800
+Entry Wire Line
+	15200 13800 15100 13900
+Wire Wire Line
+	15100 12900 14650 12900
+Wire Wire Line
+	15100 13000 14650 13000
+Wire Wire Line
+	15100 13100 14650 13100
+Wire Wire Line
+	15100 13200 14650 13200
+Wire Wire Line
+	15100 13300 14650 13300
+Wire Wire Line
+	15100 13400 14650 13400
+Wire Wire Line
+	15100 13500 14650 13500
+Wire Wire Line
+	15100 13600 14650 13600
+Wire Wire Line
+	15100 13700 14650 13700
+Wire Wire Line
+	15100 13800 14650 13800
+Wire Wire Line
+	15100 13900 14650 13900
+Text Label 14650 12900 0    50   ~ 0
+ADD_DAT_15
+Text Label 14650 13100 0    50   ~ 0
+ADD_DAT_17
+Text Label 14650 13200 0    50   ~ 0
+ADD_DAT_18
+Text Label 14650 13300 0    50   ~ 0
+ADD_DAT_19
+Text Label 14650 13400 0    50   ~ 0
+ADD_DAT_20
+Text Label 14650 13500 0    50   ~ 0
+ADD_DAT_21
+Text Label 14650 13600 0    50   ~ 0
+ADD_DAT_22
+Text Label 14650 13700 0    50   ~ 0
+ADD_DAT_23
+Text Label 14650 13800 0    50   ~ 0
+ADD_DAT_24
+Text Label 14650 13900 0    50   ~ 0
+ADD_DAT_25
+Entry Wire Line
+	15200 13900 15100 14000
+Entry Wire Line
+	15200 14000 15100 14100
+Entry Wire Line
+	15200 14100 15100 14200
+Entry Wire Line
+	15200 14200 15100 14300
+Entry Wire Line
+	15200 14300 15100 14400
+Entry Wire Line
+	15200 14400 15100 14500
+Wire Wire Line
+	15100 14000 14650 14000
+Text Label 14650 14000 0    50   ~ 0
+ADD_DAT_26
+Wire Wire Line
+	15100 14100 14650 14100
+Text Label 14650 14100 0    50   ~ 0
+ADD_DAT_27
+Wire Wire Line
+	15100 14200 14650 14200
+Text Label 14650 14200 0    50   ~ 0
+ADD_DAT_28
+Wire Wire Line
+	15100 14300 14650 14300
+Text Label 14650 14300 0    50   ~ 0
+ADD_DAT_29
+Wire Wire Line
+	15100 14400 14650 14400
+Text Label 14650 14400 0    50   ~ 0
+ADD_DAT_30
+Wire Wire Line
+	15100 14500 14650 14500
+Text Label 14650 14500 0    50   ~ 0
+ADD_DAT_31
+Text GLabel 15200 12650 1    50   Input ~ 0
+ADDR_DATA_MCU [15:31]
+Text Label 14650 13000 0    50   ~ 0
+ADD_DAT_16
+Wire Wire Line
+	6050 7250 5600 7250
+Wire Wire Line
+	6050 7350 5600 7350
+Wire Wire Line
+	6050 7450 5600 7450
+Wire Wire Line
+	6050 7550 5600 7550
+Wire Wire Line
+	6050 7650 5600 7650
+Wire Wire Line
+	6050 7750 5600 7750
+Wire Wire Line
+	6050 7850 5600 7850
+Wire Wire Line
+	6050 7950 5600 7950
+Wire Wire Line
+	6050 8050 5600 8050
+Wire Wire Line
+	6050 8150 5600 8150
+Wire Wire Line
+	6050 8250 5600 8250
+Text Label 5600 7250 0    50   ~ 0
+ADD_DAT_15
+Text Label 5600 7450 0    50   ~ 0
+ADD_DAT_17
+Text Label 5600 7550 0    50   ~ 0
+ADD_DAT_18
+Text Label 5600 7650 0    50   ~ 0
+ADD_DAT_19
+Text Label 5600 7750 0    50   ~ 0
+ADD_DAT_20
+Text Label 5600 7850 0    50   ~ 0
+ADD_DAT_21
+Text Label 5600 7950 0    50   ~ 0
+ADD_DAT_22
+Text Label 5600 8050 0    50   ~ 0
+ADD_DAT_23
+Text Label 5600 8150 0    50   ~ 0
+ADD_DAT_24
+Text Label 5600 8250 0    50   ~ 0
+ADD_DAT_25
+Wire Wire Line
+	6050 8350 5600 8350
+Text Label 5600 8350 0    50   ~ 0
+ADD_DAT_26
+Wire Wire Line
+	6050 8450 5600 8450
+Text Label 5600 8450 0    50   ~ 0
+ADD_DAT_27
+Wire Wire Line
+	6050 8550 5600 8550
+Text Label 5600 8550 0    50   ~ 0
+ADD_DAT_28
+Wire Wire Line
+	6050 8650 5600 8650
+Text Label 5600 8650 0    50   ~ 0
+ADD_DAT_29
+Wire Wire Line
+	6050 8750 5600 8750
+Text Label 5600 8750 0    50   ~ 0
+ADD_DAT_30
+Text Label 5600 7350 0    50   ~ 0
+ADD_DAT_16
+Text Label 5550 8950 0    50   ~ 0
+GPIO_MCU_1
+Wire Wire Line
+	6050 8950 5550 8950
+Text Label 5550 9050 0    50   ~ 0
+GPIO_MCU_2
+Wire Wire Line
+	6050 9050 5550 9050
+Text Label 5550 9150 0    50   ~ 0
+GPIO_MCU_3
+Wire Wire Line
+	6050 9150 5550 9150
+Text Label 5550 9250 0    50   ~ 0
+GPIO_MCU_4
+Wire Wire Line
+	6050 9250 5550 9250
+Text Label 5550 9350 0    50   ~ 0
+GPIO_MCU_5
+Wire Wire Line
+	6050 9350 5550 9350
+Text Label 5550 9450 0    50   ~ 0
+GPIO_MCU_6
+Wire Wire Line
+	6050 9450 5550 9450
+Text Label 5550 9550 0    50   ~ 0
+GPIO_MCU_7
+Wire Wire Line
+	6050 9550 5550 9550
+Text Label 5550 9650 0    50   ~ 0
+GPIO_MCU_8
+Wire Wire Line
+	6050 9650 5550 9650
+Text Label 5550 9750 0    50   ~ 0
+GPIO_MCU_9
+Wire Wire Line
+	6050 9750 5550 9750
+Text Label 5550 9850 0    50   ~ 0
+GPIO_MCU_10
+Wire Wire Line
+	6050 9850 5550 9850
+Text Label 5550 9950 0    50   ~ 0
+GPIO_MCU_11
+Wire Wire Line
+	6050 9950 5550 9950
+Text Label 5550 10050 0    50   ~ 0
+GPIO_MCU_12
+Wire Wire Line
+	6050 10050 5550 10050
+Text Label 5550 10150 0    50   ~ 0
+GPIO_MCU_13
+Wire Wire Line
+	6050 10150 5550 10150
+Text Label 5550 10250 0    50   ~ 0
+GPIO_MCU_14
+Wire Wire Line
+	6050 10250 5550 10250
+Text Label 5550 10350 0    50   ~ 0
+GPIO_MCU_15
+Wire Wire Line
+	6050 10350 5550 10350
+Text Label 5550 10450 0    50   ~ 0
+GPIO_MCU_16
+Wire Wire Line
+	6050 10450 5550 10450
+Text Label 1750 12050 0    50   ~ 0
+GPIO_MCU_1
+Wire Wire Line
+	2250 12050 1750 12050
+Text Label 1750 12150 0    50   ~ 0
+GPIO_MCU_2
+Wire Wire Line
+	2250 12150 1750 12150
+Text Label 1750 12250 0    50   ~ 0
+GPIO_MCU_3
+Wire Wire Line
+	2250 12250 1750 12250
+Text Label 1750 12350 0    50   ~ 0
+GPIO_MCU_4
+Wire Wire Line
+	2250 12350 1750 12350
+Text Label 1750 12450 0    50   ~ 0
+GPIO_MCU_5
+Wire Wire Line
+	2250 12450 1750 12450
+Text Label 1750 12550 0    50   ~ 0
+GPIO_MCU_6
+Wire Wire Line
+	2250 12550 1750 12550
+Text Label 1750 12650 0    50   ~ 0
+GPIO_MCU_7
+Wire Wire Line
+	2250 12650 1750 12650
+Text Label 1750 12750 0    50   ~ 0
+GPIO_MCU_8
+Wire Wire Line
+	2250 12750 1750 12750
+Text Label 3250 12050 2    50   ~ 0
+GPIO_MCU_9
+Wire Wire Line
+	2750 12050 3250 12050
+Text Label 3250 12150 2    50   ~ 0
+GPIO_MCU_10
+Wire Wire Line
+	2750 12150 3250 12150
+Text Label 3250 12250 2    50   ~ 0
+GPIO_MCU_11
+Wire Wire Line
+	2750 12250 3250 12250
+Text Label 3250 12350 2    50   ~ 0
+GPIO_MCU_12
+Wire Wire Line
+	2750 12350 3250 12350
+Text Label 3250 12450 2    50   ~ 0
+GPIO_MCU_13
+Wire Wire Line
+	2750 12450 3250 12450
+Text Label 3250 12550 2    50   ~ 0
+GPIO_MCU_14
+Wire Wire Line
+	2750 12550 3250 12550
+Text Label 3250 12650 2    50   ~ 0
+GPIO_MCU_15
+Wire Wire Line
+	2750 12650 3250 12650
+Text Label 3250 12750 2    50   ~ 0
+GPIO_MCU_16
+Wire Wire Line
+	2750 12750 3250 12750
+$Comp
+L Connector_Generic:Conn_02x10_Top_Bottom J?
+U 1 1 5D1F8415
+P 2450 12450
+F 0 "J?" H 2500 13067 50  0000 C CNN
+F 1 "Conn_02x10_Top_Bottom" H 2500 12976 50  0000 C CNN
+F 2 "" H 2450 12450 50  0001 C CNN
+F 3 "~" H 2450 12450 50  0001 C CNN
+	1    2450 12450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 12850 1750 12850
+Wire Wire Line
+	2750 12850 3250 12850
+Wire Wire Line
+	2750 12950 3250 12950
+Wire Wire Line
+	2250 12950 1750 12950
+Text GLabel 1750 12850 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 3250 12850 2    50   Input ~ 0
++5V
+$Comp
+L power:GND #PWR?
+U 1 1 5D22E626
+P 1750 12950
+F 0 "#PWR?" H 1750 12700 50  0001 C CNN
+F 1 "GND" H 1755 12777 50  0000 C CNN
+F 2 "" H 1750 12950 50  0001 C CNN
+F 3 "" H 1750 12950 50  0001 C CNN
+	1    1750 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D237C41
+P 3250 12950
+F 0 "#PWR?" H 3250 12700 50  0001 C CNN
+F 1 "GND" H 3255 12777 50  0000 C CNN
+F 2 "" H 3250 12950 50  0001 C CNN
+F 3 "" H 3250 12950 50  0001 C CNN
+	1    3250 12950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line
@@ -1781,4 +2111,6 @@ Wire Bus Line
 	5850 12700 5850 13400
 Wire Bus Line
 	12650 12200 12650 15000
+Wire Bus Line
+	15200 12650 15200 14400
 $EndSCHEMATC

@@ -1110,28 +1110,6 @@ Entry Wire Line
 	6700 8150 6800 8050
 Entry Wire Line
 	6800 8150 6900 8050
-Entry Wire Line
-	6900 8150 7000 8050
-Entry Wire Line
-	7000 8150 7100 8050
-Entry Wire Line
-	7100 8150 7200 8050
-Entry Wire Line
-	7200 8150 7300 8050
-Entry Wire Line
-	7300 8150 7400 8050
-Entry Wire Line
-	7400 8150 7500 8050
-Entry Wire Line
-	7500 8150 7600 8050
-Entry Wire Line
-	7600 8150 7700 8050
-Entry Wire Line
-	7700 8150 7800 8050
-Entry Wire Line
-	7800 8150 7900 8050
-Entry Wire Line
-	7900 8150 8000 8050
 Wire Wire Line
 	5500 8050 5500 7600
 Wire Wire Line
@@ -1162,28 +1140,6 @@ Wire Wire Line
 	6800 8050 6800 7600
 Wire Wire Line
 	6900 8050 6900 7600
-Wire Wire Line
-	7000 8050 7000 7600
-Wire Wire Line
-	7100 8050 7100 7600
-Wire Wire Line
-	7200 8050 7200 7600
-Wire Wire Line
-	7300 8050 7300 7600
-Wire Wire Line
-	7400 8050 7400 7600
-Wire Wire Line
-	7500 8050 7500 7600
-Wire Wire Line
-	7600 8050 7600 7600
-Wire Wire Line
-	7700 8050 7700 7600
-Wire Wire Line
-	7800 8050 7800 7600
-Wire Wire Line
-	7900 8050 7900 7600
-Wire Wire Line
-	8000 8050 8000 7600
 Text Label 5500 8050 1    50   ~ 0
 ADD_DAT_00
 Text Label 5600 8050 1    50   ~ 0
@@ -1214,66 +1170,6 @@ Text Label 6800 8050 1    50   ~ 0
 ADD_DAT_13
 Text Label 6900 8050 1    50   ~ 0
 ADD_DAT_14
-Text Label 7000 8050 1    50   ~ 0
-ADD_DAT_15
-Text Label 7100 8050 1    50   ~ 0
-ADD_DAT_16
-Text Label 7200 8050 1    50   ~ 0
-ADD_DAT_17
-Text Label 7300 8050 1    50   ~ 0
-ADD_DAT_18
-Text Label 7400 8050 1    50   ~ 0
-ADD_DAT_19
-Text Label 7500 8050 1    50   ~ 0
-ADD_DAT_20
-Text Label 7600 8050 1    50   ~ 0
-ADD_DAT_21
-Text Label 7700 8050 1    50   ~ 0
-ADD_DAT_22
-Text Label 7800 8050 1    50   ~ 0
-ADD_DAT_23
-Text Label 7900 8050 1    50   ~ 0
-ADD_DAT_24
-Text Label 8000 8050 1    50   ~ 0
-ADD_DAT_25
-Entry Wire Line
-	8000 8150 8100 8050
-Entry Wire Line
-	8100 8150 8200 8050
-Entry Wire Line
-	8200 8150 8300 8050
-Entry Wire Line
-	8300 8150 8400 8050
-Entry Wire Line
-	8400 8150 8500 8050
-Entry Wire Line
-	8500 8150 8600 8050
-Wire Wire Line
-	8100 8050 8100 7600
-Text Label 8100 8050 1    50   ~ 0
-ADD_DAT_26
-Wire Wire Line
-	8200 8050 8200 7600
-Text Label 8200 8050 1    50   ~ 0
-ADD_DAT_27
-Wire Wire Line
-	8300 8050 8300 7600
-Text Label 8300 8050 1    50   ~ 0
-ADD_DAT_28
-Wire Wire Line
-	8400 8050 8400 7600
-Text Label 8400 8050 1    50   ~ 0
-ADD_DAT_29
-Wire Wire Line
-	8500 8050 8500 7600
-Text Label 8500 8050 1    50   ~ 0
-ADD_DAT_30
-Wire Wire Line
-	8600 8050 8600 7600
-Text Label 8600 8050 1    50   ~ 0
-ADD_DAT_31
-Text HLabel 5400 8150 0    50   BiDi ~ 0
-ADDR_DATA_MCU
 Text HLabel 7200 6650 3    50   BiDi ~ 0
 START_MCU
 Text HLabel 7100 6650 3    50   BiDi ~ 0
@@ -1567,7 +1463,7 @@ Text Notes 3250 7250 0    118  ~ 0
 Blink LEDs
 Wire Wire Line
 	5150 4350 5600 4350
-Text Notes 6050 8750 0    118  ~ 0
+Text Notes 5400 10600 0    118  ~ 0
 Bus de datos y dirección\npara comunicación con\nel MCU
 Text Notes 1550 7250 0    118  ~ 0
 GPIO Pins
@@ -1743,6 +1639,114 @@ Text Label 12350 5500 0    50   ~ 0
 BLK_LED2
 Wire Wire Line
 	12350 5500 12200 5500
+Text GLabel 5300 8150 0    50   Input ~ 0
+PROC-FPGA [0:14]
+Entry Wire Line
+	5850 9350 5950 9450
+Entry Wire Line
+	5950 9350 6050 9450
+Entry Wire Line
+	6050 9350 6150 9450
+Entry Wire Line
+	6150 9350 6250 9450
+Entry Wire Line
+	6250 9350 6350 9450
+Entry Wire Line
+	6350 9350 6450 9450
+Entry Wire Line
+	6450 9350 6550 9450
+Entry Wire Line
+	6550 9350 6650 9450
+Entry Wire Line
+	6650 9350 6750 9450
+Entry Wire Line
+	6750 9350 6850 9450
+Entry Wire Line
+	6850 9350 6950 9450
+Wire Wire Line
+	5950 9450 5950 9900
+Wire Wire Line
+	6050 9450 6050 9900
+Wire Wire Line
+	6150 9450 6150 9900
+Wire Wire Line
+	6250 9450 6250 9900
+Wire Wire Line
+	6350 9450 6350 9900
+Wire Wire Line
+	6450 9450 6450 9900
+Wire Wire Line
+	6550 9450 6550 9900
+Wire Wire Line
+	6650 9450 6650 9900
+Wire Wire Line
+	6750 9450 6750 9900
+Wire Wire Line
+	6850 9450 6850 9900
+Wire Wire Line
+	6950 9450 6950 9900
+Text Label 5950 9900 1    50   ~ 0
+ADD_DAT_15
+Text Label 6150 9900 1    50   ~ 0
+ADD_DAT_17
+Text Label 6250 9900 1    50   ~ 0
+ADD_DAT_18
+Text Label 6350 9900 1    50   ~ 0
+ADD_DAT_19
+Text Label 6450 9900 1    50   ~ 0
+ADD_DAT_20
+Text Label 6550 9900 1    50   ~ 0
+ADD_DAT_21
+Text Label 6650 9900 1    50   ~ 0
+ADD_DAT_22
+Text Label 6750 9900 1    50   ~ 0
+ADD_DAT_23
+Text Label 6850 9900 1    50   ~ 0
+ADD_DAT_24
+Text Label 6950 9900 1    50   ~ 0
+ADD_DAT_25
+Entry Wire Line
+	6950 9350 7050 9450
+Entry Wire Line
+	7050 9350 7150 9450
+Entry Wire Line
+	7150 9350 7250 9450
+Entry Wire Line
+	7250 9350 7350 9450
+Entry Wire Line
+	7350 9350 7450 9450
+Entry Wire Line
+	7450 9350 7550 9450
+Wire Wire Line
+	7050 9450 7050 9900
+Text Label 7050 9900 1    50   ~ 0
+ADD_DAT_26
+Wire Wire Line
+	7150 9450 7150 9900
+Text Label 7150 9900 1    50   ~ 0
+ADD_DAT_27
+Wire Wire Line
+	7250 9450 7250 9900
+Text Label 7250 9900 1    50   ~ 0
+ADD_DAT_28
+Wire Wire Line
+	7350 9450 7350 9900
+Text Label 7350 9900 1    50   ~ 0
+ADD_DAT_29
+Wire Wire Line
+	7450 9450 7450 9900
+Text Label 7450 9900 1    50   ~ 0
+ADD_DAT_30
+Wire Wire Line
+	7550 9450 7550 9900
+Text Label 7550 9900 1    50   ~ 0
+ADD_DAT_31
+Text GLabel 5700 9350 0    50   Input ~ 0
+ADDR_DATA_MCU
+Text Label 6050 9900 1    50   ~ 0
+ADD_DAT_16
 Wire Bus Line
-	5400 8150 8500 8150
+	5300 8150 6800 8150
+Wire Bus Line
+	5700 9350 7450 9350
 $EndSCHEMATC
