@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "UL_ABM9G25000MHZB4YT")(type "KiCad")(uri "${KIPRJMOD}/lib/UL_ABM9G25000MHZB4YT")(options "")(descr ""))
+  (lib (name "CRISTAL_4")(type "KiCad")(uri "${KIPRJMOD}/lib/CRISTAL_4")(options "")(descr ""))
+)

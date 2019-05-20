@@ -8,4 +8,5 @@
   (lib (name "hackrf-one-rescue")(type "Legacy")(uri "${KIPRJMOD}/lib/hackrf-one-rescue.lib")(options "")(descr ""))
   (lib (name "Project")(type "Legacy")(uri "${KIPRJMOD}/lib/Project.lib")(options "")(descr ""))
   (lib (name "ZLDO1117")(type "Legacy")(uri "${KIPRJMOD}/lib/ZLDO1117G33TA.lib")(options "")(descr ""))
+  (lib (name "UL_ABM9G25000MHZB4YT")(type "Legacy")(uri "${KIPRJMOD}/lib/UL_ABM9G25000MHZB4YT.lib")(options "")(descr ""))
 )
