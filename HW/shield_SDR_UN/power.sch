@@ -16,24 +16,24 @@ Comment4 ""
 $EndDescr
 $Comp
 L Device:C C?
-U 0 0 5CCD952E
+U 1 1 5CCD952E
 P 1550 3550
 F 0 "C?" H 1665 3596 50  0000 L CNN
 F 1 "4.7uF" H 1665 3505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 3400 50  0001 C CNN
 F 3 "~" H 1550 3550 50  0001 C CNN
-	0    1550 3550
+	1    1550 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
-U 0 0 5CCDBE29
+U 1 1 5CCDBE29
 P 3450 3550
 F 0 "C?" H 3565 3596 50  0000 L CNN
 F 1 "4.7uF" H 3565 3505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 3400 50  0001 C CNN
 F 3 "~" H 3450 3550 50  0001 C CNN
-	0    3450 3550
+	1    3450 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -68,13 +68,13 @@ Wire Wire Line
 	1550 3850 1550 3700
 $Comp
 L Device:C C?
-U 0 0 5CCEBA00
+U 1 1 5CCEBA00
 P 1550 5150
 F 0 "C?" H 1665 5196 50  0000 L CNN
 F 1 "4.7uF" H 1665 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 5000 50  0001 C CNN
 F 3 "~" H 1550 5150 50  0001 C CNN
-	0    1550 5150
+	1    1550 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -111,24 +111,24 @@ Wire Wire Line
 	1550 5450 1550 5300
 $Comp
 L Device:C C?
-U 0 0 5CD3AA6A
+U 1 1 5CD3AA6A
 P 1550 2000
 F 0 "C?" H 1665 2046 50  0000 L CNN
 F 1 "4.7uF" H 1665 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 1850 50  0001 C CNN
 F 3 "~" H 1550 2000 50  0001 C CNN
-	0    1550 2000
+	1    1550 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
-U 0 0 5CD3AA74
+U 1 1 5CD3AA74
 P 3450 2000
 F 0 "C?" H 3565 2046 50  0000 L CNN
 F 1 "4.7uF" H 3565 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 1850 50  0001 C CNN
 F 3 "~" H 3450 2000 50  0001 C CNN
-	0    3450 2000
+	1    3450 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -171,13 +171,13 @@ Text GLabel 1400 4900 0    50   Input ~ 0
 3V3 FPGA
 $Comp
 L Connector:USB_B_Micro J?
-U 0 0 5D009192
+U 1 1 5D009192
 P 5350 1950
 F 0 "J?" H 5407 2417 50  0000 C CNN
 F 1 "USB_B_Micro" H 5407 2326 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 5500 1900 50  0001 C CNN
 F 3 "~" H 5500 1900 50  0001 C CNN
-	0    5350 1950
+	1    5350 1950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5650 1950
@@ -213,13 +213,13 @@ Text GLabel 1400 3300 0    50   Input ~ 0
 +5V
 $Comp
 L Device:C C?
-U 0 0 5CCEBA0A
+U 1 1 5CCEBA0A
 P 3450 5150
 F 0 "C?" H 3565 5196 50  0000 L CNN
 F 1 "4.7uF" H 3565 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 5000 50  0001 C CNN
 F 3 "~" H 3450 5150 50  0001 C CNN
-	0    3450 5150
+	1    3450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -286,7 +286,7 @@ Text Notes 5000 3200 0    50   ~ 0
 Debug LEDs
 $Comp
 L Device:R R?
-U 0 0 5CE70567
+U 0 1 5CE70567
 P 5050 3950
 AR Path="/5CC081D2/5CE70567" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE70567" Ref="R?"  Part="0" 
@@ -299,7 +299,7 @@ F 3 "~" H 5050 3950 50  0001 C CNN
 $EndComp
 $Comp
 L Device:LED D?
-U 0 0 5CE70571
+U 0 1 5CE70571
 P 5050 4350
 AR Path="/5CC081D2/5CE70571" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE70571" Ref="D?"  Part="0" 
@@ -333,7 +333,7 @@ Text Notes 4850 4450 0    39   ~ 0
 Red
 $Comp
 L Device:R R?
-U 0 0 5CE85D9C
+U 0 1 5CE85D9C
 P 5650 3950
 AR Path="/5CC081D2/5CE85D9C" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE85D9C" Ref="R?"  Part="0" 
@@ -346,7 +346,7 @@ F 3 "~" H 5650 3950 50  0001 C CNN
 $EndComp
 $Comp
 L Device:LED D?
-U 0 0 5CE85DA6
+U 0 1 5CE85DA6
 P 5650 4350
 AR Path="/5CC081D2/5CE85DA6" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE85DA6" Ref="D?"  Part="0" 
@@ -380,7 +380,7 @@ Text GLabel 5650 3700 1    50   Input ~ 0
 3v3 MCU
 $Comp
 L Device:R R?
-U 0 0 5CE8EB5C
+U 0 1 5CE8EB5C
 P 6200 3950
 AR Path="/5CC081D2/5CE8EB5C" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE8EB5C" Ref="R?"  Part="0" 
@@ -393,7 +393,7 @@ F 3 "~" H 6200 3950 50  0001 C CNN
 $EndComp
 $Comp
 L Device:LED D?
-U 0 0 5CE8EB66
+U 0 1 5CE8EB66
 P 6200 4350
 AR Path="/5CC081D2/5CE8EB66" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE8EB66" Ref="D?"  Part="0" 

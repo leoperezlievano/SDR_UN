@@ -44,14 +44,4 @@ U 5CFB52DC
 F0 "omega_2" 50
 F1 "omega_2.sch" 50
 $EndSheet
-Wire Bus Line
-	12650 12200 12650 15000
-Wire Bus Line
-	9150 12600 9150 13100
-Wire Bus Line
-	7850 12700 7850 12900
-Wire Bus Line
-	5850 12700 5850 13400
-Wire Bus Line
-	5400 8150 8500 8150
 $EndSCHEMATC
