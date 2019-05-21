@@ -286,7 +286,7 @@ Text Notes 5000 3200 0    50   ~ 0
 Debug LEDs
 $Comp
 L Device:R R?
-U 0 1 5CE70567
+U 1 1 5CE70567
 P 5050 3950
 AR Path="/5CC081D2/5CE70567" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE70567" Ref="R?"  Part="0" 
@@ -294,12 +294,12 @@ F 0 "R?" V 4950 3950 50  0000 C CNN
 F 1 "1.8k" V 5050 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3950 50  0001 C CNN
 F 3 "~" H 5050 3950 50  0001 C CNN
-	0    5050 3950
+	1    5050 3950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D?
-U 0 1 5CE70571
+U 1 1 5CE70571
 P 5050 4350
 AR Path="/5CC081D2/5CE70571" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE70571" Ref="D?"  Part="0" 
@@ -307,7 +307,7 @@ F 0 "D?" V 5089 4233 50  0000 R CNN
 F 1 "LED" V 4998 4233 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5050 4350 50  0001 C CNN
 F 3 "~" H 5050 4350 50  0001 C CNN
-	0    5050 4350
+	1    5050 4350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -333,7 +333,7 @@ Text Notes 4850 4450 0    39   ~ 0
 Red
 $Comp
 L Device:R R?
-U 0 1 5CE85D9C
+U 1 1 5CE85D9C
 P 5650 3950
 AR Path="/5CC081D2/5CE85D9C" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE85D9C" Ref="R?"  Part="0" 
@@ -341,12 +341,12 @@ F 0 "R?" V 5550 3950 50  0000 C CNN
 F 1 "1.8k" V 5650 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 3950 50  0001 C CNN
 F 3 "~" H 5650 3950 50  0001 C CNN
-	0    5650 3950
+	1    5650 3950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D?
-U 0 1 5CE85DA6
+U 1 1 5CE85DA6
 P 5650 4350
 AR Path="/5CC081D2/5CE85DA6" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE85DA6" Ref="D?"  Part="0" 
@@ -354,7 +354,7 @@ F 0 "D?" V 5689 4233 50  0000 R CNN
 F 1 "LED" V 5598 4233 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 4350 50  0001 C CNN
 F 3 "~" H 5650 4350 50  0001 C CNN
-	0    5650 4350
+	1    5650 4350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -380,7 +380,7 @@ Text GLabel 5650 3700 1    50   Input ~ 0
 3v3 MCU
 $Comp
 L Device:R R?
-U 0 1 5CE8EB5C
+U 1 1 5CE8EB5C
 P 6200 3950
 AR Path="/5CC081D2/5CE8EB5C" Ref="R?"  Part="1" 
 AR Path="/5CC08321/5CE8EB5C" Ref="R?"  Part="0" 
@@ -388,12 +388,12 @@ F 0 "R?" V 6100 3950 50  0000 C CNN
 F 1 "1.8k" V 6200 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 3950 50  0001 C CNN
 F 3 "~" H 6200 3950 50  0001 C CNN
-	0    6200 3950
+	1    6200 3950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D?
-U 0 1 5CE8EB66
+U 1 1 5CE8EB66
 P 6200 4350
 AR Path="/5CC081D2/5CE8EB66" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE8EB66" Ref="D?"  Part="0" 
@@ -401,7 +401,7 @@ F 0 "D?" V 6239 4233 50  0000 R CNN
 F 1 "LED" V 6148 4233 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 4350 50  0001 C CNN
 F 3 "~" H 6200 4350 50  0001 C CNN
-	0    6200 4350
+	1    6200 4350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
