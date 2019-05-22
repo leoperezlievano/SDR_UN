@@ -1249,17 +1249,6 @@ QD-
 Text Label 11300 1300 0    50   ~ 0
 QD+
 $Comp
-L Device:R R6
-U 1 1 5CDD3BA8
-P 10950 2050
-F 0 "R6" V 10850 2050 50  0000 C CNN
-F 1 "1k" V 10950 2050 50  0000 C CNN
-F 2 "" V 10880 2050 50  0001 C CNN
-F 3 "~" H 10950 2050 50  0001 C CNN
-	1    10950 2050
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R R10
 U 1 1 5CDD3B9E
 P 10150 2050
@@ -1274,17 +1263,6 @@ Wire Wire Line
 	9850 2050 10000 2050
 Wire Wire Line
 	11100 2050 11300 2050
-$Comp
-L Device:R R5
-U 1 1 5CDD2F9A
-P 10950 1800
-F 0 "R5" V 10850 1800 50  0000 C CNN
-F 1 "1k" V 10950 1800 50  0000 C CNN
-F 2 "" V 10880 1800 50  0001 C CNN
-F 3 "~" H 10950 1800 50  0001 C CNN
-	1    10950 1800
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R9
 U 1 1 5CDD2F90
@@ -1301,17 +1279,6 @@ Wire Wire Line
 Wire Wire Line
 	11100 1800 11300 1800
 $Comp
-L Device:R R4
-U 1 1 5CDD2436
-P 10950 1550
-F 0 "R4" V 10850 1550 50  0000 C CNN
-F 1 "1k" V 10950 1550 50  0000 C CNN
-F 2 "" V 10880 1550 50  0001 C CNN
-F 3 "~" H 10950 1550 50  0001 C CNN
-	1    10950 1550
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R R8
 U 1 1 5CDD242C
 P 10150 1550
@@ -1326,17 +1293,6 @@ Wire Wire Line
 	9850 1550 10000 1550
 Wire Wire Line
 	11100 1550 11300 1550
-$Comp
-L Device:R R3
-U 1 1 5CD943C7
-P 10950 1300
-F 0 "R3" V 10850 1300 50  0000 C CNN
-F 1 "1k" V 10950 1300 50  0000 C CNN
-F 2 "" V 10880 1300 50  0001 C CNN
-F 3 "~" H 10950 1300 50  0001 C CNN
-	1    10950 1300
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R7
 U 1 1 5CD95E2B
@@ -2708,6 +2664,54 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TB
 F 4 "160-2032-1-ND" V 1950 4250 50  0001 C CNN "Digikey"
 	1    1950 4250
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CDD3BA8
+P 10950 2050
+F 0 "R6" V 10850 2050 50  0000 C CNN
+F 1 "1k" V 10950 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 2050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10950 2050 50  0001 C CNN
+F 4 " 311-1.00KHRCT-ND" V 10950 2050 50  0001 C CNN "Digikey"
+	1    10950 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE939F8
+P 10950 1800
+F 0 "R?" V 10850 1800 50  0000 C CNN
+F 1 "1k" V 10950 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 1800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10950 1800 50  0001 C CNN
+F 4 " 311-1.00KHRCT-ND" V 10950 1800 50  0001 C CNN "Digikey"
+	1    10950 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE94152
+P 10950 1550
+F 0 "R?" V 10850 1550 50  0000 C CNN
+F 1 "1k" V 10950 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 1550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10950 1550 50  0001 C CNN
+F 4 " 311-1.00KHRCT-ND" V 10950 1550 50  0001 C CNN "Digikey"
+	1    10950 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE94924
+P 10950 1300
+F 0 "R?" V 10850 1300 50  0000 C CNN
+F 1 "1k" V 10950 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 1300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10950 1300 50  0001 C CNN
+F 4 " 311-1.00KHRCT-ND" V 10950 1300 50  0001 C CNN "Digikey"
+	1    10950 1300
+	0    -1   1    0   
 $EndComp
 Wire Bus Line
 	9850 10150 9850 10350
