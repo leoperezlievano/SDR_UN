@@ -27,7 +27,7 @@ F0 "FPGA" 50
 F1 "FPGA.sch" 50
 $EndSheet
 $Sheet
-S 3900 3900 1100 300 
+S 3900 3950 1100 300 
 U 5CC082AD
 F0 "proc" 50
 F1 "proc.sch" 50

@@ -256,8 +256,6 @@ $EndComp
 Wire Wire Line
 	2750 4800 2750 4700
 Wire Wire Line
-	2750 4700 2400 4700
-Wire Wire Line
 	1450 4700 1450 4800
 $Comp
 L power:GND #PWR0166
@@ -1965,6 +1963,8 @@ F 5 "535-10289-1-ND" H 1950 4700 50  0001 C CNN "digikey"
 $EndComp
 Wire Wire Line
 	1450 4700 1950 4700
+Wire Wire Line
+	2350 4700 2750 4700
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line
