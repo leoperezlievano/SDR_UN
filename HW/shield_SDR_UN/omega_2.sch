@@ -51,22 +51,12 @@ $Comp
 L Device:C C?
 U 1 1 5CE14EC4
 P 1500 1300
-F 0 "C?" H 1615 1346 50  0000 L CNN
-F 1 "1u" H 1615 1255 50  0000 L CNN
+F 0 "C?" H 1565 1396 50  0000 L CNN
+F 1 "1uF" H 1565 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 1150 50  0001 C CNN
-F 3 "~" H 1500 1300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 1500 1300 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 1500 1300 50  0001 C CNN "Digikey"
 	1    1500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CE15558
-P 1850 1300
-F 0 "C?" H 1965 1346 50  0000 L CNN
-F 1 "100n" H 1965 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1888 1150 50  0001 C CNN
-F 3 "~" H 1850 1300 50  0001 C CNN
-	1    1850 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -205,19 +195,6 @@ F 2 "" H 1550 4200 50  0001 C CNN
 F 3 "~" H 1550 4200 50  0001 C CNN
 	1    1550 4200
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 0 1 5CECC461
-P 2300 4200
-AR Path="/5CC08321/5CECC461" Ref="C?"  Part="1" 
-AR Path="/5CFB52DC/5CECC461" Ref="C?"  Part="0" 
-F 0 "C?" H 2415 4246 50  0000 L CNN
-F 1 "100nF" H 2415 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2338 4050 50  0001 C CNN
-F 3 "~" H 2300 4200 50  0001 C CNN
-	0    2300 4200
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0196
@@ -475,19 +452,6 @@ Wire Wire Line
 Connection ~ 1850 5300
 Connection ~ 1950 5300
 $Comp
-L Device:C C?
-U 0 1 5CD83476
-P 2400 5550
-AR Path="/5CC08321/5CD83476" Ref="C?"  Part="1" 
-AR Path="/5CFB52DC/5CD83476" Ref="C?"  Part="0" 
-F 0 "C?" H 2515 5596 50  0000 L CNN
-F 1 "100nF" H 2515 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2438 5400 50  0001 C CNN
-F 3 "~" H 2400 5550 50  0001 C CNN
-	0    2400 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0202
 U 1 1 5CD83F6F
 P 2400 5850
@@ -571,29 +535,17 @@ Wire Wire Line
 	5250 3000 4950 3000
 $Comp
 L Device:LED D?
-U 0 1 5D35F1A3
-P 9650 1400
-AR Path="/5CC082AD/5D35F1A3" Ref="D?"  Part="1" 
-AR Path="/5CFB52DC/5D35F1A3" Ref="D?"  Part="0" 
-F 0 "D?" V 9689 1283 50  0000 R CNN
-F 1 "LED" V 9598 1283 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 1400 50  0001 C CNN
-F 3 "~" H 9650 1400 50  0001 C CNN
-	0    9650 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 0 1 5D35F1AD
+U 1 1 5D35F1A3
 P 9650 1850
-AR Path="/5CC082AD/5D35F1AD" Ref="R?"  Part="1" 
-AR Path="/5CFB52DC/5D35F1AD" Ref="R?"  Part="0" 
-F 0 "R?" H 9720 1896 50  0000 L CNN
-F 1 "1.8k" V 9650 1750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9580 1850 50  0001 C CNN
-F 3 "~" H 9650 1850 50  0001 C CNN
-	0    9650 1850
-	1    0    0    -1  
+AR Path="/5CC082AD/5D35F1A3" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5D35F1A3" Ref="D?"  Part="1" 
+F 0 "D?" V 9689 1733 50  0000 R CNN
+F 1 "LED" V 9598 1733 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 1850 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 9650 1850 50  0001 C CNN
+F 4 "160-2032-1-ND" V 9650 1850 50  0001 C CNN "Digikey"
+	1    9650 1850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0203
@@ -618,4 +570,42 @@ Text Notes 9150 1050 0    50   ~ 0
 Debug LED
 Text Label 7350 3550 0    50   ~ 0
 LED
+$Comp
+L Device:C C?
+U 1 1 5D03F2FE
+P 2300 4200
+F 0 "C?" H 2400 4300 50  0000 C CNN
+F 1 "100nF" H 2450 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2300 4200 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 2300 4200 50  0001 C CNN "Digikey"
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D040555
+P 2400 5550
+F 0 "C?" H 2500 5650 50  0000 C CNN
+F 1 "100nF" H 2550 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2438 5400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2400 5550 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 2400 5550 50  0001 C CNN "Digikey"
+	1    2400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D042D04
+P 1850 1300
+F 0 "C?" H 1950 1400 50  0000 C CNN
+F 1 "100nF" H 2000 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1888 1150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1850 1300 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 1850 1300 50  0001 C CNN "Digikey"
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 2000 0    39   ~ 0
+Blue
 $EndSCHEMATC

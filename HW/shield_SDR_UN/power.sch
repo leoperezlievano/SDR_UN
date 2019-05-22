@@ -14,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:C C?
-U 1 1 5CCD952E
-P 1550 3550
-F 0 "C?" H 1665 3596 50  0000 L CNN
-F 1 "4.7uF" H 1665 3505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 3400 50  0001 C CNN
-F 3 "~" H 1550 3550 50  0001 C CNN
-	1    1550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CCDBE29
-P 3450 3550
-F 0 "C?" H 3565 3596 50  0000 L CNN
-F 1 "4.7uF" H 3565 3505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 3400 50  0001 C CNN
-F 3 "~" H 3450 3550 50  0001 C CNN
-	1    3450 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 3300 3450 3300
 Wire Wire Line
@@ -66,17 +44,6 @@ F 3 "" H 1550 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 3850 1550 3700
-$Comp
-L Device:C C?
-U 1 1 5CCEBA00
-P 1550 5150
-F 0 "C?" H 1665 5196 50  0000 L CNN
-F 1 "4.7uF" H 1665 5105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 5000 50  0001 C CNN
-F 3 "~" H 1550 5150 50  0001 C CNN
-	1    1550 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 4900 3450 4900
 Wire Wire Line
@@ -116,19 +83,9 @@ P 1550 2000
 F 0 "C?" H 1665 2046 50  0000 L CNN
 F 1 "4.7uF" H 1665 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 1850 50  0001 C CNN
-F 3 "~" H 1550 2000 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1550 2000 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1550 2000 50  0001 C CNN "Digikey"
 	1    1550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CD3AA74
-P 3450 2000
-F 0 "C?" H 3565 2046 50  0000 L CNN
-F 1 "4.7uF" H 3565 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 1850 50  0001 C CNN
-F 3 "~" H 3450 2000 50  0001 C CNN
-	1    3450 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -212,17 +169,6 @@ Text GLabel 1350 1750 0    50   Input ~ 0
 Text GLabel 1400 3300 0    50   Input ~ 0
 +5V
 $Comp
-L Device:C C?
-U 1 1 5CCEBA0A
-P 3450 5150
-F 0 "C?" H 3565 5196 50  0000 L CNN
-F 1 "4.7uF" H 3565 5105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 5000 50  0001 C CNN
-F 3 "~" H 3450 5150 50  0001 C CNN
-	1    3450 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0187
 U 1 1 5CDC3540
 P 2500 3950
@@ -285,28 +231,16 @@ Input USB power
 Text Notes 5000 3200 0    50   ~ 0
 Debug LEDs
 $Comp
-L Device:R R?
-U 1 1 5CE70567
-P 5050 3950
-AR Path="/5CC081D2/5CE70567" Ref="R?"  Part="1" 
-AR Path="/5CC08321/5CE70567" Ref="R?"  Part="0" 
-F 0 "R?" V 4950 3950 50  0000 C CNN
-F 1 "1.8k" V 5050 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3950 50  0001 C CNN
-F 3 "~" H 5050 3950 50  0001 C CNN
-	1    5050 3950
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 5CE70571
 P 5050 4350
 AR Path="/5CC081D2/5CE70571" Ref="D?"  Part="1" 
-AR Path="/5CC08321/5CE70571" Ref="D?"  Part="0" 
+AR Path="/5CC08321/5CE70571" Ref="D?"  Part="1" 
 F 0 "D?" V 5089 4233 50  0000 R CNN
 F 1 "LED" V 4998 4233 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5050 4350 50  0001 C CNN
-F 3 "~" H 5050 4350 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 4350 50  0001 C CNN
+F 3 "optoelectronics.liteon.com/upload/download/DS22-2000-137/LTST-S220KRKT.pdf" H 5050 4350 50  0001 C CNN
+F 4 "160-1469-1-ND" V 5050 4350 50  0001 C CNN "Digikey"
 	1    5050 4350
 	0    -1   -1   0   
 $EndComp
@@ -332,28 +266,16 @@ Text GLabel 5050 3700 1    50   Input ~ 0
 Text Notes 4850 4450 0    39   ~ 0
 Red
 $Comp
-L Device:R R?
-U 1 1 5CE85D9C
-P 5650 3950
-AR Path="/5CC081D2/5CE85D9C" Ref="R?"  Part="1" 
-AR Path="/5CC08321/5CE85D9C" Ref="R?"  Part="0" 
-F 0 "R?" V 5550 3950 50  0000 C CNN
-F 1 "1.8k" V 5650 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 3950 50  0001 C CNN
-F 3 "~" H 5650 3950 50  0001 C CNN
-	1    5650 3950
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 5CE85DA6
 P 5650 4350
 AR Path="/5CC081D2/5CE85DA6" Ref="D?"  Part="1" 
-AR Path="/5CC08321/5CE85DA6" Ref="D?"  Part="0" 
+AR Path="/5CC08321/5CE85DA6" Ref="D?"  Part="1" 
 F 0 "D?" V 5689 4233 50  0000 R CNN
 F 1 "LED" V 5598 4233 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 4350 50  0001 C CNN
-F 3 "~" H 5650 4350 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-075/LTST-S220KGKT.pdf" H 5650 4350 50  0001 C CNN
+F 4 "160-1468-1-ND" V 5650 4350 50  0001 C CNN "Digikey"
 	1    5650 4350
 	0    -1   -1   0   
 $EndComp
@@ -378,32 +300,6 @@ Text Notes 5450 4450 0    39   ~ 0
 Green\n
 Text GLabel 5650 3700 1    50   Input ~ 0
 3v3 MCU
-$Comp
-L Device:R R?
-U 1 1 5CE8EB5C
-P 6200 3950
-AR Path="/5CC081D2/5CE8EB5C" Ref="R?"  Part="1" 
-AR Path="/5CC08321/5CE8EB5C" Ref="R?"  Part="0" 
-F 0 "R?" V 6100 3950 50  0000 C CNN
-F 1 "1.8k" V 6200 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 3950 50  0001 C CNN
-F 3 "~" H 6200 3950 50  0001 C CNN
-	1    6200 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5CE8EB66
-P 6200 4350
-AR Path="/5CC081D2/5CE8EB66" Ref="D?"  Part="1" 
-AR Path="/5CC08321/5CE8EB66" Ref="D?"  Part="0" 
-F 0 "D?" V 6239 4233 50  0000 R CNN
-F 1 "LED" V 6148 4233 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 4350 50  0001 C CNN
-F 3 "~" H 6200 4350 50  0001 C CNN
-	1    6200 4350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 4600 6200 4500
 Wire Wire Line
@@ -477,5 +373,91 @@ F 2 "" H 2500 5550 50  0001 C CNN
 F 3 "" H 2500 5550 50  0001 C CNN
 	1    2500 5550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFF78BF
+P 1550 3550
+F 0 "C?" H 1665 3596 50  0000 L CNN
+F 1 "4.7uF" H 1665 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 3400 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1550 3550 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1550 3550 50  0001 C CNN "Digikey"
+	1    1550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFF8436
+P 1550 5150
+F 0 "C?" H 1665 5196 50  0000 L CNN
+F 1 "4.7uF" H 1665 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1588 5000 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1550 5150 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1550 5150 50  0001 C CNN "Digikey"
+	1    1550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFF9817
+P 3450 5150
+F 0 "C?" H 3565 5196 50  0000 L CNN
+F 1 "4.7uF" H 3565 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 5000 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3450 5150 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 3450 5150 50  0001 C CNN "Digikey"
+	1    3450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFFA74A
+P 3450 3550
+F 0 "C?" H 3565 3596 50  0000 L CNN
+F 1 "4.7uF" H 3565 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 3400 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3450 3550 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 3450 3550 50  0001 C CNN "Digikey"
+	1    3450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFFC6D1
+P 3450 2000
+F 0 "C?" H 3565 2046 50  0000 L CNN
+F 1 "4.7uF" H 3565 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 1850 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3450 2000 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 3450 2000 50  0001 C CNN "Digikey"
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0251D4
+P 5050 3950
+F 0 "R?" V 4950 3850 50  0000 L CNN
+F 1 "1.8k" V 5050 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5050 3950 50  0001 C CNN
+F 4 "311-1.8KGRTR-ND" V 5050 3950 50  0001 C CNN "Digikey"
+	1    5050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5D05C7DE
+P 6200 4350
+AR Path="/5CC081D2/5D05C7DE" Ref="D?"  Part="1" 
+AR Path="/5CC08321/5D05C7DE" Ref="D?"  Part="1" 
+F 0 "D?" V 6239 4233 50  0000 R CNN
+F 1 "LED" V 6148 4233 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 4350 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-075/LTST-S220KGKT.pdf" H 6200 4350 50  0001 C CNN
+F 4 "160-1468-1-ND" V 6200 4350 50  0001 C CNN "Digikey"
+	1    6200 4350
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
