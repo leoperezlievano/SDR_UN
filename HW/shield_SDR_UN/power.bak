@@ -435,18 +435,6 @@ F 4 "1276-1045-1-ND " H 3450 2000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 5D0251D4
-P 5050 3950
-F 0 "R?" V 4950 3850 50  0000 L CNN
-F 1 "1.8k" V 5050 3850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3950 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5050 3950 50  0001 C CNN
-F 4 "311-1.8KGRTR-ND" V 5050 3950 50  0001 C CNN "Digikey"
-	1    5050 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 5D05C7DE
 P 6200 4350
@@ -459,5 +447,41 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-075/LTST-S220KG
 F 4 "160-1468-1-ND" V 6200 4350 50  0001 C CNN "Digikey"
 	1    6200 4350
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEB8F9A
+P 5650 3950
+F 0 "R?" H 5700 4000 50  0000 L CNN
+F 1 "470" V 5650 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 3950 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 5650 3950 50  0001 C CNN "Digikey"
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEB98F9
+P 6200 3950
+F 0 "R?" H 6250 4000 50  0000 L CNN
+F 1 "470" V 6200 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 3950 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 6200 3950 50  0001 C CNN "Digikey"
+	1    6200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEE7448
+P 5050 3950
+F 0 "R?" H 5100 4000 50  0000 L CNN
+F 1 "1.8k" V 5050 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5050 3950 50  0001 C CNN
+F 4 "311-1.8KGRTR-ND" V 5050 3950 50  0001 C CNN "Digikey"
+	1    5050 3950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

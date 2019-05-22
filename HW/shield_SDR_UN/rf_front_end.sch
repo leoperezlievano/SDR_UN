@@ -620,17 +620,6 @@ F 3 "" H 1450 4000 50  0001 C CNN
 	1    1450 4000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:LED D1
-U 1 1 5CE581D2
-P 1950 4250
-F 0 "D1" V 1989 4133 50  0000 R CNN
-F 1 "LED" V 1898 4133 50  0000 R CNN
-F 2 "" H 1950 4250 50  0001 C CNN
-F 3 "~" H 1950 4250 50  0001 C CNN
-	1    1950 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1950 4500 1950 4400
 Wire Wire Line
@@ -2693,15 +2682,32 @@ F 4 "311-1.8KGRTR-ND" V 8850 7900 50  0001 C CNN "Digikey"
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5CFC6C9A
+U 1 1 5CEDD000
 P 1700 4000
-F 0 "R?" V 1600 3900 50  0000 L CNN
-F 1 "1.8k" V 1700 3900 50  0000 L CNN
+F 0 "R?" V 1600 3950 50  0000 L CNN
+F 1 "470" V 1700 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 4000 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1700 4000 50  0001 C CNN
-F 4 "311-1.8KGRTR-ND" V 1700 4000 50  0001 C CNN "Digikey"
+F 4 "311-470GRCT-ND" V 1700 4000 50  0001 C CNN "Digikey"
 	1    1700 4000
 	0    1    1    0   
+$EndComp
+Text Notes 1800 4400 0    39   ~ 0
+Blue
+$Comp
+L Device:LED D?
+U 1 1 5CEDF6C9
+P 1950 4250
+AR Path="/5CC082AD/5CEDF6C9" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5CEDF6C9" Ref="D?"  Part="1" 
+AR Path="/5CC081D2/5CEDF6C9" Ref="D?"  Part="1" 
+F 0 "D?" V 1989 4133 50  0000 R CNN
+F 1 "LED" V 1898 4133 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 4250 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 1950 4250 50  0001 C CNN
+F 4 "160-2032-1-ND" V 1950 4250 50  0001 C CNN "Digikey"
+	1    1950 4250
+	0    -1   -1   0   
 $EndComp
 Wire Bus Line
 	9850 10150 9850 10350

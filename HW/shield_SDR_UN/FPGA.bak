@@ -101,8 +101,6 @@ $EndComp
 Wire Wire Line
 	10750 6950 10750 6800
 Wire Wire Line
-	9650 2100 9650 1950
-Wire Wire Line
 	9650 1950 9750 1950
 Wire Wire Line
 	9750 1950 9750 2100
@@ -965,30 +963,6 @@ Text Label 8900 6650 3    50   ~ 0
 SDA_I2C
 Wire Wire Line
 	9000 6650 9000 6950
-$Comp
-L Device:R R?
-U 1 1 5D3F355A
-P 3450 8650
-F 0 "R?" H 3520 8696 50  0000 L CNN
-F 1 "1.8k" V 3450 8550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 8650 50  0001 C CNN
-F 3 "~" H 3450 8650 50  0001 C CNN
-	1    3450 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0149
-U 1 1 5D40658F
-P 3450 8950
-F 0 "#PWR0149" H 3450 8700 50  0001 C CNN
-F 1 "GND" H 3455 8777 50  0000 C CNN
-F 2 "" H 3450 8950 50  0001 C CNN
-F 3 "" H 3450 8950 50  0001 C CNN
-	1    3450 8950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 8800 3450 8950
 Text Label 3450 7700 1    50   ~ 0
 BLK_LED1
 Wire Wire Line
@@ -1282,62 +1256,8 @@ Wire Wire Line
 	2450 1200 2550 1200
 Wire Wire Line
 	2550 1200 2550 1000
-$Comp
-L Device:LED D?
-U 1 1 5D23F274
-P 3450 8100
-F 0 "D?" H 3442 7845 50  0000 C CNN
-F 1 "LED" H 3442 7936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3450 8100 50  0001 C CNN
-F 3 "~" H 3450 8100 50  0001 C CNN
-	1    3450 8100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 7700 3450 7950
-Wire Wire Line
-	3450 8250 3450 8500
-$Comp
-L Device:R R?
-U 1 1 5D398B89
-P 4000 8650
-F 0 "R?" H 4070 8696 50  0000 L CNN
-F 1 "1.8k" V 4000 8550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 8650 50  0001 C CNN
-F 3 "~" H 4000 8650 50  0001 C CNN
-	1    4000 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0156
-U 1 1 5D398B91
-P 4000 8950
-F 0 "#PWR0156" H 4000 8700 50  0001 C CNN
-F 1 "GND" H 4005 8777 50  0000 C CNN
-F 2 "" H 4000 8950 50  0001 C CNN
-F 3 "" H 4000 8950 50  0001 C CNN
-	1    4000 8950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 8800 4000 8950
 Text Label 4000 7700 1    50   ~ 0
 BLK_LED2
-$Comp
-L Device:LED D?
-U 1 1 5D398B9D
-P 4000 8100
-F 0 "D?" H 3992 7845 50  0000 C CNN
-F 1 "LED" H 3992 7936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 8100 50  0001 C CNN
-F 3 "~" H 4000 8100 50  0001 C CNN
-	1    4000 8100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 7700 4000 7950
-Wire Wire Line
-	4000 8250 4000 8500
 Text Label 9000 6950 1    50   ~ 0
 BLK_LED1
 Text Label 12350 5500 0    50   ~ 0
@@ -1975,6 +1895,100 @@ Wire Wire Line
 Text Label 12650 5800 2    50   ~ 0
 PROGRAM_B
 NoConn ~ 12200 3000
+$Comp
+L Device:LED D?
+U 1 1 5CEA040D
+P 3450 8500
+AR Path="/5CC082AD/5CEA040D" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5CEA040D" Ref="D?"  Part="1" 
+AR Path="/5CC08265/5CEA040D" Ref="D?"  Part="1" 
+F 0 "D?" V 3489 8383 50  0000 R CNN
+F 1 "LED" V 3398 8383 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3450 8500 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 3450 8500 50  0001 C CNN
+F 4 "160-2032-1-ND" V 3450 8500 50  0001 C CNN "Digikey"
+	1    3450 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEA040E
+P 3450 8800
+F 0 "#PWR?" H 3450 8550 50  0001 C CNN
+F 1 "GND" H 3455 8627 50  0000 C CNN
+F 2 "" H 3450 8800 50  0001 C CNN
+F 3 "" H 3450 8800 50  0001 C CNN
+	1    3450 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 8200 3450 8350
+Wire Wire Line
+	3450 8650 3450 8800
+Text Notes 3300 8650 0    39   ~ 0
+Blue
+Wire Wire Line
+	3450 7700 3450 7900
+$Comp
+L Device:LED D?
+U 1 1 5CEA1FB1
+P 4000 8500
+AR Path="/5CC082AD/5CEA1FB1" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5CEA1FB1" Ref="D?"  Part="1" 
+AR Path="/5CC08265/5CEA1FB1" Ref="D?"  Part="1" 
+F 0 "D?" V 4039 8383 50  0000 R CNN
+F 1 "LED" V 3948 8383 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 8500 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 4000 8500 50  0001 C CNN
+F 4 "160-2032-1-ND" V 4000 8500 50  0001 C CNN "Digikey"
+	1    4000 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEA1FB2
+P 4000 8800
+F 0 "#PWR?" H 4000 8550 50  0001 C CNN
+F 1 "GND" H 4005 8627 50  0000 C CNN
+F 2 "" H 4000 8800 50  0001 C CNN
+F 3 "" H 4000 8800 50  0001 C CNN
+	1    4000 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 8200 4000 8350
+Wire Wire Line
+	4000 8650 4000 8800
+Text Notes 3850 8650 0    39   ~ 0
+Blue
+Wire Wire Line
+	4000 7700 4000 7900
+Wire Wire Line
+	9650 1950 9650 2100
+$Comp
+L Device:R R?
+U 1 1 5CEBF6F1
+P 3450 8050
+F 0 "R?" H 3500 8100 50  0000 L CNN
+F 1 "470" V 3450 7950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 8050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3450 8050 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 3450 8050 50  0001 C CNN "Digikey"
+	1    3450 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEC01C3
+P 4000 8050
+F 0 "R?" H 4050 8100 50  0000 L CNN
+F 1 "470" V 4000 7950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 8050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 8050 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 4000 8050 50  0001 C CNN "Digikey"
+	1    4000 8050
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5700 9550 5700 10150
 Wire Bus Line

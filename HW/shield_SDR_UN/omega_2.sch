@@ -559,14 +559,12 @@ F 3 "" H 9650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1250 9200 1250
-Wire Wire Line
 	9650 1550 9650 1700
 Wire Wire Line
 	9650 2000 9650 2150
-Text Label 9200 1250 0    50   ~ 0
+Text Label 9650 1050 0    50   ~ 0
 LED
-Text Notes 9150 1050 0    50   ~ 0
+Text Notes 9350 900  0    50   ~ 0
 Debug LED
 Text Label 7350 3550 0    50   ~ 0
 LED
@@ -608,4 +606,18 @@ F 4 "1276-1000-1-ND" H 1850 1300 50  0001 C CNN "Digikey"
 $EndComp
 Text Notes 9500 2000 0    39   ~ 0
 Blue
+Wire Wire Line
+	9650 1050 9650 1250
+$Comp
+L Device:R R?
+U 1 1 5CECF576
+P 9650 1400
+F 0 "R?" H 9700 1450 50  0000 L CNN
+F 1 "470" V 9650 1300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9580 1400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 1400 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 9650 1400 50  0001 C CNN "Digikey"
+	1    9650 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
