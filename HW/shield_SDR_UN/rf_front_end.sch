@@ -14,18 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 14500 3650 2    50   Input ~ 0
+Text HLabel 14900 3650 2    50   Input ~ 0
 adCS
-Wire Wire Line
-	14350 3650 14500 3650
-Text HLabel 14500 3750 2    50   Input ~ 0
+Text HLabel 14900 3750 2    50   Input ~ 0
 adCSK
-Text HLabel 14500 3850 2    50   Input ~ 0
+Text HLabel 14900 3850 2    50   Input ~ 0
 adMOSI
-Wire Wire Line
-	14350 3750 14500 3750
-Wire Wire Line
-	14350 3850 14500 3850
 $Comp
 L quacho-packages:MAX5864 U1
 U 1 1 5CCB83DB
@@ -48,7 +42,7 @@ Wire Wire Line
 	11850 4250 11950 4250
 Wire Wire Line
 	11850 4750 11950 4750
-Text HLabel 11800 4150 0    50   Input ~ 0
+Text HLabel 11500 4150 0    50   Input ~ 0
 adCLK
 $Comp
 L Device:C CA2
@@ -1572,18 +1566,6 @@ Wire Wire Line
 	5400 4050 6450 4050
 Wire Wire Line
 	4900 3400 5400 3400
-$Comp
-L hackrf-one-rescue:SI5351C U?
-U 1 1 5CE4E248
-P 10650 8150
-F 0 "U?" H 10600 8200 60  0000 L CNN
-F 1 "SI5351C" H 10450 8050 60  0000 L CNN
-F 2 "QFN50P300X300X60-21N:QFN50P300X300X60-21N" H 10650 8150 60  0001 C CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf" H 10650 8150 60  0001 C CNN
-F 4 "336-5160-1-ND" H 10650 8150 50  0001 C CNN "Digikey"
-	1    10650 8150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10450 8950
 NoConn ~ 10650 8950
 NoConn ~ 10550 8950
@@ -1591,20 +1573,6 @@ Text GLabel 10850 9250 3    50   Input ~ 0
 3V3 MCU
 Wire Wire Line
 	10850 9250 10850 8950
-$Comp
-L Device:R R?
-U 1 1 5CE53F9D
-P 11400 9100
-F 0 "R?" V 11300 9100 50  0000 C CNN
-F 1 "39" V 11400 9100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 11330 9100 50  0001 C CNN
-F 3 "~" H 11400 9100 50  0001 C CNN
-F 4 "RMCF0402JT39R0CT-ND" V 11400 9100 50  0001 C CNN "digikey"
-F 5 "RMCF0402JT39R0" V 11400 9100 50  0001 C CNN "part numer"
-F 6 "RES 39 OHM 1/16W 5% 0402 SMD" V 11400 9100 50  0001 C CNN "descripcion"
-	1    11400 9100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11250 9100 10750 9100
 Wire Wire Line
@@ -1619,28 +1587,6 @@ Wire Wire Line
 	11800 8350 11450 8350
 Text GLabel 10450 6800 1    50   Input ~ 0
 3V3 MCU
-Wire Wire Line
-	10000 7050 10000 7000
-Wire Wire Line
-	10000 7000 10450 7000
-Wire Wire Line
-	10450 7000 10450 7350
-Wire Wire Line
-	10450 6800 10450 7000
-Connection ~ 10450 7000
-$Comp
-L power:GND #PWR0202
-U 1 1 5CE6E1E4
-P 10000 7400
-F 0 "#PWR0202" H 10000 7150 50  0001 C CNN
-F 1 "GND" H 10000 7250 50  0000 C CNN
-F 2 "" H 10000 7400 50  0001 C CNN
-F 3 "" H 10000 7400 50  0001 C CNN
-	1    10000 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 7400 10000 7350
 $Comp
 L power:GND #PWR0204
 U 1 1 5CE7A72B
@@ -1654,20 +1600,6 @@ F 3 "" H 9700 7750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9850 7750 9700 7750
-$Comp
-L Device:R R?
-U 1 1 5CE7FFAE
-P 12350 8250
-F 0 "R?" V 12250 8250 50  0000 C CNN
-F 1 "39" V 12350 8250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 12280 8250 50  0001 C CNN
-F 3 "~" H 12350 8250 50  0001 C CNN
-F 4 "RMCF0402JT39R0CT-ND" V 12350 8250 50  0001 C CNN "digikey"
-F 5 "RMCF0402JT39R0" V 12350 8250 50  0001 C CNN "part numer"
-F 6 "RES 39 OHM 1/16W 5% 0402 SMD" V 12350 8250 50  0001 C CNN "descripcion"
-	1    12350 8250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	12200 8250 11450 8250
 Text GLabel 12600 8250 2    50   Input ~ 0
@@ -1676,16 +1608,16 @@ Wire Wire Line
 	12600 8250 12500 8250
 $Comp
 L Device:R R?
-U 1 1 5CE82EE5
+U 0 0 5CE82EE5
 P 12350 8050
 F 0 "R?" V 12250 8050 50  0000 C CNN
 F 1 "39" V 12350 8050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 12280 8050 50  0001 C CNN
-F 3 "~" H 12350 8050 50  0001 C CNN
-F 4 "RMCF0402JT39R0CT-ND" V 12350 8050 50  0001 C CNN "digikey"
-F 5 "RMCF0402JT39R0" V 12350 8050 50  0001 C CNN "part numer"
-F 6 "RES 39 OHM 1/16W 5% 0402 SMD" V 12350 8050 50  0001 C CNN "descripcion"
-	1    12350 8050
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12280 8050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 12350 8050 50  0001 C CNN
+F 4 "311-39.0HRCT-ND" V 12350 8050 50  0001 C CNN "digikey"
+F 5 "RC0603FR-0739RL" V 12350 8050 50  0001 C CNN "part numer"
+F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8050 50  0001 C CNN "descripcion"
+	0    12350 8050
 	0    1    1    0   
 $EndComp
 Text GLabel 12600 8050 2    50   Input ~ 0
@@ -1846,22 +1778,6 @@ Wire Wire Line
 	9850 8350 8450 8350
 Wire Wire Line
 	8450 8350 8450 8050
-Text Label 10350 10350 2    50   ~ 0
-I2C1_SCL
-Wire Wire Line
-	9950 10350 10350 10350
-Text Label 10350 10450 2    50   ~ 0
-I2C1_SDA
-Wire Wire Line
-	9950 10450 10350 10450
-Entry Wire Line
-	9850 10250 9950 10350
-Entry Wire Line
-	9850 10350 9950 10450
-Wire Bus Line
-	9850 10150 9750 10150
-Text GLabel 9750 10150 0    50   Input ~ 0
-I2C_PROC
 Text Label 7900 8250 0    50   ~ 0
 I2C1_SCL
 Text Label 7900 8350 0    50   ~ 0
@@ -2752,13 +2668,13 @@ NoConn ~ 8850 4450
 $Comp
 L Device:C C?
 U 1 1 5CED98EE
-P 10000 7200
-F 0 "C?" H 10100 7300 50  0000 C CNN
-F 1 "100nF" H 10150 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10038 7050 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 10000 7200 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 10000 7200 50  0001 C CNN "Digikey"
-	1    10000 7200
+P 13700 7000
+F 0 "C?" H 13800 7100 50  0000 C CNN
+F 1 "100nF" H 13850 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13738 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 13700 7000 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 13700 7000 50  0001 C CNN "Digikey"
+	1    13700 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2934,6 +2850,312 @@ F 4 "1276-2218-1-ND" H 8800 9900 50  0001 C CNN "Digikey"
 	1    8800 9900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 0 0 5CE741B0
+P 12350 8250
+F 0 "R?" V 12250 8250 50  0000 C CNN
+F 1 "39" V 12350 8250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12280 8250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 12350 8250 50  0001 C CNN
+F 4 "311-39.0HRCT-ND" V 12350 8250 50  0001 C CNN "digikey"
+F 5 "RC0603FR-0739RL" V 12350 8250 50  0001 C CNN "part numer"
+F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8250 50  0001 C CNN "descripcion"
+	0    12350 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 0 0 5CE74904
+P 11400 9100
+F 0 "R?" V 11300 9100 50  0000 C CNN
+F 1 "39" V 11400 9100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11330 9100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 11400 9100 50  0001 C CNN
+F 4 "311-39.0HRCT-ND" V 11400 9100 50  0001 C CNN "digikey"
+F 5 "RC0603FR-0739RL" V 11400 9100 50  0001 C CNN "part numer"
+F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 11400 9100 50  0001 C CNN "descripcion"
+	0    11400 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CF17A04
+P 13400 7000
+F 0 "C?" H 13500 7100 50  0000 C CNN
+F 1 "100nF" H 13550 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13438 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 13400 7000 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 13400 7000 50  0001 C CNN "Digikey"
+	1    13400 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 6800 10450 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5CF4110A
+P 14000 7250
+F 0 "#PWR?" H 14000 7000 50  0001 C CNN
+F 1 "GND" H 14000 7100 50  0000 C CNN
+F 2 "" H 14000 7250 50  0001 C CNN
+F 3 "" H 14000 7250 50  0001 C CNN
+	1    14000 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hackrf-one-rescue:SI5351C U?
+U 1 1 5CE4E248
+P 10650 8150
+F 0 "U?" H 10600 8200 60  0000 L CNN
+F 1 "SI5351C" H 10450 8050 60  0000 L CNN
+F 2 "QFN50P300X300X60-21N:QFN50P300X300X60-21N" H 10650 8150 60  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf" H 10650 8150 60  0001 C CNN
+F 4 "336-5160-1-ND" H 10650 8150 50  0001 C CNN "Digikey"
+	1    10650 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CF5B81E
+P 14300 7000
+F 0 "C?" H 14400 7100 50  0000 C CNN
+F 1 "100nF" H 14450 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14338 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14300 7000 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14300 7000 50  0001 C CNN "Digikey"
+	1    14300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CF5B829
+P 14000 7000
+F 0 "C?" H 14100 7100 50  0000 C CNN
+F 1 "100nF" H 14150 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14038 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14000 7000 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14000 7000 50  0001 C CNN "Digikey"
+	1    14000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CF5BAC7
+P 14600 7000
+F 0 "C?" H 14700 7100 50  0000 C CNN
+F 1 "100nF" H 14750 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14638 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14600 7000 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14600 7000 50  0001 C CNN "Digikey"
+	1    14600 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 14000 6600 0    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	13400 6850 13400 6800
+Wire Wire Line
+	13400 6800 13700 6800
+Wire Wire Line
+	14600 6800 14600 6850
+Wire Wire Line
+	14300 6850 14300 6800
+Connection ~ 14300 6800
+Wire Wire Line
+	14300 6800 14600 6800
+Wire Wire Line
+	14000 6850 14000 6800
+Connection ~ 14000 6800
+Wire Wire Line
+	14000 6800 14300 6800
+Wire Wire Line
+	14000 6800 14000 6600
+Wire Wire Line
+	13700 6850 13700 6800
+Connection ~ 13700 6800
+Wire Wire Line
+	13700 6800 14000 6800
+Wire Wire Line
+	14000 7250 14000 7200
+Wire Wire Line
+	14000 7200 13700 7200
+Wire Wire Line
+	13400 7200 13400 7150
+Wire Wire Line
+	14000 7200 14300 7200
+Wire Wire Line
+	14600 7200 14600 7150
+Connection ~ 14000 7200
+Wire Wire Line
+	14300 7150 14300 7200
+Connection ~ 14300 7200
+Wire Wire Line
+	14300 7200 14600 7200
+Wire Wire Line
+	14000 7150 14000 7200
+Wire Wire Line
+	13700 7150 13700 7200
+Connection ~ 13700 7200
+Wire Wire Line
+	13700 7200 13400 7200
+Text Notes 13350 7600 0    50   ~ 0
+decoupling capacitor per power supply pin \nSI5351C
+Wire Notes Line
+	13250 6500 13250 7650
+Wire Notes Line
+	13250 7650 15050 7650
+Wire Notes Line
+	15050 7650 15050 6500
+Wire Notes Line
+	15050 6500 13250 6500
+Text GLabel 15550 6400 0    50   Input ~ 0
+3V3 MCU
+$Comp
+L power:VCC #PWR?
+U 1 1 5CFF2297
+P 15700 6400
+F 0 "#PWR?" H 15700 6250 50  0001 C CNN
+F 1 "VCC" H 15717 6573 50  0000 C CNN
+F 2 "" H 15700 6400 50  0001 C CNN
+F 3 "" H 15700 6400 50  0001 C CNN
+	1    15700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15700 6400 15550 6400
+Entry Wire Line
+	4300 1100 4400 1200
+Entry Wire Line
+	4300 1200 4400 1300
+Entry Wire Line
+	4300 1300 4400 1400
+Entry Wire Line
+	4300 1400 4400 1500
+Entry Wire Line
+	4300 1500 4400 1600
+Entry Wire Line
+	4300 1600 4400 1700
+Entry Wire Line
+	4300 1700 4400 1800
+Entry Wire Line
+	4300 1800 4400 1900
+Text Label 4850 1200 2    50   ~ 0
+XCVR_EN
+Text Label 4850 1300 2    50   ~ 0
+RSSI
+Text Label 4850 1400 2    50   ~ 0
+TX_ENABLE
+Text Label 4850 1500 2    50   ~ 0
+RX_ENABLE
+Text Label 4850 1600 2    50   ~ 0
+SPI1_NSS
+Text Label 4850 1700 2    50   ~ 0
+SPI1_SCK
+Text Label 4850 1800 2    50   ~ 0
+SPI1_MISO
+Text Label 4850 1900 2    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	4850 1200 4400 1200
+Wire Wire Line
+	4850 1300 4400 1300
+Wire Wire Line
+	4850 1400 4400 1400
+Wire Wire Line
+	4850 1500 4400 1500
+Wire Wire Line
+	4850 1600 4400 1600
+Wire Wire Line
+	4850 1700 4400 1700
+Wire Wire Line
+	4850 1800 4400 1800
+Wire Wire Line
+	4850 1900 4400 1900
+Text GLabel 4250 1100 0    50   BiDi ~ 0
+PROC-MAX2837 [0:7]
 Wire Bus Line
-	9850 10150 9850 10350
+	4300 1100 4250 1100
+Text Label 6800 1200 2    50   ~ 0
+SPI1_SCK
+Text Label 6800 1300 2    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	6800 1200 6400 1200
+Wire Wire Line
+	6400 1400 6800 1400
+Text Label 6800 1400 2    50   ~ 0
+CS_AD
+Wire Wire Line
+	6400 1300 6800 1300
+Entry Wire Line
+	6300 1100 6400 1200
+Entry Wire Line
+	6300 1200 6400 1300
+Entry Wire Line
+	6300 1300 6400 1400
+Wire Bus Line
+	6300 1100 6250 1100
+Text GLabel 6250 1100 0    50   BiDi ~ 0
+PROC-MAX5864 [0:2]
+Text Label 4850 2200 2    50   ~ 0
+I2C1_SCL
+Wire Wire Line
+	4450 2200 4850 2200
+Text Label 4850 2300 2    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	4450 2300 4850 2300
+Entry Wire Line
+	4350 2100 4450 2200
+Entry Wire Line
+	4350 2200 4450 2300
+Wire Bus Line
+	4350 2000 4250 2000
+Text GLabel 4250 2000 0    50   Input ~ 0
+I2C_PROC
+Text Label 14750 3750 2    50   ~ 0
+SPI1_SCK
+Text Label 14750 3850 2    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	14750 3750 14350 3750
+Wire Wire Line
+	14350 3650 14750 3650
+Text Label 14750 3650 2    50   ~ 0
+CS_AD
+Wire Wire Line
+	14350 3850 14750 3850
+Text GLabel 11800 4150 0    50   Input ~ 0
+GCK0
+Text Label 7400 5950 1    50   ~ 0
+RSSI
+Text Label 7300 5950 1    50   ~ 0
+SPI1_NSS
+Text Label 7600 5950 1    50   ~ 0
+SPI1_SCK
+Wire Wire Line
+	7400 5950 7400 5500
+Wire Wire Line
+	7300 5950 7300 5500
+Wire Wire Line
+	7600 5950 7600 5500
+Text Notes 2550 900  0    118  ~ 0
+OJO CON ESTOS PINES LOS COLOQUE \nCOMO EL HACK COMUNICACION CON EL MICRO
+Wire Wire Line
+	7700 6600 7700 6150
+Wire Wire Line
+	7800 6600 7800 6150
+Text Label 7700 6600 1    50   ~ 0
+SPI1_MOSI
+Text Label 7800 6600 1    50   ~ 0
+SPI1_MISO
+Wire Wire Line
+	7700 5500 7700 5950
+Wire Bus Line
+	4350 2000 4350 2200
+Wire Bus Line
+	6300 1100 6300 1300
+Wire Bus Line
+	4300 1100 4300 1800
 $EndSCHEMATC
