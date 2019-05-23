@@ -1557,6 +1557,7 @@ F 0 "L?" V 1340 1950 50  0000 C CNN
 F 1 "bead, 600R, 350 mA" V 1249 1950 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1150 1950 50  0001 C CNN
 F 3 "~" H 1150 1950 50  0001 C CNN
+F 4 "587-1897-1-ND" V 1150 1950 50  0001 C CNN "DIGIKEY"
 	1    1150 1950
 	0    -1   -1   0   
 $EndComp
@@ -1573,6 +1574,7 @@ F 0 "L?" H 10350 11150 50  0000 C CNN
 F 1 "bead, 600R, 350 mA" H 10700 11050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10250 11000 50  0001 C CNN
 F 3 "~" H 10250 11000 50  0001 C CNN
+F 4 "587-1897-1-ND" H 10250 11000 50  0001 C CNN "DIGIKEY"
 	1    10250 11000
 	1    0    0    -1  
 $EndComp
@@ -1993,6 +1995,36 @@ Wire Wire Line
 	2250 5000 2250 5200
 Wire Wire Line
 	2050 5000 2050 5200
+$Comp
+L Device:R R?
+U 1 1 5CD9E97E
+P 1900 8250
+F 0 "R?" H 1970 8296 50  0000 L CNN
+F 1 "1k" H 1970 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1830 8250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 8250 50  0001 C CNN
+F 4 " 311-1.00KHRCT-ND" H 1900 8250 50  0001 C CNN "Digikey"
+	1    1900 8250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 6250 0    50   Input ~ 0
+GPIO_INTR
+Wire Wire Line
+	5900 6250 6050 6250
+Text Notes 5150 6300 0    50   ~ 0
+SI351C
+Text GLabel 5900 6350 0    50   Input ~ 0
+MCU_CLK
+Wire Wire Line
+	6050 6350 5900 6350
+Text Notes 5150 6400 0    50   ~ 0
+SI351C
+Text GLabel 5900 6450 0    50   Input ~ 0
+GPIO_CLK
+Text Notes 5150 6500 0    50   ~ 0
+SI351C
+Wire Wire Line
+	6050 6450 5900 6450
 Wire Bus Line
 	7850 12700 7850 12900
 Wire Bus Line
@@ -2007,16 +2039,4 @@ Wire Bus Line
 	13000 12000 13000 13000
 Wire Bus Line
 	11250 11550 11250 13150
-$Comp
-L Device:R R?
-U 1 1 5CD9E97E
-P 1900 8250
-F 0 "R?" H 1970 8296 50  0000 L CNN
-F 1 "1k" H 1970 8205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1830 8250 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 8250 50  0001 C CNN
-F 4 " 311-1.00KHRCT-ND" H 1900 8250 50  0001 C CNN "Digikey"
-	1    1900 8250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
