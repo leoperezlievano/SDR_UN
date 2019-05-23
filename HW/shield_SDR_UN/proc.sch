@@ -1167,14 +1167,14 @@ Wire Wire Line
 	2750 12750 3250 12750
 $Comp
 L Connector_Generic:Conn_02x10_Top_Bottom J?
-U 1 1 5D1F8415
+U 0 0 5D1F8415
 P 2450 12450
 F 0 "J?" H 2500 13067 50  0000 C CNN
 F 1 "Conn_02x10_Top_Bottom" H 2500 12976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2450 12450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 2450 12450 50  0001 C CNN
 F 3 "~" H 2450 12450 50  0001 C CNN
 F 4 "S6106-ND" H 2450 12450 50  0001 C CNN "DIGIKEY"
-	1    2450 12450
+	0    2450 12450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
