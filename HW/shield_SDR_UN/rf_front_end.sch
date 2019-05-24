@@ -3034,22 +3034,6 @@ Text Label 4800 1700 2    50   ~ 0
 SPI1_CS_AD
 Entry Wire Line
 	4300 1600 4400 1700
-Text Label 4850 2200 2    50   ~ 0
-I2C1_SCL
-Wire Wire Line
-	4450 2200 4850 2200
-Text Label 4850 2300 2    50   ~ 0
-I2C1_SDA
-Wire Wire Line
-	4450 2300 4850 2300
-Entry Wire Line
-	4350 2100 4450 2200
-Entry Wire Line
-	4350 2200 4450 2300
-Wire Bus Line
-	4350 2000 4250 2000
-Text GLabel 4250 2000 0    50   Input ~ 0
-I2C1 [0:1]
 Text Label 14750 3750 2    50   ~ 0
 SPI1_SCK
 Text Label 14750 3850 2    50   ~ 0
@@ -3142,8 +3126,18 @@ Entry Wire Line
 	4300 1200 4400 1300
 Text Notes 7350 6350 0    50   ~ 0
 MCU\n
-Wire Bus Line
-	4350 2000 4350 2200
+Wire Wire Line
+	4450 2300 4850 2300
+Text Label 4850 2300 2    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	4450 2200 4850 2200
+Text Label 4850 2200 2    50   ~ 0
+I2C1_SCL
+Text GLabel 4450 2300 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 4450 2200 0    50   Input ~ 0
+I2C_SDA
 Wire Bus Line
 	4300 1100 4300 1800
 $EndSCHEMATC

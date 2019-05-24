@@ -128,14 +128,14 @@ Text GLabel 1400 4900 0    50   Input ~ 0
 3V3 FPGA
 $Comp
 L Connector:USB_B_Micro J?
-U 1 1 5D009192
+U 0 0 5D009192
 P 5350 1950
 F 0 "J?" H 5407 2417 50  0000 C CNN
 F 1 "USB_B_Micro" H 5407 2326 50  0000 C CNN
 F 2 "lib:USB_Micro_B_Female_10118194-0001LF" H 5500 1900 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf" H 5500 1900 50  0001 C CNN
 F 4 "609-4618-1-ND" H 5350 1950 50  0001 C CNN "Digikey"
-	1    5350 1950
+	0    5350 1950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5650 1950

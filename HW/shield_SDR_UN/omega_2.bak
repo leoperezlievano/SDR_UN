@@ -409,18 +409,6 @@ Text Label 5650 2550 0    50   ~ 0
 TRST
 Text Label 5650 2700 0    50   ~ 0
 NRST
-Text GLabel 5550 1950 0    50   Input ~ 0
-JTAG_TMS
-Text GLabel 5550 2100 0    50   Input ~ 0
-JTAG_TCK
-Text GLabel 5550 2250 0    50   Input ~ 0
-JTAG_TDI
-Text GLabel 5550 2400 0    50   Input ~ 0
-JTAG_TDO
-Text GLabel 5550 2550 0    50   Input ~ 0
-JTAG_TRST
-Text GLabel 5550 2700 0    50   Input ~ 0
-JTAG_NRST
 Wire Wire Line
 	7750 3850 8200 3850
 Wire Wire Line
@@ -677,4 +665,16 @@ Wire Wire Line
 	2450 5500 2450 5300
 Wire Wire Line
 	2450 5900 2450 5800
+Text HLabel 5550 1950 0    50   Output ~ 0
+OMG_JTMS
+Text HLabel 5550 2100 0    50   Output ~ 0
+OMG_JTCK
+Text HLabel 5550 2250 0    50   Output ~ 0
+OMG_JTDI
+Text HLabel 5550 2550 0    50   Output ~ 0
+OMG_JTRST
+Text HLabel 5550 2700 0    50   Output ~ 0
+OMG_JNRST
+Text HLabel 5550 2400 0    50   Input ~ 0
+OMG_JTDO
 $EndSCHEMATC

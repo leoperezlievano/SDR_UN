@@ -1341,22 +1341,6 @@ Text Label 15350 6400 2    50   ~ 0
 I2C1_SDA
 Wire Wire Line
 	15350 6200 14950 6200
-Text Label 6400 13800 2    50   ~ 0
-I2C1_SCL
-Wire Wire Line
-	6000 13800 6400 13800
-Text Label 6400 13900 2    50   ~ 0
-I2C1_SDA
-Wire Wire Line
-	6000 13900 6400 13900
-Entry Wire Line
-	5900 13700 6000 13800
-Entry Wire Line
-	5900 13800 6000 13900
-Wire Bus Line
-	5900 13600 5800 13600
-Text GLabel 5800 13600 0    50   Input ~ 0
-I2C1 [0:1]
 Text Label 5550 7950 0    50   ~ 0
 GPIO_MCU_8
 Wire Wire Line
@@ -1976,12 +1960,6 @@ NoConn ~ 6050 8950
 NoConn ~ 6050 9050
 NoConn ~ 14950 8500
 Wire Bus Line
-	7450 8150 7450 9150
-Wire Bus Line
-	5700 9550 5700 10150
-Wire Bus Line
-	5700 7700 5700 9300
-Wire Bus Line
 	4350 2000 4350 2200
 Wire Bus Line
 	4300 1100 4300 1800
@@ -1997,8 +1975,10 @@ Text HLabel 15350 5100 2    50   Input ~ 0
 STM_JTMS
 Text HLabel 5750 3850 0    50   Input ~ 0
 STM_JNRST
-Wire Bus Line
-	5900 13600 5900 13800
+Text GLabel 15350 6300 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 15350 6400 2    50   Input ~ 0
+I2C_SDA
 Wire Bus Line
 	11250 13400 11250 14000
 Wire Bus Line

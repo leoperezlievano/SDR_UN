@@ -101,11 +101,11 @@ Wire Wire Line
 Wire Wire Line
 	9000 3850 9250 3850
 Wire Wire Line
-	9250 3850 9250 2400
-Wire Wire Line
-	9250 2400 3950 2400
-Wire Wire Line
-	3950 2400 3950 3850
-Wire Wire Line
 	3950 3850 4250 3850
+Wire Wire Line
+	3950 3850 3950 4250
+Wire Wire Line
+	3950 4250 9250 4250
+Wire Wire Line
+	9250 4250 9250 3850
 $EndSCHEMATC

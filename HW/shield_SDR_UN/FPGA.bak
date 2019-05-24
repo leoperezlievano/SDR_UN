@@ -261,15 +261,15 @@ $EndComp
 Wire Wire Line
 	10400 1950 10400 1850
 Text HLabel 10950 1950 1    50   Input ~ 0
-TCK_FPGA
+FPGA_JTCK
 Wire Wire Line
 	10950 2100 10950 1950
 Text HLabel 11050 1950 1    50   Input ~ 0
-TDI_FPGA
+FPGA_JTDI
 Text HLabel 11250 1950 1    50   Input ~ 0
-TMS_FPGA
+FPGA_JTMS
 Text HLabel 11150 1950 1    50   Output ~ 0
-TDO_FPGA
+FPGA_JTDO
 Wire Wire Line
 	11050 1950 11050 2100
 Wire Wire Line
@@ -649,16 +649,12 @@ Text HLabel 7200 6650 3    50   BiDi ~ 0
 START_MCU
 Text HLabel 7100 6650 3    50   BiDi ~ 0
 CTRL_MCU
-Text Label 11200 8050 3    50   ~ 0
+Text Label 5400 3050 2    50   ~ 0
 SCL_I2C
-Text Label 11300 8050 3    50   ~ 0
+Text Label 5400 2950 2    50   ~ 0
 SDA_I2C
 Text Label 3450 7700 1    50   ~ 0
 BLK_LED1
-Wire Wire Line
-	11300 8050 11300 8350
-Wire Wire Line
-	11200 8050 11200 8350
 $Comp
 L Connector_Generic:Conn_02x18_Counter_Clockwise J?
 U 1 1 5D482A3C
@@ -908,10 +904,6 @@ Text Notes 3250 7250 0    118  ~ 0
 Blink LEDs
 Text Notes 1550 7250 0    118  ~ 0
 GPIO Pins
-Text GLabel 11200 8350 3    50   Input ~ 0
-I2C_SCL
-Text GLabel 11300 8350 3    50   Input ~ 0
-I2C_SDA
 $Comp
 L power:+3.3V #PWR0154
 U 1 1 5D115086
@@ -2080,6 +2072,14 @@ Text Label 8700 7150 1    50   ~ 0
 FMC_D15
 Text Label 8800 7150 1    50   ~ 0
 FMC_D14
+Text GLabel 5100 3050 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 5100 2950 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	5100 2950 5600 2950
+Wire Wire Line
+	5100 3050 5600 3050
 Wire Bus Line
 	5700 9550 5700 10150
 Wire Bus Line
