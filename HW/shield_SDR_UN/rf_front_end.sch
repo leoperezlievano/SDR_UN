@@ -14,24 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 14900 3650 2    50   Input ~ 0
-adCS
-Text HLabel 14900 3750 2    50   Input ~ 0
-adCSK
-Text HLabel 14900 3850 2    50   Input ~ 0
-adMOSI
-$Comp
-L quacho-packages:MAX5864 U1
-U 1 1 5CCB83DB
-P 13150 4200
-F 0 "U1" H 13069 4253 60  0000 L CNN
-F 1 "MAX5864" H 12911 4147 60  0000 L CNN
-F 2 "lib:MAX5864ETM&plus_" H 13150 4200 60  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX5864.pdf" H 13150 4200 60  0001 C CNN
-F 4 "MAX5864ETM+-ND" H 13150 4200 50  0001 C CNN "Digikey"
-	1    13150 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13200 2850 13200 3000
 Wire Wire Line
@@ -42,8 +24,6 @@ Wire Wire Line
 	11850 4250 11950 4250
 Wire Wire Line
 	11850 4750 11950 4750
-Text HLabel 11500 4150 0    50   Input ~ 0
-adCLK
 $Comp
 L Device:C CA2
 U 1 1 5CD14877
@@ -1608,7 +1588,7 @@ Wire Wire Line
 	12600 8250 12500 8250
 $Comp
 L Device:R R?
-U 0 0 5CE82EE5
+U 1 1 5CE82EE5
 P 12350 8050
 F 0 "R?" V 12250 8050 50  0000 C CNN
 F 1 "39" V 12350 8050 50  0000 C CNN
@@ -1617,7 +1597,7 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1235
 F 4 "311-39.0HRCT-ND" V 12350 8050 50  0001 C CNN "digikey"
 F 5 "RC0603FR-0739RL" V 12350 8050 50  0001 C CNN "part numer"
 F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8050 50  0001 C CNN "descripcion"
-	0    12350 8050
+	1    12350 8050
 	0    1    1    0   
 $EndComp
 Text GLabel 12600 8050 2    50   Input ~ 0
@@ -2852,7 +2832,7 @@ F 4 "1276-2218-1-ND" H 8800 9900 50  0001 C CNN "Digikey"
 $EndComp
 $Comp
 L Device:R R?
-U 0 0 5CE741B0
+U 1 1 5CE741B0
 P 12350 8250
 F 0 "R?" V 12250 8250 50  0000 C CNN
 F 1 "39" V 12350 8250 50  0000 C CNN
@@ -2861,12 +2841,12 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1235
 F 4 "311-39.0HRCT-ND" V 12350 8250 50  0001 C CNN "digikey"
 F 5 "RC0603FR-0739RL" V 12350 8250 50  0001 C CNN "part numer"
 F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8250 50  0001 C CNN "descripcion"
-	0    12350 8250
+	1    12350 8250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
-U 0 0 5CE74904
+U 1 1 5CE74904
 P 11400 9100
 F 0 "R?" V 11300 9100 50  0000 C CNN
 F 1 "39" V 11400 9100 50  0000 C CNN
@@ -2875,7 +2855,7 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1140
 F 4 "311-39.0HRCT-ND" V 11400 9100 50  0001 C CNN "digikey"
 F 5 "RC0603FR-0739RL" V 11400 9100 50  0001 C CNN "part numer"
 F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 11400 9100 50  0001 C CNN "descripcion"
-	0    11400 9100
+	1    11400 9100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3009,55 +2989,33 @@ Wire Notes Line
 	15050 7650 15050 6500
 Wire Notes Line
 	15050 6500 13250 6500
-Text GLabel 15550 6400 0    50   Input ~ 0
+Text GLabel 1950 800  0    50   Input ~ 0
 3V3 MCU
 $Comp
 L power:VCC #PWR?
 U 1 1 5CFF2297
-P 15700 6400
-F 0 "#PWR?" H 15700 6250 50  0001 C CNN
-F 1 "VCC" H 15717 6573 50  0000 C CNN
-F 2 "" H 15700 6400 50  0001 C CNN
-F 3 "" H 15700 6400 50  0001 C CNN
-	1    15700 6400
+P 2100 800
+F 0 "#PWR?" H 2100 650 50  0001 C CNN
+F 1 "VCC" H 2117 973 50  0000 C CNN
+F 2 "" H 2100 800 50  0001 C CNN
+F 3 "" H 2100 800 50  0001 C CNN
+	1    2100 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15700 6400 15550 6400
-Entry Wire Line
-	4300 1100 4400 1200
-Entry Wire Line
-	4300 1200 4400 1300
+	2100 800  1950 800 
 Entry Wire Line
 	4300 1300 4400 1400
 Entry Wire Line
 	4300 1400 4400 1500
 Entry Wire Line
 	4300 1500 4400 1600
-Entry Wire Line
-	4300 1600 4400 1700
-Entry Wire Line
-	4300 1700 4400 1800
-Entry Wire Line
-	4300 1800 4400 1900
-Text Label 4850 1200 2    50   ~ 0
-XCVR_EN
-Text Label 4850 1300 2    50   ~ 0
-RSSI
 Text Label 4850 1400 2    50   ~ 0
-TX_ENABLE
-Text Label 4850 1500 2    50   ~ 0
-RX_ENABLE
-Text Label 4850 1600 2    50   ~ 0
-SPI1_NSS
-Text Label 4850 1700 2    50   ~ 0
 SPI1_SCK
-Text Label 4850 1800 2    50   ~ 0
+Text Label 4850 1500 2    50   ~ 0
 SPI1_MISO
-Text Label 4850 1900 2    50   ~ 0
+Text Label 4850 1600 2    50   ~ 0
 SPI1_MOSI
-Wire Wire Line
-	4850 1200 4400 1200
 Wire Wire Line
 	4850 1300 4400 1300
 Wire Wire Line
@@ -3066,38 +3024,16 @@ Wire Wire Line
 	4850 1500 4400 1500
 Wire Wire Line
 	4850 1600 4400 1600
-Wire Wire Line
-	4850 1700 4400 1700
-Wire Wire Line
-	4850 1800 4400 1800
-Wire Wire Line
-	4850 1900 4400 1900
 Text GLabel 4250 1100 0    50   BiDi ~ 0
-PROC-MAX2837 [0:7]
+SPI1 [0:4]
 Wire Bus Line
 	4300 1100 4250 1100
-Text Label 6800 1200 2    50   ~ 0
-SPI1_SCK
-Text Label 6800 1300 2    50   ~ 0
-SPI1_MOSI
 Wire Wire Line
-	6800 1200 6400 1200
-Wire Wire Line
-	6400 1400 6800 1400
-Text Label 6800 1400 2    50   ~ 0
-CS_AD
-Wire Wire Line
-	6400 1300 6800 1300
+	4400 1700 4800 1700
+Text Label 4800 1700 2    50   ~ 0
+SPI1_CS_AD
 Entry Wire Line
-	6300 1100 6400 1200
-Entry Wire Line
-	6300 1200 6400 1300
-Entry Wire Line
-	6300 1300 6400 1400
-Wire Bus Line
-	6300 1100 6250 1100
-Text GLabel 6250 1100 0    50   BiDi ~ 0
-PROC-MAX5864 [0:2]
+	4300 1600 4400 1700
 Text Label 4850 2200 2    50   ~ 0
 I2C1_SCL
 Wire Wire Line
@@ -3113,25 +3049,23 @@ Entry Wire Line
 Wire Bus Line
 	4350 2000 4250 2000
 Text GLabel 4250 2000 0    50   Input ~ 0
-I2C_PROC
+I2C1 [0:1]
 Text Label 14750 3750 2    50   ~ 0
 SPI1_SCK
 Text Label 14750 3850 2    50   ~ 0
-SPI1_MOSI
+SPI1_MISO
 Wire Wire Line
 	14750 3750 14350 3750
 Wire Wire Line
 	14350 3650 14750 3650
 Text Label 14750 3650 2    50   ~ 0
-CS_AD
+SPI1_CS_AD
 Wire Wire Line
 	14350 3850 14750 3850
 Text GLabel 11800 4150 0    50   Input ~ 0
 GCK0
-Text Label 7400 5950 1    50   ~ 0
-RSSI
 Text Label 7300 5950 1    50   ~ 0
-SPI1_NSS
+SPI1_CS_RF
 Text Label 7600 5950 1    50   ~ 0
 SPI1_SCK
 Wire Wire Line
@@ -3142,20 +3076,74 @@ Wire Wire Line
 	7600 5950 7600 5500
 Text Notes 2550 900  0    118  ~ 0
 OJO CON ESTOS PINES LOS COLOQUE \nCOMO EL HACK COMUNICACION CON EL MICRO
-Wire Wire Line
-	7700 6600 7700 6150
-Wire Wire Line
-	7800 6600 7800 6150
-Text Label 7700 6600 1    50   ~ 0
+Text Label 7700 6850 1    50   ~ 0
 SPI1_MOSI
-Text Label 7800 6600 1    50   ~ 0
+Text Label 7800 6850 1    50   ~ 0
 SPI1_MISO
+$Comp
+L Device:R R?
+U 1 1 5CE93467
+P 7700 6200
+F 0 "R?" H 7750 6300 50  0000 L CNN
+F 1 "1k" V 7700 6100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 6200 50  0001 C CNN
+F 3 "" H 7700 6200 50  0001 C CNN
+F 4 "" V 7700 6200 50  0001 C CNN "Digikey"
+	1    7700 6200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7700 5500 7700 5950
+	7700 6350 7700 6850
+Wire Wire Line
+	7700 5500 7700 6000
+Wire Wire Line
+	7800 6000 7700 6000
+Wire Wire Line
+	7800 6000 7800 6850
+Connection ~ 7700 6000
+Wire Wire Line
+	7700 6000 7700 6050
+$Comp
+L quacho-packages:MAX5864 U1
+U 1 1 5CCB83DB
+P 13150 4200
+F 0 "U1" H 13069 4253 60  0000 L CNN
+F 1 "MAX5864" H 12911 4147 60  0000 L CNN
+F 2 "lib:MAX5864ETM&plus_" H 13150 4200 60  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX5864.pdf" H 13150 4200 60  0001 C CNN
+F 4 "MAX5864ETM+-ND" H 13150 4200 50  0001 C CNN "Digikey"
+	1    13150 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 5950 3    50   Input ~ 0
+rf_LD
+Wire Wire Line
+	8000 5950 8000 5500
+NoConn ~ 7900 5500
+Wire Wire Line
+	7900 3100 7900 2550
+Text GLabel 7900 2550 1    50   Input ~ 0
+rf_RXHP
+Text Notes 7850 2150 0    50   ~ 0
+MCU\n
+Text Notes 8000 6300 0    50   ~ 0
+MCU\n
+Text Notes 7100 2450 1    50   ~ 0
+MCU\n
+Text Notes 7250 2450 1    50   ~ 0
+MCU\n
+Text Notes 6100 5000 0    50   ~ 0
+MCU\n
+Text GLabel 7400 5950 3    50   Output ~ 0
+rf_RSSI
+Text Label 4850 1300 2    50   ~ 0
+SPI1_CS_RF
+Entry Wire Line
+	4300 1200 4400 1300
+Text Notes 7350 6350 0    50   ~ 0
+MCU\n
 Wire Bus Line
 	4350 2000 4350 2200
-Wire Bus Line
-	6300 1100 6300 1300
 Wire Bus Line
 	4300 1100 4300 1800
 $EndSCHEMATC

@@ -600,14 +600,10 @@ Connection ~ 1050 3100
 Connection ~ 2500 3200
 Connection ~ 2400 1950
 Connection ~ 1400 950 
-Text GLabel 5500 3400 0    50   Input ~ 0
+Text GLabel 5650 3950 0    50   Input ~ 0
 3v3 MCU
 Wire Wire Line
 	6050 3950 5650 3950
-Wire Wire Line
-	5650 3950 5650 3400
-Wire Wire Line
-	5650 3400 5500 3400
 Wire Wire Line
 	6050 4150 5650 4150
 Text Label 5650 4150 0    50   ~ 0
@@ -758,14 +754,6 @@ Wire Wire Line
 	14950 4700 15350 4700
 Wire Wire Line
 	14950 4800 15350 4800
-Text Label 15350 4700 2    50   ~ 0
-USART1_TX
-Text Label 15350 4800 2    50   ~ 0
-USART1_RX
-Wire Wire Line
-	14950 4200 15350 4200
-Text Label 15350 4200 2    50   ~ 0
-SPI1_NSS
 Text Label 15350 4300 2    50   ~ 0
 SPI1_SCK
 Text Label 15350 4400 2    50   ~ 0
@@ -780,158 +768,16 @@ Wire Wire Line
 	15350 4500 14950 4500
 Wire Wire Line
 	14950 3900 15350 3900
-Text Label 15350 3900 2    50   ~ 0
-RSSI
 Wire Wire Line
-	14950 3800 15350 3800
-Wire Wire Line
-	14950 4000 15350 4000
-Wire Wire Line
-	14950 4100 15350 4100
-Text Label 15350 4100 2    50   ~ 0
-RX_ENABLE
-Text Label 15350 4000 2    50   ~ 0
-TX_ENABLE
-Entry Wire Line
-	5850 12700 5950 12800
-Entry Wire Line
-	5850 12800 5950 12900
-Entry Wire Line
-	5850 12900 5950 13000
-Entry Wire Line
-	5850 13000 5950 13100
-Entry Wire Line
-	5850 13100 5950 13200
-Entry Wire Line
-	5850 13200 5950 13300
-Entry Wire Line
-	5850 13300 5950 13400
-Entry Wire Line
-	5850 13400 5950 13500
-Text Label 15350 3800 2    50   ~ 0
-XCVR_EN
-Text Label 6400 12800 2    50   ~ 0
-XCVR_EN
-Text Label 6400 12900 2    50   ~ 0
-RSSI
-Text Label 6400 13000 2    50   ~ 0
-TX_ENABLE
-Text Label 6400 13100 2    50   ~ 0
-RX_ENABLE
-Text Label 6400 13200 2    50   ~ 0
-SPI1_NSS
-Text Label 6400 13300 2    50   ~ 0
-SPI1_SCK
-Text Label 6400 13400 2    50   ~ 0
-SPI1_MISO
-Text Label 6400 13500 2    50   ~ 0
-SPI1_MOSI
-Wire Wire Line
-	6400 12800 5950 12800
-Wire Wire Line
-	6400 12900 5950 12900
-Wire Wire Line
-	6400 13000 5950 13000
-Wire Wire Line
-	6400 13100 5950 13100
-Wire Wire Line
-	6400 13200 5950 13200
-Wire Wire Line
-	6400 13300 5950 13300
-Wire Wire Line
-	6400 13400 5950 13400
-Wire Wire Line
-	6400 13500 5950 13500
-Text GLabel 5800 12700 0    50   BiDi ~ 0
-PROC-MAX2837 [0:7]
-Wire Bus Line
-	5850 12700 5800 12700
-Wire Wire Line
-	14950 4600 15350 4600
-Text Label 15350 4600 2    50   ~ 0
-CS_AD
-Text Label 8350 12800 2    50   ~ 0
-SPI1_SCK
-Text Label 8350 12900 2    50   ~ 0
-SPI1_MOSI
-Wire Wire Line
-	8350 12800 7950 12800
-Wire Wire Line
-	7950 13000 8350 13000
-Text Label 8350 13000 2    50   ~ 0
-CS_AD
-Wire Wire Line
-	7950 12900 8350 12900
-Entry Wire Line
-	7850 12700 7950 12800
-Entry Wire Line
-	7850 12800 7950 12900
-Entry Wire Line
-	7850 12900 7950 13000
-Wire Bus Line
-	7850 12700 7800 12700
-Text GLabel 7800 12700 0    50   BiDi ~ 0
-PROC-MAX5864 [0:2]
+	14950 7600 15350 7600
+Text Label 15350 7600 2    50   ~ 0
+SPI1_CS_AD
 Wire Wire Line
 	15350 5100 14950 5100
 Wire Wire Line
 	15350 5200 14950 5200
-Text Label 9800 12700 2    50   ~ 0
-TMS
-Text Label 9800 12800 2    50   ~ 0
-TCK
-Text Label 9800 13000 2    50   ~ 0
-TDO
-Text Label 9800 12900 2    50   ~ 0
-TDI
-Text Label 9800 13100 2    50   ~ 0
-TRST
-Entry Wire Line
-	9150 12600 9250 12700
-Entry Wire Line
-	9150 12700 9250 12800
-Entry Wire Line
-	9150 12800 9250 12900
-Entry Wire Line
-	9150 12900 9250 13000
-Entry Wire Line
-	9150 13000 9250 13100
-Wire Bus Line
-	9150 12600 9100 12600
-Text GLabel 9100 12600 0    50   BiDi ~ 0
-PROC_JTAG [0:5]
-Entry Wire Line
-	9150 13100 9250 13200
-Text Label 9800 13200 2    50   ~ 0
-NRST
-Wire Wire Line
-	9250 12700 9800 12700
-Wire Wire Line
-	9250 12800 9800 12800
-Wire Wire Line
-	9250 12900 9800 12900
-Wire Wire Line
-	9250 13000 9800 13000
-Wire Wire Line
-	9250 13100 9800 13100
-Wire Wire Line
-	9250 13200 9800 13200
-Text Label 9300 12800 0    50   ~ 0
-JTAG1
-Text Label 9300 12700 0    50   ~ 0
-JTAG0
-Text Label 9300 12900 0    50   ~ 0
-JTAG2
-Text Label 9300 13000 0    50   ~ 0
-JTAG3
-Text Label 9300 13100 0    50   ~ 0
-JTAG4
-Text Label 9300 13200 0    50   ~ 0
-JTAG5
 Wire Wire Line
 	14950 5500 15350 5500
-Text GLabel 15350 5500 2    50   Input ~ 0
-!VAA_ENABLE
 Wire Wire Line
 	14950 8900 15550 8900
 Text Label 15550 8900 2    50   ~ 0
@@ -959,7 +805,7 @@ Entry Wire Line
 Entry Wire Line
 	11250 12450 11150 12550
 Text GLabel 11500 11550 2    50   BiDi ~ 0
-PROC-FPGA_FMC_D [0:15]
+FMC_D [0:15]
 Wire Wire Line
 	1500 9800 1850 9800
 $Comp
@@ -1370,7 +1216,7 @@ FMC_NL
 Wire Bus Line
 	11250 13400 11400 13400
 Text GLabel 11400 13400 2    50   Input ~ 0
-PROC_FPGA_FMC_C [0:5]
+FMC [0:5]
 Wire Wire Line
 	14950 10000 15550 10000
 Wire Wire Line
@@ -1454,7 +1300,7 @@ Wire Wire Line
 Wire Bus Line
 	13000 12000 13150 12000
 Text GLabel 13150 12000 2    50   Input ~ 0
-PROC_FPGA_FMC_A[14:23]
+FMC_A[14:23]
 Entry Wire Line
 	12900 12200 13000 12100
 Entry Wire Line
@@ -1510,7 +1356,7 @@ Entry Wire Line
 Wire Bus Line
 	5900 13600 5800 13600
 Text GLabel 5800 13600 0    50   Input ~ 0
-I2C_PROC
+I2C1 [0:1]
 Text Label 5550 7950 0    50   ~ 0
 GPIO_MCU_8
 Wire Wire Line
@@ -2025,24 +1871,138 @@ Text Notes 5150 6500 0    50   ~ 0
 SI351C
 Wire Wire Line
 	6050 6450 5900 6450
-Text GLabel 15350 5600 2    50   Input ~ 0
-rf_RXTX
-Text GLabel 15350 5700 2    50   Input ~ 0
-rf_ANTSEL
 Wire Wire Line
 	15350 5600 14950 5600
 Wire Wire Line
 	14950 5700 15350 5700
+Text GLabel 15350 4800 2    50   Output ~ 0
+UART1_TX
+Text GLabel 15350 4700 2    50   Input ~ 0
+UART1_RX
+Text GLabel 15350 3900 2    50   Input ~ 0
+rf_RSSI
+Entry Wire Line
+	5950 12900 6050 13000
+Entry Wire Line
+	5950 13000 6050 13100
+Entry Wire Line
+	5950 13100 6050 13200
+Text Label 6500 13000 2    50   ~ 0
+SPI1_SCK
+Text Label 6500 13100 2    50   ~ 0
+SPI1_MISO
+Text Label 6500 13200 2    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	6500 12900 6050 12900
+Wire Wire Line
+	6500 13000 6050 13000
+Wire Wire Line
+	6500 13100 6050 13100
+Wire Wire Line
+	6500 13200 6050 13200
+Text GLabel 5900 12700 0    50   BiDi ~ 0
+SPI1 [0:7]
 Wire Bus Line
-	7850 12700 7850 12900
+	5950 12700 5900 12700
+Wire Wire Line
+	6050 13300 6450 13300
+Text Label 6450 13300 2    50   ~ 0
+SPI1_CS_AD
+Entry Wire Line
+	5950 13200 6050 13300
+Text Label 6500 12900 2    50   ~ 0
+SPI1_CS_RF
+Entry Wire Line
+	5950 12800 6050 12900
+Wire Wire Line
+	15400 4200 14950 4200
+Text Label 15400 4200 2    50   ~ 0
+SPI1_CS_RF
+Text GLabel 15350 5500 2    50   Input ~ 0
+rf_ANTSEL
+Text GLabel 15350 4100 2    50   Input ~ 0
+rf_RXTX
+Text GLabel 15350 4000 2    50   Input ~ 0
+rf_RXHP
+Text GLabel 15350 5600 2    50   Input ~ 0
+rf_!SHDN
+Text GLabel 15350 5700 2    50   Input ~ 0
+rf_LD
+Text GLabel 15350 3800 2    50   Input ~ 0
+!VAA_ENABLE
+Wire Wire Line
+	15350 3800 14950 3800
+Wire Wire Line
+	15350 4000 14950 4000
+Wire Wire Line
+	15350 4100 14950 4100
+Text Label 15350 4800 2    50   ~ 0
+USART1_RX
+Text Label 15350 4700 2    50   ~ 0
+USART1_TX
+NoConn ~ 14950 8400
+NoConn ~ 14950 8300
+NoConn ~ 14950 8200
+NoConn ~ 14950 8100
+NoConn ~ 14950 8000
+NoConn ~ 14950 7900
+NoConn ~ 14950 7800
+NoConn ~ 14950 7700
+NoConn ~ 14950 7000
+NoConn ~ 14950 6900
+NoConn ~ 14950 6800
+NoConn ~ 14950 6700
+NoConn ~ 14950 6600
+NoConn ~ 14950 6500
+NoConn ~ 14950 5000
+NoConn ~ 14950 4900
+NoConn ~ 14950 4600
+NoConn ~ 6050 5750
+NoConn ~ 6050 5850
+NoConn ~ 6050 6150
+NoConn ~ 6050 6550
+NoConn ~ 6050 6650
+NoConn ~ 6050 6750
+NoConn ~ 6050 6850
+NoConn ~ 6050 6950
+NoConn ~ 6050 7050
+NoConn ~ 6050 8350
+NoConn ~ 6050 8450
+NoConn ~ 6050 8550
+NoConn ~ 6050 8650
+NoConn ~ 6050 8750
+NoConn ~ 6050 8950
+NoConn ~ 6050 9050
+NoConn ~ 14950 8500
+Wire Bus Line
+	7450 8150 7450 9150
+Wire Bus Line
+	5700 9550 5700 10150
+Wire Bus Line
+	5700 7700 5700 9300
+Wire Bus Line
+	4350 2000 4350 2200
+Wire Bus Line
+	4300 1100 4300 1800
+Text HLabel 15350 5800 2    50   Output ~ 0
+STM_JTDO
+Text HLabel 15350 5900 2    50   Input ~ 0
+STM_JTRST
+Text HLabel 15350 5300 2    50   Input ~ 0
+STM_JTDI
+Text HLabel 15350 5200 2    50   Input ~ 0
+STM_JTCK
+Text HLabel 15350 5100 2    50   Input ~ 0
+STM_JTMS
+Text HLabel 5750 3850 0    50   Input ~ 0
+STM_JNRST
 Wire Bus Line
 	5900 13600 5900 13800
 Wire Bus Line
-	9150 12600 9150 13100
-Wire Bus Line
-	5850 12700 5850 13400
-Wire Bus Line
 	11250 13400 11250 14000
+Wire Bus Line
+	5950 12700 5950 13400
 Wire Bus Line
 	13000 12000 13000 13000
 Wire Bus Line

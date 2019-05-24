@@ -225,7 +225,7 @@ Text Notes 1200 1300 0    50   ~ 0
 MCU 3.3V Regulator
 Text Notes 1200 2900 0    50   ~ 0
 FPGA 3.3V Regulator
-Text Notes 1200 4450 0    50   ~ 0
+Text Notes 850  4250 0    50   ~ 0
 FPGA 1.2V Regulator
 Text Notes 5000 1300 0    50   ~ 0
 Input USB power
@@ -485,4 +485,26 @@ F 4 "311-1.8KGRTR-ND" V 5050 3950 50  0001 C CNN "Digikey"
 	1    5050 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5D09DB9D
+P 2500 4350
+F 0 "R?" V 2550 4500 50  0000 L CNN
+F 1 "100" V 2500 4250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 4350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2500 4350 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 2500 4350 50  0001 C CNN "Digikey"
+	1    2500 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4350 3450 4350
+Wire Wire Line
+	3450 4350 3450 4900
+Wire Wire Line
+	2350 4350 1550 4350
+Wire Wire Line
+	1550 4350 1550 4900
+Text Notes 2650 4300 0    39   ~ 0
+DNP
 $EndSCHEMATC

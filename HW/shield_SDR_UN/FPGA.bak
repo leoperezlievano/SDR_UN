@@ -649,18 +649,16 @@ Text HLabel 7200 6650 3    50   BiDi ~ 0
 START_MCU
 Text HLabel 7100 6650 3    50   BiDi ~ 0
 CTRL_MCU
-Text Label 8800 6650 3    50   ~ 0
+Text Label 11200 8050 3    50   ~ 0
 SCL_I2C
-Text Label 8900 6650 3    50   ~ 0
+Text Label 11300 8050 3    50   ~ 0
 SDA_I2C
-Wire Wire Line
-	9000 6650 9000 6950
 Text Label 3450 7700 1    50   ~ 0
 BLK_LED1
 Wire Wire Line
-	8900 6650 8900 6950
+	11300 8050 11300 8350
 Wire Wire Line
-	8800 6650 8800 6950
+	11200 8050 11200 8350
 $Comp
 L Connector_Generic:Conn_02x18_Counter_Clockwise J?
 U 1 1 5D482A3C
@@ -758,35 +756,35 @@ Text Label 1700 7600 2    50   ~ 0
 FPGA_GPIO_30
 Text Label 1700 7500 2    50   ~ 0
 FPGA_GPIO_31
-Text Label 7000 2100 1    50   ~ 0
+Text Label 4300 1350 1    50   ~ 0
 FPGA_GPIO_00
-Text Label 7100 2100 1    50   ~ 0
+Text Label 4400 1350 1    50   ~ 0
 FPGA_GPIO_01
-Text Label 7200 2100 1    50   ~ 0
+Text Label 4500 1350 1    50   ~ 0
 FPGA_GPIO_02
-Text Label 7300 2100 1    50   ~ 0
+Text Label 4600 1350 1    50   ~ 0
 FPGA_GPIO_03
-Text Label 7400 2100 1    50   ~ 0
+Text Label 4700 1350 1    50   ~ 0
 FPGA_GPIO_04
-Text Label 7500 2100 1    50   ~ 0
+Text Label 4800 1350 1    50   ~ 0
 FPGA_GPIO_05
-Text Label 7600 2100 1    50   ~ 0
+Text Label 4900 1350 1    50   ~ 0
 FPGA_GPIO_06
-Text Label 7700 2100 1    50   ~ 0
+Text Label 5000 1350 1    50   ~ 0
 FPGA_GPIO_07
-Text Label 7800 2100 1    50   ~ 0
+Text Label 5100 1350 1    50   ~ 0
 FPGA_GPIO_08
-Text Label 7900 2100 1    50   ~ 0
+Text Label 5200 1350 1    50   ~ 0
 FPGA_GPIO_09
-Text Label 8000 2100 1    50   ~ 0
+Text Label 5300 1350 1    50   ~ 0
 FPGA_GPIO_10
-Text Label 8100 2100 1    50   ~ 0
+Text Label 5400 1350 1    50   ~ 0
 FPGA_GPIO_11
-Text Label 8200 2100 1    50   ~ 0
+Text Label 5500 1350 1    50   ~ 0
 FPGA_GPIO_12
-Text Label 8500 2100 1    50   ~ 0
+Text Label 5800 1350 1    50   ~ 0
 FPGA_GPIO_15
-Text Label 8600 2100 1    50   ~ 0
+Text Label 5900 1350 1    50   ~ 0
 FPGA_GPIO_16
 Wire Wire Line
 	2200 9000 2750 9000
@@ -820,35 +818,35 @@ Wire Wire Line
 	2200 7600 2750 7600
 Wire Wire Line
 	2200 7500 2750 7500
-Text Label 8700 2100 1    50   ~ 0
+Text Label 6000 1350 1    50   ~ 0
 FPGA_GPIO_17
-Text Label 8800 2100 1    50   ~ 0
+Text Label 6100 1350 1    50   ~ 0
 FPGA_GPIO_18
-Text Label 8900 2100 1    50   ~ 0
+Text Label 6200 1350 1    50   ~ 0
 FPGA_GPIO_19
-Text Label 9000 2100 1    50   ~ 0
+Text Label 6300 1350 1    50   ~ 0
 FPGA_GPIO_20
-Text Label 9100 2100 1    50   ~ 0
+Text Label 6400 1350 1    50   ~ 0
 FPGA_GPIO_21
-Text Label 9200 2100 1    50   ~ 0
+Text Label 6500 1350 1    50   ~ 0
 FPGA_GPIO_22
-Text Label 9300 2100 1    50   ~ 0
+Text Label 6600 1350 1    50   ~ 0
 FPGA_GPIO_23
 Text Label 7300 6650 3    50   ~ 0
 FPGA_GPIO_24
 Text Label 7400 6650 3    50   ~ 0
 FPGA_GPIO_25
-Text Label 8200 6650 3    50   ~ 0
+Text Label 9450 8500 3    50   ~ 0
 FPGA_GPIO_26
-Text Label 8300 6650 3    50   ~ 0
+Text Label 9550 8500 3    50   ~ 0
 FPGA_GPIO_27
-Text Label 8400 6650 3    50   ~ 0
+Text Label 9650 8500 3    50   ~ 0
 FPGA_GPIO_28
-Text Label 8500 6650 3    50   ~ 0
+Text Label 9750 8500 3    50   ~ 0
 FPGA_GPIO_29
-Text Label 8600 6650 3    50   ~ 0
+Text Label 9850 8500 3    50   ~ 0
 FPGA_GPIO_30
-Text Label 8700 6650 3    50   ~ 0
+Text Label 9950 8500 3    50   ~ 0
 FPGA_GPIO_31
 $Comp
 L power:GND #PWR0152
@@ -910,9 +908,9 @@ Text Notes 3250 7250 0    118  ~ 0
 Blink LEDs
 Text Notes 1550 7250 0    118  ~ 0
 GPIO Pins
-Text GLabel 8800 6950 3    50   Input ~ 0
+Text GLabel 11200 8350 3    50   Input ~ 0
 I2C_SCL
-Text GLabel 8900 6950 3    50   Input ~ 0
+Text GLabel 11300 8350 3    50   Input ~ 0
 I2C_SDA
 $Comp
 L power:+3.3V #PWR0154
@@ -950,22 +948,12 @@ Wire Wire Line
 	2550 1200 2550 1000
 Text Label 4000 7700 1    50   ~ 0
 BLK_LED2
-Text Label 9000 6950 1    50   ~ 0
+Text Label 7000 1600 3    50   ~ 0
 BLK_LED1
-Text Label 12350 5500 0    50   ~ 0
+Text Label 7100 1950 1    50   ~ 0
 BLK_LED2
 Wire Wire Line
-	12350 5500 12200 5500
-Wire Wire Line
-	12200 5000 12350 5000
-Wire Wire Line
-	12350 4900 12200 4900
-Wire Wire Line
-	12200 4800 12350 4800
-Wire Wire Line
-	12350 4700 12200 4700
-Wire Wire Line
-	12200 4600 12350 4600
+	7100 1950 7100 2100
 Wire Wire Line
 	12350 4400 12200 4400
 Wire Wire Line
@@ -992,45 +980,45 @@ Wire Wire Line
 	12200 3300 12350 3300
 Wire Wire Line
 	12350 3200 12200 3200
-Text GLabel 12350 5000 2    50   Input ~ 0
+Text GLabel 15500 5600 2    50   Input ~ 0
 adDA0
-Text GLabel 12350 4900 2    50   Input ~ 0
+Text GLabel 15500 5500 2    50   Input ~ 0
 adDA1
-Text GLabel 12350 4800 2    50   Input ~ 0
+Text GLabel 15500 5400 2    50   Input ~ 0
 adDA2
-Text GLabel 12350 4700 2    50   Input ~ 0
+Text GLabel 15500 5300 2    50   Input ~ 0
 adDA3
-Text GLabel 12350 4600 2    50   Input ~ 0
+Text GLabel 15500 5200 2    50   Input ~ 0
 adDA4
-Text GLabel 12350 4400 2    50   Input ~ 0
+Text GLabel 15500 5100 2    50   Input ~ 0
 adDA5
-Text GLabel 12350 4300 2    50   Input ~ 0
+Text GLabel 15500 5000 2    50   Input ~ 0
 adDA6
-Text GLabel 12350 4200 2    50   Input ~ 0
+Text GLabel 15500 4900 2    50   Input ~ 0
 adDA7
-Text GLabel 12350 4100 2    50   Input ~ 0
+Text GLabel 15500 4800 2    50   Input ~ 0
 adDD0
-Text GLabel 12350 4000 2    50   Input ~ 0
+Text GLabel 15500 4700 2    50   Input ~ 0
 adDD1
-Text GLabel 12350 3900 2    50   Input ~ 0
+Text GLabel 15500 4600 2    50   Input ~ 0
 adDD2
-Text GLabel 12350 3800 2    50   Input ~ 0
+Text GLabel 15500 4500 2    50   Input ~ 0
 adDD3
-Text GLabel 12350 3700 2    50   Input ~ 0
+Text GLabel 15500 4400 2    50   Input ~ 0
 adDD4
-Text GLabel 12350 3600 2    50   Input ~ 0
+Text GLabel 15500 4300 2    50   Input ~ 0
 adDD5
-Text GLabel 12350 3500 2    50   Input ~ 0
+Text GLabel 15500 4200 2    50   Input ~ 0
 adDD6
-Text GLabel 12350 3400 2    50   Input ~ 0
+Text GLabel 15500 4100 2    50   Input ~ 0
 adDD7
-Text GLabel 12350 3300 2    50   Input ~ 0
+Text GLabel 15500 4000 2    50   Input ~ 0
 adDD8
-Text GLabel 12350 3200 2    50   Input ~ 0
+Text GLabel 15500 3900 2    50   Input ~ 0
 adDD9
-Text Label 8300 2100 1    50   ~ 0
+Text Label 5600 1350 1    50   ~ 0
 FPGA_GPIO_13
-Text Label 8400 2100 1    50   ~ 0
+Text Label 5700 1350 1    50   ~ 0
 FPGA_GPIO_14
 Entry Wire Line
 	5700 7800 5600 7900
@@ -1051,7 +1039,7 @@ Entry Wire Line
 Entry Wire Line
 	5700 8600 5600 8700
 Text GLabel 5950 7700 2    50   BiDi ~ 0
-PROC-FPGA_FMC_D [0:15]
+FMC_D [0:15]
 Entry Wire Line
 	5700 9200 5600 9300
 Wire Wire Line
@@ -1173,7 +1161,7 @@ FMC_NADV o NL\n
 Wire Bus Line
 	5700 9550 5850 9550
 Text GLabel 5850 9550 2    50   Input ~ 0
-PROC_FPGA_FMC_C [0:5]
+FMC_C [0:5]
 Text Label 6850 8550 0    50   ~ 0
 FMC_A16
 Text Label 6850 8650 0    50   ~ 0
@@ -1217,7 +1205,7 @@ Wire Wire Line
 Wire Bus Line
 	7450 8150 7600 8150
 Text GLabel 7600 8150 2    50   Input ~ 0
-PROC_FPGA_FMC_A[14:23]
+FMC_A[14:23]
 Entry Wire Line
 	7350 8350 7450 8250
 Entry Wire Line
@@ -1244,134 +1232,106 @@ Wire Notes Line
 	8900 7350 4750 7350
 Text Notes 5450 7550 0    50   ~ 0
 BUS DATA-ADDRESS-CONTROL \nPROC<->FPGA\n
-Text Label 5100 2750 0    50   ~ 0
+Text Label 8200 7150 1    50   ~ 0
 FMC_D0
-Text Label 5100 2850 0    50   ~ 0
+Text Label 8300 7150 1    50   ~ 0
 FMC_D1
-Text Label 5100 2950 0    50   ~ 0
-FMC_D2
-Text Label 5100 3050 0    50   ~ 0
-FMC_D3
-Text Label 5100 3150 0    50   ~ 0
-FMC_D4
-Text Label 5100 3250 0    50   ~ 0
-FMC_D5
-Text Label 5100 3350 0    50   ~ 0
-FMC_D6
-Text Label 5100 3450 0    50   ~ 0
-FMC_D7
-Text Label 5100 3550 0    50   ~ 0
-FMC_D8
-Text Label 5100 4150 0    50   ~ 0
-FMC_D14
-Text Label 5100 4250 0    50   ~ 0
-FMC_D15
-Text Label 5100 4050 0    50   ~ 0
-FMC_D13
-Text Label 5100 3950 0    50   ~ 0
-FMC_D12
-Text Label 5100 3850 0    50   ~ 0
-FMC_D11
-Text Label 5100 3750 0    50   ~ 0
-FMC_D10
-Text Label 5100 3650 0    50   ~ 0
-FMC_D9
-Text Label 5100 4450 0    50   ~ 0
-FMC_CLK
-Text Label 5100 4650 0    50   ~ 0
-FMC_NWE
 Text Label 5100 4750 0    50   ~ 0
-FMC_NWAIT
-Text Label 5100 4850 0    50   ~ 0
-FMC_NE1
+FMC_D2
+Text Label 5100 4650 0    50   ~ 0
+FMC_D3
+Text Label 12700 4900 2    50   ~ 0
+FMC_D7
+Text Label 12700 5000 2    50   ~ 0
+FMC_D8
+Text Label 8900 7150 1    50   ~ 0
+FMC_D13
+Text Label 12700 5400 2    50   ~ 0
+FMC_D12
+Text Label 12700 5300 2    50   ~ 0
+FMC_D11
+Text Label 12700 5200 2    50   ~ 0
+FMC_D10
+Text Label 12700 5100 2    50   ~ 0
+FMC_D9
 Text Label 5100 4550 0    50   ~ 0
-FMC_NOE
+FMC_CLK
 Text Label 5100 4350 0    50   ~ 0
+FMC_NWE
+Text Label 5100 4150 0    50   ~ 0
+FMC_NE1
+Text Label 5100 4450 0    50   ~ 0
+FMC_NOE
+Text Label 5100 3150 0    50   ~ 0
 FMC_NL
-Text Label 5100 5150 0    50   ~ 0
+Text Label 8600 7150 1    50   ~ 0
 FMC_A16
-Text Label 5100 5250 0    50   ~ 0
+Text Label 8500 7150 1    50   ~ 0
 FMC_A17
-Text Label 6500 7150 1    50   ~ 0
+Text Label 8400 7150 1    50   ~ 0
 FMC_A18
 Wire Wire Line
-	6900 6650 6900 7150
+	7600 2100 7600 1600
 Wire Wire Line
-	6800 6650 6800 7150
+	7500 2100 7500 1600
 Wire Wire Line
-	6600 6650 6600 7150
+	7300 2100 7300 1600
 Wire Wire Line
-	6700 6650 6700 7150
-Text Label 6700 7150 1    50   ~ 0
+	7400 2100 7400 1600
+Text Label 7400 1600 3    50   ~ 0
 FMC_A20
-Text Label 6600 7150 1    50   ~ 0
+Text Label 7300 1600 3    50   ~ 0
 FMC_A19
-Text Label 6800 7150 1    50   ~ 0
+Text Label 7500 1600 3    50   ~ 0
 FMC_A21
-Text Label 6900 7150 1    50   ~ 0
+Text Label 7600 1600 3    50   ~ 0
 FMC_A22
-Text Label 7000 7150 1    50   ~ 0
-FMC_A23
 Wire Wire Line
-	7000 6650 7000 7150
+	8600 7150 8600 6650
 Wire Wire Line
-	5100 5150 5600 5150
+	8500 7150 8500 6650
 Wire Wire Line
-	5100 5250 5600 5250
-Wire Wire Line
-	6500 7150 6500 6650
-Text Label 5100 5050 0    50   ~ 0
+	8400 7150 8400 6650
+Text Label 8000 7150 1    50   ~ 0
 FMC_A15
-Text Label 5100 4950 0    50   ~ 0
+Text Label 8100 7150 1    50   ~ 0
 FMC_A14
 Wire Wire Line
-	5100 5050 5600 5050
+	8000 7150 8000 6650
 Wire Wire Line
-	5100 4950 5600 4950
-Wire Wire Line
-	5100 4850 5600 4850
-Wire Wire Line
-	5100 4750 5600 4750
-Wire Wire Line
-	5100 4650 5600 4650
-Wire Wire Line
-	5100 4550 5600 4550
-Wire Wire Line
-	5100 4450 5600 4450
-Wire Wire Line
-	5100 4350 5600 4350
-Wire Wire Line
-	5100 4250 5600 4250
+	8100 7150 8100 6650
 Wire Wire Line
 	5100 4150 5600 4150
 Wire Wire Line
-	5100 4050 5600 4050
+	5100 4350 5600 4350
 Wire Wire Line
-	5100 3950 5600 3950
+	5100 4450 5600 4450
 Wire Wire Line
-	5100 3850 5600 3850
-Wire Wire Line
-	5100 3750 5600 3750
-Wire Wire Line
-	5100 3650 5600 3650
-Wire Wire Line
-	5100 3550 5600 3550
-Wire Wire Line
-	5100 3450 5600 3450
-Wire Wire Line
-	5100 3350 5600 3350
-Wire Wire Line
-	5100 3250 5600 3250
+	5100 4550 5600 4550
 Wire Wire Line
 	5100 3150 5600 3150
 Wire Wire Line
-	5100 3050 5600 3050
+	8900 7150 8900 6650
 Wire Wire Line
-	5100 2950 5600 2950
+	12700 5400 12200 5400
 Wire Wire Line
-	5100 2850 5600 2850
+	12700 5300 12200 5300
 Wire Wire Line
-	5100 2750 5600 2750
+	12700 5200 12200 5200
+Wire Wire Line
+	12700 5100 12200 5100
+Wire Wire Line
+	12700 5000 12200 5000
+Wire Wire Line
+	12700 4900 12200 4900
+Wire Wire Line
+	5100 4650 5600 4650
+Wire Wire Line
+	5100 4750 5600 4750
+Wire Wire Line
+	8300 7150 8300 6650
+Wire Wire Line
+	8200 7150 8200 6650
 Wire Notes Line
 	8900 11100 8900 7350
 Wire Notes Line
@@ -1661,17 +1621,13 @@ F 4 "311-470GRCT-ND" V 4000 8050 50  0001 C CNN "Digikey"
 	1    4000 8050
 	1    0    0    -1  
 $EndComp
-Text GLabel 12350 5200 2    50   Input ~ 0
+Text GLabel 15500 5800 2    50   Input ~ 0
 GCK1
-Text GLabel 12350 5100 2    50   Input ~ 0
+Text GLabel 15500 5700 2    50   Input ~ 0
 GCK0
-Wire Wire Line
-	12350 5100 12200 5100
-Wire Wire Line
-	12350 5200 12200 5200
-Text Notes 12600 5150 0    50   ~ 0
+Text Notes 15750 5750 0    50   ~ 0
 SI351C
-Text Notes 12600 5250 0    50   ~ 0
+Text Notes 15750 5850 0    50   ~ 0
 SI351C
 $Comp
 L Device:C C?
@@ -1799,22 +1755,6 @@ F 4 "1276-1000-1-ND" H 3400 2350 50  0001 C CNN "Digikey"
 	1    3400 2350
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	9850 10150 9850 10350
-Wire Bus Line
-	7850 12700 7850 12900
-Wire Bus Line
-	5900 13600 5900 13800
-Wire Bus Line
-	5850 12700 5850 13400
-Wire Bus Line
-	9150 12600 9150 13100
-Wire Bus Line
-	11250 13400 11250 14000
-Wire Bus Line
-	13000 12000 13000 13000
-Wire Bus Line
-	11250 11550 11250 13150
 $Comp
 L Device:C C?
 U 1 1 5CEB213C
@@ -2110,6 +2050,36 @@ F 5 "220 Ohms ±5% 0.1W, 1/10W" H 14100 2200 50  0001 C CNN "DESCRPTION"
 $EndComp
 Text GLabel 14450 900  0    50   Input ~ 0
 3V3 FPGA
+Wire Wire Line
+	7200 2100 7200 1600
+Text Label 7200 1600 3    50   ~ 0
+FMC_A23
+Wire Wire Line
+	7000 1600 7000 2100
+Text Label 12700 4600 2    50   ~ 0
+FMC_D4
+Text Label 12700 4700 2    50   ~ 0
+FMC_D5
+Text Label 12700 4800 2    50   ~ 0
+FMC_D6
+Wire Wire Line
+	12700 4800 12200 4800
+Wire Wire Line
+	12700 4700 12200 4700
+Wire Wire Line
+	12700 4600 12200 4600
+Wire Wire Line
+	5100 4250 5600 4250
+Text Label 5100 4250 0    50   ~ 0
+FMC_NWAIT
+Wire Wire Line
+	8800 7150 8800 6650
+Wire Wire Line
+	8700 7150 8700 6650
+Text Label 8700 7150 1    50   ~ 0
+FMC_D15
+Text Label 8800 7150 1    50   ~ 0
+FMC_D14
 Wire Bus Line
 	5700 9550 5700 10150
 Wire Bus Line
