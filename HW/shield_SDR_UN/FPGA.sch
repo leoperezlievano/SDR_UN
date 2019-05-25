@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 6slx9tqg144:6SLX9TQG144 U?
+L 6slx9tqg144:6SLX9TQG144 U4
 U 1 1 5CD877F5
 P 8800 4500
-F 0 "U?" H 8400 4650 60  0000 R CNN
+F 0 "U4" H 8400 4650 60  0000 R CNN
 F 1 "XC6SLX9-2TQG144C" H 8900 4550 60  0000 R CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 7800 3850 60  0001 C CNN
 F 3 "" H 7800 3850 60  0000 C CNN
@@ -88,10 +88,10 @@ Connection ~ 11250 6800
 Wire Wire Line
 	11250 6800 11350 6800
 $Comp
-L power:GND #PWR0133
+L power:GND #PWR091
 U 1 1 5CD8C490
 P 10750 6950
-F 0 "#PWR0133" H 10750 6700 50  0001 C CNN
+F 0 "#PWR091" H 10750 6700 50  0001 C CNN
 F 1 "GND" H 10755 6777 50  0000 C CNN
 F 2 "" H 10750 6950 50  0001 C CNN
 F 3 "" H 10750 6950 50  0001 C CNN
@@ -159,10 +159,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 6650 9200 6800
 $Comp
-L power:+3.3V #PWR0134
+L power:+3.3V #PWR087
 U 1 1 5CD9404D
 P 6800 1850
-F 0 "#PWR0134" H 6800 1700 50  0001 C CNN
+F 0 "#PWR087" H 6800 1700 50  0001 C CNN
 F 1 "+3.3V" H 6815 2023 50  0000 C CNN
 F 2 "" H 6800 1850 50  0001 C CNN
 F 3 "" H 6800 1850 50  0001 C CNN
@@ -170,10 +170,10 @@ F 3 "" H 6800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0135
+L power:+3.3V #PWR089
 U 1 1 5CD9406C
 P 9750 1850
-F 0 "#PWR0135" H 9750 1700 50  0001 C CNN
+F 0 "#PWR089" H 9750 1700 50  0001 C CNN
 F 1 "+3.3V" H 9765 2023 50  0000 C CNN
 F 2 "" H 9750 1850 50  0001 C CNN
 F 3 "" H 9750 1850 50  0001 C CNN
@@ -181,10 +181,10 @@ F 3 "" H 9750 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0136
+L power:+3.3V #PWR086
 U 1 1 5CD9408C
 P 5350 5450
-F 0 "#PWR0136" H 5350 5300 50  0001 C CNN
+F 0 "#PWR086" H 5350 5300 50  0001 C CNN
 F 1 "+3.3V" V 5365 5578 50  0000 L CNN
 F 2 "" H 5350 5450 50  0001 C CNN
 F 3 "" H 5350 5450 50  0001 C CNN
@@ -192,10 +192,10 @@ F 3 "" H 5350 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0137
+L power:+3.3V #PWR088
 U 1 1 5CD940AD
 P 9200 6900
-F 0 "#PWR0137" H 9200 6750 50  0001 C CNN
+F 0 "#PWR088" H 9200 6750 50  0001 C CNN
 F 1 "+3.3V" H 9215 7073 50  0000 C CNN
 F 2 "" H 9200 6900 50  0001 C CNN
 F 3 "" H 9200 6900 50  0001 C CNN
@@ -203,10 +203,10 @@ F 3 "" H 9200 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0138
+L power:+3.3V #PWR093
 U 1 1 5CD940C7
 P 12450 2850
-F 0 "#PWR0138" H 12450 2700 50  0001 C CNN
+F 0 "#PWR093" H 12450 2700 50  0001 C CNN
 F 1 "+3.3V" V 12465 2978 50  0000 L CNN
 F 2 "" H 12450 2850 50  0001 C CNN
 F 3 "" H 12450 2850 50  0001 C CNN
@@ -248,10 +248,10 @@ Wire Wire Line
 	10200 1950 10300 1950
 Connection ~ 10300 1950
 $Comp
-L power:+1V2 #PWR0139
+L power:+1V2 #PWR090
 U 1 1 5CD9E3F4
 P 10400 1850
-F 0 "#PWR0139" H 10400 1700 50  0001 C CNN
+F 0 "#PWR090" H 10400 1700 50  0001 C CNN
 F 1 "+1V2" H 10415 2023 50  0000 C CNN
 F 2 "" H 10400 1850 50  0001 C CNN
 F 3 "" H 10400 1850 50  0001 C CNN
@@ -277,10 +277,10 @@ Wire Wire Line
 Wire Wire Line
 	11250 1950 11250 2100
 $Comp
-L power:GND #PWR0140
+L power:GND #PWR092
 U 1 1 5CDA6820
 P 10850 1950
-F 0 "#PWR0140" H 10850 1700 50  0001 C CNN
+F 0 "#PWR092" H 10850 1700 50  0001 C CNN
 F 1 "GND" H 10855 1777 50  0000 C CNN
 F 2 "" H 10850 1950 50  0001 C CNN
 F 3 "" H 10850 1950 50  0001 C CNN
@@ -414,10 +414,10 @@ Connection ~ 1400 4800
 Wire Wire Line
 	1400 4800 1700 4800
 $Comp
-L power:+3.3V #PWR0141
+L power:+3.3V #PWR078
 U 1 1 5CE025FC
 P 2200 2000
-F 0 "#PWR0141" H 2200 1850 50  0001 C CNN
+F 0 "#PWR078" H 2200 1850 50  0001 C CNN
 F 1 "+3.3V" H 2215 2173 50  0000 C CNN
 F 2 "" H 2200 2000 50  0001 C CNN
 F 3 "" H 2200 2000 50  0001 C CNN
@@ -425,10 +425,10 @@ F 3 "" H 2200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0142
+L power:+3.3V #PWR075
 U 1 1 5CE026B4
 P 1700 4200
-F 0 "#PWR0142" H 1700 4050 50  0001 C CNN
+F 0 "#PWR075" H 1700 4050 50  0001 C CNN
 F 1 "+3.3V" H 1715 4373 50  0000 C CNN
 F 2 "" H 1700 4200 50  0001 C CNN
 F 3 "" H 1700 4200 50  0001 C CNN
@@ -436,10 +436,10 @@ F 3 "" H 1700 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0143
+L power:GND #PWR079
 U 1 1 5CE0270A
 P 2200 2700
-F 0 "#PWR0143" H 2200 2450 50  0001 C CNN
+F 0 "#PWR079" H 2200 2450 50  0001 C CNN
 F 1 "GND" H 2205 2527 50  0000 C CNN
 F 2 "" H 2200 2700 50  0001 C CNN
 F 3 "" H 2200 2700 50  0001 C CNN
@@ -447,10 +447,10 @@ F 3 "" H 2200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0144
+L power:GND #PWR076
 U 1 1 5CE02759
 P 1700 4900
-F 0 "#PWR0144" H 1700 4650 50  0001 C CNN
+F 0 "#PWR076" H 1700 4650 50  0001 C CNN
 F 1 "GND" H 1705 4727 50  0000 C CNN
 F 2 "" H 1700 4900 50  0001 C CNN
 F 3 "" H 1700 4900 50  0001 C CNN
@@ -547,83 +547,26 @@ Wire Wire Line
 Connection ~ 1300 3850
 Wire Wire Line
 	1300 3850 1600 3850
-Wire Wire Line
-	2250 5100 2250 5000
-Wire Wire Line
-	2250 5000 2550 5000
-Wire Wire Line
-	3450 5000 3450 5100
-Wire Wire Line
-	3150 5100 3150 5000
-Connection ~ 3150 5000
-Wire Wire Line
-	3150 5000 3450 5000
-Wire Wire Line
-	2850 5100 2850 5000
-Connection ~ 2850 5000
-Wire Wire Line
-	2850 5000 3150 5000
-Wire Wire Line
-	2550 5100 2550 5000
-Connection ~ 2550 5000
-Wire Wire Line
-	2550 5000 2850 5000
-Wire Wire Line
-	2250 5400 2250 5500
-Wire Wire Line
-	2250 5500 2550 5500
-Wire Wire Line
-	3450 5500 3450 5400
-Wire Wire Line
-	3150 5400 3150 5500
-Connection ~ 3150 5500
-Wire Wire Line
-	3150 5500 3450 5500
-Wire Wire Line
-	2850 5400 2850 5500
-Connection ~ 2850 5500
-Wire Wire Line
-	2850 5500 3150 5500
-Wire Wire Line
-	2550 5400 2550 5500
-Connection ~ 2550 5500
-Wire Wire Line
-	2550 5500 2850 5500
 $Comp
-L power:GND #PWR0145
+L power:GND #PWR081
 U 1 1 5CE45DAE
 P 2200 3950
-F 0 "#PWR0145" H 2200 3700 50  0001 C CNN
+F 0 "#PWR081" H 2200 3700 50  0001 C CNN
 F 1 "GND" H 2205 3777 50  0000 C CNN
 F 2 "" H 2200 3950 50  0001 C CNN
 F 3 "" H 2200 3950 50  0001 C CNN
 	1    2200 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 5CE45DB4
-P 2850 5600
-F 0 "#PWR0146" H 2850 5350 50  0001 C CNN
-F 1 "GND" H 2855 5427 50  0000 C CNN
-F 2 "" H 2850 5600 50  0001 C CNN
-F 3 "" H 2850 5600 50  0001 C CNN
-	1    2850 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 3350 2200 3250
 Wire Wire Line
 	2200 3850 2200 3950
-Wire Wire Line
-	2850 4900 2850 5000
-Wire Wire Line
-	2850 5500 2850 5600
 $Comp
-L power:+1V2 #PWR0147
+L power:+1V2 #PWR080
 U 1 1 5CE50B99
 P 2200 3250
-F 0 "#PWR0147" H 2200 3100 50  0001 C CNN
+F 0 "#PWR080" H 2200 3100 50  0001 C CNN
 F 1 "+1V2" H 2215 3423 50  0000 C CNN
 F 2 "" H 2200 3250 50  0001 C CNN
 F 3 "" H 2200 3250 50  0001 C CNN
@@ -631,284 +574,75 @@ F 3 "" H 2200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR0148
+L power:+1V2 #PWR071
 U 1 1 5CE51182
-P 2850 4900
-F 0 "#PWR0148" H 2850 4750 50  0001 C CNN
-F 1 "+1V2" H 2865 5073 50  0000 C CNN
-F 2 "" H 2850 4900 50  0001 C CNN
-F 3 "" H 2850 4900 50  0001 C CNN
-	1    2850 4900
+P 1625 5375
+F 0 "#PWR071" H 1625 5225 50  0001 C CNN
+F 1 "+1V2" H 1640 5548 50  0000 C CNN
+F 2 "" H 1625 5375 50  0001 C CNN
+F 3 "" H 1625 5375 50  0001 C CNN
+	1    1625 5375
 	1    0    0    -1  
 $EndComp
-Text HLabel 7800 6750 3    50   Input ~ 0
-CLK_INPUT
-Wire Wire Line
-	7800 6750 7800 6650
-Text HLabel 7200 6650 3    50   BiDi ~ 0
-START_MCU
-Text HLabel 7100 6650 3    50   BiDi ~ 0
-CTRL_MCU
 Text Label 5400 3050 2    50   ~ 0
 SCL_I2C
 Text Label 5400 2950 2    50   ~ 0
 SDA_I2C
-Text Label 3450 7700 1    50   ~ 0
+Text Label 1475 9675 1    50   ~ 0
 BLK_LED1
-$Comp
-L Connector_Generic:Conn_02x18_Counter_Clockwise J?
-U 1 1 5D482A3C
-P 2000 8300
-F 0 "J?" H 2050 9317 50  0000 C CNN
-F 1 "Conn_02x18_Counter_Clockwise" H 2050 9226 50  0000 C CNN
-F 2 "" H 2000 8300 50  0001 C CNN
-F 3 "~" H 2000 8300 50  0001 C CNN
-	1    2000 8300
-	-1   0    0    1   
-$EndComp
-Text Label 2200 9000 0    50   ~ 0
+Text Label 7800 7225 1    50   ~ 0
 FPGA_GPIO_00
-Text Label 2200 8900 0    50   ~ 0
+Text Label 7700 7225 1    50   ~ 0
 FPGA_GPIO_01
-Text Label 2200 8800 0    50   ~ 0
+Text Label 7600 7225 1    50   ~ 0
 FPGA_GPIO_02
-Text Label 2200 8700 0    50   ~ 0
+Text Label 7500 7225 1    50   ~ 0
 FPGA_GPIO_03
-Text Label 2200 8600 0    50   ~ 0
+Text Label 7400 7225 1    50   ~ 0
 FPGA_GPIO_04
-Text Label 2200 8500 0    50   ~ 0
+Text Label 7300 7225 1    50   ~ 0
 FPGA_GPIO_05
-Text Label 2200 8400 0    50   ~ 0
+Text Label 7200 7225 1    50   ~ 0
 FPGA_GPIO_06
-Text Label 2200 8300 0    50   ~ 0
+Text Label 7100 7225 1    50   ~ 0
 FPGA_GPIO_07
-Text Label 2200 8200 0    50   ~ 0
+Text Label 7000 7225 1    50   ~ 0
 FPGA_GPIO_08
-Text Label 2200 8100 0    50   ~ 0
+Text Label 6900 7225 1    50   ~ 0
 FPGA_GPIO_09
-Text Label 2200 8000 0    50   ~ 0
+Text Label 6800 7225 1    50   ~ 0
 FPGA_GPIO_10
-Text Label 2200 7900 0    50   ~ 0
+Text Label 6700 7225 1    50   ~ 0
 FPGA_GPIO_11
-Text Label 2200 7800 0    50   ~ 0
+Text Label 6600 7225 1    50   ~ 0
 FPGA_GPIO_12
-Text Label 2200 7700 0    50   ~ 0
-FPGA_GPIO_13
-Text Label 2200 7600 0    50   ~ 0
-FPGA_GPIO_14
-Text Label 2200 7500 0    50   ~ 0
+Text Label 3500 7825 0    50   ~ 0
 FPGA_GPIO_15
-Text Label 1700 9000 2    50   ~ 0
+Text Label 6025 7825 2    50   ~ 0
 FPGA_GPIO_16
-$Comp
-L power:GND #PWR0150
-U 1 1 5D487C17
-P 2200 7400
-F 0 "#PWR0150" H 2200 7150 50  0001 C CNN
-F 1 "GND" V 2205 7272 50  0000 R CNN
-F 2 "" H 2200 7400 50  0001 C CNN
-F 3 "" H 2200 7400 50  0001 C CNN
-	1    2200 7400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0151
-U 1 1 5D487CC0
-P 1700 7400
-F 0 "#PWR0151" H 1700 7250 50  0001 C CNN
-F 1 "+3.3V" V 1715 7528 50  0000 L CNN
-F 2 "" H 1700 7400 50  0001 C CNN
-F 3 "" H 1700 7400 50  0001 C CNN
-	1    1700 7400
-	0    -1   -1   0   
-$EndComp
-Text Label 1700 8900 2    50   ~ 0
+Text Label 3500 7925 0    50   ~ 0
 FPGA_GPIO_17
-Text Label 1700 8800 2    50   ~ 0
+Text Label 6025 7925 2    50   ~ 0
 FPGA_GPIO_18
-Text Label 1700 8700 2    50   ~ 0
+Text Label 3500 8025 0    50   ~ 0
 FPGA_GPIO_19
-Text Label 1700 8600 2    50   ~ 0
+Text Label 6025 8025 2    50   ~ 0
 FPGA_GPIO_20
-Text Label 1700 8500 2    50   ~ 0
+Text Label 3500 8125 0    50   ~ 0
 FPGA_GPIO_21
-Text Label 1700 8400 2    50   ~ 0
+Text Label 6025 8125 2    50   ~ 0
 FPGA_GPIO_22
-Text Label 1700 8300 2    50   ~ 0
-FPGA_GPIO_23
-Text Label 1700 8200 2    50   ~ 0
-FPGA_GPIO_24
-Text Label 1700 8100 2    50   ~ 0
-FPGA_GPIO_25
-Text Label 1700 8000 2    50   ~ 0
-FPGA_GPIO_26
-Text Label 1700 7900 2    50   ~ 0
-FPGA_GPIO_27
-Text Label 1700 7800 2    50   ~ 0
-FPGA_GPIO_28
-Text Label 1700 7700 2    50   ~ 0
-FPGA_GPIO_29
-Text Label 1700 7600 2    50   ~ 0
-FPGA_GPIO_30
-Text Label 1700 7500 2    50   ~ 0
-FPGA_GPIO_31
-Text Label 4300 1350 1    50   ~ 0
-FPGA_GPIO_00
-Text Label 4400 1350 1    50   ~ 0
-FPGA_GPIO_01
-Text Label 4500 1350 1    50   ~ 0
-FPGA_GPIO_02
-Text Label 4600 1350 1    50   ~ 0
-FPGA_GPIO_03
-Text Label 4700 1350 1    50   ~ 0
-FPGA_GPIO_04
-Text Label 4800 1350 1    50   ~ 0
-FPGA_GPIO_05
-Text Label 4900 1350 1    50   ~ 0
-FPGA_GPIO_06
-Text Label 5000 1350 1    50   ~ 0
-FPGA_GPIO_07
-Text Label 5100 1350 1    50   ~ 0
-FPGA_GPIO_08
-Text Label 5200 1350 1    50   ~ 0
-FPGA_GPIO_09
-Text Label 5300 1350 1    50   ~ 0
-FPGA_GPIO_10
-Text Label 5400 1350 1    50   ~ 0
-FPGA_GPIO_11
-Text Label 5500 1350 1    50   ~ 0
-FPGA_GPIO_12
-Text Label 5800 1350 1    50   ~ 0
-FPGA_GPIO_15
-Text Label 5900 1350 1    50   ~ 0
-FPGA_GPIO_16
-Wire Wire Line
-	2200 9000 2750 9000
-Wire Wire Line
-	2200 8800 2750 8800
-Wire Wire Line
-	2200 8900 2750 8900
-Wire Wire Line
-	2200 8700 2750 8700
-Wire Wire Line
-	2200 8600 2750 8600
-Wire Wire Line
-	2200 8500 2750 8500
-Wire Wire Line
-	2200 8400 2750 8400
-Wire Wire Line
-	2200 8300 2750 8300
-Wire Wire Line
-	2200 8200 2750 8200
-Wire Wire Line
-	2200 8100 2750 8100
-Wire Wire Line
-	2200 8000 2750 8000
-Wire Wire Line
-	2200 7900 2750 7900
-Wire Wire Line
-	2200 7800 2750 7800
-Wire Wire Line
-	2200 7700 2750 7700
-Wire Wire Line
-	2200 7600 2750 7600
-Wire Wire Line
-	2200 7500 2750 7500
-Text Label 6000 1350 1    50   ~ 0
-FPGA_GPIO_17
-Text Label 6100 1350 1    50   ~ 0
-FPGA_GPIO_18
-Text Label 6200 1350 1    50   ~ 0
-FPGA_GPIO_19
-Text Label 6300 1350 1    50   ~ 0
-FPGA_GPIO_20
-Text Label 6400 1350 1    50   ~ 0
-FPGA_GPIO_21
-Text Label 6500 1350 1    50   ~ 0
-FPGA_GPIO_22
-Text Label 6600 1350 1    50   ~ 0
-FPGA_GPIO_23
-Text Label 7300 6650 3    50   ~ 0
-FPGA_GPIO_24
-Text Label 7400 6650 3    50   ~ 0
-FPGA_GPIO_25
-Text Label 9450 8500 3    50   ~ 0
-FPGA_GPIO_26
-Text Label 9550 8500 3    50   ~ 0
-FPGA_GPIO_27
-Text Label 9650 8500 3    50   ~ 0
-FPGA_GPIO_28
-Text Label 9750 8500 3    50   ~ 0
-FPGA_GPIO_29
-Text Label 9850 8500 3    50   ~ 0
-FPGA_GPIO_30
-Text Label 9950 8500 3    50   ~ 0
-FPGA_GPIO_31
-$Comp
-L power:GND #PWR0152
-U 1 1 5D76EB2C
-P 2200 9100
-F 0 "#PWR0152" H 2200 8850 50  0001 C CNN
-F 1 "GND" V 2205 8972 50  0000 R CNN
-F 2 "" H 2200 9100 50  0001 C CNN
-F 3 "" H 2200 9100 50  0001 C CNN
-	1    2200 9100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0153
-U 1 1 5D76EBD5
-P 1700 9100
-F 0 "#PWR0153" H 1700 8950 50  0001 C CNN
-F 1 "+3.3V" V 1715 9228 50  0000 L CNN
-F 2 "" H 1700 9100 50  0001 C CNN
-F 3 "" H 1700 9100 50  0001 C CNN
-	1    1700 9100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1700 9000 1150 9000
-Wire Wire Line
-	1700 8900 1150 8900
-Wire Wire Line
-	1700 8800 1150 8800
-Wire Wire Line
-	1700 8700 1150 8700
-Wire Wire Line
-	1700 8600 1150 8600
-Wire Wire Line
-	1700 8500 1150 8500
-Wire Wire Line
-	1700 8400 1150 8400
-Wire Wire Line
-	1700 8300 1150 8300
-Wire Wire Line
-	1700 8200 1150 8200
-Wire Wire Line
-	1700 8100 1150 8100
-Wire Wire Line
-	1700 8000 1150 8000
-Wire Wire Line
-	1700 7900 1150 7900
-Wire Wire Line
-	1700 7800 1150 7800
-Wire Wire Line
-	1700 7700 1150 7700
-Wire Wire Line
-	1700 7600 1150 7600
-Wire Wire Line
-	1700 7500 1150 7500
-Text Notes 9000 8050 0    394  ~ 0
+Text Notes 11900 10475 0    394  ~ 0
 FPGA
-Text Notes 3250 7250 0    118  ~ 0
+Text Notes 1275 9000 0    118  ~ 0
 Blink LEDs
 Text Notes 1550 7250 0    118  ~ 0
 GPIO Pins
 $Comp
-L power:+3.3V #PWR0154
+L power:+3.3V #PWR074
 U 1 1 5D115086
 P 1700 1000
-F 0 "#PWR0154" H 1700 850 50  0001 C CNN
+F 0 "#PWR074" H 1700 850 50  0001 C CNN
 F 1 "+3.3V" H 1715 1173 50  0000 C CNN
 F 2 "" H 1700 1000 50  0001 C CNN
 F 3 "" H 1700 1000 50  0001 C CNN
@@ -922,10 +656,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 1200 1600 1200
 $Comp
-L power:+1V2 #PWR0155
+L power:+1V2 #PWR083
 U 1 1 5D11BB35
 P 2550 1000
-F 0 "#PWR0155" H 2550 850 50  0001 C CNN
+F 0 "#PWR083" H 2550 850 50  0001 C CNN
 F 1 "+1V2" H 2565 1173 50  0000 C CNN
 F 2 "" H 2550 1000 50  0001 C CNN
 F 3 "" H 2550 1000 50  0001 C CNN
@@ -938,7 +672,7 @@ Wire Wire Line
 	2450 1200 2550 1200
 Wire Wire Line
 	2550 1200 2550 1000
-Text Label 4000 7700 1    50   ~ 0
+Text Label 2025 9675 1    50   ~ 0
 BLK_LED2
 Text Label 7000 1600 3    50   ~ 0
 BLK_LED1
@@ -972,257 +706,123 @@ Wire Wire Line
 	12200 3300 12350 3300
 Wire Wire Line
 	12350 3200 12200 3200
-Text GLabel 15500 5600 2    50   Input ~ 0
+Text GLabel 8900 1900 1    50   Input ~ 0
 adDA0
-Text GLabel 15500 5500 2    50   Input ~ 0
+Text GLabel 9000 1900 1    50   Input ~ 0
 adDA1
-Text GLabel 15500 5400 2    50   Input ~ 0
+Text GLabel 9100 1900 1    50   Input ~ 0
 adDA2
-Text GLabel 15500 5300 2    50   Input ~ 0
-adDA3
-Text GLabel 15500 5200 2    50   Input ~ 0
-adDA4
-Text GLabel 15500 5100 2    50   Input ~ 0
-adDA5
-Text GLabel 15500 5000 2    50   Input ~ 0
-adDA6
-Text GLabel 15500 4900 2    50   Input ~ 0
-adDA7
-Text GLabel 15500 4800 2    50   Input ~ 0
-adDD0
-Text GLabel 15500 4700 2    50   Input ~ 0
-adDD1
-Text GLabel 15500 4600 2    50   Input ~ 0
-adDD2
-Text GLabel 15500 4500 2    50   Input ~ 0
-adDD3
-Text GLabel 15500 4400 2    50   Input ~ 0
-adDD4
-Text GLabel 15500 4300 2    50   Input ~ 0
-adDD5
-Text GLabel 15500 4200 2    50   Input ~ 0
-adDD6
-Text GLabel 15500 4100 2    50   Input ~ 0
-adDD7
-Text GLabel 15500 4000 2    50   Input ~ 0
-adDD8
-Text GLabel 15500 3900 2    50   Input ~ 0
-adDD9
-Text Label 5600 1350 1    50   ~ 0
+Text Label 6500 7225 1    50   ~ 0
 FPGA_GPIO_13
-Text Label 5700 1350 1    50   ~ 0
-FPGA_GPIO_14
-Entry Wire Line
-	5700 7800 5600 7900
-Entry Wire Line
-	5700 7900 5600 8000
-Entry Wire Line
-	5700 8000 5600 8100
-Entry Wire Line
-	5700 8100 5600 8200
-Entry Wire Line
-	5700 8200 5600 8300
-Entry Wire Line
-	5700 8300 5600 8400
-Entry Wire Line
-	5700 8400 5600 8500
-Entry Wire Line
-	5700 8500 5600 8600
-Entry Wire Line
-	5700 8600 5600 8700
-Text GLabel 5950 7700 2    50   BiDi ~ 0
-FMC_D [0:15]
-Entry Wire Line
-	5700 9200 5600 9300
 Wire Wire Line
-	5600 7900 5000 7900
+	8050 8075 7450 8075
 Wire Wire Line
-	5600 8000 5000 8000
-Text Label 5000 7900 0    50   ~ 0
+	8050 8175 7450 8175
+Text Label 7450 8075 0    50   ~ 0
 FMC_D0
-Text Label 5000 8000 0    50   ~ 0
+Text Label 7450 8175 0    50   ~ 0
 FMC_D1
 Wire Wire Line
-	5600 8100 5000 8100
+	8050 8275 7450 8275
 Wire Wire Line
-	5600 8200 5000 8200
+	8050 8375 7450 8375
 Wire Wire Line
-	5600 8300 5000 8300
+	8050 8475 7450 8475
 Wire Wire Line
-	5600 8400 5000 8400
+	8050 8575 7450 8575
 Wire Wire Line
-	5600 8500 5000 8500
+	8050 8675 7450 8675
 Wire Wire Line
-	5600 8600 5000 8600
+	8050 8775 7450 8775
 Wire Wire Line
-	5600 8700 5000 8700
+	8050 8875 7450 8875
 Wire Wire Line
-	5600 9200 5000 9200
+	8050 9375 7450 9375
 Wire Wire Line
-	5600 9300 5000 9300
-Text Label 5000 8100 0    50   ~ 0
+	8050 9475 7450 9475
+Text Label 7450 8275 0    50   ~ 0
 FMC_D2
-Text Label 5000 8200 0    50   ~ 0
+Text Label 7450 8375 0    50   ~ 0
 FMC_D3
-Text Label 5000 8300 0    50   ~ 0
+Text Label 7450 8475 0    50   ~ 0
 FMC_D4
-Text Label 5000 8400 0    50   ~ 0
+Text Label 7450 8575 0    50   ~ 0
 FMC_D5
-Text Label 5000 8500 0    50   ~ 0
+Text Label 7450 8675 0    50   ~ 0
 FMC_D6
-Text Label 5000 8600 0    50   ~ 0
+Text Label 7450 8775 0    50   ~ 0
 FMC_D7
-Text Label 5000 8700 0    50   ~ 0
+Text Label 7450 8875 0    50   ~ 0
 FMC_D8
-Text Label 5000 9300 0    50   ~ 0
+Text Label 7450 9475 0    50   ~ 0
 FMC_D14
-Entry Wire Line
-	5700 9300 5600 9400
 Wire Wire Line
-	5600 9400 5000 9400
-Text Label 5000 9400 0    50   ~ 0
+	8050 9575 7450 9575
+Text Label 7450 9575 0    50   ~ 0
 FMC_D15
-Text Label 5000 9200 0    50   ~ 0
+Text Label 7450 9375 0    50   ~ 0
 FMC_D13
-Text Label 5000 9100 0    50   ~ 0
+Text Label 7450 9275 0    50   ~ 0
 FMC_D12
-Text Label 5000 9000 0    50   ~ 0
+Text Label 7450 9175 0    50   ~ 0
 FMC_D11
-Text Label 5000 8900 0    50   ~ 0
+Text Label 7450 9075 0    50   ~ 0
 FMC_D10
-Text Label 5000 8800 0    50   ~ 0
+Text Label 7450 8975 0    50   ~ 0
 FMC_D9
 Wire Wire Line
-	5600 9100 5000 9100
+	8050 9275 7450 9275
 Wire Wire Line
-	5000 9000 5600 9000
+	7450 9175 8050 9175
 Wire Wire Line
-	5600 8900 5000 8900
+	8050 9075 7450 9075
 Wire Wire Line
-	5600 8800 5000 8800
-Entry Wire Line
-	5700 9100 5600 9200
-Entry Wire Line
-	5700 9000 5600 9100
-Entry Wire Line
-	5700 8900 5600 9000
-Entry Wire Line
-	5700 8800 5600 8900
-Entry Wire Line
-	5700 8700 5600 8800
-Wire Bus Line
-	5700 7700 5950 7700
-Entry Wire Line
-	5700 9750 5600 9850
-Entry Wire Line
-	5700 9850 5600 9950
-Entry Wire Line
-	5700 9950 5600 10050
-Entry Wire Line
-	5700 10050 5600 10150
-Entry Wire Line
-	5700 10150 5600 10250
-Wire Wire Line
-	5600 9850 5150 9850
-Wire Wire Line
-	5600 9950 5150 9950
-Wire Wire Line
-	5600 10050 5150 10050
-Wire Wire Line
-	5600 10150 5150 10150
-Wire Wire Line
-	5600 10250 5150 10250
-Text Label 5150 9850 0    50   ~ 0
-FMC_CLK
-Text Label 5150 10050 0    50   ~ 0
-FMC_NWE
-Text Label 5150 10150 0    50   ~ 0
-FMC_NWAIT
-Text Label 5150 10250 0    50   ~ 0
-FMC_NE1
-Text Label 5150 9950 0    50   ~ 0
-FMC_NOE
-Entry Wire Line
-	5700 9650 5600 9750
-Wire Wire Line
-	5600 9750 5150 9750
-Text Label 5150 9750 0    50   ~ 0
-FMC_NL
-Text Notes 5100 10550 0    50   ~ 0
-FMC_NADV o NL\n
-Wire Bus Line
-	5700 9550 5850 9550
-Text GLabel 5850 9550 2    50   Input ~ 0
-FMC_C [0:5]
-Text Label 6850 8550 0    50   ~ 0
+	8050 8975 7450 8975
+Text Label 9300 8725 0    50   ~ 0
 FMC_A16
-Text Label 6850 8650 0    50   ~ 0
+Text Label 9300 8825 0    50   ~ 0
 FMC_A17
-Text Label 6850 8750 0    50   ~ 0
+Text Label 9300 8925 0    50   ~ 0
 FMC_A18
 Wire Wire Line
-	7350 9150 6850 9150
+	9800 9325 9300 9325
 Wire Wire Line
-	7350 9050 6850 9050
+	9800 9225 9300 9225
 Wire Wire Line
-	7350 8850 6850 8850
+	9800 9025 9300 9025
 Wire Wire Line
-	7350 8950 6850 8950
-Text Label 6850 8950 0    50   ~ 0
+	9800 9125 9300 9125
+Text Label 9300 9125 0    50   ~ 0
 FMC_A20
-Text Label 6850 8850 0    50   ~ 0
+Text Label 9300 9025 0    50   ~ 0
 FMC_A19
-Text Label 6850 9050 0    50   ~ 0
+Text Label 9300 9225 0    50   ~ 0
 FMC_A21
-Text Label 6850 9150 0    50   ~ 0
+Text Label 9300 9325 0    50   ~ 0
 FMC_A22
-Text Label 6850 9250 0    50   ~ 0
+Text Label 9300 9425 0    50   ~ 0
 FMC_A23
 Wire Wire Line
-	7350 9250 6850 9250
+	9800 9425 9300 9425
 Wire Wire Line
-	6850 8550 7350 8550
+	9300 8725 9800 8725
 Wire Wire Line
-	6850 8650 7350 8650
+	9300 8825 9800 8825
 Wire Wire Line
-	6850 8750 7350 8750
-Text Label 6850 8450 0    50   ~ 0
+	9300 8925 9800 8925
+Text Label 9300 8625 0    50   ~ 0
 FMC_A15
-Text Label 6850 8350 0    50   ~ 0
+Text Label 9300 8525 0    50   ~ 0
 FMC_A14
 Wire Wire Line
-	6850 8450 7350 8450
+	9300 8625 9800 8625
 Wire Wire Line
-	6850 8350 7350 8350
-Wire Bus Line
-	7450 8150 7600 8150
-Text GLabel 7600 8150 2    50   Input ~ 0
-FMC_A[14:23]
-Entry Wire Line
-	7350 8350 7450 8250
-Entry Wire Line
-	7350 8450 7450 8350
-Entry Wire Line
-	7350 8550 7450 8450
-Entry Wire Line
-	7350 8650 7450 8550
-Entry Wire Line
-	7350 8750 7450 8650
-Entry Wire Line
-	7350 8850 7450 8750
-Entry Wire Line
-	7350 8950 7450 8850
-Entry Wire Line
-	7350 9050 7450 8950
-Entry Wire Line
-	7350 9150 7450 9050
-Entry Wire Line
-	7350 9250 7450 9150
+	9300 8525 9800 8525
 Wire Notes Line
-	4750 7350 4750 11100
+	7200 7525 7200 11275
 Wire Notes Line
-	8900 7350 4750 7350
-Text Notes 5450 7550 0    50   ~ 0
+	11350 7525 7200 7525
+Text Notes 7900 7725 0    50   ~ 0
 BUS DATA-ADDRESS-CONTROL \nPROC<->FPGA\n
 Text Label 8200 7150 1    50   ~ 0
 FMC_D0
@@ -1325,18 +925,18 @@ Wire Wire Line
 Wire Wire Line
 	8200 7150 8200 6650
 Wire Notes Line
-	8900 11100 8900 7350
+	11350 11275 11350 7525
 Wire Notes Line
-	4750 11100 8900 11100
+	7200 11275 11350 11275
 Wire Wire Line
 	12200 4500 12650 4500
 Text Label 12650 4500 2    50   ~ 0
 CLK80MHz
 $Comp
-L Oscillator:ASE-xxxMHz X?
+L Oscillator:ASE-xxxMHz X2
 U 1 1 5CF0FF08
 P 14300 4300
-F 0 "X?" H 14400 4550 50  0000 L CNN
+F 0 "X2" H 14400 4550 50  0000 L CNN
 F 1 "ASE-xxxMHz" H 14350 3950 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering" H 15000 3950 50  0001 C CNN
 F 3 "http://www.abracon.com/Oscillators/ASV.pdf" H 14200 4300 50  0001 C CNN
@@ -1366,10 +966,10 @@ Connection ~ 14300 3950
 Text GLabel 13650 3750 0    50   Input ~ 0
 3V3 FPGA
 $Comp
-L power:GND #PWR0212
+L power:GND #PWR096
 U 1 1 5CF18886
 P 13900 4750
-F 0 "#PWR0212" H 13900 4500 50  0001 C CNN
+F 0 "#PWR096" H 13900 4500 50  0001 C CNN
 F 1 "GND" H 13905 4577 50  0000 C CNN
 F 2 "" H 13900 4750 50  0001 C CNN
 F 3 "" H 13900 4750 50  0001 C CNN
@@ -1385,98 +985,22 @@ Wire Wire Line
 	14600 4300 15050 4300
 Text Label 15050 4300 2    50   ~ 0
 CLK80MHz
-$Comp
-L Device:R R?
-U 1 1 5CF5FF3D
-P 14100 1700
-F 0 "R?" H 14170 1746 50  0000 L CNN
-F 1 "220" H 14170 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14030 1700 50  0001 C CNN
-F 3 "~" H 14100 1700 50  0001 C CNN
-F 4 "311-220GRCT-ND" H 14100 1700 50  0001 C CNN "DIGIKEY"
-F 5 "220 Ohms ±5% 0.1W, 1/10W" H 14100 1700 50  0001 C CNN "DESCRPTION"
-	1    14100 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CF60693
-P 15050 1550
-F 0 "R?" H 15120 1596 50  0000 L CNN
-F 1 "4.7k" H 15120 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14980 1550 50  0001 C CNN
-F 3 "~" H 15050 1550 50  0001 C CNN
-F 4 "311-4.7KGRCT-ND" H 15050 1550 50  0001 C CNN "DIGIKEY"
-F 5 "4.7 kOhms ±5% 0.1W" H 15050 1550 50  0001 C CNN "DESCRIPTION"
-	1    15050 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L FSM1LPTR:FSM1LPTR SW?
-U 1 1 5CF7E5C9
-P 15050 2550
-AR Path="/5CFB52DC/5CF7E5C9" Ref="SW?"  Part="1" 
-AR Path="/5CC082AD/5CF7E5C9" Ref="SW?"  Part="1" 
-AR Path="/5CC08265/5CF7E5C9" Ref="SW?"  Part="1" 
-F 0 "SW?" V 15050 1950 60  0000 L CNN
-F 1 "SW_Push" V 15150 1950 60  0000 L CNN
-F 2 "SWITCH_FSM1LPA" H 15050 2700 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1437565-8&DocType=Customer+Drawing&DocLang=English" V 15181 2698 60  0001 L CNN
-F 4 "450-1756-1-ND" V 15050 2550 50  0001 C CNN "Digikey"
-	1    15050 2550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14950 2150 14950 1950
-Wire Wire Line
-	14950 1950 15050 1950
-Wire Wire Line
-	15050 1950 15050 2150
-Wire Wire Line
-	15050 1950 15050 1900
-Connection ~ 15050 1950
-Wire Wire Line
-	15050 1900 15500 1900
 Text Label 15500 1900 2    50   ~ 0
 PROGRAM_B
 Wire Wire Line
 	15050 1700 15050 1900
 Connection ~ 15050 1900
 Wire Wire Line
-	14900 3000 14900 3100
-Wire Wire Line
-	14900 3100 15000 3100
-Wire Wire Line
-	15100 3100 15100 3000
-Wire Wire Line
-	15000 3000 15000 3100
-Connection ~ 15000 3100
-Wire Wire Line
-	15000 3100 15100 3100
-$Comp
-L Device:LED D?
-U 1 1 5CFC4A4F
-P 14100 2700
-F 0 "D?" V 14139 2583 50  0000 R CNN
-F 1 "LED" V 14048 2583 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14100 2700 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 14100 2700 50  0001 C CNN
-F 4 "160-1445-1-ND" V 14100 2700 50  0001 C CNN "DIGIKEY"
-	1    14100 2700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	14100 2350 14100 2550
 Wire Wire Line
 	14100 2850 14100 3100
 Wire Wire Line
 	14100 3100 14500 3100
-Connection ~ 14900 3100
 $Comp
-L power:GND #PWR0213
+L power:GND #PWR0101
 U 1 1 5CFC8B6B
 P 14500 3250
-F 0 "#PWR0213" H 14500 3000 50  0001 C CNN
+F 0 "#PWR0101" H 14500 3000 50  0001 C CNN
 F 1 "GND" H 14505 3077 50  0000 C CNN
 F 2 "" H 14500 3250 50  0001 C CNN
 F 3 "" H 14500 3250 50  0001 C CNN
@@ -1485,9 +1009,6 @@ F 3 "" H 14500 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14500 3250 14500 3100
-Connection ~ 14500 3100
-Wire Wire Line
-	14500 3100 14900 3100
 Wire Wire Line
 	14100 1850 14100 1950
 Wire Wire Line
@@ -1522,112 +1043,93 @@ NoConn ~ 12200 3000
 $Comp
 L Device:LED D?
 U 1 1 5CEA040D
-P 3450 8500
+P 1475 10475
 AR Path="/5CC082AD/5CEA040D" Ref="D?"  Part="1" 
 AR Path="/5CFB52DC/5CEA040D" Ref="D?"  Part="1" 
-AR Path="/5CC08265/5CEA040D" Ref="D?"  Part="1" 
-F 0 "D?" V 3489 8383 50  0000 R CNN
-F 1 "LED" V 3398 8383 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3450 8500 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 3450 8500 50  0001 C CNN
-F 4 "160-2032-1-ND" V 3450 8500 50  0001 C CNN "Digikey"
-	1    3450 8500
+AR Path="/5CC08265/5CEA040D" Ref="D2"  Part="1" 
+F 0 "D2" V 1514 10358 50  0000 R CNN
+F 1 "LED" V 1423 10358 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1475 10475 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 1475 10475 50  0001 C CNN
+F 4 "160-2032-1-ND" V 1475 10475 50  0001 C CNN "Digikey"
+	1    1475 10475
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0214
+L power:GND #PWR070
 U 1 1 5CEA040E
-P 3450 8800
-F 0 "#PWR0214" H 3450 8550 50  0001 C CNN
-F 1 "GND" H 3455 8627 50  0000 C CNN
-F 2 "" H 3450 8800 50  0001 C CNN
-F 3 "" H 3450 8800 50  0001 C CNN
-	1    3450 8800
+P 1475 10775
+F 0 "#PWR070" H 1475 10525 50  0001 C CNN
+F 1 "GND" H 1480 10602 50  0000 C CNN
+F 2 "" H 1475 10775 50  0001 C CNN
+F 3 "" H 1475 10775 50  0001 C CNN
+	1    1475 10775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 8200 3450 8350
+	1475 10175 1475 10325
 Wire Wire Line
-	3450 8650 3450 8800
-Text Notes 3300 8650 0    39   ~ 0
+	1475 10625 1475 10775
+Text Notes 1325 10600 0    39   ~ 0
 Blue
 Wire Wire Line
-	3450 7700 3450 7900
+	1475 9675 1475 9875
 $Comp
-L Device:LED D?
-U 1 1 5CEA1FB1
-P 4000 8500
-AR Path="/5CC082AD/5CEA1FB1" Ref="D?"  Part="1" 
-AR Path="/5CFB52DC/5CEA1FB1" Ref="D?"  Part="1" 
-AR Path="/5CC08265/5CEA1FB1" Ref="D?"  Part="1" 
-F 0 "D?" V 4039 8383 50  0000 R CNN
-F 1 "LED" V 3948 8383 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 8500 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 4000 8500 50  0001 C CNN
-F 4 "160-2032-1-ND" V 4000 8500 50  0001 C CNN "Digikey"
-	1    4000 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0215
+L power:GND #PWR077
 U 1 1 5CEA1FB2
-P 4000 8800
-F 0 "#PWR0215" H 4000 8550 50  0001 C CNN
-F 1 "GND" H 4005 8627 50  0000 C CNN
-F 2 "" H 4000 8800 50  0001 C CNN
-F 3 "" H 4000 8800 50  0001 C CNN
-	1    4000 8800
+P 2025 10775
+F 0 "#PWR077" H 2025 10525 50  0001 C CNN
+F 1 "GND" H 2030 10602 50  0000 C CNN
+F 2 "" H 2025 10775 50  0001 C CNN
+F 3 "" H 2025 10775 50  0001 C CNN
+	1    2025 10775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 8200 4000 8350
+	2025 10175 2025 10325
 Wire Wire Line
-	4000 8650 4000 8800
-Text Notes 3850 8650 0    39   ~ 0
-Blue
+	2025 10625 2025 10775
 Wire Wire Line
-	4000 7700 4000 7900
+	2025 9675 2025 9875
 Wire Wire Line
 	9650 1950 9650 2100
 $Comp
-L Device:R R?
+L Device:R R31
 U 1 1 5CEBF6F1
-P 3450 8050
-F 0 "R?" H 3500 8100 50  0000 L CNN
-F 1 "470" V 3450 7950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 8050 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3450 8050 50  0001 C CNN
-F 4 "311-470GRCT-ND" V 3450 8050 50  0001 C CNN "Digikey"
-	1    3450 8050
+P 1475 10025
+F 0 "R31" H 1525 10075 50  0000 L CNN
+F 1 "470" V 1475 9925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1405 10025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1475 10025 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 1475 10025 50  0001 C CNN "Digikey"
+	1    1475 10025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R32
 U 1 1 5CEC01C3
-P 4000 8050
-F 0 "R?" H 4050 8100 50  0000 L CNN
-F 1 "470" V 4000 7950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 8050 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 8050 50  0001 C CNN
-F 4 "311-470GRCT-ND" V 4000 8050 50  0001 C CNN "Digikey"
-	1    4000 8050
+P 2025 10025
+F 0 "R32" H 2075 10075 50  0000 L CNN
+F 1 "470" V 2025 9925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1955 10025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2025 10025 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 2025 10025 50  0001 C CNN "Digikey"
+	1    2025 10025
 	1    0    0    -1  
 $EndComp
-Text GLabel 15500 5800 2    50   Input ~ 0
-GCK1
-Text GLabel 15500 5700 2    50   Input ~ 0
+Text GLabel 8500 1875 1    50   Input ~ 0
 GCK0
-Text Notes 15750 5750 0    50   ~ 0
+Text Notes 8425 1625 1    50   ~ 0
 SI351C
-Text Notes 15750 5850 0    50   ~ 0
+Text Notes 8525 1625 1    50   ~ 0
 SI351C
 $Comp
 L Device:C C?
 U 1 1 5CE729DB
 P 1000 2350
 AR Path="/5CC082AD/5CE729DB" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE729DB" Ref="C?"  Part="1" 
-F 0 "C?" H 1050 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE729DB" Ref="C56"  Part="1" 
+F 0 "C56" H 1050 2450 50  0000 C CNN
 F 1 "100nF" H 1150 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1038 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1000 2350 50  0001 C CNN
@@ -1640,8 +1142,8 @@ L Device:C C?
 U 1 1 5CE7531F
 P 1300 2350
 AR Path="/5CC082AD/5CE7531F" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE7531F" Ref="C?"  Part="1" 
-F 0 "C?" H 1350 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE7531F" Ref="C60"  Part="1" 
+F 0 "C60" H 1350 2450 50  0000 C CNN
 F 1 "100nF" H 1450 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1338 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1300 2350 50  0001 C CNN
@@ -1654,8 +1156,8 @@ L Device:C C?
 U 1 1 5CE7BB2B
 P 1600 2350
 AR Path="/5CC082AD/5CE7BB2B" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE7BB2B" Ref="C?"  Part="1" 
-F 0 "C?" H 1650 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE7BB2B" Ref="C64"  Part="1" 
+F 0 "C64" H 1650 2450 50  0000 C CNN
 F 1 "100nF" H 1750 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1638 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1600 2350 50  0001 C CNN
@@ -1668,8 +1170,8 @@ L Device:C C?
 U 1 1 5CE7BB36
 P 1900 2350
 AR Path="/5CC082AD/5CE7BB36" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE7BB36" Ref="C?"  Part="1" 
-F 0 "C?" H 1950 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE7BB36" Ref="C68"  Part="1" 
+F 0 "C68" H 1950 2450 50  0000 C CNN
 F 1 "100nF" H 2050 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1900 2350 50  0001 C CNN
@@ -1682,8 +1184,8 @@ L Device:C C?
 U 1 1 5CE90B15
 P 2200 2350
 AR Path="/5CC082AD/5CE90B15" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE90B15" Ref="C?"  Part="1" 
-F 0 "C?" H 2250 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE90B15" Ref="C72"  Part="1" 
+F 0 "C72" H 2250 2450 50  0000 C CNN
 F 1 "100nF" H 2350 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2238 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2200 2350 50  0001 C CNN
@@ -1696,8 +1198,8 @@ L Device:C C?
 U 1 1 5CE90B20
 P 2500 2350
 AR Path="/5CC082AD/5CE90B20" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE90B20" Ref="C?"  Part="1" 
-F 0 "C?" H 2550 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE90B20" Ref="C76"  Part="1" 
+F 0 "C76" H 2550 2450 50  0000 C CNN
 F 1 "100nF" H 2650 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2500 2350 50  0001 C CNN
@@ -1710,8 +1212,8 @@ L Device:C C?
 U 1 1 5CE90B2B
 P 2800 2350
 AR Path="/5CC082AD/5CE90B2B" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE90B2B" Ref="C?"  Part="1" 
-F 0 "C?" H 2850 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE90B2B" Ref="C78"  Part="1" 
+F 0 "C78" H 2850 2450 50  0000 C CNN
 F 1 "100nF" H 2950 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2800 2350 50  0001 C CNN
@@ -1724,8 +1226,8 @@ L Device:C C?
 U 1 1 5CE90B36
 P 3100 2350
 AR Path="/5CC082AD/5CE90B36" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE90B36" Ref="C?"  Part="1" 
-F 0 "C?" H 3150 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE90B36" Ref="C80"  Part="1" 
+F 0 "C80" H 3150 2450 50  0000 C CNN
 F 1 "100nF" H 3250 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3100 2350 50  0001 C CNN
@@ -1738,8 +1240,8 @@ L Device:C C?
 U 1 1 5CE90DDE
 P 3400 2350
 AR Path="/5CC082AD/5CE90DDE" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CE90DDE" Ref="C?"  Part="1" 
-F 0 "C?" H 3450 2450 50  0000 C CNN
+AR Path="/5CC08265/5CE90DDE" Ref="C82"  Part="1" 
+F 0 "C82" H 3450 2450 50  0000 C CNN
 F 1 "100nF" H 3550 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 2200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3400 2350 50  0001 C CNN
@@ -1752,8 +1254,8 @@ L Device:C C?
 U 1 1 5CEB213C
 P 1000 3600
 AR Path="/5CC082AD/5CEB213C" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB213C" Ref="C?"  Part="1" 
-F 0 "C?" H 1050 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB213C" Ref="C57"  Part="1" 
+F 0 "C57" H 1050 3700 50  0000 C CNN
 F 1 "100nF" H 1150 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1038 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1000 3600 50  0001 C CNN
@@ -1766,8 +1268,8 @@ L Device:C C?
 U 1 1 5CEB2147
 P 1300 3600
 AR Path="/5CC082AD/5CEB2147" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2147" Ref="C?"  Part="1" 
-F 0 "C?" H 1350 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2147" Ref="C61"  Part="1" 
+F 0 "C61" H 1350 3700 50  0000 C CNN
 F 1 "100nF" H 1450 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1338 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1300 3600 50  0001 C CNN
@@ -1780,8 +1282,8 @@ L Device:C C?
 U 1 1 5CEB2152
 P 1600 3600
 AR Path="/5CC082AD/5CEB2152" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2152" Ref="C?"  Part="1" 
-F 0 "C?" H 1650 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2152" Ref="C65"  Part="1" 
+F 0 "C65" H 1650 3700 50  0000 C CNN
 F 1 "100nF" H 1750 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1638 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1600 3600 50  0001 C CNN
@@ -1794,8 +1296,8 @@ L Device:C C?
 U 1 1 5CEB215D
 P 1900 3600
 AR Path="/5CC082AD/5CEB215D" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB215D" Ref="C?"  Part="1" 
-F 0 "C?" H 1950 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB215D" Ref="C69"  Part="1" 
+F 0 "C69" H 1950 3700 50  0000 C CNN
 F 1 "100nF" H 2050 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1900 3600 50  0001 C CNN
@@ -1808,8 +1310,8 @@ L Device:C C?
 U 1 1 5CEB2168
 P 2200 3600
 AR Path="/5CC082AD/5CEB2168" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2168" Ref="C?"  Part="1" 
-F 0 "C?" H 2250 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2168" Ref="C73"  Part="1" 
+F 0 "C73" H 2250 3700 50  0000 C CNN
 F 1 "100nF" H 2350 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2238 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2200 3600 50  0001 C CNN
@@ -1822,8 +1324,8 @@ L Device:C C?
 U 1 1 5CEB2173
 P 2500 3600
 AR Path="/5CC082AD/5CEB2173" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2173" Ref="C?"  Part="1" 
-F 0 "C?" H 2550 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2173" Ref="C77"  Part="1" 
+F 0 "C77" H 2550 3700 50  0000 C CNN
 F 1 "100nF" H 2650 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2500 3600 50  0001 C CNN
@@ -1836,8 +1338,8 @@ L Device:C C?
 U 1 1 5CEB217E
 P 2800 3600
 AR Path="/5CC082AD/5CEB217E" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB217E" Ref="C?"  Part="1" 
-F 0 "C?" H 2850 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB217E" Ref="C79"  Part="1" 
+F 0 "C79" H 2850 3700 50  0000 C CNN
 F 1 "100nF" H 2950 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2800 3600 50  0001 C CNN
@@ -1850,8 +1352,8 @@ L Device:C C?
 U 1 1 5CEB2189
 P 3100 3600
 AR Path="/5CC082AD/5CEB2189" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2189" Ref="C?"  Part="1" 
-F 0 "C?" H 3150 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2189" Ref="C81"  Part="1" 
+F 0 "C81" H 3150 3700 50  0000 C CNN
 F 1 "100nF" H 3250 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3138 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3100 3600 50  0001 C CNN
@@ -1864,8 +1366,8 @@ L Device:C C?
 U 1 1 5CEB2194
 P 3400 3600
 AR Path="/5CC082AD/5CEB2194" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEB2194" Ref="C?"  Part="1" 
-F 0 "C?" H 3450 3700 50  0000 C CNN
+AR Path="/5CC08265/5CEB2194" Ref="C83"  Part="1" 
+F 0 "C83" H 3450 3700 50  0000 C CNN
 F 1 "100nF" H 3550 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 3450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3400 3600 50  0001 C CNN
@@ -1878,8 +1380,8 @@ L Device:C C?
 U 1 1 5CECA087
 P 1100 4550
 AR Path="/5CC08321/5CECA087" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CECA087" Ref="C?"  Part="1" 
-F 0 "C?" H 1100 4650 50  0000 L CNN
+AR Path="/5CC08265/5CECA087" Ref="C59"  Part="1" 
+F 0 "C59" H 1100 4650 50  0000 L CNN
 F 1 "4.7uF" H 1100 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1138 4400 50  0001 C CNN
 F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1100 4550 50  0001 C CNN
@@ -1892,8 +1394,8 @@ L Device:C C?
 U 1 1 5CED343A
 P 1400 4550
 AR Path="/5CC08321/5CED343A" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CED343A" Ref="C?"  Part="1" 
-F 0 "C?" H 1400 4650 50  0000 L CNN
+AR Path="/5CC08265/5CED343A" Ref="C63"  Part="1" 
+F 0 "C63" H 1400 4650 50  0000 L CNN
 F 1 "4.7uF" H 1400 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1438 4400 50  0001 C CNN
 F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1400 4550 50  0001 C CNN
@@ -1906,8 +1408,8 @@ L Device:C C?
 U 1 1 5CED3C16
 P 1700 4550
 AR Path="/5CC08321/5CED3C16" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CED3C16" Ref="C?"  Part="1" 
-F 0 "C?" H 1700 4650 50  0000 L CNN
+AR Path="/5CC08265/5CED3C16" Ref="C67"  Part="1" 
+F 0 "C67" H 1700 4650 50  0000 L CNN
 F 1 "4.7uF" H 1700 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1738 4400 50  0001 C CNN
 F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1700 4550 50  0001 C CNN
@@ -1920,8 +1422,8 @@ L Device:C C?
 U 1 1 5CED44CA
 P 2000 4550
 AR Path="/5CC08321/5CED44CA" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CED44CA" Ref="C?"  Part="1" 
-F 0 "C?" H 2000 4650 50  0000 L CNN
+AR Path="/5CC08265/5CED44CA" Ref="C71"  Part="1" 
+F 0 "C71" H 2000 4650 50  0000 L CNN
 F 1 "4.7uF" H 2000 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2038 4400 50  0001 C CNN
 F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2000 4550 50  0001 C CNN
@@ -1934,8 +1436,8 @@ L Device:C C?
 U 1 1 5CED4A14
 P 2300 4550
 AR Path="/5CC08321/5CED4A14" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CED4A14" Ref="C?"  Part="1" 
-F 0 "C?" H 2300 4650 50  0000 L CNN
+AR Path="/5CC08265/5CED4A14" Ref="C75"  Part="1" 
+F 0 "C75" H 2300 4650 50  0000 L CNN
 F 1 "4.7uF" H 2300 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 4400 50  0001 C CNN
 F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2300 4550 50  0001 C CNN
@@ -1945,99 +1447,16 @@ F 4 "1276-1045-1-ND " H 2300 4550 50  0001 C CNN "Digikey"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5CEDF919
-P 2250 5250
-AR Path="/5CC08321/5CEDF919" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEDF919" Ref="C?"  Part="1" 
-F 0 "C?" H 2250 5350 50  0000 L CNN
-F 1 "4.7uF" H 2250 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 5100 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2250 5250 50  0001 C CNN
-F 4 "1276-1045-1-ND " H 2250 5250 50  0001 C CNN "Digikey"
-	1    2250 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CEDF924
-P 2550 5250
-AR Path="/5CC08321/5CEDF924" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEDF924" Ref="C?"  Part="1" 
-F 0 "C?" H 2550 5350 50  0000 L CNN
-F 1 "4.7uF" H 2550 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2588 5100 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2550 5250 50  0001 C CNN
-F 4 "1276-1045-1-ND " H 2550 5250 50  0001 C CNN "Digikey"
-	1    2550 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CEDF92F
-P 2850 5250
-AR Path="/5CC08321/5CEDF92F" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEDF92F" Ref="C?"  Part="1" 
-F 0 "C?" H 2850 5350 50  0000 L CNN
-F 1 "4.7uF" H 2850 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 5100 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2850 5250 50  0001 C CNN
-F 4 "1276-1045-1-ND " H 2850 5250 50  0001 C CNN "Digikey"
-	1    2850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CEDF93A
-P 3150 5250
-AR Path="/5CC08321/5CEDF93A" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEDF93A" Ref="C?"  Part="1" 
-F 0 "C?" H 3150 5350 50  0000 L CNN
-F 1 "4.7uF" H 3150 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3188 5100 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3150 5250 50  0001 C CNN
-F 4 "1276-1045-1-ND " H 3150 5250 50  0001 C CNN "Digikey"
-	1    3150 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CEDF945
-P 3450 5250
-AR Path="/5CC08321/5CEDF945" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CEDF945" Ref="C?"  Part="1" 
-F 0 "C?" H 3450 5350 50  0000 L CNN
-F 1 "4.7uF" H 3450 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 5100 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3450 5250 50  0001 C CNN
-F 4 "1276-1045-1-ND " H 3450 5250 50  0001 C CNN "Digikey"
-	1    3450 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5CF0641E
 P 13650 4300
 AR Path="/5CC082AD/5CF0641E" Ref="C?"  Part="1" 
-AR Path="/5CC08265/5CF0641E" Ref="C?"  Part="1" 
-F 0 "C?" H 13700 4400 50  0000 C CNN
+AR Path="/5CC08265/5CF0641E" Ref="C84"  Part="1" 
+F 0 "C84" H 13700 4400 50  0000 C CNN
 F 1 "100nF" H 13800 4200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13688 4150 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 13650 4300 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 13650 4300 50  0001 C CNN "Digikey"
 	1    13650 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CF34B67
-P 14100 2200
-F 0 "R?" H 14170 2246 50  0000 L CNN
-F 1 "220" H 14170 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14030 2200 50  0001 C CNN
-F 3 "~" H 14100 2200 50  0001 C CNN
-F 4 "311-220GRCT-ND" H 14100 2200 50  0001 C CNN "DIGIKEY"
-F 5 "220 Ohms ±5% 0.1W, 1/10W" H 14100 2200 50  0001 C CNN "DESCRPTION"
-	1    14100 2200
 	1    0    0    -1  
 $EndComp
 Text GLabel 14450 900  0    50   Input ~ 0
@@ -2080,10 +1499,1181 @@ Wire Wire Line
 	5100 2950 5600 2950
 Wire Wire Line
 	5100 3050 5600 3050
+$Comp
+L TL1014BF160QG:TL1014BF160QG S3
+U 1 1 5CF641C6
+P 15050 2150
+F 0 "S3" V 15404 2253 50  0000 L CNN
+F 1 "TL1014BF160QG" V 15495 2253 50  0000 L CNN
+F 2 "lib:TL1014BF160QG" H 15700 2250 50  0001 L CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 15700 2150 50  0001 L CNN
+F 4 "EG5042CT-ND" V 15050 2150 50  0001 C CNN "Digikey"
+	1    15050 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15050 2950 15050 3100
+Wire Wire Line
+	15050 3100 14950 3100
+Connection ~ 14500 3100
+Wire Wire Line
+	14950 2950 14950 3100
+Connection ~ 14950 3100
+Wire Wire Line
+	14950 3100 14500 3100
+Wire Wire Line
+	15050 1900 15050 2150
+Wire Wire Line
+	15050 1900 15500 1900
+Wire Wire Line
+	15050 1900 14950 1900
+Wire Wire Line
+	14950 1900 14950 2150
+$Comp
+L Device:LED D?
+U 1 1 5CF8F853
+P 14100 2700
+AR Path="/5CC082AD/5CF8F853" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5CF8F853" Ref="D?"  Part="1" 
+AR Path="/5CC08265/5CF8F853" Ref="D4"  Part="1" 
+F 0 "D4" V 14139 2583 50  0000 R CNN
+F 1 "LED" V 14048 2583 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14100 2700 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 14100 2700 50  0001 C CNN
+F 4 "160-2032-1-ND" V 14100 2700 50  0001 C CNN "Digikey"
+	1    14100 2700
+	0    -1   -1   0   
+$EndComp
+Text Notes 13950 2850 0    39   ~ 0
+Blue
+$Comp
+L Device:R R53
+U 1 1 5CF9A7FB
+P 15050 1550
+F 0 "R53" H 14950 1550 50  0000 C CNN
+F 1 "4.7k" V 15050 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14980 1550 50  0001 C CNN
+F 3 "~" H 15050 1550 50  0001 C CNN
+F 4 "311-4.70KHRCT-ND" V 15050 1550 50  0001 C CNN "DIGIKEY"
+F 5 "4.7 kOhms ±1% 0.1W, 1/10W " V 15050 1550 50  0001 C CNN "DESCRIPTION"
+	1    15050 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CFA61E4
+P 2025 10475
+AR Path="/5CC082AD/5CFA61E4" Ref="D?"  Part="1" 
+AR Path="/5CFB52DC/5CFA61E4" Ref="D?"  Part="1" 
+AR Path="/5CC08265/5CFA61E4" Ref="D3"  Part="1" 
+F 0 "D3" V 2064 10358 50  0000 R CNN
+F 1 "LED" V 1973 10358 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2025 10475 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 2025 10475 50  0001 C CNN
+F 4 "160-2032-1-ND" V 2025 10475 50  0001 C CNN "Digikey"
+	1    2025 10475
+	0    -1   -1   0   
+$EndComp
+Text Notes 1875 10625 0    39   ~ 0
+Blue
+$Comp
+L Device:R R51
+U 1 1 5CFAAC26
+P 14100 1700
+F 0 "R51" H 14150 1750 50  0000 L CNN
+F 1 "470" V 14100 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14030 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 14100 1700 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 14100 1700 50  0001 C CNN "Digikey"
+	1    14100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5CFAB574
+P 14100 2200
+F 0 "R52" H 14150 2250 50  0000 L CNN
+F 1 "470" V 14100 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14030 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 14100 2200 50  0001 C CNN
+F 4 "311-470GRCT-ND" V 14100 2200 50  0001 C CNN "Digikey"
+	1    14100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEDF945
+P 2225 5725
+AR Path="/5CC08321/5CEDF945" Ref="C?"  Part="1" 
+AR Path="/5CC08265/5CEDF945" Ref="C74"  Part="1" 
+F 0 "C74" H 2225 5825 50  0000 L CNN
+F 1 "4.7uF" H 2225 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2263 5575 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2225 5725 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 2225 5725 50  0001 C CNN "Digikey"
+	1    2225 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEDF93A
+P 1925 5725
+AR Path="/5CC08321/5CEDF93A" Ref="C?"  Part="1" 
+AR Path="/5CC08265/5CEDF93A" Ref="C70"  Part="1" 
+F 0 "C70" H 1925 5825 50  0000 L CNN
+F 1 "4.7uF" H 1925 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1963 5575 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1925 5725 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1925 5725 50  0001 C CNN "Digikey"
+	1    1925 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEDF92F
+P 1625 5725
+AR Path="/5CC08321/5CEDF92F" Ref="C?"  Part="1" 
+AR Path="/5CC08265/5CEDF92F" Ref="C66"  Part="1" 
+F 0 "C66" H 1625 5825 50  0000 L CNN
+F 1 "4.7uF" H 1625 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1663 5575 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1625 5725 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1625 5725 50  0001 C CNN "Digikey"
+	1    1625 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEDF924
+P 1325 5725
+AR Path="/5CC08321/5CEDF924" Ref="C?"  Part="1" 
+AR Path="/5CC08265/5CEDF924" Ref="C62"  Part="1" 
+F 0 "C62" H 1325 5825 50  0000 L CNN
+F 1 "4.7uF" H 1325 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1363 5575 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1325 5725 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1325 5725 50  0001 C CNN "Digikey"
+	1    1325 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEDF919
+P 1025 5725
+AR Path="/5CC08321/5CEDF919" Ref="C?"  Part="1" 
+AR Path="/5CC08265/5CEDF919" Ref="C58"  Part="1" 
+F 0 "C58" H 1025 5825 50  0000 L CNN
+F 1 "4.7uF" H 1025 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1063 5575 50  0001 C CNN
+F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1025 5725 50  0001 C CNN
+F 4 "1276-1045-1-ND " H 1025 5725 50  0001 C CNN "Digikey"
+	1    1025 5725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 5975 1625 6075
+Wire Wire Line
+	1625 5375 1625 5475
+$Comp
+L power:GND #PWR072
+U 1 1 5CE45DB4
+P 1625 6075
+F 0 "#PWR072" H 1625 5825 50  0001 C CNN
+F 1 "GND" H 1630 5902 50  0000 C CNN
+F 2 "" H 1625 6075 50  0001 C CNN
+F 3 "" H 1625 6075 50  0001 C CNN
+	1    1625 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 5975 1625 5975
+Connection ~ 1325 5975
+Wire Wire Line
+	1325 5875 1325 5975
+Wire Wire Line
+	1625 5975 1925 5975
+Connection ~ 1625 5975
+Wire Wire Line
+	1625 5875 1625 5975
+Wire Wire Line
+	1925 5975 2225 5975
+Connection ~ 1925 5975
+Wire Wire Line
+	1925 5875 1925 5975
+Wire Wire Line
+	2225 5975 2225 5875
+Wire Wire Line
+	1025 5975 1325 5975
+Wire Wire Line
+	1025 5875 1025 5975
+Wire Wire Line
+	1325 5475 1625 5475
+Connection ~ 1325 5475
+Wire Wire Line
+	1325 5575 1325 5475
+Wire Wire Line
+	1625 5475 1925 5475
+Connection ~ 1625 5475
+Wire Wire Line
+	1625 5575 1625 5475
+Wire Wire Line
+	1925 5475 2225 5475
+Connection ~ 1925 5475
+Wire Wire Line
+	1925 5575 1925 5475
+Wire Wire Line
+	2225 5475 2225 5575
+Wire Wire Line
+	1025 5475 1325 5475
+Wire Wire Line
+	1025 5575 1025 5475
+$Comp
+L power:GND #PWR097
+U 1 1 5D00E8AC
+P 13925 7975
+F 0 "#PWR097" H 13925 7725 50  0001 C CNN
+F 1 "GND" V 13930 7802 50  0000 C CNN
+F 2 "" H 13925 7975 50  0001 C CNN
+F 3 "" H 13925 7975 50  0001 C CNN
+	1    13925 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 5D00E8AD
+P 13425 6950
+F 0 "R49" V 13525 6950 50  0000 L CNN
+F 1 "10k" V 13425 6900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13355 6950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 13425 6950 50  0001 C CNN
+F 4 "311-10KGRCT-ND" V 13425 6950 50  0001 C CNN "Digikey"
+	1    13425 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR099
+U 1 1 5D00E8AE
+P 14275 7550
+F 0 "#PWR099" H 14275 7300 50  0001 C CNN
+F 1 "GND" H 14280 7377 50  0000 C CNN
+F 2 "" H 14275 7550 50  0001 C CNN
+F 3 "" H 14275 7550 50  0001 C CNN
+	1    14275 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C85
+U 1 1 5D00E8AF
+P 14275 7300
+F 0 "C85" H 14375 7400 50  0000 C CNN
+F 1 "100nF" H 14425 7200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14313 7150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14275 7300 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14275 7300 50  0001 C CNN "Digikey"
+	1    14275 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13175 6950 13275 6950
+Text Label 14500 6950 0    50   ~ 0
+BTN1
+Wire Wire Line
+	14275 7150 14275 6950
+Wire Wire Line
+	14275 7550 14275 7450
+$Comp
+L power:GND #PWR094
+U 1 1 5D00E8B0
+P 13825 7975
+F 0 "#PWR094" H 13825 7725 50  0001 C CNN
+F 1 "GND" V 13830 7802 50  0000 C CNN
+F 2 "" H 13825 7975 50  0001 C CNN
+F 3 "" H 13825 7975 50  0001 C CNN
+	1    13825 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L TL1014BF160QG:TL1014BF160QG S1
+U 1 1 5D00E8B1
+P 13925 7100
+F 0 "S1" V 14279 6778 50  0000 L CNN
+F 1 "TL1014BF160QG" V 14370 6253 50  0000 L CNN
+F 2 "lib:TL1014BF160QG" H 14575 7200 50  0001 L CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14575 7100 50  0001 L CNN
+F 4 "EG5042CT-ND" V 13925 7100 50  0001 C CNN "Digikey"
+	1    13925 7100
+	0    1    1    0   
+$EndComp
+Text GLabel 13175 6950 0    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	14500 6950 14275 6950
+Connection ~ 14275 6950
+Wire Wire Line
+	13575 6950 13825 6950
+Wire Wire Line
+	13825 7100 13825 6950
+Connection ~ 13825 6950
+Wire Wire Line
+	13825 6950 13925 6950
+Wire Wire Line
+	13925 7100 13925 6950
+Connection ~ 13925 6950
+Wire Wire Line
+	13925 6950 14275 6950
+Wire Wire Line
+	13825 7975 13825 7900
+Wire Wire Line
+	13925 7900 13925 7975
+Text Notes 12750 6725 0    118  ~ 0
+Buttons
+$Comp
+L TL1014BF160QG:TL1014BF160QG S2
+U 1 1 5D03A38F
+P 13925 8525
+F 0 "S2" V 14279 8203 50  0000 L CNN
+F 1 "TL1014BF160QG" V 14370 7678 50  0000 L CNN
+F 2 "lib:TL1014BF160QG" H 14575 8625 50  0001 L CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14575 8525 50  0001 L CNN
+F 4 "EG5042CT-ND" V 13925 8525 50  0001 C CNN "Digikey"
+	1    13925 8525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13925 8525 13925 8375
+Wire Wire Line
+	13825 9400 13825 9325
+Text GLabel 13175 8375 0    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	14500 8375 14275 8375
+Wire Wire Line
+	13925 8375 14275 8375
+Wire Wire Line
+	14275 8575 14275 8375
+$Comp
+L power:GND #PWR095
+U 1 1 5D03A390
+P 13825 9400
+F 0 "#PWR095" H 13825 9150 50  0001 C CNN
+F 1 "GND" V 13830 9227 50  0000 C CNN
+F 2 "" H 13825 9400 50  0001 C CNN
+F 3 "" H 13825 9400 50  0001 C CNN
+	1    13825 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0100
+U 1 1 5D03A391
+P 14275 8975
+F 0 "#PWR0100" H 14275 8725 50  0001 C CNN
+F 1 "GND" H 14280 8802 50  0000 C CNN
+F 2 "" H 14275 8975 50  0001 C CNN
+F 3 "" H 14275 8975 50  0001 C CNN
+	1    14275 8975
+	1    0    0    -1  
+$EndComp
+Connection ~ 13825 8375
+Connection ~ 14275 8375
+Wire Wire Line
+	13175 8375 13275 8375
+Wire Wire Line
+	13825 8525 13825 8375
+$Comp
+L power:GND #PWR098
+U 1 1 5D03A392
+P 13925 9400
+F 0 "#PWR098" H 13925 9150 50  0001 C CNN
+F 1 "GND" V 13930 9227 50  0000 C CNN
+F 2 "" H 13925 9400 50  0001 C CNN
+F 3 "" H 13925 9400 50  0001 C CNN
+	1    13925 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13825 8375 13925 8375
+Text Label 14500 8375 0    50   ~ 0
+BTN2
+Wire Wire Line
+	13575 8375 13825 8375
+Wire Wire Line
+	13925 9325 13925 9400
+Connection ~ 13925 8375
+$Comp
+L Device:R R50
+U 1 1 5D03A393
+P 13425 8375
+F 0 "R50" V 13525 8375 50  0000 L CNN
+F 1 "10k" V 13425 8325 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13355 8375 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 13425 8375 50  0001 C CNN
+F 4 "311-10KGRCT-ND" V 13425 8375 50  0001 C CNN "Digikey"
+	1    13425 8375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C86
+U 1 1 5D03A394
+P 14275 8725
+F 0 "C86" H 14375 8825 50  0000 C CNN
+F 1 "100nF" H 14425 8625 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14313 8575 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14275 8725 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14275 8725 50  0001 C CNN "Digikey"
+	1    14275 8725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 8975 14275 8875
+Text Label 7550 10025 0    50   ~ 0
+FMC_CLK
+Text Label 7550 10225 0    50   ~ 0
+FMC_NWE
+Text Label 7550 10325 0    50   ~ 0
+FMC_NWAIT
+Text Label 7550 10425 0    50   ~ 0
+FMC_NE1
+Text Label 7550 10125 0    50   ~ 0
+FMC_NOE
+Text Label 7550 9925 0    50   ~ 0
+FMC_NL
+Text Label 7550 10625 0    50   ~ 0
+FMC_NBL1
+Text Label 7550 10525 0    50   ~ 0
+FMC_NBL0
+Text Label 5100 2750 0    50   ~ 0
+FMC_NBL1
+Text Label 5100 2850 0    50   ~ 0
+FMC_NBL0
+Wire Wire Line
+	5100 2750 5600 2750
+Wire Wire Line
+	5600 2850 5100 2850
+Text Label 12675 5500 2    50   ~ 0
+BTN1
+Text Label 12675 5600 2    50   ~ 0
+BTN2
+Wire Wire Line
+	12675 5500 12200 5500
+Wire Wire Line
+	12200 5600 12675 5600
+Text GLabel 12350 3200 2    50   Input ~ 0
+adDA5
+Text GLabel 12350 3300 2    50   Input ~ 0
+adDA6
+Text GLabel 12350 3400 2    50   Input ~ 0
+adDA7
+Text GLabel 12350 3500 2    50   Input ~ 0
+adDD0
+Text GLabel 12350 3600 2    50   Input ~ 0
+adDD1
+Text GLabel 12350 3700 2    50   Input ~ 0
+adDD2
+Text GLabel 12350 3800 2    50   Input ~ 0
+adDD3
+Text GLabel 12350 3900 2    50   Input ~ 0
+adDD4
+Text GLabel 12350 4000 2    50   Input ~ 0
+adDD5
+Text GLabel 12350 4100 2    50   Input ~ 0
+adDD6
+Text GLabel 12350 4200 2    50   Input ~ 0
+adDD7
+Text GLabel 12350 4300 2    50   Input ~ 0
+adDD8
+Text GLabel 12350 4400 2    50   Input ~ 0
+adDD9
+Text GLabel 9200 1900 1    50   Input ~ 0
+adDA3
+Text GLabel 9300 1900 1    50   Input ~ 0
+adDA4
+Wire Wire Line
+	9300 1900 9300 2100
+Wire Wire Line
+	9200 2100 9200 1900
+Wire Wire Line
+	8900 1900 8900 2100
+Wire Wire Line
+	9000 1900 9000 2100
+Wire Wire Line
+	9100 1900 9100 2100
 Wire Bus Line
-	5700 9550 5700 10150
-Wire Bus Line
-	7450 8150 7450 9150
-Wire Bus Line
-	5700 7700 5700 9300
+	-1475 5525 -1475 6325
+Text GLabel 8400 1875 1    50   Input ~ 0
+GCK1
+Wire Wire Line
+	8500 1875 8500 2100
+Wire Wire Line
+	8400 1875 8400 2100
+Wire Wire Line
+	6500 7225 6500 6650
+Wire Wire Line
+	6600 7225 6600 6650
+Wire Wire Line
+	6700 7225 6700 6650
+Wire Wire Line
+	6800 7225 6800 6650
+Wire Wire Line
+	6900 7225 6900 6650
+Wire Wire Line
+	7000 7225 7000 6650
+Wire Wire Line
+	7100 7225 7100 6650
+Wire Wire Line
+	7200 7225 7200 6650
+Wire Wire Line
+	7300 7225 7300 6650
+Wire Wire Line
+	7400 7225 7400 6650
+Wire Wire Line
+	7500 7225 7500 6650
+Wire Wire Line
+	7600 7225 7600 6650
+Wire Wire Line
+	7700 7225 7700 6650
+Wire Wire Line
+	7800 7225 7800 6650
+NoConn ~ 7900 6650
+NoConn ~ 9000 6650
+Text GLabel 1650 7650 0    50   Input ~ 0
+3V3 FPGA
+Text GLabel 2325 7650 2    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	1650 7650 1725 7650
+Wire Wire Line
+	2225 7650 2325 7650
+$Comp
+L Device:R R33
+U 1 1 5CECDEB0
+P 2550 7750
+F 0 "R33" V 2600 7850 50  0000 L CNN
+F 1 "200" V 2550 7650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 7750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 7750 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 7750 50  0001 C CNN "Digikey"
+	1    2550 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5CED5BEF
+P 2550 7850
+F 0 "R34" V 2600 7950 50  0000 L CNN
+F 1 "200" V 2550 7750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 7850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 7850 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 7850 50  0001 C CNN "Digikey"
+	1    2550 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5CED729A
+P 2550 7950
+F 0 "R35" V 2600 8050 50  0000 L CNN
+F 1 "200" V 2550 7850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 7950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 7950 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 7950 50  0001 C CNN "Digikey"
+	1    2550 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5CED8269
+P 2550 8050
+F 0 "R36" V 2600 8150 50  0000 L CNN
+F 1 "200" V 2550 7950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 8050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 8050 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 8050 50  0001 C CNN "Digikey"
+	1    2550 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5CED952C
+P 2550 8150
+F 0 "R37" V 2600 8250 50  0000 L CNN
+F 1 "200" V 2550 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 8150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 8150 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 8150 50  0001 C CNN "Digikey"
+	1    2550 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5CEDA0B3
+P 2550 8250
+F 0 "R38" V 2600 8350 50  0000 L CNN
+F 1 "200" V 2550 8150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 8250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 8250 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 8250 50  0001 C CNN "Digikey"
+	1    2550 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5CEDBE12
+P 2550 8350
+F 0 "R39" V 2600 8450 50  0000 L CNN
+F 1 "200" V 2550 8250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 8350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 8350 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 2550 8350 50  0001 C CNN "Digikey"
+	1    2550 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5CEE1914
+P 1450 7950
+F 0 "R26" V 1500 8050 50  0000 L CNN
+F 1 "200" V 1450 7850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 7950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 7950 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 7950 50  0001 C CNN "Digikey"
+	1    1450 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5CEE1919
+P 1450 7750
+F 0 "R24" V 1500 7850 50  0000 L CNN
+F 1 "200" V 1450 7650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 7750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 7750 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 7750 50  0001 C CNN "Digikey"
+	1    1450 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5CEE191E
+P 1450 7850
+F 0 "R25" V 1500 7950 50  0000 L CNN
+F 1 "200" V 1450 7750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 7850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 7850 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 7850 50  0001 C CNN "Digikey"
+	1    1450 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5CEE191F
+P 1450 8050
+F 0 "R27" V 1500 8150 50  0000 L CNN
+F 1 "200" V 1450 7950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 8050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 8050 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 8050 50  0001 C CNN "Digikey"
+	1    1450 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5CEE1921
+P 1450 8350
+F 0 "R30" V 1500 8450 50  0000 L CNN
+F 1 "200" V 1450 8250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 8350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 8350 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 8350 50  0001 C CNN "Digikey"
+	1    1450 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5CEE1922
+P 1450 8150
+F 0 "R28" V 1500 8250 50  0000 L CNN
+F 1 "200" V 1450 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 8150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 8150 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 8150 50  0001 C CNN "Digikey"
+	1    1450 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5CEE1923
+P 1450 8250
+F 0 "R29" V 1500 8350 50  0000 L CNN
+F 1 "200" V 1450 8150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 8250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1450 8250 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 1450 8250 50  0001 C CNN "Digikey"
+	1    1450 8250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1725 7750 1600 7750
+Wire Wire Line
+	1725 7850 1600 7850
+Wire Wire Line
+	1725 7950 1600 7950
+Wire Wire Line
+	1725 8050 1600 8050
+Wire Wire Line
+	1725 8150 1600 8150
+Wire Wire Line
+	1725 8250 1600 8250
+Wire Wire Line
+	1725 8350 1600 8350
+Wire Wire Line
+	2400 8350 2225 8350
+Wire Wire Line
+	2225 8250 2400 8250
+Wire Wire Line
+	2400 8150 2225 8150
+Wire Wire Line
+	2225 8050 2400 8050
+Wire Wire Line
+	2400 7950 2225 7950
+Wire Wire Line
+	2225 7850 2400 7850
+Wire Wire Line
+	2400 7750 2225 7750
+Text Label 3325 8150 2    50   ~ 0
+FPGA_GPIO_08
+Text Label 3325 8250 2    50   ~ 0
+FPGA_GPIO_10
+Text Label 3325 8350 2    50   ~ 0
+FPGA_GPIO_12
+Text Label 725  8350 0    50   ~ 0
+FPGA_GPIO_13
+Text Label 725  8250 0    50   ~ 0
+FPGA_GPIO_11
+Text Label 725  8150 0    50   ~ 0
+FPGA_GPIO_09
+Text Label 725  8050 0    50   ~ 0
+FPGA_GPIO_07
+Text Label 725  7950 0    50   ~ 0
+FPGA_GPIO_05
+Text Label 725  7850 0    50   ~ 0
+FPGA_GPIO_03
+Text Label 725  7750 0    50   ~ 0
+FPGA_GPIO_01
+Wire Wire Line
+	725  7750 1300 7750
+Wire Wire Line
+	725  7850 1300 7850
+Wire Wire Line
+	725  7950 1300 7950
+Wire Wire Line
+	725  8050 1300 8050
+Wire Wire Line
+	725  8150 1300 8150
+Wire Wire Line
+	725  8250 1300 8250
+Wire Wire Line
+	725  8350 1300 8350
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J1
+U 1 1 5CF1630E
+P 1925 8050
+F 0 "J1" H 1975 8667 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 1975 8576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 1925 8050 50  0001 C CNN
+F 3 "~" H 1925 8050 50  0001 C CNN
+	1    1925 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 5CEC47A8
+P 1625 8450
+F 0 "#PWR073" H 1625 8200 50  0001 C CNN
+F 1 "GND" V 1630 8277 50  0000 C CNN
+F 2 "" H 1625 8450 50  0001 C CNN
+F 3 "" H 1625 8450 50  0001 C CNN
+	1    1625 8450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1625 8450 1725 8450
+Wire Wire Line
+	2325 8450 2225 8450
+$Comp
+L power:GND #PWR082
+U 1 1 5CF1F3DA
+P 2325 8450
+F 0 "#PWR082" H 2325 8200 50  0001 C CNN
+F 1 "GND" V 2330 8277 50  0000 C CNN
+F 2 "" H 2325 8450 50  0001 C CNN
+F 3 "" H 2325 8450 50  0001 C CNN
+	1    2325 8450
+	0    -1   -1   0   
+$EndComp
+Text Label 3325 7750 2    50   ~ 0
+FPGA_GPIO_00
+Text Label 3325 7850 2    50   ~ 0
+FPGA_GPIO_02
+Wire Wire Line
+	2700 7750 3325 7750
+Wire Wire Line
+	2700 7850 3325 7850
+Wire Wire Line
+	2700 7950 3325 7950
+Wire Wire Line
+	2700 8050 3325 8050
+Wire Wire Line
+	2700 8150 3325 8150
+Wire Wire Line
+	2700 8250 3325 8250
+Wire Wire Line
+	2700 8350 3325 8350
+Text Label 3325 8050 2    50   ~ 0
+FPGA_GPIO_06
+Text Label 3325 7950 2    50   ~ 0
+FPGA_GPIO_01
+Text Label 6025 8225 2    50   ~ 0
+SCL_I2C
+Text Label 4025 8250 0    50   ~ 0
+SDA_I2C
+Text Label 5025 3950 0    50   ~ 0
+FPGA_GPIO_15
+Text Label 5025 3850 0    50   ~ 0
+FPGA_GPIO_16
+Text Label 5025 3750 0    50   ~ 0
+FPGA_GPIO_17
+Text Label 5025 3650 0    50   ~ 0
+FPGA_GPIO_18
+Text Label 5025 3550 0    50   ~ 0
+FPGA_GPIO_19
+Text Label 5025 3450 0    50   ~ 0
+FPGA_GPIO_20
+Text Label 5025 3350 0    50   ~ 0
+FPGA_GPIO_21
+Text Label 5025 3250 0    50   ~ 0
+FPGA_GPIO_22
+Text Label 5025 4050 0    50   ~ 0
+FPGA_GPIO_14
+Wire Wire Line
+	5025 3250 5600 3250
+Wire Wire Line
+	5025 3350 5600 3350
+Wire Wire Line
+	5025 3450 5600 3450
+Wire Wire Line
+	5025 3550 5600 3550
+Wire Wire Line
+	5025 3650 5600 3650
+Wire Wire Line
+	5025 3750 5600 3750
+Wire Wire Line
+	5025 3850 5600 3850
+Wire Wire Line
+	5025 3950 5600 3950
+Wire Wire Line
+	5025 4050 5600 4050
+NoConn ~ 12200 5700
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J2
+U 1 1 5CFFB48F
+P 4650 7925
+F 0 "J2" H 4700 8442 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4700 8351 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4650 7925 50  0001 C CNN
+F 3 "~" H 4650 7925 50  0001 C CNN
+	1    4650 7925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4375 7625 0    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	4950 7625 5050 7625
+Text GLabel 5050 7625 2    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	4375 7625 4425 7625
+Wire Wire Line
+	4425 7625 4425 7725
+Wire Wire Line
+	4425 7725 4450 7725
+Connection ~ 4425 7625
+Wire Wire Line
+	4425 7625 4450 7625
+Wire Wire Line
+	4350 8325 4450 8325
+Wire Wire Line
+	5050 8325 4950 8325
+$Comp
+L power:GND #PWR085
+U 1 1 5D00D23D
+P 5050 8325
+F 0 "#PWR085" H 5050 8075 50  0001 C CNN
+F 1 "GND" V 5055 8152 50  0000 C CNN
+F 2 "" H 5050 8325 50  0001 C CNN
+F 3 "" H 5050 8325 50  0001 C CNN
+	1    5050 8325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR084
+U 1 1 5D00D23E
+P 4350 8325
+F 0 "#PWR084" H 4350 8075 50  0001 C CNN
+F 1 "GND" V 4355 8152 50  0000 C CNN
+F 2 "" H 4350 8325 50  0001 C CNN
+F 3 "" H 4350 8325 50  0001 C CNN
+	1    4350 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 5D010C72
+P 5250 7725
+F 0 "R44" V 5300 7825 50  0000 L CNN
+F 1 "200" V 5250 7625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7725 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7725 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5250 7725 50  0001 C CNN "Digikey"
+	1    5250 7725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 5D0161F2
+P 5250 7825
+F 0 "R45" V 5300 7925 50  0000 L CNN
+F 1 "200" V 5250 7725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7825 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7825 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5250 7825 50  0001 C CNN "Digikey"
+	1    5250 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5D01725A
+P 5250 7925
+F 0 "R46" V 5300 8025 50  0000 L CNN
+F 1 "200" V 5250 7825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7925 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7925 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5250 7925 50  0001 C CNN "Digikey"
+	1    5250 7925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R47
+U 1 1 5D01836A
+P 5250 8025
+F 0 "R47" V 5300 8125 50  0000 L CNN
+F 1 "200" V 5250 7925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 8025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 8025 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5250 8025 50  0001 C CNN "Digikey"
+	1    5250 8025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 5D01965E
+P 5250 8125
+F 0 "R48" V 5300 8225 50  0000 L CNN
+F 1 "200" V 5250 8025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 8125 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 8125 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5250 8125 50  0001 C CNN "Digikey"
+	1    5250 8125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R43
+U 1 1 5D01D4F6
+P 4225 8125
+F 0 "R43" V 4275 8225 50  0000 L CNN
+F 1 "200" V 4225 8025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 8125 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 8125 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4225 8125 50  0001 C CNN "Digikey"
+	1    4225 8125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 5D01EDAF
+P 4225 8025
+F 0 "R42" V 4275 8125 50  0000 L CNN
+F 1 "200" V 4225 7925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 8025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 8025 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4225 8025 50  0001 C CNN "Digikey"
+	1    4225 8025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5D0204B7
+P 4225 7925
+F 0 "R41" V 4275 8025 50  0000 L CNN
+F 1 "200" V 4225 7825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 7925 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 7925 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4225 7925 50  0001 C CNN "Digikey"
+	1    4225 7925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 5D0211DF
+P 4225 7825
+F 0 "R40" V 4275 7925 50  0000 L CNN
+F 1 "200" V 4225 7725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 7825 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 7825 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4225 7825 50  0001 C CNN "Digikey"
+	1    4225 7825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 7825 4375 7825
+Wire Wire Line
+	4375 7925 4450 7925
+Wire Wire Line
+	4375 8025 4450 8025
+Wire Wire Line
+	4375 8125 4450 8125
+Wire Wire Line
+	4375 8225 4450 8225
+Wire Wire Line
+	5100 8125 4950 8125
+Wire Wire Line
+	4950 8025 5100 8025
+Wire Wire Line
+	5100 7925 4950 7925
+Wire Wire Line
+	4950 7825 5100 7825
+Wire Wire Line
+	5100 7725 4950 7725
+Text Label 6025 7725 2    50   ~ 0
+FPGA_GPIO_14
+Wire Wire Line
+	6025 7825 5400 7825
+Wire Wire Line
+	6025 7725 5400 7725
+Wire Wire Line
+	6025 7925 5400 7925
+Wire Wire Line
+	5400 8025 6025 8025
+Wire Wire Line
+	6025 8125 5400 8125
+Wire Wire Line
+	4950 8225 6025 8225
+Wire Wire Line
+	4075 7825 3500 7825
+Wire Wire Line
+	3500 7925 4075 7925
+Wire Wire Line
+	4075 8025 3500 8025
+Wire Wire Line
+	3500 8125 4075 8125
+NoConn ~ 7700 2100
+NoConn ~ 7800 2100
+NoConn ~ 7900 2100
+NoConn ~ 8000 2100
+NoConn ~ 8100 2100
+NoConn ~ 8200 2100
+NoConn ~ 8300 2100
+NoConn ~ 8600 2100
+NoConn ~ 8700 2100
+NoConn ~ 8800 2100
+NoConn ~ 5600 5250
+NoConn ~ 5600 5150
+NoConn ~ 5600 5050
+NoConn ~ 5600 4950
+NoConn ~ 5600 4850
+Text GLabel 8050 8075 2    50   Output ~ 0
+FMC_D0
+Text GLabel 8050 8175 2    50   Output ~ 0
+FMC_D1
+Text GLabel 8050 8275 2    50   Output ~ 0
+FMC_D2
+Text GLabel 8050 8375 2    50   Output ~ 0
+FMC_D3
+Text GLabel 8050 8775 2    50   Output ~ 0
+FMC_D7
+Text GLabel 8050 8475 2    50   Output ~ 0
+FMC_D4
+Text GLabel 8050 8675 2    50   Output ~ 0
+FMC_D6
+Text GLabel 8050 8575 2    50   Output ~ 0
+FMC_D5
+Text GLabel 8050 9175 2    50   Output ~ 0
+FMC_D11
+Text GLabel 8050 8875 2    50   Output ~ 0
+FMC_D8
+Text GLabel 8050 9075 2    50   Output ~ 0
+FMC_D10
+Text GLabel 8050 8975 2    50   Output ~ 0
+FMC_D9
+Text GLabel 8050 9575 2    50   Output ~ 0
+FMC_D15
+Text GLabel 8050 9275 2    50   Output ~ 0
+FMC_D12
+Text GLabel 8050 9475 2    50   Output ~ 0
+FMC_D14
+Text GLabel 8050 9375 2    50   Output ~ 0
+FMC_D13
+Text GLabel 9800 8525 2    50   Output ~ 0
+FMC_A14
+Text GLabel 9800 8625 2    50   Output ~ 0
+FMC_A15
+Text GLabel 9800 8725 2    50   Output ~ 0
+FMC_A16
+Text GLabel 9800 8825 2    50   Output ~ 0
+FMC_A17
+Text GLabel 9800 8925 2    50   Output ~ 0
+FMC_A18
+Text GLabel 9800 9025 2    50   Output ~ 0
+FMC_A19
+Text GLabel 9800 9125 2    50   Output ~ 0
+FMC_A20
+Text GLabel 9800 9225 2    50   Output ~ 0
+FMC_A21
+Text GLabel 9800 9325 2    50   Output ~ 0
+FMC_A22
+Text GLabel 9800 9425 2    50   Output ~ 0
+FMC_A23
+Wire Wire Line
+	7550 10625 8000 10625
+Text Notes 7550 10725 0    50   ~ 0
+FMC_NADV o NL\n
+Wire Wire Line
+	8000 10525 7550 10525
+Wire Wire Line
+	8000 9925 7550 9925
+Wire Wire Line
+	8000 10025 7550 10025
+Wire Wire Line
+	8000 10425 7550 10425
+Wire Wire Line
+	8000 10325 7550 10325
+Wire Wire Line
+	8000 10225 7550 10225
+Wire Wire Line
+	8000 10125 7550 10125
+Text GLabel 8000 9925 2    50   Output ~ 0
+FMC_NL
+Text GLabel 8000 10025 2    50   Output ~ 0
+FMC_CLK
+Text GLabel 8000 10125 2    50   Output ~ 0
+FMC_NOE
+Text GLabel 8000 10225 2    50   Output ~ 0
+FMC_NWE
+Text GLabel 8000 10325 2    50   Output ~ 0
+FMC_NWAIT
+Text GLabel 8000 10425 2    50   Output ~ 0
+FMC_NE1
+Text GLabel 8000 10525 2    50   Output ~ 0
+FMC_NBL0
+Text GLabel 8000 10625 2    50   Output ~ 0
+FMC_NBL1
 $EndSCHEMATC

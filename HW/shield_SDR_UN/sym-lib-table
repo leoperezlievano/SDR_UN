@@ -11,4 +11,7 @@
   (lib (name "UL_ABM9G25000MHZB4YT")(type "Legacy")(uri "${KIPRJMOD}/lib/UL_ABM9G25000MHZB4YT.lib")(options "")(descr ""))
   (lib (name "UL_HHM1711E1")(type "Legacy")(uri "${KIPRJMOD}/lib/UL_HHM1711E1.lib")(options "")(descr ""))
   (lib (name "SRF2012900YA")(type "Legacy")(uri "${KIPRJMOD}/lib/SRF2012900YA.lib")(options "")(descr ""))
+  (lib (name "TL1014BF160QG")(type "Legacy")(uri "${KIPRJMOD}/lib/TL1014BF160QG.lib")(options "")(descr ""))
+  (lib (name "BK-870")(type "Legacy")(uri "${KIPRJMOD}/lib/BK-870.lib")(options "")(descr ""))
+  (lib (name "HHM1711E1")(type "Legacy")(uri "${KIPRJMOD}/lib/HHM1711E1.lib")(options "")(descr ""))
 )

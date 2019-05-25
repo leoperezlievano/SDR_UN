@@ -108,4 +108,48 @@ Wire Wire Line
 	3950 4250 9250 4250
 Wire Wire Line
 	9250 4250 9250 3850
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CF719B7
+P 6125 4550
+F 0 "H1" H 6225 4596 50  0000 L CNN
+F 1 "MountingHole" H 6225 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 6125 4550 50  0001 C CNN
+F 3 "~" H 6125 4550 50  0001 C CNN
+	1    6125 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CF73518
+P 6125 4775
+F 0 "H2" H 6225 4821 50  0000 L CNN
+F 1 "MountingHole" H 6225 4730 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 6125 4775 50  0001 C CNN
+F 3 "~" H 6125 4775 50  0001 C CNN
+	1    6125 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CF735B5
+P 6125 5000
+F 0 "H3" H 6225 5046 50  0000 L CNN
+F 1 "MountingHole" H 6225 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 6125 5000 50  0001 C CNN
+F 3 "~" H 6125 5000 50  0001 C CNN
+	1    6125 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CF7376A
+P 6125 5225
+F 0 "H4" H 6225 5271 50  0000 L CNN
+F 1 "MountingHole" H 6225 5180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 6125 5225 50  0001 C CNN
+F 3 "~" H 6125 5225 50  0001 C CNN
+	1    6125 5225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

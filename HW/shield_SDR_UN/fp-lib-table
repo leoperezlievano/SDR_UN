@@ -4,4 +4,7 @@
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
   (lib (name "QFN50P300X300X60-21N")(type "Legacy")(uri "${KIPRJMOD}/lib/QFN50P300X300X60-21N.mod")(options "")(descr ""))
   (lib (name "OMEGA2_")(type "Legacy")(uri "${KIPRJMOD}/lib/OMEGA2_.mod")(options "")(descr ""))
+  (lib (name "BK-870")(type "Legacy")(uri "${KIPRJMOD}/lib/BK-870.mod")(options "")(descr ""))
+  (lib (name "DMP2305U-7")(type "Legacy")(uri "${KIPRJMOD}/lib/DMP2305U-7.mod")(options "")(descr ""))
+  (lib (name "EMPCB.SMAFSTJ.B.HT")(type "Legacy")(uri "${KIPRJMOD}/lib/EMPCB.SMAFSTJ.B.HT.mod")(options "")(descr ""))
 )
