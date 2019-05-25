@@ -10,4 +10,5 @@
   (lib (name "ZLDO1117")(type "Legacy")(uri "${KIPRJMOD}/lib/ZLDO1117G33TA.lib")(options "")(descr ""))
   (lib (name "UL_ABM9G25000MHZB4YT")(type "Legacy")(uri "${KIPRJMOD}/lib/UL_ABM9G25000MHZB4YT.lib")(options "")(descr ""))
   (lib (name "UL_HHM1711E1")(type "Legacy")(uri "${KIPRJMOD}/lib/UL_HHM1711E1.lib")(options "")(descr ""))
+  (lib (name "SRF2012900YA")(type "Legacy")(uri "${KIPRJMOD}/lib/SRF2012900YA.lib")(options "")(descr ""))
 )
