@@ -61,7 +61,7 @@ Text Label 12400 2900 0    50   ~ 0
 REFN
 Text Label 11800 3650 0    50   ~ 0
 REFP
-Text Label 14600 4050 2    50   ~ 0
+Text Label 14675 4050 2    50   ~ 0
 adDD9
 Text Label 14600 4150 2    50   ~ 0
 adDD8
@@ -739,8 +739,6 @@ F 3 "" H 7300 2950 50  0001 C CNN
 	1    7300 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 2950 7300 3100
 Wire Wire Line
 	7800 2950 7800 3100
 Wire Wire Line
@@ -2679,14 +2677,14 @@ F 3 "" H 14000 7250 50  0001 C CNN
 $EndComp
 $Comp
 L hackrf-one-rescue:SI5351C U2
-U 0 0 5CE4E248
+U 1 1 5CE4E248
 P 10650 8150
 F 0 "U2" H 10600 8200 60  0000 L CNN
 F 1 "SI5351C" H 10450 8050 60  0000 L CNN
 F 2 "lib:QFN50P300X300X60-21N" H 10650 8150 60  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf" H 10650 8150 60  0001 C CNN
 F 4 "336-5160-1-ND" H 10650 8150 50  0001 C CNN "Digikey"
-	0    10650 8150
+	1    10650 8150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3094,8 +3092,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 4150 14800 4150
 Wire Wire Line
-	14350 4050 14800 4050
-Wire Wire Line
 	14350 4750 14800 4750
 Wire Wire Line
 	10650 7350 10650 6800
@@ -3123,4 +3119,8 @@ Text GLabel 8850 7550 1    50   Input ~ 0
 3V3 MCU
 Text GLabel 13850 6600 0    50   Input ~ 0
 3V3 MCU
+Wire Wire Line
+	14350 4050 14800 4050
+Wire Wire Line
+	7300 2950 7300 3100
 $EndSCHEMATC

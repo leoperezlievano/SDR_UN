@@ -95,13 +95,6 @@ Wire Wire Line
 	10150 2900 10150 2800
 Connection ~ 10150 2800
 Wire Wire Line
-	10150 2800 10050 2800
-Wire Wire Line
-	10050 2900 10050 2800
-Connection ~ 10050 2800
-Wire Wire Line
-	10050 2800 9950 2800
-Wire Wire Line
 	9950 2900 9950 2800
 Connection ~ 9950 2800
 Wire Wire Line
@@ -561,10 +554,6 @@ Wire Wire Line
 Text Label 2750 1950 2    50   ~ 0
 VREF+
 Text Label 10350 2700 3    50   ~ 0
-VDDA
-Wire Wire Line
-	10350 2900 10350 2700
-Text Label 1700 1950 2    50   ~ 0
 VDDA
 Wire Wire Line
 	1000 1950 850  1950
@@ -1979,4 +1968,15 @@ Text GLabel 1200 9750 0    50   Input ~ 0
 Text GLabel 5650 3950 0    50   Input ~ 0
 3V3 MCU
 NoConn ~ 14950 6000
+Wire Wire Line
+	9950 2800 10050 2800
+Wire Wire Line
+	10050 2900 10050 2800
+Connection ~ 10050 2800
+Wire Wire Line
+	10050 2800 10150 2800
+Wire Wire Line
+	10350 2700 10350 2900
+Text Label 1800 1950 2    50   ~ 0
+VDDA
 $EndSCHEMATC

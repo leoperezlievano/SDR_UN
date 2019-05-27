@@ -163,9 +163,9 @@ AR Path="/5CC08321/5CECC44D" Ref="D?"  Part="1"
 AR Path="/5CFB52DC/5CECC44D" Ref="D10"  Part="1" 
 F 0 "D10" V 1504 4279 50  0000 L CNN
 F 1 "D_Zener-5.1V-1W" V 1650 3450 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 1550 4200 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18015.pdf" H 1550 4200 50  0001 C CNN
-F 4 " SMAZ5V1-FDICT-ND" V 1550 4200 50  0001 C CNN "Digikey"
+F 2 "Diode_SMD:D_SOD-123" H 1550 4200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMSZ5221BT1-D.PDF" H 1550 4200 50  0001 C CNN
+F 4 "MMSZ5231BT1GOSCT-ND" V 1550 4200 50  0001 C CNN "Digikey"
 	1    1550 4200
 	0    1    1    0   
 $EndComp
@@ -332,13 +332,11 @@ F 3 "" H 2950 1600 50  0001 C CNN
 	1    2950 1600
 	0    1    1    0   
 $EndComp
-Text Label 2950 1400 2    50   ~ 0
-SER_RX0
 Text Label 2950 1500 2    50   ~ 0
-SER_TX0
-Text Label 2950 1300 2    50   ~ 0
+SER_RX0
+Text Label 2950 1400 2    50   ~ 0
 I2C_SDA
-Text Label 2950 1200 2    50   ~ 0
+Text Label 3850 1400 0    50   ~ 0
 I2C_SCL
 Text Label 2950 1100 2    50   ~ 0
 3V3_OMEG
@@ -522,13 +520,13 @@ F 3 "" H 3850 1600 50  0001 C CNN
 	1    3850 1600
 	0    -1   -1   0   
 $EndComp
-Text Label 3850 1500 0    50   ~ 0
-O_SPI_MISO
-Text Label 3850 1400 0    50   ~ 0
-O_SPI_MOSI
-Text Label 3850 1200 0    50   ~ 0
-O_SPI_CS1
 Text Label 3850 1300 0    50   ~ 0
+O_SPI_MISO
+Text Label 2950 1300 2    50   ~ 0
+O_SPI_MOSI
+Text Label 2950 1200 2    50   ~ 0
+O_SPI_CS1
+Text Label 3850 1200 0    50   ~ 0
 O_SPI_CLK
 $Comp
 L Device:R R62
@@ -663,4 +661,6 @@ Wire Wire Line
 	1750 6250 1750 6450
 Text GLabel 1000 5300 0    50   Input ~ 0
 3V3 MCU
+Text Label 3850 1500 0    50   ~ 0
+SER_TX0
 $EndSCHEMATC

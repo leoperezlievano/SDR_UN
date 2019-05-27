@@ -61,7 +61,7 @@ Text Label 12400 2900 0    50   ~ 0
 REFN
 Text Label 11800 3650 0    50   ~ 0
 REFP
-Text Label 14600 4050 2    50   ~ 0
+Text Label 14675 4050 2    50   ~ 0
 adDD9
 Text Label 14600 4150 2    50   ~ 0
 adDD8
@@ -739,8 +739,6 @@ F 3 "" H 7300 2950 50  0001 C CNN
 	1    7300 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 2950 7300 3100
 Wire Wire Line
 	7800 2950 7800 3100
 Wire Wire Line
@@ -3094,8 +3092,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 4150 14800 4150
 Wire Wire Line
-	14350 4050 14800 4050
-Wire Wire Line
 	14350 4750 14800 4750
 Wire Wire Line
 	10650 7350 10650 6800
@@ -3123,4 +3119,8 @@ Text GLabel 8850 7550 1    50   Input ~ 0
 3V3 MCU
 Text GLabel 13850 6600 0    50   Input ~ 0
 3V3 MCU
+Wire Wire Line
+	14350 4050 14800 4050
+Wire Wire Line
+	7300 2950 7300 3100
 $EndSCHEMATC

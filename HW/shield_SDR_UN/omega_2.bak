@@ -163,9 +163,9 @@ AR Path="/5CC08321/5CECC44D" Ref="D?"  Part="1"
 AR Path="/5CFB52DC/5CECC44D" Ref="D10"  Part="1" 
 F 0 "D10" V 1504 4279 50  0000 L CNN
 F 1 "D_Zener-5.1V-1W" V 1650 3450 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 1550 4200 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18015.pdf" H 1550 4200 50  0001 C CNN
-F 4 " SMAZ5V1-FDICT-ND" V 1550 4200 50  0001 C CNN "Digikey"
+F 2 "Diode_SMD:D_SOD-123" H 1550 4200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 1550 4200 50  0001 C CNN
+F 4 "MMSZ5231B-FDICT-ND" V 1550 4200 50  0001 C CNN "Digikey"
 	1    1550 4200
 	0    1    1    0   
 $EndComp
