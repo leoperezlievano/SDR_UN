@@ -566,42 +566,26 @@ Wire Wire Line
 	10350 2900 10350 2700
 Text Label 1700 1950 2    50   ~ 0
 VDDA
-Text GLabel 850  1950 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	1000 1950 850  1950
-Text GLabel 2250 1950 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	2400 1950 2250 1950
-Text GLabel 900  3100 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	1050 3100 900  3100
-Text GLabel 2350 3200 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	2500 3200 2350 3200
-Text GLabel 1250 950  0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	1400 950  1250 950 
-Text GLabel 9600 2600 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	9750 2600 9600 2600
 Wire Wire Line
 	9750 2600 9750 2800
-Text GLabel 10450 2750 1    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	10450 2750 10450 2900
 Connection ~ 1050 3100
 Connection ~ 2500 3200
 Connection ~ 2400 1950
 Connection ~ 1400 950 
-Text GLabel 5650 3950 0    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	6050 3950 5650 3950
 Wire Wire Line
@@ -645,8 +629,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2150 8050 2150
 Connection ~ 8050 2150
-Text GLabel 8100 2050 2    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	8100 2050 8050 2050
 Wire Wire Line
@@ -699,8 +681,6 @@ Text Label 15350 5300 2    50   ~ 0
 TDI
 Wire Wire Line
 	15350 5300 14950 5300
-Text GLabel 10550 2750 1    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	10550 2750 10550 2900
 Wire Wire Line
@@ -1274,7 +1254,7 @@ U 1 1 5D048C3C
 P 2900 3450
 F 0 "C104" H 2965 3546 50  0000 L CNN
 F 1 "1uF" H 2965 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 3300 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 2900 3450 50  0001 C CNN
 F 4 "1276-1182-1-ND" H 2900 3450 50  0001 C CNN "Digikey"
 	1    2900 3450
@@ -1286,7 +1266,7 @@ U 1 1 5D04ADC2
 P 1400 3350
 F 0 "C90" H 1465 3446 50  0000 L CNN
 F 1 "1uF" H 1465 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1438 3200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 1400 3350 50  0001 C CNN
 F 4 "1276-1182-1-ND" H 1400 3350 50  0001 C CNN "Digikey"
 	1    1400 3350
@@ -1298,7 +1278,7 @@ U 1 1 5D04CA8A
 P 1800 2200
 F 0 "C94" H 1865 2296 50  0000 L CNN
 F 1 "1uF" H 1865 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 2050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 1800 2200 50  0001 C CNN
 F 4 "1276-1182-1-ND" H 1800 2200 50  0001 C CNN "Digikey"
 	1    1800 2200
@@ -1310,7 +1290,7 @@ U 1 1 5D04E128
 P 2850 2200
 F 0 "C103" H 2915 2296 50  0000 L CNN
 F 1 "1uF" H 2915 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 2050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 2850 2200 50  0001 C CNN
 F 4 "1276-1182-1-ND" H 2850 2200 50  0001 C CNN "Digikey"
 	1    2850 2200
@@ -1590,8 +1570,6 @@ Text GLabel 15350 6300 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 15350 6400 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 1200 9750 0    50   Input ~ 0
-3v3 MCU
 $Comp
 L power:GND #PWR0110
 U 1 1 5CF3F892
@@ -1978,4 +1956,27 @@ SPI1_CS_AD
 Wire Wire Line
 	6050 13300 6500 13300
 NoConn ~ 14950 9100
+Text GLabel 8100 2050 2    50   Input ~ 0
+3V3 MCU
+Text GLabel 9600 2600 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 10450 2750 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 10550 2750 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 850  1950 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 2250 1950 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 1250 950  0    50   Input ~ 0
+3V3 MCU
+Text GLabel 900  3100 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 2350 3200 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 1200 9750 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 5650 3950 0    50   Input ~ 0
+3V3 MCU
+NoConn ~ 14950 6000
 $EndSCHEMATC

@@ -61,21 +61,21 @@ Text Label 12400 2900 0    50   ~ 0
 REFN
 Text Label 11800 3650 0    50   ~ 0
 REFP
-Text Label 14350 4050 0    50   ~ 0
+Text Label 14600 4050 2    50   ~ 0
 adDD9
-Text Label 14350 4150 0    50   ~ 0
+Text Label 14600 4150 2    50   ~ 0
 adDD8
-Text Label 14350 4250 0    50   ~ 0
+Text Label 14600 4250 2    50   ~ 0
 adDD7
-Text Label 14350 4350 0    50   ~ 0
+Text Label 14600 4350 2    50   ~ 0
 adDD6
-Text Label 14350 4450 0    50   ~ 0
+Text Label 14600 4450 2    50   ~ 0
 adDD5
-Text Label 14350 4550 0    50   ~ 0
+Text Label 14600 4550 2    50   ~ 0
 adDD4
-Text Label 14350 4650 0    50   ~ 0
+Text Label 14600 4650 2    50   ~ 0
 adDD3
-Text Label 14350 4750 0    50   ~ 0
+Text Label 14600 4750 2    50   ~ 0
 adDD2
 Text Label 13700 5650 1    50   ~ 0
 adDD1
@@ -148,40 +148,22 @@ QA-
 Text Label 11800 4550 0    50   ~ 0
 QA+
 Wire Wire Line
-	13600 5400 13600 5800
-Wire Wire Line
 	13700 5400 13700 5800
-Wire Wire Line
-	14350 4050 14700 4050
-Wire Wire Line
-	14350 4150 14700 4150
-Wire Wire Line
-	14350 4250 14700 4250
-Wire Wire Line
-	14350 4350 14700 4350
-Wire Wire Line
-	14350 4450 14700 4450
-Wire Wire Line
-	14350 4550 14700 4550
-Wire Wire Line
-	14350 4650 14700 4650
-Wire Wire Line
-	14350 4750 14700 4750
-Text GLabel 14700 4050 2    50   Input ~ 0
+Text GLabel 14800 4050 2    50   Input ~ 0
 adDD9
-Text GLabel 14700 4150 2    50   Input ~ 0
+Text GLabel 14800 4150 2    50   Input ~ 0
 adDD8
-Text GLabel 14700 4250 2    50   Input ~ 0
+Text GLabel 14800 4250 2    50   Input ~ 0
 adDD7
-Text GLabel 14700 4350 2    50   Input ~ 0
+Text GLabel 14800 4350 2    50   Input ~ 0
 adDD6
-Text GLabel 14700 4450 2    50   Input ~ 0
+Text GLabel 14800 4450 2    50   Input ~ 0
 adDD5
-Text GLabel 14700 4550 2    50   Input ~ 0
+Text GLabel 14800 4550 2    50   Input ~ 0
 adDD4
-Text GLabel 14700 4650 2    50   Input ~ 0
+Text GLabel 14800 4650 2    50   Input ~ 0
 adDD3
-Text GLabel 14700 4750 2    50   Input ~ 0
+Text GLabel 14800 4750 2    50   Input ~ 0
 adDD2
 Text GLabel 13700 5800 3    50   Input ~ 0
 adDD1
@@ -203,8 +185,6 @@ Text GLabel 12700 5800 3    50   Input ~ 0
 adDA1
 Text GLabel 12600 5800 3    50   Input ~ 0
 adDA0
-Wire Wire Line
-	12800 2900 12800 3000
 Wire Wire Line
 	13100 2900 13100 3000
 Wire Wire Line
@@ -245,16 +225,14 @@ $EndComp
 $Comp
 L power:VAA #PWR069
 U 1 1 5CCBDAAC
-P 14500 3950
-F 0 "#PWR069" H 14500 3800 50  0001 C CNN
-F 1 "VAA" V 14500 4150 50  0000 C CNN
-F 2 "" H 14500 3950 50  0001 C CNN
-F 3 "" H 14500 3950 50  0001 C CNN
-	1    14500 3950
+P 14550 3950
+F 0 "#PWR069" H 14550 3800 50  0001 C CNN
+F 1 "VAA" V 14550 4150 50  0000 C CNN
+F 2 "" H 14550 3950 50  0001 C CNN
+F 3 "" H 14550 3950 50  0001 C CNN
+	1    14550 3950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	14500 3950 14350 3950
 $Comp
 L power:VAA #PWR057
 U 1 1 5CCC03DF
@@ -346,7 +324,7 @@ U 1 1 5CCE48D1
 P 1350 1400
 F 0 "Q1" H 1150 1250 60  0000 L CNN
 F 1 "MOSFET_P" H 800 1550 60  0000 L CNN
-F 2 "DMP2305U-7:SOT103P240X110-3N" H 1350 1400 60  0001 C CNN
+F 2 "lib:SOT103P240X110-3N" H 1350 1400 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds31737.pdf" H 1350 1400 60  0001 C CNN
 F 4 "DMP2305UDICT-ND" H 1350 1400 50  0001 C CNN "Digikey"
 	1    1350 1400
@@ -421,19 +399,6 @@ Wire Wire Line
 	1250 2700 1250 2550
 Wire Wire Line
 	1250 3200 1250 3100
-$Comp
-L power:VCC #PWR064
-U 1 1 5CD923B4
-P 13100 5500
-F 0 "#PWR064" H 13100 5350 50  0001 C CNN
-F 1 "VCC" V 13100 5700 50  0000 C CNN
-F 2 "" H 13100 5500 50  0001 C CNN
-F 3 "" H 13100 5500 50  0001 C CNN
-	1    13100 5500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13100 5500 13100 5400
 $Comp
 L Device:C C5
 U 1 1 5CD06356
@@ -512,23 +477,20 @@ ADC-18 bypass\ncapacitors
 $Comp
 L power:VAA #PWR02
 U 1 1 5CDED280
-P 1200 7450
-F 0 "#PWR02" H 1200 7300 50  0001 C CNN
-F 1 "VAA" H 1200 7600 50  0000 C CNN
-F 2 "" H 1200 7450 50  0001 C CNN
-F 3 "" H 1200 7450 50  0001 C CNN
-	1    1200 7450
+P 1200 7400
+F 0 "#PWR02" H 1200 7250 50  0001 C CNN
+F 1 "VAA" H 1200 7550 50  0000 C CNN
+F 2 "" H 1200 7400 50  0001 C CNN
+F 3 "" H 1200 7400 50  0001 C CNN
+	1    1200 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1200 8200 1200 8150
 Wire Wire Line
-	1200 7450 1200 7550
-Wire Wire Line
 	1600 7700 1600 7550
 Wire Wire Line
 	1600 7550 1200 7550
-Connection ~ 1200 7550
 Wire Wire Line
 	1200 7550 1200 7700
 Wire Wire Line
@@ -653,7 +615,7 @@ U 1 1 5CD19433
 P 7650 4300
 F 0 "U1" H 7600 4350 60  0000 L CNN
 F 1 "MAX2830" H 7450 4250 60  0000 L CNN
-F 2 "FP-MAX2830:MAX2830ETM&plus_" H 7650 4300 60  0001 C CNN
+F 2 "lib:MAX2830ETM&plus_" H 7650 4300 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX2830.pdf" H 7650 4300 60  0001 C CNN
 F 4 "MAX2830ETM+TCT-ND" H 7650 4300 50  0001 C CNN "Digikey"
 	1    7650 4300
@@ -667,17 +629,6 @@ Wire Wire Line
 	9000 4250 8850 4250
 Wire Wire Line
 	9000 4750 8850 4750
-$Comp
-L power:VAA #PWR025
-U 1 1 5CDC13A5
-P 6300 3750
-F 0 "#PWR025" H 6300 3600 50  0001 C CNN
-F 1 "VAA" V 6300 3950 50  0000 C CNN
-F 2 "" H 6300 3750 50  0001 C CNN
-F 3 "" H 6300 3750 50  0001 C CNN
-	1    6300 3750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:VAA #PWR027
 U 1 1 5CDC41DC
@@ -796,8 +747,6 @@ Wire Wire Line
 	8000 2950 8000 3100
 Wire Wire Line
 	9000 4350 8850 4350
-Wire Wire Line
-	9000 4650 8850 4650
 Wire Wire Line
 	8850 4850 9000 4850
 Wire Wire Line
@@ -1448,10 +1397,6 @@ Wire Wire Line
 NoConn ~ 10450 8950
 NoConn ~ 10650 8950
 NoConn ~ 10550 8950
-Text GLabel 10850 9250 3    50   Input ~ 0
-3V3 MCU
-Wire Wire Line
-	10850 9250 10850 8950
 Wire Wire Line
 	11250 9100 10750 9100
 Wire Wire Line
@@ -1460,12 +1405,6 @@ Wire Wire Line
 	11550 9100 11800 9100
 Text GLabel 11800 9100 2    50   Input ~ 0
 GPIO_CLK
-Text GLabel 11800 8350 2    50   Input ~ 0
-3V3 MCU
-Wire Wire Line
-	11800 8350 11450 8350
-Text GLabel 10450 6800 1    50   Input ~ 0
-3V3 MCU
 $Comp
 L power:GND #PWR046
 U 1 1 5CE7A72B
@@ -1520,14 +1459,8 @@ Wire Wire Line
 	11550 7950 11450 7950
 Text Notes 11550 7900 0    50   ~ 0
 MCU GP_CLKIN
-Text GLabel 11550 8050 2    50   Input ~ 0
-3V3 MCU
 Wire Wire Line
 	11550 8050 11450 8050
-Text GLabel 10650 7200 1    50   Input ~ 0
-3V3 MCU
-Wire Wire Line
-	10650 7200 10650 7350
 NoConn ~ 10550 7350
 $Comp
 L power:GND #PWR?
@@ -1633,12 +1566,6 @@ F 4 "311-1.8KGRTR-ND" V 8450 7900 50  0001 C CNN "Digikey"
 	1    8450 7900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8850 7550 1    50   Input ~ 0
-3V3 MCU
-Text GLabel 8650 7550 1    50   Input ~ 0
-3V3 MCU
-Text GLabel 8450 7550 1    50   Input ~ 0
-3V3 MCU
 Wire Wire Line
 	8450 7550 8450 7750
 Wire Wire Line
@@ -1987,23 +1914,20 @@ $EndComp
 $Comp
 L power:VAA #PWR06
 U 1 1 5CEC6014
-P 1200 10100
-F 0 "#PWR06" H 1200 9950 50  0001 C CNN
-F 1 "VAA" H 1200 10250 50  0000 C CNN
-F 2 "" H 1200 10100 50  0001 C CNN
-F 3 "" H 1200 10100 50  0001 C CNN
-	1    1200 10100
+P 1200 10050
+F 0 "#PWR06" H 1200 9900 50  0001 C CNN
+F 1 "VAA" H 1200 10200 50  0000 C CNN
+F 2 "" H 1200 10050 50  0001 C CNN
+F 3 "" H 1200 10050 50  0001 C CNN
+	1    1200 10050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1200 10850 1200 10800
 Wire Wire Line
-	1200 10100 1200 10200
-Wire Wire Line
 	1600 10350 1600 10200
 Wire Wire Line
 	1600 10200 1200 10200
-Connection ~ 1200 10200
 Wire Wire Line
 	1200 10200 1200 10350
 Wire Wire Line
@@ -2509,8 +2433,6 @@ NoConn ~ 7200 5500
 NoConn ~ 8100 5500
 NoConn ~ 8850 3950
 Wire Wire Line
-	7200 3100 7200 2900
-Wire Wire Line
 	7100 3100 7100 2900
 Text GLabel 7200 2900 1    50   Input ~ 0
 rf_ANTSEL
@@ -2761,7 +2683,7 @@ U 1 1 5CE4E248
 P 10650 8150
 F 0 "U2" H 10600 8200 60  0000 L CNN
 F 1 "SI5351C" H 10450 8050 60  0000 L CNN
-F 2 "QFN50P300X300X60-21N:QFN50P300X300X60-21N" H 10650 8150 60  0001 C CNN
+F 2 "lib:QFN50P300X300X60-21N" H 10650 8150 60  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf" H 10650 8150 60  0001 C CNN
 F 4 "336-5160-1-ND" H 10650 8150 50  0001 C CNN "Digikey"
 	1    10650 8150
@@ -2803,8 +2725,6 @@ F 4 "1276-1000-1-ND" H 14600 7000 50  0001 C CNN "Digikey"
 	1    14600 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14000 6600 0    50   Input ~ 0
-3V3 MCU
 Wire Wire Line
 	13400 6850 13400 6800
 Wire Wire Line
@@ -2821,8 +2741,6 @@ Wire Wire Line
 Connection ~ 14000 6800
 Wire Wire Line
 	14000 6800 14300 6800
-Wire Wire Line
-	14000 6800 14000 6600
 Wire Wire Line
 	13700 6850 13700 6800
 Connection ~ 13700 6800
@@ -3115,10 +3033,94 @@ SPI1_MOSI
 Text GLabel 4575 1325 0    50   BiDi ~ 0
 SPI1_SCK
 Wire Wire Line
-	6450 3750 6300 3750
-Wire Wire Line
 	1250 6700 1250 6600
 Connection ~ 1250 6600
 Wire Wire Line
 	2150 5450 2150 5350
+Wire Wire Line
+	9000 4650 8850 4650
+Wire Wire Line
+	12800 2900 12800 3000
+Wire Wire Line
+	11800 8350 11450 8350
+Wire Wire Line
+	7200 2900 7200 3100
+Wire Wire Line
+	14350 4550 14800 4550
+Wire Wire Line
+	14350 4450 14800 4450
+Wire Wire Line
+	14550 3950 14350 3950
+Wire Wire Line
+	1200 7400 1200 7550
+Connection ~ 1200 7550
+$Comp
+L power:VAA #PWR0155
+U 1 1 5CEEB354
+P 6200 3750
+F 0 "#PWR0155" H 6200 3600 50  0001 C CNN
+F 1 "VAA" V 6200 3950 50  0000 C CNN
+F 2 "" H 6200 3750 50  0001 C CNN
+F 3 "" H 6200 3750 50  0001 C CNN
+	1    6200 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3750 6450 3750
+Wire Wire Line
+	1200 10050 1200 10200
+Connection ~ 1200 10200
+$Comp
+L power:VCC #PWR0156
+U 1 1 5CF2950C
+P 13100 5800
+F 0 "#PWR0156" H 13100 5650 50  0001 C CNN
+F 1 "VCC" V 13100 6000 50  0000 C CNN
+F 2 "" H 13100 5800 50  0001 C CNN
+F 3 "" H 13100 5800 50  0001 C CNN
+	1    13100 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13100 5400 13100 5800
+Wire Wire Line
+	13600 5400 13600 5800
+Wire Wire Line
+	14350 4650 14800 4650
+Wire Wire Line
+	14350 4350 14800 4350
+Wire Wire Line
+	14350 4250 14800 4250
+Wire Wire Line
+	14350 4150 14800 4150
+Wire Wire Line
+	14350 4050 14800 4050
+Wire Wire Line
+	14350 4750 14800 4750
+Wire Wire Line
+	10650 7350 10650 6800
+Wire Wire Line
+	14000 6800 14000 6600
+Wire Wire Line
+	14000 6600 13850 6600
+Text GLabel 10850 9350 3    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	10850 8950 10850 9350
+Text GLabel 11800 8350 2    50   Input ~ 0
+3V3 MCU
+Text GLabel 11550 8050 2    50   Input ~ 0
+3V3 MCU
+Text GLabel 10450 6800 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 10650 6800 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 8450 7550 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 8650 7550 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 8850 7550 1    50   Input ~ 0
+3V3 MCU
+Text GLabel 13850 6600 0    50   Input ~ 0
+3V3 MCU
 $EndSCHEMATC

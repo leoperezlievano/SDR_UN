@@ -96,8 +96,6 @@ F 3 "" H 1550 2300 50  0001 C CNN
 	1    1550 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4175 1750 2    50   Output ~ 0
-3v3 MCU
 Text GLabel 4200 3300 2    50   Output ~ 0
 3V3 FPGA
 Text GLabel 4175 4900 2    50   Output ~ 0
@@ -252,8 +250,6 @@ Wire Wire Line
 	5650 4600 5650 4500
 Wire Wire Line
 	5650 4200 5650 4100
-Wire Wire Line
-	5650 3800 5650 3700
 $Comp
 L power:GND #PWR0140
 U 1 1 5CE85DB1
@@ -267,8 +263,6 @@ F 3 "" H 5650 4600 50  0001 C CNN
 $EndComp
 Text Notes 5450 4450 0    39   ~ 0
 Green\n
-Text GLabel 5650 3700 1    50   Input ~ 0
-3v3 MCU
 Wire Wire Line
 	6200 4600 6200 4500
 Wire Wire Line
@@ -506,9 +500,6 @@ F 4 "1276-6504-1-ND" H 3900 2000 50  0001 C CNN "Digikey"
 $EndComp
 Wire Wire Line
 	3900 1850 3900 1750
-Connection ~ 3900 1750
-Wire Wire Line
-	3900 1750 4175 1750
 Wire Wire Line
 	3875 3400 3875 3300
 $Comp
@@ -609,4 +600,13 @@ F 4 "1276-1000-1-ND" H 3450 5150 50  0001 C CNN "Digikey"
 	1    3450 5150
 	1    0    0    -1  
 $EndComp
+Text GLabel 4150 1750 2    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	4150 1750 3900 1750
+Connection ~ 3900 1750
+Text GLabel 5650 3650 1    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	5650 3800 5650 3650
 $EndSCHEMATC

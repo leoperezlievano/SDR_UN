@@ -54,7 +54,7 @@ U 1 1 5CE14EC4
 P 1500 1300
 F 0 "C122" H 1565 1396 50  0000 L CNN
 F 1 "1uF" H 1565 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1538 1150 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A105KP8NNNC.pdf" H 1500 1300 50  0001 C CNN
 F 4 "1276-1182-1-ND" H 1500 1300 50  0001 C CNN "Digikey"
 	1    1500 1300
@@ -492,7 +492,7 @@ U 1 1 5CE675B7
 P 3350 1300
 F 0 "J6" H 3400 1717 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 3400 1626 50  0000 C CNN
-F 2 "" H 3350 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
 F 3 "~" H 3350 1300 50  0001 C CNN
 	1    3350 1300
 	1    0    0    -1  
@@ -530,8 +530,6 @@ Text Label 3850 1200 0    50   ~ 0
 O_SPI_CS1
 Text Label 3850 1300 0    50   ~ 0
 O_SPI_CLK
-Text GLabel 1000 5300 0    50   Input ~ 0
-3v3 MCU
 $Comp
 L Device:R R62
 U 1 1 5CEC3923
@@ -663,4 +661,6 @@ Wire Wire Line
 	1650 6250 1650 6450
 Wire Wire Line
 	1750 6250 1750 6450
+Text GLabel 1000 5300 0    50   Input ~ 0
+3V3 MCU
 $EndSCHEMATC

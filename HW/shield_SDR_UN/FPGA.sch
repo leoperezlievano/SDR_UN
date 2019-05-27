@@ -616,21 +616,21 @@ Text Label 6700 7225 1    50   ~ 0
 FPGA_GPIO_11
 Text Label 6600 7225 1    50   ~ 0
 FPGA_GPIO_12
-Text Label 3500 7825 0    50   ~ 0
+Text Label 3600 7825 0    50   ~ 0
 FPGA_GPIO_15
-Text Label 6025 7825 2    50   ~ 0
+Text Label 6125 7825 2    50   ~ 0
 FPGA_GPIO_16
-Text Label 3500 7925 0    50   ~ 0
+Text Label 3600 7925 0    50   ~ 0
 FPGA_GPIO_17
-Text Label 6025 7925 2    50   ~ 0
+Text Label 6125 7925 2    50   ~ 0
 FPGA_GPIO_18
-Text Label 3500 8025 0    50   ~ 0
+Text Label 3600 8025 0    50   ~ 0
 FPGA_GPIO_19
-Text Label 6025 8025 2    50   ~ 0
+Text Label 6125 8025 2    50   ~ 0
 FPGA_GPIO_20
-Text Label 3500 8125 0    50   ~ 0
+Text Label 3600 8125 0    50   ~ 0
 FPGA_GPIO_21
-Text Label 6025 8125 2    50   ~ 0
+Text Label 6125 8125 2    50   ~ 0
 FPGA_GPIO_22
 Text Notes 11900 10475 0    394  ~ 0
 FPGA
@@ -2332,10 +2332,8 @@ Text Label 3325 8050 2    50   ~ 0
 FPGA_GPIO_06
 Text Label 3325 7950 2    50   ~ 0
 FPGA_GPIO_01
-Text Label 6025 8225 2    50   ~ 0
+Text Label 6125 8225 2    50   ~ 0
 SCL_I2C
-Text Label 4025 8250 0    50   ~ 0
-SDA_I2C
 Text Label 5025 3950 0    50   ~ 0
 FPGA_GPIO_15
 Text Label 5025 3850 0    50   ~ 0
@@ -2376,205 +2374,203 @@ NoConn ~ 12200 5700
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5CFFB48F
-P 4650 7925
-F 0 "J2" H 4700 8442 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4700 8351 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4650 7925 50  0001 C CNN
-F 3 "~" H 4650 7925 50  0001 C CNN
-	1    4650 7925
+P 4750 7925
+F 0 "J2" H 4800 8442 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4800 8351 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4750 7925 50  0001 C CNN
+F 3 "~" H 4750 7925 50  0001 C CNN
+	1    4750 7925
 	1    0    0    -1  
 $EndComp
-Text GLabel 4375 7625 0    50   Input ~ 0
+Text GLabel 4475 7625 0    50   Input ~ 0
 3V3 FPGA
 Wire Wire Line
-	4950 7625 5050 7625
-Text GLabel 5050 7625 2    50   Input ~ 0
+	5050 7625 5150 7625
+Text GLabel 5150 7625 2    50   Input ~ 0
 3V3 FPGA
 Wire Wire Line
-	4375 7625 4425 7625
+	4475 7625 4525 7625
 Wire Wire Line
-	4425 7625 4425 7725
+	4525 7625 4525 7725
 Wire Wire Line
-	4425 7725 4450 7725
-Connection ~ 4425 7625
+	4525 7725 4550 7725
+Connection ~ 4525 7625
 Wire Wire Line
-	4425 7625 4450 7625
+	4525 7625 4550 7625
 Wire Wire Line
-	4350 8325 4450 8325
+	4450 8325 4550 8325
 Wire Wire Line
-	5050 8325 4950 8325
+	5150 8325 5050 8325
 $Comp
 L power:GND #PWR085
 U 1 1 5D00D23D
-P 5050 8325
-F 0 "#PWR085" H 5050 8075 50  0001 C CNN
-F 1 "GND" V 5055 8152 50  0000 C CNN
-F 2 "" H 5050 8325 50  0001 C CNN
-F 3 "" H 5050 8325 50  0001 C CNN
-	1    5050 8325
+P 5150 8325
+F 0 "#PWR085" H 5150 8075 50  0001 C CNN
+F 1 "GND" V 5155 8152 50  0000 C CNN
+F 2 "" H 5150 8325 50  0001 C CNN
+F 3 "" H 5150 8325 50  0001 C CNN
+	1    5150 8325
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR084
 U 1 1 5D00D23E
-P 4350 8325
-F 0 "#PWR084" H 4350 8075 50  0001 C CNN
-F 1 "GND" V 4355 8152 50  0000 C CNN
-F 2 "" H 4350 8325 50  0001 C CNN
-F 3 "" H 4350 8325 50  0001 C CNN
-	1    4350 8325
+P 4450 8325
+F 0 "#PWR084" H 4450 8075 50  0001 C CNN
+F 1 "GND" V 4455 8152 50  0000 C CNN
+F 2 "" H 4450 8325 50  0001 C CNN
+F 3 "" H 4450 8325 50  0001 C CNN
+	1    4450 8325
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R44
 U 1 1 5D010C72
-P 5250 7725
-F 0 "R44" V 5300 7825 50  0000 L CNN
-F 1 "200" V 5250 7625 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7725 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7725 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 5250 7725 50  0001 C CNN "Digikey"
-	1    5250 7725
+P 5350 7725
+F 0 "R44" V 5400 7825 50  0000 L CNN
+F 1 "200" V 5350 7625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 7725 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5350 7725 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5350 7725 50  0001 C CNN "Digikey"
+	1    5350 7725
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R45
 U 1 1 5D0161F2
-P 5250 7825
-F 0 "R45" V 5300 7925 50  0000 L CNN
-F 1 "200" V 5250 7725 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7825 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7825 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 5250 7825 50  0001 C CNN "Digikey"
-	1    5250 7825
+P 5350 7825
+F 0 "R45" V 5400 7925 50  0000 L CNN
+F 1 "200" V 5350 7725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 7825 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5350 7825 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5350 7825 50  0001 C CNN "Digikey"
+	1    5350 7825
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R46
 U 1 1 5D01725A
-P 5250 7925
-F 0 "R46" V 5300 8025 50  0000 L CNN
-F 1 "200" V 5250 7825 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 7925 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 7925 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 5250 7925 50  0001 C CNN "Digikey"
-	1    5250 7925
+P 5350 7925
+F 0 "R46" V 5400 8025 50  0000 L CNN
+F 1 "200" V 5350 7825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 7925 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5350 7925 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5350 7925 50  0001 C CNN "Digikey"
+	1    5350 7925
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R47
 U 1 1 5D01836A
-P 5250 8025
-F 0 "R47" V 5300 8125 50  0000 L CNN
-F 1 "200" V 5250 7925 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 8025 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 8025 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 5250 8025 50  0001 C CNN "Digikey"
-	1    5250 8025
+P 5350 8025
+F 0 "R47" V 5400 8125 50  0000 L CNN
+F 1 "200" V 5350 7925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 8025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5350 8025 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5350 8025 50  0001 C CNN "Digikey"
+	1    5350 8025
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R48
 U 1 1 5D01965E
-P 5250 8125
-F 0 "R48" V 5300 8225 50  0000 L CNN
-F 1 "200" V 5250 8025 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 8125 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 8125 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 5250 8125 50  0001 C CNN "Digikey"
-	1    5250 8125
+P 5350 8125
+F 0 "R48" V 5400 8225 50  0000 L CNN
+F 1 "200" V 5350 8025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 8125 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5350 8125 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 5350 8125 50  0001 C CNN "Digikey"
+	1    5350 8125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R43
 U 1 1 5D01D4F6
-P 4225 8125
-F 0 "R43" V 4275 8225 50  0000 L CNN
-F 1 "200" V 4225 8025 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 8125 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 8125 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 4225 8125 50  0001 C CNN "Digikey"
-	1    4225 8125
+P 4325 8125
+F 0 "R43" V 4375 8225 50  0000 L CNN
+F 1 "200" V 4325 8025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4255 8125 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4325 8125 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4325 8125 50  0001 C CNN "Digikey"
+	1    4325 8125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R42
 U 1 1 5D01EDAF
-P 4225 8025
-F 0 "R42" V 4275 8125 50  0000 L CNN
-F 1 "200" V 4225 7925 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 8025 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 8025 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 4225 8025 50  0001 C CNN "Digikey"
-	1    4225 8025
+P 4325 8025
+F 0 "R42" V 4375 8125 50  0000 L CNN
+F 1 "200" V 4325 7925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4255 8025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4325 8025 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4325 8025 50  0001 C CNN "Digikey"
+	1    4325 8025
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R41
 U 1 1 5D0204B7
-P 4225 7925
-F 0 "R41" V 4275 8025 50  0000 L CNN
-F 1 "200" V 4225 7825 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 7925 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 7925 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 4225 7925 50  0001 C CNN "Digikey"
-	1    4225 7925
+P 4325 7925
+F 0 "R41" V 4375 8025 50  0000 L CNN
+F 1 "200" V 4325 7825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4255 7925 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4325 7925 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4325 7925 50  0001 C CNN "Digikey"
+	1    4325 7925
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R40
 U 1 1 5D0211DF
-P 4225 7825
-F 0 "R40" V 4275 7925 50  0000 L CNN
-F 1 "200" V 4225 7725 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4155 7825 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4225 7825 50  0001 C CNN
-F 4 "311-200GRCT-ND" V 4225 7825 50  0001 C CNN "Digikey"
-	1    4225 7825
+P 4325 7825
+F 0 "R40" V 4375 7925 50  0000 L CNN
+F 1 "200" V 4325 7725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4255 7825 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4325 7825 50  0001 C CNN
+F 4 "311-200GRCT-ND" V 4325 7825 50  0001 C CNN "Digikey"
+	1    4325 7825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 7825 4375 7825
+	4550 7825 4475 7825
 Wire Wire Line
-	4375 7925 4450 7925
+	4475 7925 4550 7925
 Wire Wire Line
-	4375 8025 4450 8025
+	4475 8025 4550 8025
 Wire Wire Line
-	4375 8125 4450 8125
+	4475 8125 4550 8125
 Wire Wire Line
-	4375 8225 4450 8225
+	5200 8125 5050 8125
 Wire Wire Line
-	5100 8125 4950 8125
+	5050 8025 5200 8025
 Wire Wire Line
-	4950 8025 5100 8025
+	5200 7925 5050 7925
 Wire Wire Line
-	5100 7925 4950 7925
+	5050 7825 5200 7825
 Wire Wire Line
-	4950 7825 5100 7825
-Wire Wire Line
-	5100 7725 4950 7725
-Text Label 6025 7725 2    50   ~ 0
+	5200 7725 5050 7725
+Text Label 6125 7725 2    50   ~ 0
 FPGA_GPIO_14
 Wire Wire Line
-	6025 7825 5400 7825
+	6125 7825 5500 7825
 Wire Wire Line
-	6025 7725 5400 7725
+	6125 7725 5500 7725
 Wire Wire Line
-	6025 7925 5400 7925
+	6125 7925 5500 7925
 Wire Wire Line
-	5400 8025 6025 8025
+	5500 8025 6125 8025
 Wire Wire Line
-	6025 8125 5400 8125
+	6125 8125 5500 8125
 Wire Wire Line
-	4950 8225 6025 8225
+	5050 8225 6125 8225
 Wire Wire Line
-	4075 7825 3500 7825
+	4175 7825 3600 7825
 Wire Wire Line
-	3500 7925 4075 7925
+	3600 7925 4175 7925
 Wire Wire Line
-	4075 8025 3500 8025
+	4175 8025 3600 8025
 Wire Wire Line
-	3500 8125 4075 8125
+	3600 8125 4175 8125
 NoConn ~ 7700 2100
 NoConn ~ 7800 2100
 NoConn ~ 7900 2100
@@ -2676,4 +2672,8 @@ Text GLabel 8000 10525 2    50   Output ~ 0
 FMC_NBL0
 Text GLabel 8000 10625 2    50   Output ~ 0
 FMC_NBL1
+Text Label 3475 8225 0    50   ~ 0
+SDA_I2C
+Wire Wire Line
+	4550 8225 3475 8225
 $EndSCHEMATC
