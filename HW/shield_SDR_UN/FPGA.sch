@@ -433,11 +433,11 @@ Wire Wire Line
 	12200 3300 12350 3300
 Wire Wire Line
 	12350 3200 12200 3200
-Text GLabel 8900 1900 1    50   Input ~ 0
+Text GLabel 12350 4400 2    50   Input ~ 0
 adDA0
-Text GLabel 9000 1900 1    50   Input ~ 0
+Text GLabel 12350 4300 2    50   Input ~ 0
 adDA1
-Text GLabel 9100 1900 1    50   Input ~ 0
+Text GLabel 12350 4200 2    50   Input ~ 0
 adDA2
 Text Label 6500 7225 1    50   ~ 0
 FPGA_GPIO_13
@@ -1235,35 +1235,35 @@ Wire Wire Line
 	12675 5500 12200 5500
 Wire Wire Line
 	12200 5600 12675 5600
-Text GLabel 12350 3200 2    50   Input ~ 0
-adDA5
-Text GLabel 12350 3300 2    50   Input ~ 0
-adDA6
-Text GLabel 12350 3400 2    50   Input ~ 0
-adDA7
-Text GLabel 12350 3500 2    50   Input ~ 0
-adDD0
-Text GLabel 12350 3600 2    50   Input ~ 0
-adDD1
-Text GLabel 12350 3700 2    50   Input ~ 0
-adDD2
-Text GLabel 12350 3800 2    50   Input ~ 0
-adDD3
 Text GLabel 12350 3900 2    50   Input ~ 0
+adDA5
+Text GLabel 12350 3800 2    50   Input ~ 0
+adDA6
+Text GLabel 12350 3700 2    50   Input ~ 0
+adDA7
+Text GLabel 12350 3600 2    50   Input ~ 0
+adDD0
+Text GLabel 12350 3500 2    50   Input ~ 0
+adDD1
+Text GLabel 12350 3400 2    50   Input ~ 0
+adDD2
+Text GLabel 12350 3300 2    50   Input ~ 0
+adDD3
+Text GLabel 12350 3200 2    50   Input ~ 0
 adDD4
-Text GLabel 12350 4000 2    50   Input ~ 0
-adDD5
-Text GLabel 12350 4100 2    50   Input ~ 0
-adDD6
-Text GLabel 12350 4200 2    50   Input ~ 0
-adDD7
-Text GLabel 12350 4300 2    50   Input ~ 0
-adDD8
-Text GLabel 12350 4400 2    50   Input ~ 0
-adDD9
-Text GLabel 9200 1900 1    50   Input ~ 0
-adDA3
 Text GLabel 9300 1900 1    50   Input ~ 0
+adDD5
+Text GLabel 9200 1900 1    50   Input ~ 0
+adDD6
+Text GLabel 9100 1900 1    50   Input ~ 0
+adDD7
+Text GLabel 9000 1900 1    50   Input ~ 0
+adDD8
+Text GLabel 8900 1900 1    50   Input ~ 0
+adDD9
+Text GLabel 12350 4100 2    50   Input ~ 0
+adDA3
+Text GLabel 12350 4000 2    50   Input ~ 0
 adDA4
 Wire Wire Line
 	9300 1900 9300 2100
