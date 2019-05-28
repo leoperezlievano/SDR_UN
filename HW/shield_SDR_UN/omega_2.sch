@@ -316,8 +316,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 1600 2950 1600
 Wire Wire Line
-	3150 1100 2950 1100
-Wire Wire Line
 	7750 2800 7950 2800
 Text Label 7950 2800 0    50   ~ 0
 3V3_OMEG
@@ -338,8 +336,6 @@ Text Label 2950 1400 2    50   ~ 0
 I2C_SDA
 Text Label 3850 1400 0    50   ~ 0
 I2C_SCL
-Text Label 2950 1100 2    50   ~ 0
-3V3_OMEG
 Text Notes 2600 750  0    50   ~ 0
 Omega 2 Pinout
 Text Label 7950 2650 0    50   ~ 0
@@ -496,8 +492,6 @@ F 3 "~" H 3350 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 1100 3850 1100
-Wire Wire Line
 	3650 1200 3850 1200
 Wire Wire Line
 	3650 1300 3850 1300
@@ -507,8 +501,6 @@ Wire Wire Line
 	3650 1500 3850 1500
 Wire Wire Line
 	3650 1600 3850 1600
-Text Label 3850 1100 0    50   ~ 0
-3V3_OMEG
 $Comp
 L power:GND #PWR0152
 U 1 1 5CE6D605
@@ -663,4 +655,12 @@ Text GLabel 1000 5300 0    50   Input ~ 0
 3V3 MCU
 Text Label 3850 1500 0    50   ~ 0
 SER_TX0
+Text GLabel 2550 1100 0    50   Input ~ 0
+3V3 MCU
+Text GLabel 4225 1100 2    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	3650 1100 4225 1100
+Wire Wire Line
+	2550 1100 3150 1100
 $EndSCHEMATC

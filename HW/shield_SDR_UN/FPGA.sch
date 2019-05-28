@@ -1006,27 +1006,16 @@ F 4 "311-470GRCT-ND" V 14100 2200 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR097
-U 1 1 5D00E8AC
-P 13925 7975
-F 0 "#PWR097" H 13925 7725 50  0001 C CNN
-F 1 "GND" V 13930 7802 50  0000 C CNN
-F 2 "" H 13925 7975 50  0001 C CNN
-F 3 "" H 13925 7975 50  0001 C CNN
-	1    13925 7975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R49
 U 1 1 5D00E8AD
-P 13425 6950
-F 0 "R49" V 13525 6950 50  0000 L CNN
-F 1 "10k" V 13425 6900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13355 6950 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 13425 6950 50  0001 C CNN
-F 4 "311-10KGRCT-ND" V 13425 6950 50  0001 C CNN "Digikey"
-	1    13425 6950
-	0    -1   -1   0   
+P 14000 7300
+F 0 "R49" H 14050 7400 50  0000 L CNN
+F 1 "10k" V 14000 7250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13930 7300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 14000 7300 50  0001 C CNN
+F 4 "311-10KGRCT-ND" V 14000 7300 50  0001 C CNN "Digikey"
+	1    14000 7300
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR099
@@ -1051,158 +1040,32 @@ F 4 "1276-1000-1-ND" H 14275 7300 50  0001 C CNN "Digikey"
 	1    14275 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13175 6950 13275 6950
 Text Label 14500 6950 0    50   ~ 0
 BTN1
 Wire Wire Line
 	14275 7150 14275 6950
 Wire Wire Line
-	14275 7550 14275 7450
-$Comp
-L power:GND #PWR094
-U 1 1 5D00E8B0
-P 13825 7975
-F 0 "#PWR094" H 13825 7725 50  0001 C CNN
-F 1 "GND" V 13830 7802 50  0000 C CNN
-F 2 "" H 13825 7975 50  0001 C CNN
-F 3 "" H 13825 7975 50  0001 C CNN
-	1    13825 7975
-	1    0    0    -1  
-$EndComp
+	14275 7550 14275 7500
 $Comp
 L TL1014BF160QG:TL1014BF160QG S1
 U 1 1 5D00E8B1
-P 13925 7100
-F 0 "S1" V 14279 6778 50  0000 L CNN
-F 1 "TL1014BF160QG" V 14370 6253 50  0000 L CNN
-F 2 "lib:TL1014BF160QG" H 14575 7200 50  0001 L CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14575 7100 50  0001 L CNN
-F 4 "EG5042CT-ND" V 13925 7100 50  0001 C CNN "Digikey"
-	1    13925 7100
-	0    1    1    0   
+P 13650 7050
+F 0 "S1" H 14000 6800 50  0000 L CNN
+F 1 "TL1014BF160QG" H 13750 7200 50  0000 L CNN
+F 2 "lib:TL1014BF160QG" H 14300 7150 50  0001 L CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14300 7050 50  0001 L CNN
+F 4 "EG5042CT-ND" V 13650 7050 50  0001 C CNN "Digikey"
+	1    13650 7050
+	-1   0    0    1   
 $EndComp
-Text GLabel 13175 6950 0    50   Input ~ 0
+Text GLabel 12650 6950 0    50   Input ~ 0
 3V3 FPGA
 Wire Wire Line
 	14500 6950 14275 6950
-Connection ~ 14275 6950
-Wire Wire Line
-	13575 6950 13825 6950
-Wire Wire Line
-	13825 7100 13825 6950
-Connection ~ 13825 6950
-Wire Wire Line
-	13825 6950 13925 6950
-Wire Wire Line
-	13925 7100 13925 6950
-Connection ~ 13925 6950
-Wire Wire Line
-	13925 6950 14275 6950
-Wire Wire Line
-	13825 7975 13825 7900
-Wire Wire Line
-	13925 7900 13925 7975
-Text Notes 12750 6725 0    118  ~ 0
+Text Notes 12550 6600 0    118  ~ 0
 Buttons
-$Comp
-L TL1014BF160QG:TL1014BF160QG S2
-U 1 1 5D03A38F
-P 13925 8525
-F 0 "S2" V 14279 8203 50  0000 L CNN
-F 1 "TL1014BF160QG" V 14370 7678 50  0000 L CNN
-F 2 "lib:TL1014BF160QG" H 14575 8625 50  0001 L CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14575 8525 50  0001 L CNN
-F 4 "EG5042CT-ND" V 13925 8525 50  0001 C CNN "Digikey"
-	1    13925 8525
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13925 8525 13925 8375
-Wire Wire Line
-	13825 9400 13825 9325
-Text GLabel 13175 8375 0    50   Input ~ 0
-3V3 FPGA
-Wire Wire Line
-	14500 8375 14275 8375
-Wire Wire Line
-	13925 8375 14275 8375
-Wire Wire Line
-	14275 8575 14275 8375
-$Comp
-L power:GND #PWR095
-U 1 1 5D03A390
-P 13825 9400
-F 0 "#PWR095" H 13825 9150 50  0001 C CNN
-F 1 "GND" V 13830 9227 50  0000 C CNN
-F 2 "" H 13825 9400 50  0001 C CNN
-F 3 "" H 13825 9400 50  0001 C CNN
-	1    13825 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0100
-U 1 1 5D03A391
-P 14275 8975
-F 0 "#PWR0100" H 14275 8725 50  0001 C CNN
-F 1 "GND" H 14280 8802 50  0000 C CNN
-F 2 "" H 14275 8975 50  0001 C CNN
-F 3 "" H 14275 8975 50  0001 C CNN
-	1    14275 8975
-	1    0    0    -1  
-$EndComp
-Connection ~ 13825 8375
-Connection ~ 14275 8375
-Wire Wire Line
-	13175 8375 13275 8375
-Wire Wire Line
-	13825 8525 13825 8375
-$Comp
-L power:GND #PWR098
-U 1 1 5D03A392
-P 13925 9400
-F 0 "#PWR098" H 13925 9150 50  0001 C CNN
-F 1 "GND" V 13930 9227 50  0000 C CNN
-F 2 "" H 13925 9400 50  0001 C CNN
-F 3 "" H 13925 9400 50  0001 C CNN
-	1    13925 9400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13825 8375 13925 8375
 Text Label 14500 8375 0    50   ~ 0
 BTN2
-Wire Wire Line
-	13575 8375 13825 8375
-Wire Wire Line
-	13925 9325 13925 9400
-Connection ~ 13925 8375
-$Comp
-L Device:R R50
-U 1 1 5D03A393
-P 13425 8375
-F 0 "R50" V 13525 8375 50  0000 L CNN
-F 1 "10k" V 13425 8325 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13355 8375 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 13425 8375 50  0001 C CNN
-F 4 "311-10KGRCT-ND" V 13425 8375 50  0001 C CNN "Digikey"
-	1    13425 8375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C86
-U 1 1 5D03A394
-P 14275 8725
-F 0 "C86" H 14375 8825 50  0000 C CNN
-F 1 "100nF" H 14425 8625 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14313 8575 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14275 8725 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 14275 8725 50  0001 C CNN "Digikey"
-	1    14275 8725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14275 8975 14275 8875
 Text Label 7550 10025 0    50   ~ 0
 FMC_CLK
 Text Label 7550 10225 0    50   ~ 0
@@ -1607,8 +1470,8 @@ Wire Wire Line
 Text Label 7075 9550 2    50   ~ 0
 FPGA_GPIO_06
 Text Label 7075 9450 2    50   ~ 0
-FPGA_GPIO_01
-Text Label 7025 10975 2    50   ~ 0
+FPGA_GPIO_04
+Text Label 6825 10975 2    50   ~ 0
 SCL_I2C
 Text Label 5025 3950 0    50   ~ 0
 FPGA_GPIO_15
@@ -1838,8 +1701,6 @@ Wire Wire Line
 Wire Wire Line
 	7025 10875 6400 10875
 Wire Wire Line
-	5950 10975 7025 10975
-Wire Wire Line
 	5075 10575 4500 10575
 Wire Wire Line
 	4500 10675 5075 10675
@@ -1948,10 +1809,8 @@ Text GLabel 8000 10525 2    50   Output ~ 0
 FMC_NBL0
 Text GLabel 8000 10625 2    50   Output ~ 0
 FMC_NBL1
-Text Label 4375 10975 0    50   ~ 0
+Text Label 4775 10975 0    50   ~ 0
 SDA_I2C
-Wire Wire Line
-	5450 10975 4375 10975
 Text Notes 1100 1600 0    50   ~ 0
 VCCINT
 Wire Notes Line
@@ -2734,4 +2593,129 @@ F 4 "1276-1045-1-ND " H 1300 2000 50  0001 C CNN "Digikey"
 	1    1300 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12850 7050 12750 7050
+Wire Wire Line
+	14000 7450 14000 7500
+Wire Wire Line
+	14000 7500 14275 7500
+Connection ~ 14275 7500
+Wire Wire Line
+	14275 7500 14275 7450
+Wire Wire Line
+	13650 6950 13750 6950
+Connection ~ 14275 6950
+Wire Wire Line
+	13650 7050 13750 7050
+Wire Wire Line
+	13750 7050 13750 6950
+Connection ~ 13750 6950
+Wire Wire Line
+	13750 6950 14000 6950
+Wire Wire Line
+	14000 7150 14000 6950
+Connection ~ 14000 6950
+Wire Wire Line
+	14000 6950 14275 6950
+Wire Wire Line
+	12750 7050 12750 6950
+Wire Wire Line
+	12750 6950 12650 6950
+Wire Wire Line
+	12850 6950 12750 6950
+Connection ~ 12750 6950
+$Comp
+L Device:R R50
+U 1 1 5D057BA2
+P 14000 8725
+F 0 "R50" H 14050 8825 50  0000 L CNN
+F 1 "10k" V 14000 8675 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13930 8725 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 14000 8725 50  0001 C CNN
+F 4 "311-10KGRCT-ND" V 14000 8725 50  0001 C CNN "Digikey"
+	1    14000 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D057BAA
+P 14275 8975
+F 0 "#PWR06" H 14275 8725 50  0001 C CNN
+F 1 "GND" H 14280 8802 50  0000 C CNN
+F 2 "" H 14275 8975 50  0001 C CNN
+F 3 "" H 14275 8975 50  0001 C CNN
+	1    14275 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5D057BB5
+P 14275 8725
+F 0 "C18" H 14375 8825 50  0000 C CNN
+F 1 "100nF" H 14425 8625 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14313 8575 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 14275 8725 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 14275 8725 50  0001 C CNN "Digikey"
+	1    14275 8725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 8575 14275 8375
+Wire Wire Line
+	14275 8975 14275 8925
+$Comp
+L TL1014BF160QG:TL1014BF160QG S2
+U 1 1 5D057BC6
+P 13650 8475
+F 0 "S2" H 14000 8225 50  0000 L CNN
+F 1 "TL1014BF160QG" H 13750 8625 50  0000 L CNN
+F 2 "lib:TL1014BF160QG" H 14300 8575 50  0001 L CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14300 8475 50  0001 L CNN
+F 4 "EG5042CT-ND" V 13650 8475 50  0001 C CNN "Digikey"
+	1    13650 8475
+	-1   0    0    1   
+$EndComp
+Text GLabel 12650 8375 0    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	14500 8375 14275 8375
+Wire Wire Line
+	12850 8475 12750 8475
+Wire Wire Line
+	14000 8875 14000 8925
+Wire Wire Line
+	14000 8925 14275 8925
+Connection ~ 14275 8925
+Wire Wire Line
+	14275 8925 14275 8875
+Wire Wire Line
+	13650 8375 13750 8375
+Connection ~ 14275 8375
+Wire Wire Line
+	13650 8475 13750 8475
+Wire Wire Line
+	13750 8475 13750 8375
+Connection ~ 13750 8375
+Wire Wire Line
+	13750 8375 14000 8375
+Wire Wire Line
+	14000 8575 14000 8375
+Connection ~ 14000 8375
+Wire Wire Line
+	14000 8375 14275 8375
+Wire Wire Line
+	12750 8475 12750 8375
+Wire Wire Line
+	12750 8375 12650 8375
+Wire Wire Line
+	12850 8375 12750 8375
+Connection ~ 12750 8375
+Text GLabel 6875 10975 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 4700 10975 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	5950 10975 6875 10975
+Wire Wire Line
+	4700 10975 5450 10975
 $EndSCHEMATC
