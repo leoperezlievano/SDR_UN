@@ -405,8 +405,8 @@ U 1 1 5CD06356
 P 1250 2950
 F 0 "C5" H 1350 3050 50  0000 C CNN
 F 1 "10uF" H 1400 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1288 2800 50  0001 C CNN
-F 3 "www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KPFNNNG.jsp" H 1250 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1288 2800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1250 2950 50  0001 C CNN
 F 4 "1276-6456-1-ND" H 1250 2950 50  0001 C CNN "Digikey"
 	1    1250 2950
 	1    0    0    -1  
@@ -533,7 +533,7 @@ Connection ~ 2650 8150
 Wire Wire Line
 	2650 8150 2300 8150
 Text Notes 1450 7350 0    50   ~ 0
-ADC-2,8,11,33,39,43,46 bypass capacitors
+ADC-2,8,43 bypass capacitors
 $Comp
 L power:VAA #PWR014
 U 1 1 5CE4F720
@@ -551,64 +551,6 @@ Wire Wire Line
 	1950 4000 1850 4000
 Wire Wire Line
 	1550 4000 1450 4000
-Wire Wire Line
-	3000 7550 3400 7550
-Wire Wire Line
-	5350 7550 5350 7700
-Connection ~ 3000 7550
-Wire Wire Line
-	4950 7700 4950 7550
-Connection ~ 4950 7550
-Wire Wire Line
-	4950 7550 5350 7550
-Wire Wire Line
-	4550 7700 4550 7550
-Connection ~ 4550 7550
-Wire Wire Line
-	4550 7550 4950 7550
-Wire Wire Line
-	4150 7700 4150 7550
-Connection ~ 4150 7550
-Wire Wire Line
-	4150 7550 4550 7550
-Wire Wire Line
-	3750 7700 3750 7550
-Connection ~ 3750 7550
-Wire Wire Line
-	3750 7550 4150 7550
-Wire Wire Line
-	3400 7700 3400 7550
-Connection ~ 3400 7550
-Wire Wire Line
-	3400 7550 3750 7550
-Wire Wire Line
-	3000 8150 3400 8150
-Wire Wire Line
-	5350 8150 5350 8000
-Connection ~ 3000 8150
-Wire Wire Line
-	4950 8000 4950 8150
-Connection ~ 4950 8150
-Wire Wire Line
-	4950 8150 5350 8150
-Wire Wire Line
-	4550 8000 4550 8150
-Connection ~ 4550 8150
-Wire Wire Line
-	4550 8150 4950 8150
-Wire Wire Line
-	4150 8000 4150 8150
-Connection ~ 4150 8150
-Wire Wire Line
-	4150 8150 4550 8150
-Wire Wire Line
-	3750 8000 3750 8150
-Connection ~ 3750 8150
-Wire Wire Line
-	3750 8150 4150 8150
-Connection ~ 3400 8150
-Wire Wire Line
-	3400 8150 3750 8150
 $Comp
 L quacho-packages:MAX2830 U1
 U 1 1 5CD19433
@@ -1013,15 +955,8 @@ Connection ~ 4550 9000
 Wire Wire Line
 	4550 9000 4950 9000
 Wire Wire Line
-	4150 9150 4150 9000
-Connection ~ 4150 9000
-Wire Wire Line
-	4150 9000 4550 9000
-Wire Wire Line
 	3750 9150 3750 9000
 Connection ~ 3750 9000
-Wire Wire Line
-	3750 9000 4150 9000
 Wire Wire Line
 	3400 9150 3400 9000
 Connection ~ 3400 9000
@@ -1043,15 +978,8 @@ Connection ~ 4550 9600
 Wire Wire Line
 	4550 9600 4950 9600
 Wire Wire Line
-	4150 9450 4150 9600
-Connection ~ 4150 9600
-Wire Wire Line
-	4150 9600 4550 9600
-Wire Wire Line
 	3750 9450 3750 9600
 Connection ~ 3750 9600
-Wire Wire Line
-	3750 9600 4150 9600
 Wire Wire Line
 	3400 9450 3400 9600
 Connection ~ 3400 9600
@@ -1266,9 +1194,9 @@ U 1 1 5CFE518E
 P 5450 4800
 F 0 "C40" V 5300 4800 50  0000 C CNN
 F 1 "0" V 5600 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5488 4650 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5450 4800 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" V 5450 4800 50  0001 C CNN "Digikey"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5450 4800 50  0001 C CNN
+F 4 "311-0.0JRCT-ND" V 5450 4800 50  0001 C CNN "Digikey"
 	1    5450 4800
 	0    1    1    0   
 $EndComp
@@ -1430,7 +1358,7 @@ F 0 "R22" V 12250 8050 50  0000 C CNN
 F 1 "39" V 12350 8050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12280 8050 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 12350 8050 50  0001 C CNN
-F 4 "311-39.0HRCT-ND" V 12350 8050 50  0001 C CNN "digikey"
+F 4 "311-39.0HRCT-ND" V 12350 8050 50  0001 C CNN "Digikey"
 F 5 "RC0603FR-0739RL" V 12350 8050 50  0001 C CNN "part numer"
 F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8050 50  0001 C CNN "descripcion"
 	1    12350 8050
@@ -1612,8 +1540,6 @@ F 4 "1276-1000-1-ND" H 850 1450 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 8000 3400 8150
-Wire Wire Line
 	2650 8000 2650 8150
 Wire Wire Line
 	1950 8000 1950 8150
@@ -1694,500 +1620,15 @@ F 4 "1276-1000-1-ND" H 3000 7850 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
-U 1 1 5CEADE59
-P 3400 7850
-F 0 "C23" H 3500 7950 50  0000 C CNN
-F 1 "2.2uF" H 3550 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3400 7850 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 3400 7850 50  0001 C CNN "Digikey"
-	1    3400 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C26
-U 1 1 5CEADE5A
-P 3750 7850
-F 0 "C26" H 3850 7950 50  0000 C CNN
-F 1 "100nF" H 3900 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3750 7850 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 3750 7850 50  0001 C CNN "Digikey"
-	1    3750 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C29
-U 1 1 5CEB0362
-P 4150 7850
-F 0 "C29" H 4250 7950 50  0000 C CNN
-F 1 "2.2uF" H 4300 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4150 7850 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 4150 7850 50  0001 C CNN "Digikey"
-	1    4150 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C32
-U 1 1 5CEB0363
-P 4550 7850
-F 0 "C32" H 4650 7950 50  0000 C CNN
-F 1 "100nF" H 4700 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 4550 7850 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 4550 7850 50  0001 C CNN "Digikey"
-	1    4550 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C35
-U 1 1 5CEB0773
-P 4950 7850
-F 0 "C35" H 5050 7950 50  0000 C CNN
-F 1 "2.2uF" H 5100 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4950 7850 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 4950 7850 50  0001 C CNN "Digikey"
-	1    4950 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C37
-U 1 1 5CEB0774
-P 5350 7850
-F 0 "C37" H 5450 7950 50  0000 C CNN
-F 1 "100nF" H 5500 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 5350 7850 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 5350 7850 50  0001 C CNN "Digikey"
-	1    5350 7850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5CEB7799
 P 1200 9300
 F 0 "C3" H 1300 9400 50  0000 C CNN
-F 1 "2.2uF" H 1350 9200 50  0000 C CNN
+F 1 "100p" H 1350 9200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 9150 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1200 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 1200 9300 50  0001 C CNN "Digikey"
+F 4 "1276-1909-1-ND" H 1200 9300 50  0001 C CNN "Digikey"
 	1    1200 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5CEB779A
-P 1600 9300
-F 0 "C8" H 1700 9400 50  0000 C CNN
-F 1 "100nF" H 1750 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1638 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1600 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 1600 9300 50  0001 C CNN "Digikey"
-	1    1600 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C12
-U 1 1 5CEB9681
-P 1950 9300
-F 0 "C12" H 2050 9400 50  0000 C CNN
-F 1 "2.2uF" H 2100 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1950 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 1950 9300 50  0001 C CNN "Digikey"
-	1    1950 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C15
-U 1 1 5CEB9682
-P 2300 9300
-F 0 "C15" H 2400 9400 50  0000 C CNN
-F 1 "100nF" H 2450 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2300 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 2300 9300 50  0001 C CNN "Digikey"
-	1    2300 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5CEBCA79
-P 2650 9300
-F 0 "C18" H 2750 9400 50  0000 C CNN
-F 1 "2.2uF" H 2800 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2688 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 2650 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 2650 9300 50  0001 C CNN "Digikey"
-	1    2650 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5CEBCA7A
-P 3000 9300
-F 0 "C21" H 3100 9400 50  0000 C CNN
-F 1 "100nF" H 3150 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3000 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 3000 9300 50  0001 C CNN "Digikey"
-	1    3000 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C24
-U 1 1 5CEBD402
-P 3400 9300
-F 0 "C24" H 3500 9400 50  0000 C CNN
-F 1 "2.2uF" H 3550 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3400 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 3400 9300 50  0001 C CNN "Digikey"
-	1    3400 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C27
-U 1 1 5CEBD403
-P 3750 9300
-F 0 "C27" H 3850 9400 50  0000 C CNN
-F 1 "100nF" H 3900 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3750 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 3750 9300 50  0001 C CNN "Digikey"
-	1    3750 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C30
-U 1 1 5CEBDD23
-P 4150 9300
-F 0 "C30" H 4250 9400 50  0000 C CNN
-F 1 "2.2uF" H 4300 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4150 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 4150 9300 50  0001 C CNN "Digikey"
-	1    4150 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C33
-U 1 1 5CEBDD24
-P 4550 9300
-F 0 "C33" H 4650 9400 50  0000 C CNN
-F 1 "100nF" H 4700 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 4550 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 4550 9300 50  0001 C CNN "Digikey"
-	1    4550 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C36
-U 1 1 5CEBF7B8
-P 4950 9300
-F 0 "C36" H 5050 9400 50  0000 C CNN
-F 1 "2.2uF" H 5100 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4950 9300 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 4950 9300 50  0001 C CNN "Digikey"
-	1    4950 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C38
-U 1 1 5CEBF7B9
-P 5350 9300
-F 0 "C38" H 5450 9400 50  0000 C CNN
-F 1 "100nF" H 5500 9200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 9150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 5350 9300 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 5350 9300 50  0001 C CNN "Digikey"
-	1    5350 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VAA #PWR06
-U 1 1 5CEC6014
-P 1200 10050
-F 0 "#PWR06" H 1200 9900 50  0001 C CNN
-F 1 "VAA" H 1200 10200 50  0000 C CNN
-F 2 "" H 1200 10050 50  0001 C CNN
-F 3 "" H 1200 10050 50  0001 C CNN
-	1    1200 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 10850 1200 10800
-Wire Wire Line
-	1600 10350 1600 10200
-Wire Wire Line
-	1600 10200 1200 10200
-Wire Wire Line
-	1200 10200 1200 10350
-Wire Wire Line
-	1950 10350 1950 10200
-Wire Wire Line
-	1950 10200 1600 10200
-Connection ~ 1600 10200
-Wire Wire Line
-	2300 10350 2300 10200
-Wire Wire Line
-	2300 10200 1950 10200
-Connection ~ 1950 10200
-Wire Wire Line
-	2650 10350 2650 10200
-Wire Wire Line
-	2650 10200 2300 10200
-Connection ~ 2300 10200
-Wire Wire Line
-	3000 10350 3000 10200
-Wire Wire Line
-	3000 10200 2650 10200
-Connection ~ 2650 10200
-Wire Wire Line
-	3000 10650 3000 10800
-Wire Wire Line
-	3000 10800 2650 10800
-Connection ~ 1200 10800
-Wire Wire Line
-	1200 10800 1200 10650
-Wire Wire Line
-	1600 10650 1600 10800
-Connection ~ 1600 10800
-Wire Wire Line
-	1600 10800 1200 10800
-Wire Wire Line
-	1950 10650 1950 10800
-Connection ~ 1950 10800
-Wire Wire Line
-	1950 10800 1600 10800
-Wire Wire Line
-	2300 10650 2300 10800
-Connection ~ 2300 10800
-Wire Wire Line
-	2300 10800 1950 10800
-Wire Wire Line
-	2650 10650 2650 10800
-Connection ~ 2650 10800
-Wire Wire Line
-	2650 10800 2300 10800
-Wire Wire Line
-	3000 10200 3400 10200
-Connection ~ 3000 10200
-Wire Wire Line
-	4550 10350 4550 10200
-Wire Wire Line
-	4150 10350 4150 10200
-Connection ~ 4150 10200
-Wire Wire Line
-	4150 10200 4550 10200
-Wire Wire Line
-	3750 10350 3750 10200
-Connection ~ 3750 10200
-Wire Wire Line
-	3750 10200 4150 10200
-Wire Wire Line
-	3400 10350 3400 10200
-Connection ~ 3400 10200
-Wire Wire Line
-	3400 10200 3750 10200
-Wire Wire Line
-	3000 10800 3400 10800
-Connection ~ 3000 10800
-Wire Wire Line
-	4550 10650 4550 10800
-Wire Wire Line
-	4150 10650 4150 10800
-Connection ~ 4150 10800
-Wire Wire Line
-	4150 10800 4550 10800
-Wire Wire Line
-	3750 10650 3750 10800
-Connection ~ 3750 10800
-Wire Wire Line
-	3750 10800 4150 10800
-Wire Wire Line
-	3400 10650 3400 10800
-Connection ~ 3400 10800
-Wire Wire Line
-	3400 10800 3750 10800
-$Comp
-L power:GNDA #PWR07
-U 1 1 5CEC6015
-P 1200 10850
-F 0 "#PWR07" H 1200 10600 50  0001 C CNN
-F 1 "GNDA" H 1205 10677 50  0000 C CNN
-F 2 "" H 1200 10850 50  0001 C CNN
-F 3 "" H 1200 10850 50  0001 C CNN
-	1    1200 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5CEC6016
-P 1200 10500
-F 0 "C4" H 1300 10600 50  0000 C CNN
-F 1 "2.2uF" H 1350 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1200 10500 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 1200 10500 50  0001 C CNN "Digikey"
-	1    1200 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5CEC6018
-P 1950 10500
-F 0 "C13" H 2050 10600 50  0000 C CNN
-F 1 "2.2uF" H 2100 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1950 10500 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 1950 10500 50  0001 C CNN "Digikey"
-	1    1950 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5CEC6019
-P 2300 10500
-F 0 "C16" H 2400 10600 50  0000 C CNN
-F 1 "100nF" H 2450 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2300 10500 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 2300 10500 50  0001 C CNN "Digikey"
-	1    2300 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C19
-U 1 1 5CEC601A
-P 2650 10500
-F 0 "C19" H 2750 10600 50  0000 C CNN
-F 1 "2.2uF" H 2800 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2688 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 2650 10500 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 2650 10500 50  0001 C CNN "Digikey"
-	1    2650 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5CEC601B
-P 1600 10500
-F 0 "C9" H 1700 10600 50  0000 C CNN
-F 1 "100nF" H 1750 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1638 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 1600 10500 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 1600 10500 50  0001 C CNN "Digikey"
-	1    1600 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C31
-U 1 1 5CEC601C
-P 4150 10500
-F 0 "C31" H 4250 10600 50  0000 C CNN
-F 1 "2.2uF" H 4300 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4150 10500 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 4150 10500 50  0001 C CNN "Digikey"
-	1    4150 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C34
-U 1 1 5CEC601D
-P 4550 10500
-F 0 "C34" H 4650 10600 50  0000 C CNN
-F 1 "100nF" H 4700 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 4550 10500 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 4550 10500 50  0001 C CNN "Digikey"
-	1    4550 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C25
-U 1 1 5CEC601E
-P 3400 10500
-F 0 "C25" H 3500 10600 50  0000 C CNN
-F 1 "2.2uF" H 3550 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3400 10500 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 3400 10500 50  0001 C CNN "Digikey"
-	1    3400 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C28
-U 1 1 5CEC601F
-P 3750 10500
-F 0 "C28" H 3850 10600 50  0000 C CNN
-F 1 "100nF" H 3900 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3750 10500 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 3750 10500 50  0001 C CNN "Digikey"
-	1    3750 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C22
-U 1 1 5CEC6021
-P 3000 10500
-F 0 "C22" H 3100 10600 50  0000 C CNN
-F 1 "100nF" H 3150 10400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 10350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3000 10500 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 3000 10500 50  0001 C CNN "Digikey"
-	1    3000 10500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 7550 6150 7700
-Wire Wire Line
-	5750 7700 5750 7550
-Connection ~ 5750 7550
-Wire Wire Line
-	5750 7550 6150 7550
-Connection ~ 5350 7550
-Wire Wire Line
-	5350 7550 5750 7550
-Wire Wire Line
-	6150 8150 6150 8000
-Wire Wire Line
-	5750 8000 5750 8150
-Connection ~ 5750 8150
-Wire Wire Line
-	5750 8150 6150 8150
-Connection ~ 5350 8150
-Wire Wire Line
-	5350 8150 5750 8150
-$Comp
-L Device:C C41
-U 1 1 5CF09175
-P 5750 7850
-F 0 "C41" H 5850 7950 50  0000 C CNN
-F 1 "2.2uF" H 5900 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5788 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 5750 7850 50  0001 C CNN
-F 4 "1276-1183-1-ND" H 5750 7850 50  0001 C CNN "Digikey"
-	1    5750 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C42
-U 1 1 5CF09176
-P 6150 7850
-F 0 "C42" H 6250 7950 50  0000 C CNN
-F 1 "100nF" H 6300 7750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6188 7700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 6150 7850 50  0001 C CNN
-F 4 "1276-1000-1-ND" H 6150 7850 50  0001 C CNN "Digikey"
-	1    6150 7850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2630,7 +2071,7 @@ F 0 "R23" V 12250 8250 50  0000 C CNN
 F 1 "39" V 12350 8250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12280 8250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 12350 8250 50  0001 C CNN
-F 4 "311-39.0HRCT-ND" V 12350 8250 50  0001 C CNN "digikey"
+F 4 "311-39.0HRCT-ND" V 12350 8250 50  0001 C CNN "Digikey"
 F 5 "RC0603FR-0739RL" V 12350 8250 50  0001 C CNN "part numer"
 F 6 "RES SMD 39 OHM 1% 1/10W 0603" V 12350 8250 50  0001 C CNN "descripcion"
 	1    12350 8250
@@ -2982,9 +2423,9 @@ U 1 1 5D0BC4C5
 P 5450 4400
 F 0 "C39" V 5300 4400 50  0000 C CNN
 F 1 "0" V 5600 4400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5488 4250 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5450 4400 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" V 5450 4400 50  0001 C CNN "Digikey"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5450 4400 50  0001 C CNN
+F 4 "311-0.0JRCT-ND" V 5450 4400 50  0001 C CNN "Digikey"
 	1    5450 4400
 	0    1    1    0   
 $EndComp
@@ -3065,9 +2506,6 @@ F 3 "" H 6200 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 3750 6450 3750
-Wire Wire Line
-	1200 10050 1200 10200
-Connection ~ 1200 10200
 $Comp
 L power:VCC #PWR0156
 U 1 1 5CF2950C
@@ -3123,4 +2561,150 @@ Wire Wire Line
 	14350 4050 14800 4050
 Wire Wire Line
 	7300 2950 7300 3100
+Text Notes 1125 9425 0    30   ~ 0
+P1
+$Comp
+L Device:C C4
+U 1 1 5CF0F6F1
+P 1600 9300
+F 0 "C4" H 1700 9400 50  0000 C CNN
+F 1 "10u" H 1750 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1638 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1600 9300 50  0001 C CNN
+F 4 "1276-1192-1-ND" H 1600 9300 50  0001 C CNN "Digikey"
+	1    1600 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 1525 9425 0    30   ~ 0
+P7
+$Comp
+L Device:C C8
+U 1 1 5CF1CD78
+P 1950 9300
+F 0 "C8" H 2050 9400 50  0000 C CNN
+F 1 "100p" H 2100 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 1950 9300 50  0001 C CNN
+F 4 "1276-1909-1-ND" H 1950 9300 50  0001 C CNN "Digikey"
+	1    1950 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 1875 9425 0    30   ~ 0
+P7
+Text Notes 2200 9425 0    30   ~ 0
+P13
+$Comp
+L Device:C C9
+U 1 1 5CF1ED73
+P 2300 9300
+F 0 "C9" H 2400 9400 50  0000 C CNN
+F 1 "100p" H 2450 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 2300 9300 50  0001 C CNN
+F 4 "1276-1909-1-ND" H 2300 9300 50  0001 C CNN "Digikey"
+	1    2300 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 2550 9425 0    30   ~ 0
+P17
+$Comp
+L Device:C C12
+U 1 1 5CF21F34
+P 2650 9300
+F 0 "C12" H 2750 9400 50  0000 C CNN
+F 1 "100p" H 2800 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2688 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 2650 9300 50  0001 C CNN
+F 4 "1276-1909-1-ND" H 2650 9300 50  0001 C CNN "Digikey"
+	1    2650 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 2900 9425 0    30   ~ 0
+P20
+$Comp
+L Device:C C13
+U 1 1 5CF2462E
+P 3000 9300
+F 0 "C13" H 3100 9400 50  0000 C CNN
+F 1 "10n" H 3150 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3000 9300 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 3000 9300 50  0001 C CNN "Digikey"
+	1    3000 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 3300 9425 0    30   ~ 0
+P25
+$Comp
+L Device:C C15
+U 1 1 5CF2C7CB
+P 3400 9300
+F 0 "C15" H 3500 9400 50  0000 C CNN
+F 1 "10n" H 3550 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3400 9300 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 3400 9300 50  0001 C CNN "Digikey"
+	1    3400 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 9425 0    30   ~ 0
+P27
+$Comp
+L Device:C C16
+U 1 1 5CF2D03D
+P 3750 9300
+F 0 "C16" H 3850 9400 50  0000 C CNN
+F 1 "10n" H 3900 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 3750 9300 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 3750 9300 50  0001 C CNN "Digikey"
+	1    3750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5CF32A69
+P 4550 9300
+F 0 "C19" H 4650 9400 50  0000 C CNN
+F 1 "10n" H 4700 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4550 9300 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 4550 9300 50  0001 C CNN "Digikey"
+	1    4550 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 9425 0    30   ~ 0
+P39
+$Comp
+L Device:C C21
+U 1 1 5CF3391D
+P 4950 9300
+F 0 "C21" H 5050 9400 50  0000 C CNN
+F 1 "10n" H 5100 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 4950 9300 50  0001 C CNN
+F 4 "1276-1009-1-ND" H 4950 9300 50  0001 C CNN "Digikey"
+	1    4950 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 4850 9425 0    30   ~ 0
+P41
+$Comp
+L Device:C C22
+U 1 1 5CF3612D
+P 5350 9300
+F 0 "C22" H 5450 9400 50  0000 C CNN
+F 1 "100p" H 5500 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 9150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KQ8NNNC.pdf" H 5350 9300 50  0001 C CNN
+F 4 "1276-1909-1-ND" H 5350 9300 50  0001 C CNN "Digikey"
+	1    5350 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 9425 0    30   ~ 0
+P46
+Wire Wire Line
+	3750 9600 4550 9600
+Wire Wire Line
+	3750 9000 4550 9000
 $EndSCHEMATC
