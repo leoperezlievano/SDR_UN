@@ -1470,7 +1470,7 @@ Wire Wire Line
 Text Label 7075 9550 2    50   ~ 0
 FPGA_GPIO_06
 Text Label 7075 9450 2    50   ~ 0
-FPGA_GPIO_01
+FPGA_GPIO_04
 Text Label 6825 10975 2    50   ~ 0
 SCL_I2C
 Text Label 5025 3950 0    50   ~ 0
