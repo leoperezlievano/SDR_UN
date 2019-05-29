@@ -1,7 +1,5 @@
-update=Wed 29 May 2019 04:49:21 PM -05
+update=Wed 29 May 2019 05:46:59 PM -05
 last_client=kicad
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -18,6 +16,8 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[general]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -45,7 +45,9 @@ ViaDrill1=0.4
 ViaDiameter2=0.5
 ViaDrill2=0.3
 ViaDiameter3=0.6
-ViaDrill3=0.45
+ViaDrill3=0.4
+ViaDiameter4=0.6
+ViaDrill4=0.45
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
