@@ -199,7 +199,7 @@ Text Notes 5000 3200 0    50   ~ 0
 Debug LEDs
 $Comp
 L Device:LED D?
-U 1 0 5CE70571
+U 1 1 5CE70571
 P 5050 4350
 AR Path="/5CC081D2/5CE70571" Ref="D?"  Part="1" 
 AR Path="/5CC08321/5CE70571" Ref="D7"  Part="1" 

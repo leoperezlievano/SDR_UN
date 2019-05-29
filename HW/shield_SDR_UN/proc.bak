@@ -894,8 +894,6 @@ Wire Wire Line
 	15550 9900 14950 9900
 Wire Wire Line
 	14950 9400 15550 9400
-Text Label 15550 9400 2    50   ~ 0
-FMC_NWE
 Wire Wire Line
 	14950 9200 15550 9200
 Text Label 15550 9200 2    50   ~ 0
@@ -906,10 +904,6 @@ Text Label 15550 9300 2    50   ~ 0
 FMC_NOE
 Wire Wire Line
 	14950 9500 15550 9500
-Text Label 15550 9500 2    50   ~ 0
-FMC_NWAIT
-Text Label 15550 9600 2    50   ~ 0
-FMC_NE1
 Wire Wire Line
 	14950 9600 15550 9600
 Text Label 15350 6200 2    50   ~ 0
@@ -954,8 +948,6 @@ Wire Wire Line
 	5550 6050 6050 6050
 Wire Wire Line
 	5550 5950 6050 5950
-Wire Notes Line
-	10300 11200 10300 14950
 Wire Notes Line
 	10300 14950 14450 14950
 Wire Notes Line
@@ -1661,10 +1653,6 @@ Wire Wire Line
 	11125 11700 10525 11700
 Wire Wire Line
 	11125 11800 10525 11800
-Text Label 10525 11700 0    50   ~ 0
-FMC_D0
-Text Label 10525 11800 0    50   ~ 0
-FMC_D1
 Wire Wire Line
 	11125 11900 10525 11900
 Wire Wire Line
@@ -1683,36 +1671,8 @@ Wire Wire Line
 	11125 13000 10525 13000
 Wire Wire Line
 	11125 13100 10525 13100
-Text Label 10525 11900 0    50   ~ 0
-FMC_D2
-Text Label 10525 12000 0    50   ~ 0
-FMC_D3
-Text Label 10525 12100 0    50   ~ 0
-FMC_D4
-Text Label 10525 12200 0    50   ~ 0
-FMC_D5
-Text Label 10525 12300 0    50   ~ 0
-FMC_D6
-Text Label 10525 12400 0    50   ~ 0
-FMC_D7
-Text Label 10525 12500 0    50   ~ 0
-FMC_D8
-Text Label 10525 13100 0    50   ~ 0
-FMC_D14
 Wire Wire Line
 	11125 13200 10525 13200
-Text Label 10525 13200 0    50   ~ 0
-FMC_D15
-Text Label 10525 13000 0    50   ~ 0
-FMC_D13
-Text Label 10525 12900 0    50   ~ 0
-FMC_D12
-Text Label 10525 12800 0    50   ~ 0
-FMC_D11
-Text Label 10525 12700 0    50   ~ 0
-FMC_D10
-Text Label 10525 12600 0    50   ~ 0
-FMC_D9
 Wire Wire Line
 	11125 12900 10525 12900
 Wire Wire Line
@@ -1723,12 +1683,6 @@ Wire Wire Line
 	11125 12600 10525 12600
 Text Notes 10625 14350 0    50   ~ 0
 FMC_NADV o NL\n
-Text Label 12375 12350 0    50   ~ 0
-FMC_A16
-Text Label 12375 12450 0    50   ~ 0
-FMC_A17
-Text Label 12375 12550 0    50   ~ 0
-FMC_A18
 Wire Wire Line
 	12875 12950 12375 12950
 Wire Wire Line
@@ -1737,16 +1691,6 @@ Wire Wire Line
 	12875 12650 12375 12650
 Wire Wire Line
 	12875 12750 12375 12750
-Text Label 12375 12750 0    50   ~ 0
-FMC_A20
-Text Label 12375 12650 0    50   ~ 0
-FMC_A19
-Text Label 12375 12850 0    50   ~ 0
-FMC_A21
-Text Label 12375 12950 0    50   ~ 0
-FMC_A22
-Text Label 12375 13050 0    50   ~ 0
-FMC_A23
 Wire Wire Line
 	12875 13050 12375 13050
 Wire Wire Line
@@ -1755,10 +1699,6 @@ Wire Wire Line
 	12375 12450 12875 12450
 Wire Wire Line
 	12375 12550 12875 12550
-Text Label 12375 12250 0    50   ~ 0
-FMC_A15
-Text Label 12375 12150 0    50   ~ 0
-FMC_A14
 Wire Wire Line
 	12375 12250 12875 12250
 Wire Wire Line
@@ -1771,30 +1711,14 @@ Wire Wire Line
 	11075 13950 10625 13950
 Wire Wire Line
 	11075 14050 10625 14050
-Text Label 10625 13650 0    50   ~ 0
-FMC_CLK
 Wire Wire Line
 	11075 13650 10625 13650
-Text Label 10625 13850 0    50   ~ 0
-FMC_NWE
-Text Label 10625 13950 0    50   ~ 0
-FMC_NWAIT
-Text Label 10625 14050 0    50   ~ 0
-FMC_NE1
-Text Label 10625 13750 0    50   ~ 0
-FMC_NOE
 Wire Wire Line
 	11075 13550 10625 13550
-Text Label 10625 13550 0    50   ~ 0
-FMC_NL
 Wire Wire Line
 	11075 14150 10625 14150
-Text Label 10625 14250 0    50   ~ 0
-FMC_NBL1
 Wire Wire Line
 	10625 14250 11075 14250
-Text Label 10625 14150 0    50   ~ 0
-FMC_NBL0
 Text GLabel 11125 13000 2    50   Output ~ 0
 FMC_D13
 Text GLabel 11125 11700 2    50   Output ~ 0
@@ -1815,11 +1739,11 @@ Text GLabel 11125 12900 2    50   Output ~ 0
 FMC_D12
 Text GLabel 11125 12800 2    50   Output ~ 0
 FMC_D11
-Text GLabel 11075 13750 2    50   Output ~ 0
+Text GLabel 11075 13750 2    50   Input ~ 0
 FMC_NOE
-Text GLabel 11075 13550 2    50   Output ~ 0
+Text GLabel 11075 13550 2    50   Input ~ 0
 FMC_NL
-Text GLabel 11075 14250 2    50   Output ~ 0
+Text GLabel 11075 14250 2    50   Input ~ 0
 FMC_NBL1
 Text GLabel 11125 13200 2    50   Output ~ 0
 FMC_D15
@@ -1849,15 +1773,13 @@ Text GLabel 12875 13050 2    50   Output ~ 0
 FMC_A23
 Text GLabel 12875 12950 2    50   Output ~ 0
 FMC_A22
-Text GLabel 11075 13650 2    50   Output ~ 0
+Text GLabel 11075 13650 2    50   Input ~ 0
 FMC_CLK
-Text GLabel 11075 14050 2    50   Output ~ 0
-FMC_NE1
-Text GLabel 11075 13850 2    50   Output ~ 0
+Text GLabel 11075 13850 2    50   Input ~ 0
 FMC_NWE
-Text GLabel 11075 13950 2    50   Output ~ 0
+Text GLabel 11075 13950 2    50   Input ~ 0
 FMC_NWAIT
-Text GLabel 11075 14150 2    50   Output ~ 0
+Text GLabel 11075 14150 2    50   Input ~ 0
 FMC_NBL0
 Text GLabel 6050 12900 0    50   BiDi ~ 0
 SPI1_CS_RF
@@ -1979,4 +1901,150 @@ F 3 "" H 1950 10900 50  0001 C CNN
 	1    1950 10900
 	1    0    0    -1  
 $EndComp
+Text Label 15550 9400 2    50   ~ 0
+FMC_NWE
+Wire Notes Line
+	10300 11200 10300 14950
+Text GLabel 11075 14050 2    50   Input ~ 0
+FMC_NE1
+Text Label 10625 14250 0    50   ~ 0
+FMC_NBL1
+Text Label 10625 14150 0    50   ~ 0
+FMC_NBL0
+Text Label 10625 13850 0    50   ~ 0
+FMC_NWE
+Text Label 10625 13750 0    50   ~ 0
+FMC_NOE
+Text Label 10625 13650 0    50   ~ 0
+FMC_CLK
+Text Label 10625 13550 0    50   ~ 0
+FMC_NL
+Text Label 12375 13050 0    50   ~ 0
+FMC_A23
+Text Label 12375 12950 0    50   ~ 0
+FMC_A22
+Text Label 12375 12850 0    50   ~ 0
+FMC_A21
+Text Label 12375 12750 0    50   ~ 0
+FMC_A20
+Text Label 12375 12650 0    50   ~ 0
+FMC_A19
+Text Label 12375 12550 0    50   ~ 0
+FMC_A18
+Text Label 12375 12450 0    50   ~ 0
+FMC_A17
+Text Label 12375 12350 0    50   ~ 0
+FMC_A16
+Text Label 12375 12250 0    50   ~ 0
+FMC_A15
+Text Label 12375 12150 0    50   ~ 0
+FMC_A14
+Text Label 10525 13200 0    50   ~ 0
+FMC_D15
+Text Label 10525 13100 0    50   ~ 0
+FMC_D14
+Text Label 10525 13000 0    50   ~ 0
+FMC_D13
+Text Label 10525 12900 0    50   ~ 0
+FMC_D12
+Text Label 10525 12800 0    50   ~ 0
+FMC_D11
+Text Label 10525 12700 0    50   ~ 0
+FMC_D10
+Text Label 10525 12600 0    50   ~ 0
+FMC_D9
+Text Label 10525 12500 0    50   ~ 0
+FMC_D8
+Text Label 10525 12400 0    50   ~ 0
+FMC_D7
+Text Label 10525 12300 0    50   ~ 0
+FMC_D6
+Text Label 10525 12200 0    50   ~ 0
+FMC_D5
+Text Label 10525 12100 0    50   ~ 0
+FMC_D4
+Text Label 10525 12000 0    50   ~ 0
+FMC_D3
+Text Label 10525 11900 0    50   ~ 0
+FMC_D2
+Text Label 10525 11800 0    50   ~ 0
+FMC_D1
+Text Label 10525 11700 0    50   ~ 0
+FMC_D0
+Text Label 15550 9600 2    50   ~ 0
+FMC_NE1
+Text Label 15550 9500 2    50   ~ 0
+FMC_NWAIT
+Text Label 10625 14050 0    50   ~ 0
+FMC_NE1
+Text Label 10625 13950 0    50   ~ 0
+FMC_NWAIT
+Text GLabel 15550 9300 2    50   Input ~ 0
+FMC_NOE
+Text GLabel 15350 6200 2    50   Input ~ 0
+FMC_NL
+Text GLabel 5550 9050 0    50   Input ~ 0
+FMC_NBL1
+Text GLabel 15550 9200 2    50   Input ~ 0
+FMC_CLK
+Text GLabel 15550 9400 2    50   Input ~ 0
+FMC_NWE
+Text GLabel 15550 9500 2    50   Input ~ 0
+FMC_NWAIT
+Text GLabel 5550 8950 0    50   Input ~ 0
+FMC_NBL0
+Text GLabel 15550 9600 2    50   Input ~ 0
+FMC_NE1
+Text GLabel 5550 9750 0    50   Output ~ 0
+FMC_D5
+Text GLabel 15550 9000 2    50   Output ~ 0
+FMC_D3
+Text GLabel 15550 9700 2    50   Output ~ 0
+FMC_D13
+Text GLabel 15550 10300 2    50   Output ~ 0
+FMC_D0
+Text GLabel 5550 9850 0    50   Output ~ 0
+FMC_D6
+Text GLabel 15550 8900 2    50   Output ~ 0
+FMC_D2
+Text GLabel 5550 9650 0    50   Output ~ 0
+FMC_D4
+Text GLabel 15550 10400 2    50   Output ~ 0
+FMC_D1
+Text GLabel 5550 10050 0    50   Output ~ 0
+FMC_D8
+Text GLabel 15550 9800 2    50   Output ~ 0
+FMC_D14
+Text GLabel 5550 10450 0    50   Output ~ 0
+FMC_D12
+Text GLabel 5550 10350 0    50   Output ~ 0
+FMC_D11
+Text GLabel 15550 9900 2    50   Output ~ 0
+FMC_D15
+Text GLabel 5550 10250 0    50   Output ~ 0
+FMC_D10
+Text GLabel 5550 9950 0    50   Output ~ 0
+FMC_D7
+Text GLabel 5550 10150 0    50   Output ~ 0
+FMC_D9
+Text GLabel 15550 10000 2    50   Output ~ 0
+FMC_A16
+Text GLabel 5550 5950 0    50   Output ~ 0
+FMC_A14
+Text GLabel 5550 6050 0    50   Output ~ 0
+FMC_A15
+Text GLabel 15550 10100 2    50   Output ~ 0
+FMC_A17
+Text GLabel 15550 10200 2    50   Output ~ 0
+FMC_A18
+Text GLabel 5550 9250 0    50   Output ~ 0
+FMC_A19
+Text GLabel 5550 9350 0    50   Output ~ 0
+FMC_A20
+Text GLabel 5550 9450 0    50   Output ~ 0
+FMC_A21
+Text GLabel 5550 9150 0    50   Output ~ 0
+FMC_A23
+Text GLabel 5550 9550 0    50   Output ~ 0
+FMC_A22
 $EndSCHEMATC

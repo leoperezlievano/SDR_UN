@@ -546,10 +546,8 @@ Wire Wire Line
 Wire Wire Line
 	9300 8525 9800 8525
 Wire Notes Line
-	7200 7525 7200 11275
-Wire Notes Line
-	11350 7525 7200 7525
-Text Notes 7900 7725 0    50   ~ 0
+	11825 7850 7675 7850
+Text Notes 8375 8050 0    50   ~ 0
 BUS DATA-ADDRESS-CONTROL \nPROC<->FPGA\n
 Text Label 8200 7150 1    50   ~ 0
 FMC_D0
@@ -575,10 +573,6 @@ Text Label 12700 5100 2    50   ~ 0
 FMC_D9
 Text Label 5100 4550 0    50   ~ 0
 FMC_CLK
-Text Label 5100 4350 0    50   ~ 0
-FMC_NWE
-Text Label 5100 4150 0    50   ~ 0
-FMC_NE1
 Text Label 5100 4450 0    50   ~ 0
 FMC_NOE
 Text Label 5100 3150 0    50   ~ 0
@@ -652,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 7150 8200 6650
 Wire Notes Line
-	11350 11275 11350 7525
+	10425 11600 10425 7850
 Wire Notes Line
 	7200 11275 11350 11275
 Wire Wire Line
@@ -886,8 +880,6 @@ Wire Wire Line
 	12700 4600 12200 4600
 Wire Wire Line
 	5100 4250 5600 4250
-Text Label 5100 4250 0    50   ~ 0
-FMC_NWAIT
 Wire Wire Line
 	8800 7150 8800 6650
 Wire Wire Line
@@ -1068,12 +1060,6 @@ Text Label 14500 8375 0    50   ~ 0
 BTN2
 Text Label 7550 10025 0    50   ~ 0
 FMC_CLK
-Text Label 7550 10225 0    50   ~ 0
-FMC_NWE
-Text Label 7550 10325 0    50   ~ 0
-FMC_NWAIT
-Text Label 7550 10425 0    50   ~ 0
-FMC_NE1
 Text Label 7550 10125 0    50   ~ 0
 FMC_NOE
 Text Label 7550 9925 0    50   ~ 0
@@ -1793,21 +1779,19 @@ Wire Wire Line
 	8000 10225 7550 10225
 Wire Wire Line
 	8000 10125 7550 10125
-Text GLabel 8000 9925 2    50   Output ~ 0
+Text GLabel 8000 9925 2    50   Input ~ 0
 FMC_NL
-Text GLabel 8000 10025 2    50   Output ~ 0
+Text GLabel 8000 10025 2    50   Input ~ 0
 FMC_CLK
-Text GLabel 8000 10125 2    50   Output ~ 0
+Text GLabel 8000 10125 2    50   Input ~ 0
 FMC_NOE
-Text GLabel 8000 10225 2    50   Output ~ 0
+Text GLabel 8000 10225 2    50   Input ~ 0
 FMC_NWE
-Text GLabel 8000 10325 2    50   Output ~ 0
+Text GLabel 8000 10325 2    50   Input ~ 0
 FMC_NWAIT
-Text GLabel 8000 10425 2    50   Output ~ 0
-FMC_NE1
-Text GLabel 8000 10525 2    50   Output ~ 0
+Text GLabel 8000 10525 2    50   Input ~ 0
 FMC_NBL0
-Text GLabel 8000 10625 2    50   Output ~ 0
+Text GLabel 8000 10625 2    50   Input ~ 0
 FMC_NBL1
 Text Label 4775 10975 0    50   ~ 0
 SDA_I2C
@@ -2718,4 +2702,86 @@ Wire Wire Line
 	5950 10975 6875 10975
 Wire Wire Line
 	4700 10975 5450 10975
+Text Label 7550 10225 0    50   ~ 0
+FMC_NWE
+Text Label 5100 4350 0    50   ~ 0
+FMC_NWE
+Text GLabel 8000 10425 2    50   Input ~ 0
+FMC_NE1
+Text Label 5100 4250 0    50   ~ 0
+FMC_NWAIT
+Text Label 5100 4150 0    50   ~ 0
+FMC_NE1
+Text Label 7550 10425 0    50   ~ 0
+FMC_NE1
+Text Label 7550 10325 0    50   ~ 0
+FMC_NWAIT
+Text GLabel 5100 4450 0    50   Input ~ 0
+FMC_NOE
+Text GLabel 5100 4550 0    50   Input ~ 0
+FMC_CLK
+Text GLabel 5100 4350 0    50   Input ~ 0
+FMC_NWE
+Text GLabel 5100 4250 0    50   Input ~ 0
+FMC_NWAIT
+Text GLabel 5100 4150 0    50   Input ~ 0
+FMC_NE1
+Text GLabel 5100 2850 0    50   Input ~ 0
+FMC_NBL0
+Text GLabel 5100 2750 0    50   Input ~ 0
+FMC_NBL1
+Text GLabel 5100 3150 0    50   Input ~ 0
+FMC_NL
+Text GLabel 5100 4750 0    50   Input ~ 0
+FMC_D2
+Text GLabel 5100 4650 0    50   Input ~ 0
+FMC_D3
+Text GLabel 12700 4900 2    50   Input ~ 0
+FMC_D7
+Text GLabel 12700 4600 2    50   Input ~ 0
+FMC_D4
+Text GLabel 12700 4800 2    50   Input ~ 0
+FMC_D6
+Text GLabel 12700 4700 2    50   Input ~ 0
+FMC_D5
+Text GLabel 12700 5300 2    50   Input ~ 0
+FMC_D11
+Text GLabel 12700 5000 2    50   Input ~ 0
+FMC_D8
+Text GLabel 12700 5200 2    50   Input ~ 0
+FMC_D10
+Text GLabel 12700 5100 2    50   Input ~ 0
+FMC_D9
+Text GLabel 8700 7150 3    50   Input ~ 0
+FMC_D15
+Text GLabel 12700 5400 2    50   Input ~ 0
+FMC_D12
+Text GLabel 8800 7150 3    50   Input ~ 0
+FMC_D14
+Text GLabel 8900 7150 3    50   Input ~ 0
+FMC_D13
+Text GLabel 8300 7150 3    50   Input ~ 0
+FMC_D1
+Text GLabel 8200 7150 3    50   Input ~ 0
+FMC_D0
+Text GLabel 6375 7700 2    50   Input ~ 0
+FMC_A16
+Text GLabel 6375 7800 2    50   Input ~ 0
+FMC_A17
+Text GLabel 6375 7900 2    50   Input ~ 0
+FMC_A18
+Text GLabel 6375 8000 2    50   Input ~ 0
+FMC_A19
+Text GLabel 6375 8100 2    50   Input ~ 0
+FMC_A20
+Text GLabel 6375 8200 2    50   Input ~ 0
+FMC_A21
+Text GLabel 6375 8300 2    50   Input ~ 0
+FMC_A22
+Text GLabel 6375 8400 2    50   Input ~ 0
+FMC_A23
+Text GLabel 6375 7600 2    50   Input ~ 0
+FMC_A15
+Text GLabel 6375 7500 2    50   Input ~ 0
+FMC_A14
 $EndSCHEMATC
