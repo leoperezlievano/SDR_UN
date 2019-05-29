@@ -2764,24 +2764,24 @@ Text GLabel 8300 7150 3    50   Input ~ 0
 FMC_D1
 Text GLabel 8200 7150 3    50   Input ~ 0
 FMC_D0
-Text GLabel 6375 7700 2    50   Input ~ 0
+Text GLabel 8600 7150 3    50   Input ~ 0
 FMC_A16
-Text GLabel 6375 7800 2    50   Input ~ 0
+Text GLabel 8500 7150 3    50   Input ~ 0
 FMC_A17
-Text GLabel 6375 7900 2    50   Input ~ 0
+Text GLabel 8400 7150 3    50   Input ~ 0
 FMC_A18
-Text GLabel 6375 8000 2    50   Input ~ 0
+Text GLabel 7300 1600 1    50   Input ~ 0
 FMC_A19
-Text GLabel 6375 8100 2    50   Input ~ 0
+Text GLabel 7400 1600 1    50   Input ~ 0
 FMC_A20
-Text GLabel 6375 8200 2    50   Input ~ 0
+Text GLabel 7500 1600 1    50   Input ~ 0
 FMC_A21
-Text GLabel 6375 8300 2    50   Input ~ 0
+Text GLabel 7600 1600 1    50   Input ~ 0
 FMC_A22
-Text GLabel 6375 8400 2    50   Input ~ 0
+Text GLabel 7200 1600 1    50   Input ~ 0
 FMC_A23
-Text GLabel 6375 7600 2    50   Input ~ 0
+Text GLabel 8000 7150 3    50   Input ~ 0
 FMC_A15
-Text GLabel 6375 7500 2    50   Input ~ 0
+Text GLabel 8100 7150 3    50   Input ~ 0
 FMC_A14
 $EndSCHEMATC

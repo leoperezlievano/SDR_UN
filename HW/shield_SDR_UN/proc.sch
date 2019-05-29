@@ -619,10 +619,6 @@ Wire Wire Line
 	8800 2150 8050 2150
 Connection ~ 8050 2150
 Wire Wire Line
-	8100 2050 8050 2050
-Wire Wire Line
-	8050 2050 8050 2150
-Wire Wire Line
 	9250 2900 8800 2900
 $Comp
 L power:GND #PWR0120
@@ -1802,8 +1798,6 @@ SPI1_CS_AD
 Wire Wire Line
 	6050 13300 6500 13300
 NoConn ~ 14950 9100
-Text GLabel 8100 2050 2    50   Input ~ 0
-3V3 MCU
 Text GLabel 9600 2600 0    50   Input ~ 0
 3V3 MCU
 Text GLabel 10450 2750 1    50   Input ~ 0
@@ -2047,4 +2041,10 @@ Text GLabel 5550 9150 0    50   Output ~ 0
 FMC_A23
 Text GLabel 5550 9550 0    50   Output ~ 0
 FMC_A22
+Text GLabel 8100 2050 2    50   Input ~ 0
+3V3 MCU
+Wire Wire Line
+	8100 2050 8050 2050
+Wire Wire Line
+	8050 2050 8050 2150
 $EndSCHEMATC
