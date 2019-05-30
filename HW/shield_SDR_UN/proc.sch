@@ -796,52 +796,48 @@ Wire Wire Line
 	6050 10450 5550 10450
 Text Label 1750 12050 0    50   ~ 0
 GPIO_MCU_1
-Text Label 1750 12150 0    50   ~ 0
-GPIO_MCU_2
-Text Label 1750 12250 0    50   ~ 0
-GPIO_MCU_3
-Text Label 1750 12350 0    50   ~ 0
-GPIO_MCU_4
-Text Label 1750 12450 0    50   ~ 0
-GPIO_MCU_5
-Text Label 1750 12550 0    50   ~ 0
-GPIO_MCU_6
-Text Label 1750 12650 0    50   ~ 0
-GPIO_MCU_7
-Text Label 1750 12750 0    50   ~ 0
-GPIO_MCU_8
 Text Label 3250 12050 2    50   ~ 0
+GPIO_MCU_2
+Text Label 1750 12150 0    50   ~ 0
+GPIO_MCU_3
+Text Label 3250 12150 2    50   ~ 0
+GPIO_MCU_4
+Text Label 1750 12250 0    50   ~ 0
+GPIO_MCU_5
+Text Label 3250 12250 2    50   ~ 0
+GPIO_MCU_6
+Text Label 1750 12350 0    50   ~ 0
+GPIO_MCU_7
+Text Label 3250 12350 2    50   ~ 0
+GPIO_MCU_8
+Text Label 1750 12450 0    50   ~ 0
 GPIO_MCU_9
 Wire Wire Line
-	2750 12050 3250 12050
-Text Label 3250 12150 2    50   ~ 0
+	2250 12450 1750 12450
+Text Label 3250 12450 2    50   ~ 0
 GPIO_MCU_10
 Wire Wire Line
-	2750 12150 3250 12150
-Text Label 3250 12250 2    50   ~ 0
+	2750 12450 3250 12450
+Text Label 1750 12550 0    50   ~ 0
 GPIO_MCU_11
 Wire Wire Line
-	2750 12250 3250 12250
-Text Label 3250 12350 2    50   ~ 0
+	2250 12550 1750 12550
+Text Label 3250 12550 2    50   ~ 0
 GPIO_MCU_12
 Wire Wire Line
-	2750 12350 3250 12350
-Text Label 3250 12450 2    50   ~ 0
+	2750 12550 3250 12550
+Text Label 1750 12650 0    50   ~ 0
 GPIO_MCU_13
 Wire Wire Line
-	2750 12450 3250 12450
-Text Label 3250 12550 2    50   ~ 0
+	2250 12650 1750 12650
+Text Label 3250 12650 2    50   ~ 0
 GPIO_MCU_14
 Wire Wire Line
-	2750 12550 3250 12550
-Text Label 3250 12650 2    50   ~ 0
+	2750 12650 3250 12650
+Text Label 1750 12750 0    50   ~ 0
 GPIO_MCU_15
 Wire Wire Line
-	2750 12650 3250 12650
-Text Label 3250 12750 2    50   ~ 0
-GPIO_MCU_16
-Wire Wire Line
-	2750 12750 3250 12750
+	2250 12750 1750 12750
 Wire Wire Line
 	2750 12850 3250 12850
 Wire Wire Line
@@ -994,10 +990,6 @@ Text Label 15450 7500 2    50   ~ 0
 GPIO_MCU_15
 Wire Wire Line
 	14950 7500 15450 7500
-Text Label 15450 6100 2    50   ~ 0
-GPIO_MCU_16
-Wire Wire Line
-	14950 6100 15450 6100
 $Comp
 L Device:L L1
 U 1 1 5DD9B3EF
@@ -1606,23 +1598,23 @@ NoConn ~ 6050 6250
 NoConn ~ 6050 6350
 NoConn ~ 6050 6450
 Wire Wire Line
-	2250 12750 1750 12750
-Wire Wire Line
-	2250 12650 1750 12650
-Wire Wire Line
-	2250 12550 1750 12550
-Wire Wire Line
-	2250 12450 1750 12450
+	2750 12350 3250 12350
 Wire Wire Line
 	2250 12350 1750 12350
 Wire Wire Line
+	2750 12250 3250 12250
+Wire Wire Line
 	2250 12250 1750 12250
+Wire Wire Line
+	2750 12150 3250 12150
 Wire Wire Line
 	2250 12150 1750 12150
 Wire Wire Line
+	2750 12050 3250 12050
+Wire Wire Line
 	2250 12050 1750 12050
 $Comp
-L Connector_Generic:Conn_02x10_Top_Bottom J3
+L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 5D1F8415
 P 2450 12350
 F 0 "J3" H 2500 12967 50  0000 C CNN
@@ -2047,4 +2039,16 @@ Wire Wire Line
 	8100 2050 8050 2050
 Wire Wire Line
 	8050 2050 8050 2150
+NoConn ~ 2750 12750
+NoConn ~ 14950 6100
+Text GLabel 15400 4200 2    50   BiDi ~ 0
+SPI1_CS_RF
+Text GLabel 15350 4300 2    50   BiDi ~ 0
+SPI1_SCK
+Text GLabel 15350 4400 2    50   BiDi ~ 0
+SPI1_MISO
+Text GLabel 15350 4500 2    50   BiDi ~ 0
+SPI1_MOSI
+Text GLabel 15350 7600 2    50   BiDi ~ 0
+SPI1_CS_AD
 $EndSCHEMATC

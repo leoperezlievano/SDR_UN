@@ -139,7 +139,7 @@ Wire Wire Line
 Connection ~ 5300 2550
 Wire Wire Line
 	5300 2550 5350 2550
-Text GLabel 6000 1750 2    50   Output ~ 0
+Text GLabel 6950 1750 2    50   Output ~ 0
 +5V
 Text GLabel 1350 1750 0    50   Input ~ 0
 +5V
@@ -185,8 +185,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 3300 1550 3300
 Connection ~ 1550 3300
-Wire Wire Line
-	6000 1750 5650 1750
 Text Notes 1200 1300 0    50   ~ 0
 MCU 3.3V Regulator
 Text Notes 1200 2900 0    50   ~ 0
@@ -609,4 +607,98 @@ Text GLabel 5650 3650 1    50   Input ~ 0
 3V3 MCU
 Wire Wire Line
 	5650 3800 5650 3650
+$Comp
+L Device:C C23
+U 1 1 5CF2D528
+P 6000 2025
+AR Path="/5CC08321/5CF2D528" Ref="C23"  Part="1" 
+AR Path="/5CFB52DC/5CF2D528" Ref="C?"  Part="1" 
+F 0 "C23" H 6040 2121 50  0000 L CNN
+F 1 "220uF" H 6015 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6038 1875 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A226MPCNUBE.jsp" H 6000 2025 50  0001 C CNN
+F 4 "1276-3375-1-ND" H 6000 2025 50  0001 C CNN "Digikey"
+	1    6000 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1750 6000 1750
+$Comp
+L power:GND #PWR07
+U 1 1 5CF311C2
+P 6000 2300
+F 0 "#PWR07" H 6000 2050 50  0001 C CNN
+F 1 "GND" H 6005 2127 50  0000 C CNN
+F 2 "" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2175 6000 2300
+Wire Wire Line
+	6000 1875 6000 1750
+Connection ~ 6000 1750
+Wire Wire Line
+	6000 1750 6350 1750
+$Comp
+L Device:C C24
+U 1 1 5CF34579
+P 6350 2025
+F 0 "C24" H 6450 2125 50  0000 C CNN
+F 1 "100nF" H 6500 1925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6388 1875 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 6350 2025 50  0001 C CNN
+F 4 "1276-1000-1-ND" H 6350 2025 50  0001 C CNN "Digikey"
+	1    6350 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5CF365D7
+P 6350 2300
+F 0 "#PWR025" H 6350 2050 50  0001 C CNN
+F 1 "GND" H 6355 2127 50  0000 C CNN
+F 2 "" H 6350 2300 50  0001 C CNN
+F 3 "" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1875 6350 1750
+Wire Wire Line
+	6350 2175 6350 2300
+Connection ~ 6350 1750
+Wire Wire Line
+	6350 1750 6700 1750
+$Comp
+L Device:C C25
+U 1 1 5CF3F312
+P 6700 2025
+F 0 "C25" H 6800 2125 50  0000 C CNN
+F 1 "1nF" H 6850 1925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 1875 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 6700 2025 50  0001 C CNN
+F 4 "1276-1018-1-ND" H 6700 2025 50  0001 C CNN "Digikey"
+	1    6700 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR064
+U 1 1 5CF4092B
+P 6700 2300
+F 0 "#PWR064" H 6700 2050 50  0001 C CNN
+F 1 "GND" H 6705 2127 50  0000 C CNN
+F 2 "" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2300 6700 2175
+Wire Wire Line
+	6700 1875 6700 1750
+Connection ~ 6700 1750
+Wire Wire Line
+	6700 1750 6950 1750
 $EndSCHEMATC

@@ -2327,9 +2327,9 @@ Wire Wire Line
 	4450 2200 4850 2200
 Text Label 4850 2200 2    50   ~ 0
 I2C1_SCL
-Text GLabel 4450 2300 0    50   Input ~ 0
+Text GLabel 7900 8250 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 4450 2200 0    50   Input ~ 0
+Text GLabel 7900 8350 0    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
 	1250 5350 2150 5350
@@ -2707,4 +2707,22 @@ Wire Wire Line
 	3750 9600 4550 9600
 Wire Wire Line
 	3750 9000 4550 9000
+Text GLabel 7300 5950 3    50   BiDi ~ 0
+SPI1_CS_RF
+Text GLabel 7800 6850 3    50   BiDi ~ 0
+SPI1_MISO
+Text GLabel 14750 3650 2    50   BiDi ~ 0
+SPI1_CS_AD
+Text GLabel 7700 6850 3    50   BiDi ~ 0
+SPI1_MOSI
+Text GLabel 7600 5950 3    50   BiDi ~ 0
+SPI1_SCK
+Text GLabel 14750 3850 2    50   BiDi ~ 0
+SPI1_MISO
+Text GLabel 14750 3750 2    50   BiDi ~ 0
+SPI1_SCK
+Text GLabel 4450 2200 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 4450 2300 0    50   Input ~ 0
+I2C_SDA
 $EndSCHEMATC
