@@ -416,8 +416,6 @@ Wire Wire Line
 Wire Wire Line
 	12200 4100 12350 4100
 Wire Wire Line
-	12350 4000 12200 4000
-Wire Wire Line
 	12200 3900 12350 3900
 Wire Wire Line
 	12350 3800 12200 3800
@@ -429,8 +427,6 @@ Wire Wire Line
 	12350 3500 12200 3500
 Wire Wire Line
 	12350 3400 12200 3400
-Wire Wire Line
-	12200 3300 12350 3300
 Wire Wire Line
 	12350 3200 12200 3200
 Text GLabel 12350 4400 2    50   Input ~ 0
@@ -1084,21 +1080,21 @@ Wire Wire Line
 	12675 5500 12200 5500
 Wire Wire Line
 	12200 5600 12675 5600
-Text GLabel 12350 3900 2    50   Input ~ 0
-adDA5
 Text GLabel 12350 3800 2    50   Input ~ 0
-adDA6
+adDA5
 Text GLabel 12350 3700 2    50   Input ~ 0
-adDA7
+adDA6
 Text GLabel 12350 3600 2    50   Input ~ 0
-adDD0
+adDA7
 Text GLabel 12350 3500 2    50   Input ~ 0
-adDD1
+adDD0
 Text GLabel 12350 3400 2    50   Input ~ 0
-adDD2
-Text GLabel 12350 3300 2    50   Input ~ 0
-adDD3
+adDD1
 Text GLabel 12350 3200 2    50   Input ~ 0
+adDD2
+Text GLabel 9500 1900 1    50   Input ~ 0
+adDD3
+Text GLabel 9400 1900 1    50   Input ~ 0
 adDD4
 Text GLabel 9300 1900 1    50   Input ~ 0
 adDD5
@@ -1112,7 +1108,7 @@ Text GLabel 8900 1900 1    50   Input ~ 0
 adDD9
 Text GLabel 12350 4100 2    50   Input ~ 0
 adDA3
-Text GLabel 12350 4000 2    50   Input ~ 0
+Text GLabel 12350 3900 2    50   Input ~ 0
 adDA4
 Wire Wire Line
 	9300 1900 9300 2100
@@ -2784,4 +2780,77 @@ Text GLabel 8000 7150 3    50   Input ~ 0
 FMC_A15
 Text GLabel 8100 7150 3    50   Input ~ 0
 FMC_A14
+Wire Wire Line
+	12200 3300 12675 3300
+Wire Wire Line
+	12200 4000 12675 4000
+Text Label 12675 3300 0    50   ~ 0
+FPGA_M0
+Text Label 12675 4000 0    50   ~ 0
+FPGA_M1
+$Comp
+L Device:R R64
+U 1 0 5CFFF774
+P 13975 5775
+F 0 "R64" H 14025 5825 50  0000 L CNN
+F 1 "1.5k" V 13975 5675 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13905 5775 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 13975 5775 50  0001 C CNN
+F 4 "311-1.5KGRCT-ND" V 13975 5775 50  0001 C CNN "Digikey"
+	1    13975 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 5D00A8FA
+P 13975 6000
+F 0 "#PWR071" H 13975 5750 50  0001 C CNN
+F 1 "GND" H 13975 5850 50  0000 C CNN
+F 2 "" H 13975 6000 50  0001 C CNN
+F 3 "" H 13975 6000 50  0001 C CNN
+	1    13975 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR072
+U 1 1 5D00AB0A
+P 14200 6000
+F 0 "#PWR072" H 14200 5750 50  0001 C CNN
+F 1 "GND" H 14200 5850 50  0000 C CNN
+F 2 "" H 14200 6000 50  0001 C CNN
+F 3 "" H 14200 6000 50  0001 C CNN
+	1    14200 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 14350 5500 2    50   Input ~ 0
+3V3 FPGA
+Wire Wire Line
+	13975 5925 13975 6000
+Wire Wire Line
+	14200 5925 14200 6000
+Wire Wire Line
+	14200 5625 14200 5500
+Wire Wire Line
+	14200 5500 14350 5500
+Wire Wire Line
+	14200 5500 13975 5500
+Wire Wire Line
+	13975 5500 13975 5625
+Connection ~ 14200 5500
+Text Label 14200 5500 1    50   ~ 0
+FPGA_M0
+Text Label 13975 5500 1    50   ~ 0
+FPGA_M1
+$Comp
+L Device:R R65
+U 1 0 5D052DB9
+P 14200 5775
+F 0 "R65" H 14250 5825 50  0000 L CNN
+F 1 "1.5k" V 14200 5675 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14130 5775 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 14200 5775 50  0001 C CNN
+F 4 "311-1.5KGRCT-ND" V 14200 5775 50  0001 C CNN "Digikey"
+	1    14200 5775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
