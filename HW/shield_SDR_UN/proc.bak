@@ -610,15 +610,6 @@ Wire Wire Line
 Text Label 5750 3850 0    50   ~ 0
 NRST
 Wire Wire Line
-	8050 2250 8050 2150
-Wire Wire Line
-	8050 2150 7250 2150
-Wire Wire Line
-	7250 2150 7250 2200
-Wire Wire Line
-	8800 2150 8050 2150
-Connection ~ 8050 2150
-Wire Wire Line
 	9250 2900 8800 2900
 $Comp
 L power:GND #PWR0120
@@ -648,7 +639,7 @@ Wire Wire Line
 	7250 2600 7250 2500
 Wire Wire Line
 	8800 2150 8800 2900
-Text Notes 7200 1925 0    50   ~ 0
+Text Notes 7000 1275 0    50   ~ 0
 RTC Battery
 Text Label 16550 1850 0    50   ~ 0
 LED1
@@ -693,8 +684,8 @@ Wire Wire Line
 Wire Wire Line
 	14950 3900 15350 3900
 Wire Wire Line
-	14950 7600 15350 7600
-Text Label 15350 7600 2    50   ~ 0
+	14950 4200 15350 4200
+Text Label 15350 4200 2    50   ~ 0
 SPI1_CS_AD
 Wire Wire Line
 	15350 5100 14950 5100
@@ -1436,17 +1427,17 @@ F 4 " 311-1.00KHRCT-ND" H 1900 8250 50  0001 C CNN "Digikey"
 	1    1900 8250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5975 8350 0    50   Input ~ 0
-GPIO_INTR
-Text Notes 5225 8400 0    50   ~ 0
-SI351C
 Text GLabel 5975 8450 0    50   Input ~ 0
-MCU_CLK
+GPIO_INTR
 Text Notes 5225 8500 0    50   ~ 0
 SI351C
-Text GLabel 5975 8550 0    50   Input ~ 0
+Text GLabel 5975 8350 0    50   Input ~ 0
+MCU_CLK
+Text Notes 5300 8375 0    50   ~ 0
+SI351C
+Text GLabel 15350 5700 2    50   Input ~ 0
 GPIO_CLK
-Text Notes 5225 8600 0    50   ~ 0
+Text Notes 16100 5700 2    50   ~ 0
 SI351C
 Wire Wire Line
 	15350 5600 14950 5600
@@ -1469,8 +1460,8 @@ SPI1_CS_AD
 Text Label 6500 12900 2    50   ~ 0
 SPI1_CS_RF
 Wire Wire Line
-	15400 4200 14950 4200
-Text Label 15400 4200 2    50   ~ 0
+	15400 7600 14950 7600
+Text Label 15400 7600 2    50   ~ 0
 SPI1_CS_RF
 Text GLabel 15350 5500 2    50   Input ~ 0
 rf_ANTSEL
@@ -1478,9 +1469,9 @@ Text GLabel 15350 4100 2    50   Input ~ 0
 rf_RXTX
 Text GLabel 15350 4000 2    50   Input ~ 0
 rf_RXHP
-Text GLabel 15350 5600 2    50   Input ~ 0
+Text GLabel 5975 8550 0    50   Input ~ 0
 rf_!SHDN
-Text GLabel 15350 5700 2    50   Input ~ 0
+Text GLabel 15350 5600 2    50   Input ~ 0
 rf_LD
 Text GLabel 15350 3800 2    50   Input ~ 0
 !VAA_ENABLE
@@ -2033,14 +2024,12 @@ Text GLabel 5550 9150 0    50   Output ~ 0
 FMC_A23
 Text GLabel 5550 9550 0    50   Output ~ 0
 FMC_A22
-Text GLabel 8100 2050 2    50   Input ~ 0
+Text GLabel 7225 1850 2    50   Input ~ 0
 3V3 MCU
 Wire Wire Line
-	8100 2050 8050 2050
-Wire Wire Line
-	8050 2050 8050 2150
+	7225 1850 7175 1850
 NoConn ~ 14950 6100
-Text GLabel 15400 4200 2    50   BiDi ~ 0
+Text GLabel 15400 7600 2    50   BiDi ~ 0
 SPI1_CS_RF
 Text GLabel 15350 4300 2    50   BiDi ~ 0
 SPI1_SCK
@@ -2048,7 +2037,7 @@ Text GLabel 15350 4400 2    50   BiDi ~ 0
 SPI1_MISO
 Text GLabel 15350 4500 2    50   BiDi ~ 0
 SPI1_MOSI
-Text GLabel 15350 7600 2    50   BiDi ~ 0
+Text GLabel 15350 4200 2    50   BiDi ~ 0
 SPI1_CS_AD
 Wire Wire Line
 	2750 12750 3050 12750
@@ -2057,4 +2046,28 @@ Wire Wire Line
 Connection ~ 3050 12850
 Wire Wire Line
 	3050 12850 3250 12850
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 0 5CF91574
+P 6975 1950
+F 0 "J7" H 7083 2231 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7083 2140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6975 1950 50  0001 C CNN
+F 3 "~" H 6975 1950 50  0001 C CNN
+	1    6975 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2150 8800 2150
+Wire Wire Line
+	7175 1950 8050 1950
+Wire Wire Line
+	8050 1950 8050 2150
+Connection ~ 8050 2150
+Wire Wire Line
+	8050 2150 8050 2250
+Wire Wire Line
+	7250 2050 7175 2050
+Wire Wire Line
+	7250 2050 7250 2200
 $EndSCHEMATC

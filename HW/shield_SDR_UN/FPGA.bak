@@ -1092,34 +1092,34 @@ Text GLabel 12350 3400 2    50   Input ~ 0
 adDD1
 Text GLabel 12350 3200 2    50   Input ~ 0
 adDD2
-Text GLabel 9500 1900 1    50   Input ~ 0
-adDD3
-Text GLabel 9400 1900 1    50   Input ~ 0
-adDD4
 Text GLabel 9300 1900 1    50   Input ~ 0
-adDD5
+adDD3
 Text GLabel 9200 1900 1    50   Input ~ 0
-adDD6
+adDD4
 Text GLabel 9100 1900 1    50   Input ~ 0
-adDD7
+adDD5
 Text GLabel 9000 1900 1    50   Input ~ 0
-adDD8
+adDD6
 Text GLabel 8900 1900 1    50   Input ~ 0
+adDD7
+Text GLabel 8800 1900 1    50   Input ~ 0
+adDD8
+Text GLabel 8700 1900 1    50   Input ~ 0
 adDD9
 Text GLabel 12350 4100 2    50   Input ~ 0
 adDA3
 Text GLabel 12350 3900 2    50   Input ~ 0
 adDA4
 Wire Wire Line
-	9300 1900 9300 2100
+	9100 1900 9100 2100
 Wire Wire Line
-	9200 2100 9200 1900
+	9000 2100 9000 1900
+Wire Wire Line
+	8700 1900 8700 2100
+Wire Wire Line
+	8800 1900 8800 2100
 Wire Wire Line
 	8900 1900 8900 2100
-Wire Wire Line
-	9000 1900 9000 2100
-Wire Wire Line
-	9100 1900 9100 2100
 Text GLabel 8400 1875 1    50   Input ~ 0
 GCK1
 Wire Wire Line
@@ -1698,8 +1698,6 @@ NoConn ~ 8100 2100
 NoConn ~ 8200 2100
 NoConn ~ 8300 2100
 NoConn ~ 8600 2100
-NoConn ~ 8700 2100
-NoConn ~ 8800 2100
 NoConn ~ 5600 5250
 NoConn ~ 5600 5150
 NoConn ~ 5600 5050
@@ -2790,7 +2788,7 @@ Text Label 12675 4000 0    50   ~ 0
 FPGA_M1
 $Comp
 L Device:R R64
-U 1 0 5CFFF774
+U 1 1 5CFFF774
 P 13975 5775
 F 0 "R64" H 14025 5825 50  0000 L CNN
 F 1 "1.5k" V 13975 5675 50  0000 L CNN
@@ -2843,7 +2841,7 @@ Text Label 13975 5500 1    50   ~ 0
 FPGA_M1
 $Comp
 L Device:R R65
-U 1 0 5D052DB9
+U 1 1 5D052DB9
 P 14200 5775
 F 0 "R65" H 14250 5825 50  0000 L CNN
 F 1 "1.5k" V 14200 5675 50  0000 L CNN
@@ -2853,4 +2851,8 @@ F 4 "311-1.5KGRCT-ND" V 14200 5775 50  0001 C CNN "Digikey"
 	1    14200 5775
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9300 2100 9300 1900
+Wire Wire Line
+	9200 1900 9200 2100
 $EndSCHEMATC
