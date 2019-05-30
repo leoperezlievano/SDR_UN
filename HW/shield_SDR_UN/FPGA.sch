@@ -1034,20 +1034,6 @@ Wire Wire Line
 	14275 7150 14275 6950
 Wire Wire Line
 	14275 7550 14275 7500
-$Comp
-L TL1014BF160QG:TL1014BF160QG S1
-U 1 1 5D00E8B1
-P 13650 7050
-F 0 "S1" H 14000 6800 50  0000 L CNN
-F 1 "TL1014BF160QG" H 13750 7200 50  0000 L CNN
-F 2 "lib:TL1014BF160QG" H 14300 7150 50  0001 L CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14300 7050 50  0001 L CNN
-F 4 "EG5042CT-ND" V 13650 7050 50  0001 C CNN "Digikey"
-	1    13650 7050
-	-1   0    0    1   
-$EndComp
-Text GLabel 12650 6950 0    50   Input ~ 0
-3V3 FPGA
 Wire Wire Line
 	14500 6950 14275 6950
 Text Notes 12550 6600 0    118  ~ 0
@@ -1072,9 +1058,9 @@ Wire Wire Line
 	5100 2750 5600 2750
 Wire Wire Line
 	5600 2850 5100 2850
-Text Label 12675 5500 2    50   ~ 0
-BTN1
 Text Label 12675 5600 2    50   ~ 0
+BTN1
+Text Label 12675 5500 2    50   ~ 0
 BTN2
 Wire Wire Line
 	12675 5500 12200 5500
@@ -2572,36 +2558,17 @@ F 4 "1276-1045-1-ND " H 1300 2000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12850 7050 12750 7050
-Wire Wire Line
 	14000 7450 14000 7500
 Wire Wire Line
 	14000 7500 14275 7500
 Connection ~ 14275 7500
 Wire Wire Line
 	14275 7500 14275 7450
-Wire Wire Line
-	13650 6950 13750 6950
 Connection ~ 14275 6950
 Wire Wire Line
-	13650 7050 13750 7050
-Wire Wire Line
-	13750 7050 13750 6950
-Connection ~ 13750 6950
-Wire Wire Line
-	13750 6950 14000 6950
-Wire Wire Line
 	14000 7150 14000 6950
-Connection ~ 14000 6950
 Wire Wire Line
 	14000 6950 14275 6950
-Wire Wire Line
-	12750 7050 12750 6950
-Wire Wire Line
-	12750 6950 12650 6950
-Wire Wire Line
-	12850 6950 12750 6950
-Connection ~ 12750 6950
 $Comp
 L Device:R R50
 U 1 1 5D057BA2
@@ -2641,24 +2608,8 @@ Wire Wire Line
 	14275 8575 14275 8375
 Wire Wire Line
 	14275 8975 14275 8925
-$Comp
-L TL1014BF160QG:TL1014BF160QG S2
-U 1 1 5D057BC6
-P 13650 8475
-F 0 "S2" H 14000 8225 50  0000 L CNN
-F 1 "TL1014BF160QG" H 13750 8625 50  0000 L CNN
-F 2 "lib:TL1014BF160QG" H 14300 8575 50  0001 L CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/141/TL1014.pdf" H 14300 8475 50  0001 L CNN
-F 4 "EG5042CT-ND" V 13650 8475 50  0001 C CNN "Digikey"
-	1    13650 8475
-	-1   0    0    1   
-$EndComp
-Text GLabel 12650 8375 0    50   Input ~ 0
-3V3 FPGA
 Wire Wire Line
 	14500 8375 14275 8375
-Wire Wire Line
-	12850 8475 12750 8475
 Wire Wire Line
 	14000 8875 14000 8925
 Wire Wire Line
@@ -2666,28 +2617,11 @@ Wire Wire Line
 Connection ~ 14275 8925
 Wire Wire Line
 	14275 8925 14275 8875
-Wire Wire Line
-	13650 8375 13750 8375
 Connection ~ 14275 8375
 Wire Wire Line
-	13650 8475 13750 8475
-Wire Wire Line
-	13750 8475 13750 8375
-Connection ~ 13750 8375
-Wire Wire Line
-	13750 8375 14000 8375
-Wire Wire Line
 	14000 8575 14000 8375
-Connection ~ 14000 8375
 Wire Wire Line
 	14000 8375 14275 8375
-Wire Wire Line
-	12750 8475 12750 8375
-Wire Wire Line
-	12750 8375 12650 8375
-Wire Wire Line
-	12850 8375 12750 8375
-Connection ~ 12750 8375
 Text GLabel 6875 10975 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 4700 10975 0    50   Input ~ 0
@@ -2855,4 +2789,82 @@ Wire Wire Line
 	9300 2100 9300 1900
 Wire Wire Line
 	9200 1900 9200 2100
+Text GLabel 12575 8425 0    50   Input ~ 0
+3V3 FPGA
+$Comp
+L FSM1LPTR:FSM1LPTR S1
+U 1 1 5CF4A876
+P 13250 8475
+F 0 "S1" H 13275 8782 60  0000 C CNN
+F 1 "FSM1LPTR" H 13275 8676 60  0000 C CNN
+F 2 "lib:FSM1LPTR" H 13250 8625 60  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1437565-8&DocType=Customer+Drawing&DocLang=English" H 12850 8475 60  0001 C CNN
+F 4 "450-1756-1-ND" H 13250 8475 50  0001 C CNN "Digikey"
+	1    13250 8475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13650 8375 13780 8375
+Wire Wire Line
+	14000 8375 14000 8380
+Connection ~ 14000 8375
+Wire Wire Line
+	13650 8475 13780 8475
+Wire Wire Line
+	13780 8475 13780 8375
+Connection ~ 13780 8375
+Wire Wire Line
+	13780 8375 14000 8375
+Wire Wire Line
+	12575 8425 12800 8425
+Wire Wire Line
+	12800 8325 12690 8325
+Connection ~ 12690 8430
+Wire Wire Line
+	12800 8525 12690 8525
+Wire Wire Line
+	12690 8525 12690 8430
+Wire Wire Line
+	12690 8430 12690 8425
+Wire Wire Line
+	12690 8325 12690 8425
+Connection ~ 13785 6950
+Wire Wire Line
+	12695 6900 12695 7005
+Wire Wire Line
+	12695 7100 12695 7005
+Wire Wire Line
+	13655 7050 13785 7050
+Wire Wire Line
+	13785 7050 13785 6950
+Wire Wire Line
+	12805 7100 12695 7100
+$Comp
+L FSM1LPTR:FSM1LPTR S2
+U 1 1 5CF735D2
+P 13255 7050
+F 0 "S2" H 13280 7357 60  0000 C CNN
+F 1 "FSM1LPTR" H 13280 7251 60  0000 C CNN
+F 2 "lib:FSM1LPTR" H 13255 7200 60  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1437565-8&DocType=Customer+Drawing&DocLang=English" H 12855 7050 60  0001 C CNN
+F 4 "450-1756-1-ND" H 13255 7050 50  0001 C CNN "Digikey"
+	1    13255 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12695 7005 12695 7000
+Wire Wire Line
+	13655 6950 13785 6950
+Wire Wire Line
+	13785 6950 14000 6950
+Wire Wire Line
+	12805 6900 12695 6900
+Wire Wire Line
+	12580 7000 12805 7000
+Text GLabel 12580 7000 0    50   Input ~ 0
+3V3 FPGA
+Connection ~ 12695 7005
+Connection ~ 14000 6950
+Wire Wire Line
+	14000 6950 14005 6950
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=jue 30 may 2019 11:23:04 -05
+update=Thu 30 May 2019 05:56:34 PM -05
 last_client=kicad
 [schematic_editor]
 version=1
@@ -47,8 +47,8 @@ ViaDiameter2=0.5
 ViaDrill2=0.3
 ViaDiameter3=0.6
 ViaDrill3=0.4
-ViaDiameter4=0.6
-ViaDrill4=0.45
+ViaDiameter4=0.8
+ViaDrill4=0.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25

@@ -1463,11 +1463,11 @@ Wire Wire Line
 	15400 7600 14950 7600
 Text Label 15400 7600 2    50   ~ 0
 SPI1_CS_RF
-Text GLabel 15350 3900 2    50   Input ~ 0
-rf_ANTSEL
-Text GLabel 15350 4100 2    50   Input ~ 0
-rf_RXTX
 Text GLabel 15350 4000 2    50   Input ~ 0
+rf_ANTSEL
+Text GLabel 15350 3900 2    50   Input ~ 0
+rf_RXTX
+Text GLabel 15350 4100 2    50   Input ~ 0
 rf_RXHP
 Text GLabel 5975 8550 0    50   Input ~ 0
 rf_!SHDN
@@ -2048,7 +2048,7 @@ Wire Wire Line
 	3050 12850 3250 12850
 $Comp
 L Connector:Conn_01x03_Male J7
-U 1 0 5CF91574
+U 1 1 5CF91574
 P 6975 1950
 F 0 "J7" H 7083 2231 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7083 2140 50  0000 C CNN
