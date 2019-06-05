@@ -709,7 +709,7 @@ F 0 "U5" H 6400 -1050 50  0000 C CNN
 F 1 "STM32F722ZET" H 6600 -1150 50  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 6150 6750 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/d6/11/13/15/f4/38/49/79/DM00330506/files/DM00330506.pdf/jcr:content/translations/en.DM00330506.pdf" H 6150 6750 50  0001 C CNN
-F 4 "497-18558-ND" H 6950 4800 50  0001 C CNN "digikey"
+F 4 "497-18558-ND" H 6950 4800 50  0001 C CNN "Digikey"
 	1    6950 4800
 	1    0    0    -1  
 $EndComp
@@ -989,7 +989,7 @@ F 0 "L1" V 1340 1950 50  0000 C CNN
 F 1 "bead, 600R, 350 mA" V 1249 1950 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1150 1950 50  0001 C CNN
 F 3 "~" H 1150 1950 50  0001 C CNN
-F 4 "587-1897-1-ND" V 1150 1950 50  0001 C CNN "DIGIKEY"
+F 4 "587-1897-1-ND" H 1150 1950 50  0001 C CNN "Digikey"
 	1    1150 1950
 	0    -1   -1   0   
 $EndComp
@@ -1006,7 +1006,7 @@ F 0 "L2" H 10350 11150 50  0000 C CNN
 F 1 "bead, 600R, 350 mA" H 10700 11050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10250 11000 50  0001 C CNN
 F 3 "~" H 10250 11000 50  0001 C CNN
-F 4 "587-1897-1-ND" H 10250 11000 50  0001 C CNN "DIGIKEY"
+F 4 "587-1897-1-ND" H 10250 11000 50  0001 C CNN "Digikey"
 	1    10250 11000
 	1    0    0    -1  
 $EndComp
@@ -1032,11 +1032,11 @@ L hackrf-one-rescue:GSG-XTAL4PIN X4
 U 1 1 5D0A0635
 P 2150 4700
 F 0 "X4" H 2250 5050 60  0000 L CNN
-F 1 "GSG-XTAL4PIN" H 2250 4950 60  0000 L CNN
+F 1 "GSG-XTAL4PIN-16MHz" H 2250 4950 60  0000 L CNN
 F 2 "CRISTAL_4:GSG-XTAL3.2x2.5mm" H 2350 4340 60  0001 C CNN
 F 3 "" H 2150 4700 60  0000 C CNN
 F 4 "16MHz - 10pF" H 2550 4850 50  0000 C CNN "frecuencia"
-F 5 "535-10289-1-ND" H 2150 4700 50  0001 C CNN "digikey"
+F 5 "535-10289-1-ND" H 2150 4700 50  0001 C CNN "Digikey"
 	1    2150 4700
 	1    0    0    -1  
 $EndComp
@@ -1275,7 +1275,7 @@ P 16550 2650
 AR Path="/5CC082AD/5CEAA677" Ref="D5"  Part="1" 
 AR Path="/5CFB52DC/5CEAA677" Ref="D?"  Part="1" 
 F 0 "D5" V 16589 2533 50  0000 R CNN
-F 1 "LED" V 16498 2533 50  0000 R CNN
+F 1 "LED_BLUE" V 16498 2533 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16550 2650 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 16550 2650 50  0001 C CNN
 F 4 "160-2032-1-ND" V 16550 2650 50  0001 C CNN "Digikey"
@@ -1308,7 +1308,7 @@ P 17000 2650
 AR Path="/5CC082AD/5CEAD127" Ref="D6"  Part="1" 
 AR Path="/5CFB52DC/5CEAD127" Ref="D?"  Part="1" 
 F 0 "D6" V 17039 2533 50  0000 R CNN
-F 1 "LED" V 16948 2533 50  0000 R CNN
+F 1 "LED_BLUE" V 16948 2533 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17000 2650 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-239/LTST-S220TBKT.pdf" H 17000 2650 50  0001 C CNN
 F 4 "160-2032-1-ND" V 17000 2650 50  0001 C CNN "Digikey"
@@ -1567,7 +1567,7 @@ F 0 "BT1" H 7368 2496 50  0000 L CNN
 F 1 "Battery_Cell" H 7368 2405 50  0000 L CNN
 F 2 "lib:MPD_BK-870" V 7250 2460 50  0001 C CNN
 F 3 "https://linxtechnologies.com/wp/wp-chttp://www.memoryprotectiondevices.com/datasheets/BK-870-datasheet.pdfontent/uploads/bat-hld-001.pdf" V 7250 2460 50  0001 C CNN
-F 4 "BK-870-ND" H 7250 2400 50  0001 C CNN "digikey"
+F 4 "BK-870-ND" H 7250 2400 50  0001 C CNN "Digikey"
 	1    7250 2400
 	-1   0    0    -1  
 $EndComp
@@ -1606,14 +1606,14 @@ Wire Wire Line
 	2250 12050 1750 12050
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
-U 1 1 5D1F8415
+U 0 0 5D1F8415
 P 2450 12350
 F 0 "J3" H 2500 12967 50  0000 C CNN
 F 1 "Conn_02x10_Top_Bottom" H 2500 12876 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 2450 12350 50  0001 C CNN
 F 3 "~" H 2450 12350 50  0001 C CNN
-F 4 "S6106-ND" H 2450 12350 50  0001 C CNN "DIGIKEY"
-	1    2450 12350
+F 4 "609-3221-ND" H 2450 12350 50  0001 C CNN "Digikey"
+	0    2450 12350
 	1    0    0    -1  
 $EndComp
 Text GLabel 3250 11950 2    50   Input ~ 0
@@ -2048,13 +2048,14 @@ Wire Wire Line
 	3050 12850 3250 12850
 $Comp
 L Connector:Conn_01x03_Male J7
-U 1 1 5CF91574
+U 0 0 5CF91574
 P 6975 1950
 F 0 "J7" H 7083 2231 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7083 2140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6975 1950 50  0001 C CNN
 F 3 "~" H 6975 1950 50  0001 C CNN
-	1    6975 1950
+F 4 "732-5316-ND" H 6975 1950 50  0001 C CNN "Digikey"
+	0    6975 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
