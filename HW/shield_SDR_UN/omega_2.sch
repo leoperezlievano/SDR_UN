@@ -482,14 +482,14 @@ Text Label 5550 3600 2    50   ~ 0
 O_SPI_CS1
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J6
-U 0 0 5CE675B7
+U 1 1 5CE675B7
 P 3350 1300
 F 0 "J6" H 3400 1717 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 3400 1626 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
 F 3 "~" H 3350 1300 50  0001 C CNN
 F 4 "609-3219-ND" H 3350 1300 50  0001 C CNN "Digikey"
-	0    3350 1300
+	1    3350 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

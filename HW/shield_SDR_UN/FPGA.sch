@@ -1382,14 +1382,14 @@ Wire Wire Line
 	4475 9850 5050 9850
 $Comp
 L Connector_Generic:Conn_02x09_Odd_Even J1
-U 0 0 5CF1630E
+U 1 1 5CF1630E
 P 5675 9550
 F 0 "J1" H 5725 10167 50  0000 C CNN
 F 1 "Conn_02x09_Odd_Even" H 5725 10076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 5675 9550 50  0001 C CNN
 F 3 "~" H 5675 9550 50  0001 C CNN
 F 4 "609-6336-ND" H 5675 9550 50  0001 C CNN "Digikey"
-	0    5675 9550
+	1    5675 9550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1481,14 +1481,14 @@ Wire Wire Line
 NoConn ~ 12200 5700
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J2
-U 0 0 5CFFB48F
+U 1 1 5CFFB48F
 P 5650 10675
 F 0 "J2" H 5700 11192 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 5700 11101 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5650 10675 50  0001 C CNN
 F 3 "~" H 5650 10675 50  0001 C CNN
 F 4 "609-6336-ND" H 5650 10675 50  0001 C CNN "Digikey"
-	0    5650 10675
+	1    5650 10675
 	1    0    0    -1  
 $EndComp
 Text GLabel 5375 10375 0    50   Input ~ 0
@@ -2861,4 +2861,5 @@ Wire Wire Line
 	12690 8425 12690 8525
 Wire Wire Line
 	12695 6900 12695 7100
+Connection ~ 12690 8425
 $EndSCHEMATC
