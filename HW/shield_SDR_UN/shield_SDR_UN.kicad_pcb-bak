@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
-    (tracks 3173)
+    (drawings 18)
+    (tracks 3176)
     (modules 227)
     (nets 310)
   )
@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.16)
     (user_trace_width 0.16)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
@@ -10727,6 +10727,17 @@
       (net 2 "GND"))
   )
 
+  (gr_line (start 135.7 49.75) (end 135.7 47.65) (layer "F.SilkS") (width 0.35) (tstamp 5CF98A46))
+  (gr_line (start 134.75 46.7) (end 133.475 46.7) (layer "F.SilkS") (width 0.35) (tstamp 5CF98A45))
+  (gr_arc (start 134.775 47.625) (end 135.699999 47.649999) (angle -92.4) (layer "F.SilkS") (width 0.35) (tstamp 5CF98A44))
+  (gr_line (start 133.475 46.7) (end 133.475 49.775) (layer "F.SilkS") (width 0.35) (tstamp 5CF98A43))
+  (gr_line (start 132.475 49.775) (end 132.475 46.7) (layer "F.SilkS") (width 0.35))
+  (gr_line (start 131.2 49.775) (end 132.475 49.775) (layer "F.SilkS") (width 0.35))
+  (gr_arc (start 131.175 48.85) (end 130.250001 48.825001) (angle -92.4) (layer "F.SilkS") (width 0.35))
+  (gr_line (start 130.25 46.725) (end 130.25 48.825) (layer "F.SilkS") (width 0.35))
+  (gr_text "@leoperezlievano\n@cristiancadavid\n@JSebastianCM" (at 80 86 90) (layer "B.SilkS")
+    (effects (font (size 1.75 1.75) (thickness 0.2)) (justify mirror))
+  )
   (dimension 100 (width 0.12) (layer "B.SilkS")
     (gr_text "100.000 mm" (at 115.44 35.23) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11488,6 +11499,9 @@
   (segment (start 111.53 87.95) (end 111.5 87.92) (width 0.4) (layer "F.Cu") (net 2))
   (segment (start 113.1 87.95) (end 111.53 87.95) (width 0.4) (layer "F.Cu") (net 2))
   (via (at 112.5 83.25) (size 0.5) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2))
+  (segment (start 111.53 87.95) (end 111.53 87.95) (width 0.4) (layer "F.Cu") (net 2) (tstamp 5CF9932E))
+  (via (at 111.53 87.95) (size 0.5) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2))
+  (via (at 111.6 87) (size 0.5) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2))
   (segment (start 86.562 54.55) (end 86.552 54.54) (width 0.25) (layer "F.Cu") (net 3))
   (segment (start 99.05 51.165) (end 99.025 51.14) (width 0.25) (layer "F.Cu") (net 3))
   (segment (start 99.05 52.665) (end 99.05 51.165) (width 0.25) (layer "F.Cu") (net 3))
