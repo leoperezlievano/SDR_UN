@@ -1606,14 +1606,14 @@ Wire Wire Line
 	2250 12050 1750 12050
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
-U 0 0 5D1F8415
+U 1 1 5D1F8415
 P 2450 12350
 F 0 "J3" H 2500 12967 50  0000 C CNN
 F 1 "Conn_02x10_Top_Bottom" H 2500 12876 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 2450 12350 50  0001 C CNN
 F 3 "~" H 2450 12350 50  0001 C CNN
 F 4 "609-3221-ND" H 2450 12350 50  0001 C CNN "Digikey"
-	0    2450 12350
+	1    2450 12350
 	1    0    0    -1  
 $EndComp
 Text GLabel 3250 11950 2    50   Input ~ 0
@@ -2048,14 +2048,14 @@ Wire Wire Line
 	3050 12850 3250 12850
 $Comp
 L Connector:Conn_01x03_Male J7
-U 0 0 5CF91574
+U 1 1 5CF91574
 P 6975 1950
 F 0 "J7" H 7083 2231 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7083 2140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6975 1950 50  0001 C CNN
 F 3 "~" H 6975 1950 50  0001 C CNN
 F 4 "732-5316-ND" H 6975 1950 50  0001 C CNN "Digikey"
-	0    6975 1950
+	1    6975 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

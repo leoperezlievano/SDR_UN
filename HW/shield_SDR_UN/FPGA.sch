@@ -2818,7 +2818,7 @@ Connection ~ 13780 8375
 Wire Wire Line
 	13780 8375 14000 8375
 Wire Wire Line
-	12575 8425 12800 8425
+	12575 8425 12690 8425
 Wire Wire Line
 	12800 8325 12690 8325
 Wire Wire Line
@@ -2862,4 +2862,6 @@ Wire Wire Line
 Wire Wire Line
 	12695 6900 12695 7100
 Connection ~ 12690 8425
+Wire Wire Line
+	12690 8425 12800 8425
 $EndSCHEMATC
