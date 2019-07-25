@@ -1,0 +1,4 @@
+### System signals ###
+NET clk                         LOC = "P55";
+NET led                         LOC = "P105";
+NET reset                       LOC = "P39" | PULLUP;
