@@ -5,14 +5,16 @@ module system #(
 )(
     clk,
     reset,
-    led
+    led1,
+    led2
 );
 
   input               clk;
   input               reset;
 
   // Peripherals in/out singnals.
-  output              led;
+  output              led1;
+  output              led2;
   
   // Blink
   reg [24:0]  counter;
@@ -21,6 +23,7 @@ module system #(
   end 
   
   //Assigning LED to the higher bit of counter register
-  assign led = counter[24];
+  assign led1 = counter[24];
+  assign led2 = ~counter[24];
   
 endmodule

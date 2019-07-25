@@ -15,7 +15,11 @@ echo "1" >   "/sys/class/gpio/gpio15/value"
 sleep 1
 echo "0" >  "/sys/class/gpio/gpio15/value"
 sleep 1
+# Programing FPGA
+xc3sprog -c sysfsgpio -v -p2 system.bit
 echo "1" >   "/sys/class/gpio/gpio15/value"
+# Programing FPGA
+#xc3sprog -c sysfsgpio -v -p0 system.bit
 # Programing STM32
 openocd -f onion.cfg
 # Boot0 = 0
@@ -27,5 +31,5 @@ sleep 1
 echo "0" >  "/sys/class/gpio/gpio15/value"
 sleep 1
 echo "1" >   "/sys/class/gpio/gpio15/value"
-
+sh blink_onion.sh
 

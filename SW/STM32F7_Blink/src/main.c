@@ -52,10 +52,14 @@ int main(void) {
   chSysInit();
 
   palSetPadMode(GPIOG, 0, PAL_MODE_OUTPUT_PUSHPULL);
+  palSetPadMode(GPIOG, 1, PAL_MODE_OUTPUT_PUSHPULL);
   while (true) {
     palSetPad(GPIOG,0);
     chThdSleepMilliseconds(250);
+    palSetPad(GPIOG,1);
+    chThdSleepMilliseconds(250);
     palClearPad(GPIOG,0);
+    palClearPad(GPIOG,1);
     chThdSleepMilliseconds(250);
   }
   
